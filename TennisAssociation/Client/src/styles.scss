@@ -1,6 +1,6 @@
-@import "../node_modules/bootstrap/_variables.scss";
+@import "./_variables.scss";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootstrap/_bootswatch.scss";
+@import "./bootswatch.scss";
 
 $color-dirty-yellow: #ddb70c;
 
