@@ -1,0 +1,115 @@
+<section class="container">
+  <form [formGroup]="signupForm" class="form-box signup-box" (ngSubmit)="onSubmit()">
+    <fieldset>
+      <legend class="style-text-dirty-yellow">SIGN UP</legend>
+      
+      <div class="row">
+        <div 
+          class="form-group" 
+          [ngClass]="{'has-danger': f.firstname.invalid && (f.firstname.dirty || f.firstname.touched)}"
+        >
+          <input 
+            type="text" 
+            class="form-control input input-shorter"
+            [ngClass]="{'is-invalid': f.firstname.invalid && (f.firstname.dirty || f.firstname.touched)}"
+            placeholder="First name" 
+            formControlName="firstname"
+          >
+          <div class="invalid-feedback" *ngIf="f.firstname.errors?.required">Please enter your first name.</div>
+          <div class="invalid-feedback" *ngIf="f.firstname.errors?.pattern">Please use only alphabet letters.</div>
+          <div class="invalid-feedback" *ngIf="f.firstname.errors?.maxlength">Is this your name? Seems too long.</div>
+        </div>
+
+        <div 
+          class="form-group" 
+          [ngClass]="{'has-danger': f.lastname.invalid && (f.lastname.dirty || f.lastname.touched)}"
+        >
+          <input 
+            type="text" 
+            class="form-control input input-shorter"
+            [ngClass]="{'is-invalid': f.lastname.invalid && (f.lastname.dirty || f.lastname.touched)}"
+            placeholder="Last name" 
+            formControlName="lastname"
+          >
+          <div class="invalid-feedback" *ngIf="f.lastname.errors?.required">Please enter your last name.</div>
+          <div class="invalid-feedback" *ngIf="f.lastname.errors?.pattern">Please use only alphabet letters.</div>
+          <div class="invalid-feedback" *ngIf="f.lastname.errors?.maxlength">Is this your last name? Seems too long.</div>
+        </div>  
+      </div> 
+
+      <div class="row">
+        <div 
+          class="form-group" 
+        >
+          <input 
+            type="date" 
+            class="form-control input input-shorter"
+            data-placeholder="Date of birth"
+            aria-required="true"
+            formControlName="birthday"
+            required
+          >
+        </div>  
+
+        <div class="form-group">
+          <select class="custom-select input input-shorter" formControlName="gender">
+            <option [ngValue]="null" disabled>Choose gender</option>
+            <option ngValue="m">Male</option>
+            <option ngValue="f">Female</option>
+          </select>
+        </div>
+      </div>
+
+      <div 
+        class="form-group" 
+        [ngClass]="{'has-danger': f.email.invalid && (f.email.dirty || f.email.touched)}"
+      >
+        <input 
+          type="email" 
+          class="form-control input"
+          [ngClass]="{'is-invalid': f.email.invalid && (f.email.dirty || f.email.touched)}"
+          placeholder="Email" 
+          formControlName="email"
+        >
+        <div class="invalid-feedback" *ngIf="f.email.errors?.required">Email address is a required field.</div>
+        <div class="invalid-feedback" *ngIf="f.email.errors?.email">Email address is not valid.</div>
+      </div>
+
+      <div 
+        class="form-group"
+        [ngClass]="{'has-danger': f.password.invalid && (f.password.dirty || f.password.touched)}"
+      >
+        <input 
+          type="password" 
+          class="form-control input" 
+          [ngClass]="{'is-invalid': f.password.invalid && (f.password.dirty || f.password.touched)}"
+          placeholder="Password" 
+          formControlName="password"
+        >
+        <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field.</div>
+        <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters.</div>
+        <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long.</div>
+      </div>
+
+      <div 
+       class="form-group"
+       [ngClass]="{'has-danger': f.confirmPassword.invalid && (f.confirmPassword.dirty || f.confirmPassword.touched)}"
+      >
+        <input 
+          type="password" 
+          class="form-control input" 
+          [ngClass]="{'is-invalid': f.confirmPassword.invalid && (f.confirmPassword.dirty || f.confirmPassword.touched)}"
+          placeholder="Confirm password" 
+          formControlName="confirmPassword"
+        >
+        <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.required">Please confirm your password.</div>
+        <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.minlength">Password must contain at least {{minPasswordLength}} letters.</div>
+        <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long.</div>
+        <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.mustMatch">Passwords must match.</div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-submit style-text-black" [disabled]="!signupForm.valid">Sign up</button>
+      <small class="form-text text-muted"> Already a user? <a [routerLink]="['/']"> Log in here.</a></small>
+    </fieldset>
+  </form>
+</section>

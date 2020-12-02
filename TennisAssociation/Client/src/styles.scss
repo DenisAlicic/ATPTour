@@ -1,0 +1,73 @@
+@import "../node_modules/bootstrap/_variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/_bootswatch.scss";
+
+$color-dirty-yellow: #ddb70c;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 100%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input, .input:focus, .input:hover, .input:active {
+  color: white;
+  margin-top:10px;
+  height: 45px;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px !important;
+  &::placeholder {
+    color: gray !important;
+  }
+}
+
+.btn-submit {
+  margin-top: 15px;
+  background-color: $color-dirty-yellow !important;
+  border: 2px solid black !important;
+  width: 330px;
+  height: 45px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: $color-dirty-yellow !important;
+}
+
+.style-text-dirty-yellow {
+  color: $color-dirty-yellow !important;
+}
+
+.style-text-black {
+  color: black !important;
+}
+

@@ -1,0 +1,44 @@
+<section class="container">
+  <div class="left-half">
+    <form [formGroup]="loginForm" class="form-box login-box" (ngSubmit)="onSubmit()">
+      <fieldset>
+        <legend class="style-text-dirty-yellow">LOG IN</legend>
+        <div 
+          class="form-group" 
+          [ngClass]="{'has-danger': f.email.invalid && (f.email.dirty || f.email.touched)}"
+        >
+          <input 
+            type="email" 
+            class="form-control input"
+            [ngClass]="{'is-invalid': f.email.invalid && (f.email.dirty || f.email.touched)}"
+            placeholder="Email" 
+            formControlName="email"
+          >
+          <div class="invalid-feedback" *ngIf="f.email.errors?.required">Email address is a required field.</div>
+          <div class="invalid-feedback" *ngIf="f.email.errors?.email">Email address is not valid.</div>
+        </div>
+        <div 
+          class="form-group"
+          [ngClass]="{'has-danger': f.password.invalid && (f.password.dirty || f.password.touched)}"
+        >
+          <input 
+            type="password" 
+            class="form-control input" 
+            [ngClass]="{'is-invalid': f.password.invalid && (f.password.dirty || f.password.touched)}"
+            placeholder="Password" 
+            formControlName="password"
+          >
+          <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field.</div>
+          <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least {{minPasswordLength}} letters.</div>
+          <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit style-text-black" [disabled]="!loginForm.valid">Log in</button>
+        <small class="form-text text-muted"> Don't have an account yet? <a [routerLink]="['signup']">Register here.</a></small>
+      </fieldset>
+    </form>
+
+  </div>
+  <div class="right-half">
+  </div>
+</section>
