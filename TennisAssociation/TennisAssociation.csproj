@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Client\" />
+    <Folder Include="Client\src\assets\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Client\e2e\src\app.e2e-spec.ts" />
@@ -30,6 +31,11 @@
     <None Remove="scripts\client\runtime.js.map" />
     <None Remove="scripts\client\styles.js" />
     <None Remove="scripts\client\vendor.js.map" />
+    <None Remove="Client\src\assets\images\novak.png" />
+    <None Remove="Client\src\assets\images\tennis.png" />
+    <None Remove="Client\src\assets\images\silueta-2.png" />
+    <None Remove="Client\src\assets\images\silueta-3.png" />
+    <None Remove="Client\src\assets\images\silueta.png" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Client\e2e\src\app.e2e-spec.ts" />
