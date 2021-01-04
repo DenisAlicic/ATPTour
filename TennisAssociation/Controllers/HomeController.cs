@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using TennisAssociation.DAL;
 using TennisAssociation.Models;
 
 namespace TennisAssociation.Controllers
@@ -12,15 +13,23 @@ namespace TennisAssociation.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public masterContext db;
+        public HomeController(ILogger<HomeController> logger, masterContext context )
         {
             _logger = logger;
+            db = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var tmp = db.Model;
+            /*
+            db.Fans.Add(new FanModel { Email = "pera@gmal.com", ID = 1, Name = "Pera", Surname = "Peric" });
+            db.SaveChanges();
+            var listaFanova = db.Fans.ToList();
+            */
+            var count = db.Players.Count();
+            return View(db.Players.ToList());
         }
 
         public IActionResult Privacy()
