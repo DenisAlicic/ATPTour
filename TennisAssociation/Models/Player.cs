@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TennisAssociation.Models
 {
-    [Table("dbo.players")]
+    [Table("players")]
     public class Player
     {
         public int id { get; set; }

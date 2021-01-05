@@ -20,10 +20,10 @@ namespace TennisAssociation
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            var builder = new ConfigurationBuilder()
+            /*var builder = new ConfigurationBuilder()
                 .SetBasePath(System.IO.Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json");
-            configuration = builder.Build();
+            configuration = builder.Build();*/
 
         }
 
@@ -41,7 +41,7 @@ namespace TennisAssociation
 
             var connectionString = Configuration.GetConnectionString("TennisContext");
 
-            services.AddDbContext<masterContext>(
+            services.AddDbContext<TennisContext>(
                 options => options.UseSqlServer(connectionString)
             );
         }
