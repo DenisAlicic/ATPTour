@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Logging;
-using TennisAssociation.DAL;
 using TennisAssociation.Models;
 
 namespace TennisAssociation.Controllers
@@ -15,8 +14,8 @@ namespace TennisAssociation.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public TennisContext db;
-        public HomeController(ILogger<HomeController> logger, TennisContext context )
+        public TennisAssociationContext db;
+        public HomeController(ILogger<HomeController> logger, TennisAssociationContext context )
         {
             _logger = logger;
             db = context;
@@ -25,13 +24,9 @@ namespace TennisAssociation.Controllers
         public IActionResult Index()
         {
             var tmp = db.Model;
-            /*
-            db.Fans.Add(new FanModel { Email = "pera@gmal.com", ID = 1, Name = "Pera", Surname = "Peric" });
-            db.SaveChanges();
-            var listaFanova = db.Fans.ToList();
-            */
-            SqlConnection connection = new SqlConnection("Server=EN510626\\SQLEXPRESS;Initial Catalog=TennisAssociation;persist security info=True;Integrated Security=SSPI;");
-            SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM players", connection);
+            
+            SqlConnection connection = new SqlConnection("Server=EN510626\\SQLEXPRESS;Initial Catalog=TennisAssociation;Trusted_connection=True");
+            SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM matches", connection);
             connection.Open();
             using (IDataReader dr = command.ExecuteReader())
             {
@@ -43,11 +38,19 @@ namespace TennisAssociation.Controllers
             
             connection.Close();
             connection.Dispose();
+            
             var exist = db.Database.CanConnect();
             
 
-            var count = db.Players.Count();
-            return View(db.Players.ToList());
+            var query = from b in db.Players
+              select b.FirstName;
+
+            Console.WriteLine("All All student in the database:");
+
+            foreach (var item in query) {
+                Console.WriteLine(item);
+            }
+            return View(query);
         }
 
         public IActionResult Privacy()

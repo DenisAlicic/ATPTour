@@ -1,28 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
+
+#nullable disable
 
 namespace TennisAssociation.Models
 {
-    [Table("players")]
-    public class Player
+    public partial class Player
     {
-        public int id { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string country { get; set; }
-        public int height { get; set; }
-        public int weight { get; set; }
-        public DateTime birth { get; set; }
-        public int currentRankingSingle { get; set; }
-        public int bestRankingSingle { get; set; }
-        public int currentRankingDouble { get; set; }
-        public int bestRankingDouble { get; set; }
-        public string sex { get; set; }
-        public string hand { get; set; }
-        byte[] img { get; set; }
-
+        public Guid Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Country { get; set; }
+        public short? Height { get; set; }
+        public short? Weight { get; set; }
+        public DateTime? Birth { get; set; }
+        public short? CurrentRankingSingle { get; set; }
+        public short? BestRankingSingle { get; set; }
+        public short? CurrentRankingDouble { get; set; }
+        public short? BestRankingDouble { get; set; }
+        public string Sex { get; set; }
+        public string Hand { get; set; }
+        public byte[] Img { get; set; }
     }
 }

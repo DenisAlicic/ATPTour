@@ -15,9 +15,9 @@ namespace TennisAssociation.Controllers
     {
         // GET: api/<ValuesController>
         [HttpGet]
-        public bool Get([FromHeader] FanModel fan)
+        public bool Get([FromHeader] Player fan)
         {
-            Console.WriteLine(fan.Name);
+            Console.WriteLine(fan.FirstName);
             return true;
         }
 
@@ -30,7 +30,7 @@ namespace TennisAssociation.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-        public void Post([FromBody] FanModel value)
+        public void Post([FromBody] Player value)
         {
             
         }
