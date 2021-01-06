@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
+using TennisAssociation.Models;
 
 namespace TennisAssociation
 {
@@ -17,6 +19,11 @@ namespace TennisAssociation
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            /*var builder = new ConfigurationBuilder()
+                .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            configuration = builder.Build();*/
+
         }
 
         public IConfiguration Configuration { get; }
@@ -30,6 +37,13 @@ namespace TennisAssociation
             {
                 configuration.RootPath = "Client/dist";
             });
+
+            var connectionString = Configuration.GetConnectionString("TennisContext");
+            
+            services.AddDbContext<TennisAssociationContext>(
+                options => options.UseSqlServer(connectionString)
+            );
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +67,8 @@ namespace TennisAssociation
             }
 
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization(); // Add it here
 
             app.UseEndpoints(endpoints =>
             {
