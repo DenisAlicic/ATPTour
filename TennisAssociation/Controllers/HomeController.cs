@@ -26,7 +26,7 @@ namespace TennisAssociation.Controllers
         {
             var exist = db.Database.CanConnect();
 
-            var players = db.Players.ToList();
+            var players = db.Matches.ToList();
 
             /*var query = from b in db.Players
               select b.FirstName;
