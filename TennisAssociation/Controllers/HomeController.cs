@@ -15,7 +15,7 @@ namespace TennisAssociation.Controllers
     public class HomeController : Controller
     {
         //private readonly ILogger<HomeController> _logger;
-        public TennisAssociationContext db;
+        private TennisAssociationContext db;
         public HomeController(/*ILogger<HomeController> logger, */TennisAssociationContext context )
         {
           //  _logger = logger;
