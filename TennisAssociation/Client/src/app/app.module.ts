@@ -1,6 +1,6 @@
 import { SignupModule } from './components/signup/signup.module';
 import { HomeModule } from './components/home/home.module';
-import { NavBarModule } from './nav-bar/nav-bar.module';
+import { NavBarModule } from './components/nav-bar/nav-bar.module';
 import { PlayersModule } from './components/players/players.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';

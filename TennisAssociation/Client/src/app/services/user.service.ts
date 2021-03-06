@@ -1,18 +1,15 @@
-import { UserModel } from './../models/user.database.model';
+import { UserModel } from '../models/user.model';
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { map } from 'rxjs/operators';
-
-
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  private readonly usersUrl = 'http://localhost:3000/users/';
-  private readonly studentUsernamesUrl = 'http://localhost:3000/students/profile/';
+  private readonly usersUrl = 'http://localhost:8080/api/users/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   signup(formData) {
     const body = { ...formData};
@@ -41,25 +38,4 @@ export class UserService {
     // remove user from local storage to log user out
     localStorage.removeItem('currentUser');
   }
-
-  // getStudents() {
-  //   return this.http.get<UserDatabase[]>(this.studentsUrl);
-  // }
-
-  // getStudentById(id: string) {
-  //   return this.http.get<UserDatabase>(this.studentsUrl + id);
-  // }
-
-  // getStudentByUsername(username: string) {
-  //   return this.http.get<UserDatabase>(this.studentUsernamesUrl + username);
-  // }
-
-  // getStudentExistanceByUsername(username: string) {
-  //   return this.http.get<String>(this.studentUsernamesUrl + username);
-  // }
-
-  // deleteStudentById(id: string) {
-  //   return this.http.delete(this.studentsUrl + id);
-  // }
-
 }

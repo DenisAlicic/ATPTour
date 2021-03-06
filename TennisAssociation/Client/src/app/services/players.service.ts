@@ -1,4 +1,4 @@
-import { PlayerInterface } from '../models/players.database.model';
+import { PlayerModel } from '../models/players.model';
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
@@ -11,10 +11,10 @@ export class PlayersService {
   constructor(private http: HttpClient) { }
 
   getPlayers() {
-    return this.http.get<PlayerInterface[]>(this.playersUrl);
+    return this.http.get<PlayerModel[]>(this.playersUrl);
   }
 
   getPlayerById(id: string) {
-    return this.http.get<PlayerInterface>(this.playersUrl + id);
+    return this.http.get<PlayerModel>(this.playersUrl + id);
   }
 }

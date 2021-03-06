@@ -1,5 +1,4 @@
 export interface UserModel {
-  // _id: string;
   firstname: string;
   lastname: string;
   birthday: string;

@@ -1,4 +1,4 @@
-export interface PlayerInterface {
+export interface PlayerModel {
   id: string;
   firstName: string;
   lastName: string;

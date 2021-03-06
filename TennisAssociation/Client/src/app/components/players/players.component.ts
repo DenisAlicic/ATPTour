@@ -1,6 +1,6 @@
-import { PlayerInterface } from '../../models/players.database.model';
+import { PlayerModel } from '../../models/players.model';
 import { PlayersService } from '../../services/players.service';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -14,7 +14,7 @@ import { MatTableDataSource } from '@angular/material/table';
 export class PlayersComponent implements OnInit {
  
   displayedColumns: string[] = ['currentRankingSingle', 'name', 'country'];
-  dataSource: MatTableDataSource<PlayerInterface>;
+  dataSource: MatTableDataSource<PlayerModel>;
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
