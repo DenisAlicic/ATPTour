@@ -1,12 +1,14 @@
-import { SignupComponent } from './signup/signup.component';
+import { PlayersComponent } from './components/players/players.component';
+import { SignupComponent } from './components/signup/signup.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'signup', component: SignupComponent }
+  { path: '', component: HomeComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'players', component: PlayersComponent },
 ];
 
 @NgModule({

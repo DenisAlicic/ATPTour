@@ -1,6 +1,6 @@
-import { UserService } from './../services/user.service';
-import { AlertService } from './../services/alert.service';
-import { minPasswordLength, alphaPattern, maxNameLength, maxPasswordLength } from './../constants';
+import { UserService } from '../../services/user.service';
+import { AlertService } from '../../services/alert.service';
+import { minPasswordLength, alphaPattern, maxNameLength, maxPasswordLength } from '../../constants';
 import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { Component } from '@angular/core';
 import { passwordsMustMatch } from './password.validator';

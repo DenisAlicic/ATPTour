@@ -1,5 +1,5 @@
-import { UserService } from './../services/user.service';
-import { minPasswordLength, maxPasswordLength, minUsernameLength, maxUsernameLength } from './../constants';
+import { UserService } from '../../services/user.service';
+import { minPasswordLength, maxPasswordLength, minUsernameLength, maxUsernameLength } from '../../constants';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
