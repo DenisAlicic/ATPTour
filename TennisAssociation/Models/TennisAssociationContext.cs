@@ -19,6 +19,7 @@ namespace TennisAssociation.Models
 
         public virtual DbSet<Match> Matches { get; set; }
         public virtual DbSet<Player> Players { get; set; }
+        public virtual DbSet<Fan> Fans { get; set; } 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

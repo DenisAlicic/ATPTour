@@ -10,8 +10,8 @@ using TennisAssociation.Models;
 namespace TennisAssociation.Migrations
 {
     [DbContext(typeof(TennisAssociationContext))]
-    [Migration("20210309153243_Initial")]
-    partial class Initial
+    [Migration("20210309182335_RemoveCountryForFanDatabase")]
+    partial class RemoveCountryForFanDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,38 @@ namespace TennisAssociation.Migrations
                 .HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
+
+            modelBuilder.Entity("TennisAssociation.Models.Fan", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("Birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Gender")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Fans");
+                });
 
             modelBuilder.Entity("TennisAssociation.Models.Match", b =>
                 {

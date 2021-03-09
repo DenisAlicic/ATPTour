@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TennisAssociation.Models;
 
 namespace TennisAssociation.Migrations
 {
     [DbContext(typeof(TennisAssociationContext))]
-    partial class TennisAssociationContextModelSnapshot : ModelSnapshot
+    [Migration("20210309173104_AddFansToDatabase")]
+    partial class AddFansToDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,11 +24,15 @@ namespace TennisAssociation.Migrations
 
             modelBuilder.Entity("TennisAssociation.Models.Fan", b =>
                 {
-                    b.Property<string>("Username")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime?>("Birthday")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
@@ -43,7 +49,10 @@ namespace TennisAssociation.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Username");
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Fans");
                 });
