@@ -1,3 +1,4 @@
+<app-nav-bar> </app-nav-bar>
 <section class="container">
   <div class="left-half">
     <form [formGroup]="loginForm" class="form-box login-box" (ngSubmit)="onSubmit()">
@@ -5,18 +6,20 @@
         <legend class="style-text-dirty-yellow">LOG IN</legend>
         <div 
           class="form-group" 
-          [ngClass]="{'has-danger': f.email.invalid && (f.email.dirty || f.email.touched)}"
+          [ngClass]="{'has-danger': f.username.invalid && (f.username.dirty || f.username.touched)}"
         >
           <input 
-            type="email" 
+            type="text" 
             class="form-control input"
-            [ngClass]="{'is-invalid': f.email.invalid && (f.email.dirty || f.email.touched)}"
-            placeholder="Email" 
-            formControlName="email"
+            [ngClass]="{'is-invalid': f.username.invalid && (f.username.dirty || f.username.touched)}"
+            placeholder="Username" 
+            formControlName="username"
           >
-          <div class="invalid-feedback" *ngIf="f.email.errors?.required">Email address is a required field.</div>
-          <div class="invalid-feedback" *ngIf="f.email.errors?.email">Email address is not valid.</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.required">Username is a required field.</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.minlength">Username is too short.</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.maxlength">Username is too long.</div>
         </div>
+        
         <div 
           class="form-group"
           [ngClass]="{'has-danger': f.password.invalid && (f.password.dirty || f.password.touched)}"
@@ -39,6 +42,5 @@
     </form>
 
   </div>
-  <div class="right-half">
-  </div>
+  <img class="img__tennis" src="../../../assets/images/silueta-2.png"/> 
 </section>

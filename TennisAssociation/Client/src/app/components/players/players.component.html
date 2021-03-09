@@ -1,0 +1,45 @@
+<app-nav-bar> </app-nav-bar>
+
+<div class="header__players"> 
+  Active ATP players
+</div>
+
+<div class="box__players">
+  <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Novak" #input>
+  </mat-form-field>
+
+  <div class="box__players__table">
+    <table mat-table [dataSource]="dataSource" matSort>
+
+      <!-- Ranking Column -->
+      <ng-container matColumnDef="currentRankingSingle">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Ranking </th>
+        <td mat-cell *matCellDef="let row"> {{row.currentRankingSingle}} </td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+        <td mat-cell *matCellDef="let row"> {{row.firstName}} {{row.lastName}}</td>
+      </ng-container>
+
+      <!-- Country Column -->
+      <ng-container matColumnDef="country">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Country </th>
+        <td mat-cell *matCellDef="let row"> {{row.country}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+      <!-- Row shown when there is no matching data. -->
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+      </tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+  </div>
+</div>
