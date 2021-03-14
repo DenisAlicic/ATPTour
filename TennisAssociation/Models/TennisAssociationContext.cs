@@ -19,13 +19,14 @@ namespace TennisAssociation.Models
 
         public virtual DbSet<Match> Matches { get; set; }
         public virtual DbSet<Player> Players { get; set; }
+        public virtual DbSet<Tournament> Tournaments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=localhost;Database=TennisAssociation;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=localhost, 1433;Initial Catalog=TennisAssociation;User Id=sa;Password=SQLserver@2019;");
             }
         }
 
@@ -124,6 +125,49 @@ namespace TennisAssociation.Models
                     .HasColumnName("sex");
 
                 entity.Property(e => e.Weight).HasColumnName("weight");
+            });
+
+            modelBuilder.Entity<Tournament>(entity =>
+            {
+                entity.HasKey(e => e.Tournament1);
+
+                entity.ToTable("tournaments");
+
+                entity.Property(e => e.Tournament1)
+                    .HasMaxLength(50)
+                    .HasColumnName("tournament");
+
+                entity.Property(e => e.FinalPoints).HasColumnName("final_points");
+
+                entity.Property(e => e.FinalPrize).HasColumnName("final_prize");
+
+                entity.Property(e => e.QuarterfinalPoints).HasColumnName("quarterfinal_points");
+
+                entity.Property(e => e.QuarterfinalPrize).HasColumnName("quarterfinal_prize");
+
+                entity.Property(e => e.RoundOf16Points).HasColumnName("round_of_16_points");
+
+                entity.Property(e => e.RoundOf16Prize).HasColumnName("round_of_16_prize");
+
+                entity.Property(e => e.SemifinalPoints).HasColumnName("semifinal_points");
+
+                entity.Property(e => e.SemifinalPrize).HasColumnName("semifinal_prize");
+
+                entity.Property(e => e.WinnerPoints).HasColumnName("winner_points");
+
+                entity.Property(e => e.WinnerPrize).HasColumnName("winner_prize");
+
+                entity.Property(e => e._1RoundPoints).HasColumnName("_1_round_points");
+
+                entity.Property(e => e._1RoundPrize).HasColumnName("_1_round_prize");
+
+                entity.Property(e => e._2RoundPoints).HasColumnName("_2_round_points");
+
+                entity.Property(e => e._2RoundPrize).HasColumnName("_2_round_prize");
+
+                entity.Property(e => e._3RoundPrize).HasColumnName("_3_round_prize");
+
+                entity.Property(e => e._3RountPoints).HasColumnName("_3_rount_points");
             });
 
             OnModelCreatingPartial(modelBuilder);
