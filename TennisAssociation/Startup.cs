@@ -11,6 +11,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using TennisAssociation.Models;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace TennisAssociation
 {
@@ -37,13 +39,30 @@ namespace TennisAssociation
             {
                 configuration.RootPath = "Client/dist";
             });
-
-            var connectionString = Configuration.GetConnectionString("TennisContext");
             
             services.AddDbContext<TennisAssociationContext>(
-                options => options.UseSqlServer(connectionString)
+                options => options.UseSqlServer(Configuration.GetConnectionString("TennisContext"))
             );
-            
+
+            services.AddDbContext<TennisAssociationIdentityContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("TennisaAssociationIdentity"))
+            );
+
+            services.AddIdentity<MyUser, IdentityRole>(
+                options => {
+                    options.User.RequireUniqueEmail = true;
+                    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+                    options.Password.RequiredLength = 6;
+                    options.Password.RequireDigit = false;
+                    options.Password.RequireLowercase = false;
+                    options.Password.RequireUppercase = false;
+                    options.Password.RequireNonAlphanumeric = false;
+                }
+            )
+            .AddEntityFrameworkStores<TennisAssociationIdentityContext>()
+            .AddDefaultTokenProviders();
+
+            services.ConfigureApplicationCookie(opts => opts.LoginPath = "/Account/LogIn");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -98,6 +117,8 @@ namespace TennisAssociation
             //        name: "default",
             //        pattern: "{controller=Home}/{action=Index}/{id?}");
             //});
+
+            IdentitySeedData.AddDefaultRole(app);
         }
     }
 }

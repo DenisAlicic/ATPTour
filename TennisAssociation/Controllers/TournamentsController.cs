@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TennisAssociation.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TennisAssociation.Controllers
 {
@@ -23,6 +24,7 @@ namespace TennisAssociation.Controllers
         /// </summary>
         /// <returns>json containing information about tournaments</returns>
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             var tournaments = db.Tournaments.ToList();
