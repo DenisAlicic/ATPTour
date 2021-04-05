@@ -33,10 +33,13 @@ export class HomeComponent {
   get f() { return this.loginForm.controls; }
 
   onSubmit() {
+    console.log(this.loginForm.value);
+    
     this.userService.login(this.loginForm.value)
       .subscribe(
         dat => {
-          this.returnUrl = '/users/' + this.f.username.value;
+          console.log(dat)
+          this.returnUrl = '/players';
           this.router.navigate([this.returnUrl]);
         },
         error => {
@@ -47,6 +50,7 @@ export class HomeComponent {
             this.isError = false;
           }, 3000);
         });  
+        
   }
 
 

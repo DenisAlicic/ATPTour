@@ -52,3 +52,15 @@
     dotnet run --urls "http://localhost:8080"   
 
     ```
+
+### Create migrations
+
+
+    ```sh
+    dotnet tool install --global dotnet-ef
+    add ~/.dotnet/tools in path
+
+    dotnet ef migrations add Initial --context TennisAssociationIdentityContext  
+    dotnet ef database update --context TennisAssociationIdentityContext  
+
+    ```

@@ -7,14 +7,14 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class UserService {
-  private readonly usersUrl = 'http://localhost:8080/api/users/';
+  private readonly usersUrl = 'http://localhost:8080/api/account/';
 
   constructor(private http: HttpClient) {}
 
   signup(formData) {
     const body = { ...formData};
     console.log(body);
-    return this.http.post<UserModel>(this.usersUrl, body);
+    return this.http.post<UserModel>(this.usersUrl + "register", body);
   }
 
   login(data) {
@@ -22,10 +22,12 @@ export class UserService {
       ...data
     };
 
-    return this.http.post<any>(this.usersUrl + body.username, body)
+    return this.http.post<any>(this.usersUrl + "login", body)
       .pipe(map(user => {
         // login successful if there's a jwt token in the response
         if (user && user.token) {
+          console.log("token")
+          console.log(user.token)
           // store user details and jwt token in local storage to keep user logged in between page refreshes
           localStorage.setItem('currentUser', JSON.stringify(user));
         }
