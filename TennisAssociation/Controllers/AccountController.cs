@@ -9,6 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Logging;
 using TennisAssociation.Models;
+using System.Net;
+using System.Net.Http;
+using System.Web;
+using System.Web.Http;
+
 
 namespace TennisAssociation.Controllers
 {
@@ -71,7 +76,7 @@ namespace TennisAssociation.Controllers
         /// <param name="logInInfo">User to be logged in.</param>
         /// <returns>Returns true if log in succeeded</returns>
         [HttpPost("login")]
-        public async Task<bool> LogIn(LogInInfo logInInfo)
+        public async Task<IActionResult> LogIn(LogInInfo logInInfo)
         {
             MyUser myUser = await userManager.FindByNameAsync(logInInfo.Username);
 
@@ -79,10 +84,17 @@ namespace TennisAssociation.Controllers
             {
                 await signInManager.SignOutAsync();
                 var result = await signInManager.PasswordSignInAsync(myUser, logInInfo.Password, false, false);
-                return result.Succeeded;
+                if (result.Succeeded)
+                {
+                    return Ok(myUser);
+                }
+                else
+                {
+                    return NotFound(myUser);
+                }
             }  
 
-            return false;
+            return NotFound(myUser);
         }
 
         /// GET api/account/signout

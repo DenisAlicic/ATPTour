@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
 import { passwordsMustMatch } from './password.validator';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -40,11 +41,12 @@ export class SignupComponent {
   get f() { return this.signupForm.controls; }
 
   onSubmit() {
+    
     this.userService.signup(this.signupForm.value)
       .subscribe(
         _ => {
           this.alertService.success('Registration successful', true);
-          this.router.navigate(['/login']);
+          this.router.navigate(['/']);
         },
         error => {
           this.alertService.error(error);

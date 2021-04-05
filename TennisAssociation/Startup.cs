@@ -62,7 +62,7 @@ namespace TennisAssociation
             .AddEntityFrameworkStores<TennisAssociationIdentityContext>()
             .AddDefaultTokenProviders();
 
-            services.ConfigureApplicationCookie(opts => opts.LoginPath = "/Account/LogIn");
+            services.ConfigureApplicationCookie(opts => opts.LoginPath = "/");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
