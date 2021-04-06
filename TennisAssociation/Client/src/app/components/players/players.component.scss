@@ -42,3 +42,26 @@ table {
 td, th {
   width: 25%;
 }
+
+tr.queue-detail-row {
+  height: 0;
+}
+
+tr.queue-element-row:not(.queue-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.queue-element-row:not(.queue-expanded-row):active {
+  background: #efefef;
+}
+
+.queue-element-row {
+  border-bottom-width: 0;
+}
+
+.queue-element-detail {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -6,14 +6,34 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule} from '@angular/material/button';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+  // ...
+} from '@angular/animations';
+
 @Component({
   selector: 'app-players',
   templateUrl: './players.component.html',
-  styleUrls: ['./players.component.scss']
+  styleUrls: ['./players.component.scss'],
+
+  animations: [
+    trigger('detailExpand', [
+        state('collapsed', style({height: '0px', minHeight: '0'})),
+        state('expanded', style({height: '*'})),
+        transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ]
 })
 export class PlayersComponent implements OnInit {
  
-  displayedColumns: string[] = ['currentRankingSingle', 'name', 'country'];
+  displayedColumns: string[] = ['currentRankingSingle',  'name', 'country'];
   dataSource: MatTableDataSource<PlayerModel>;
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
