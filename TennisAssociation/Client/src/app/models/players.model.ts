@@ -5,12 +5,12 @@ export interface PlayerModel {
   country: string;
   height: number;
   weight: number;
-  birth: string;
+  birth: Date;
   currentRankingSingle: number;
   bestRankingSingle: number;
   currentRankingDouble: number;
   bestRankingDouble: number;
   sex: string;
   hand: string;
-  img: string;
+  img: Int8Array;
 }

@@ -13,6 +13,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule} from '@angular/material/button';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+  // ...
+} from '@angular/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatTableModule,
+    MatButtonModule,
     MatIconModule,
     ReactiveFormsModule,
     HttpClientModule,
