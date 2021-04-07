@@ -33,7 +33,7 @@ import {
 })
 export class PlayersComponent implements OnInit {
  
-  displayedColumns: string[] = ['currentRankingSingle',  'name', 'country'];
+  displayedColumns: string[] = ['currentRankingSingle',  'name'];
   dataSource: MatTableDataSource<PlayerModel>;
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
@@ -53,7 +53,27 @@ export class PlayersComponent implements OnInit {
     });
   }
 
+  getCountryCode(country) {
+    if (!country) {
+      return ''
+    }
+    if (country == 'USA') {
+      return 'flag-icon-us'
+    }
+
+    const lookup = require('country-code-lookup')
+    const countryInfo = lookup.byCountry(country)
+    if (!countryInfo) {
+      return ''
+    }
+    return 'flag-icon-'+countryInfo['iso2'].toLowerCase()
+  }
+
   applyFilter(event: Event) {
+    this.dataSource.filterPredicate = function(data, filter: string): boolean {
+      return data.firstName.toLowerCase().includes(filter) || data.lastName.toLowerCase().includes(filter);
+    };
+
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
