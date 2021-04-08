@@ -1,0 +1,51 @@
+firstName,lastName,country,height,weight,birth,currentRankingSingle,bestRankingSingle,currentRankingDouble,bestRankingDouble,sex,hand
+Novak,Djokovic,Serbia,187,80,05/22/1987,1,1,155,114,man,right
+Rafael,Nadal,Spain,185,85,06/03/1986,2,1,466,26,man,left
+Dominic,Thiem,Austria,185,79,09/03/1993,3,3,112,67,man,right
+Daniil,Medvedev,Russia,198,83,02/11/1996,4,4,201,170,man,right
+Roger,Federer,Switzerland,187,85,08/08/1981,5,1,,24,man,right
+Stefanos,Tsitsipas,Greece,193,89,08/12/1998,6,5,100,68,man,right
+Alexander,Zverev,Germany,198,90,04/20/1997,7,3,170,68,man,right
+Andrey,Rublev,Russia,188,70,10/20/1997,8,8,81,74,man,right
+Diego,Schwartzman,Argentina,170,64,08/16/1992,9,8,51,39,man,right
+Matteo,Berrettini,Italy,196,95,04/12/1996,10,8,218,104,man,right
+Gael,Monfils,France,193,85,09/01/1986,11,6,,155,man,right
+Denis,Shapovalov,Canada,185,75,04/15/1999,12,10,49,44,man,left
+Roberto,Bautista-Agut,Spain,183,75,04/14/1988,13,9,,169,man,right
+Milos,Raonic,Canada,196,98,12/27/1990,14,3,372,103,man,right
+David,Goffin,Belgium,180,70,12/07/1990,15,7,246,158,man,right
+Pablo,Carreno-Busta,Spain,188,78,07/12/1991,16,10,54,15,man,right
+Fabio,Fognini,Italy,178,79,05/24/1987,17,9,138,7,man,right
+Stan,Wawrinka,Switzerland,182,79,03/28/1985,18,3,272,88,man,right
+Grigor,Dimitrov,Bulgaria,191,81,05/16/1991,19,3,813,66,man,right
+Karen,Khachanov,Russia,198,87,05/21/1996,20,8,80,64,man,right
+Felix,Auger Aliassime,Canada,193,88,08/08/2000,21,17,77,77,man,right
+Christian,Garin,Chile,185,85,05/30/1996,22,18,279,249,man,right
+Alex,De Minaur,Australia,183,69,02/17/1999,23,18,59,58,man,right
+Borna,Coric,Croatia,188,85,11/14/1996,24,12,,413,man,right
+John,Isner,USA,208,108,04/26/1985,25,8,182,26,man,right
+Dusan,Lajovic,Serbia,183,83,06/30/1990,26,23,92,82,man,right
+Casper,Ruud,Norway,183,77,12/22/1998,27,25,187,187,man,right
+Benoit,Paire,France,196,80,05/08/1989,28,18,90,77,man,right
+Harry,Fritz Taylor,USA,193,86,10/28/1997,29,24,106,106,man,right
+Ugo,Humbert,France,188,73,06/26/1998,30,30,497,357,man,left
+Filip,Krajinovic,Serbia,185,75,02/27/1992,31,26,493,201,man,right
+Daniel,Evans,Great Britain,175,75,05/23/1990,32,28,145,137,man,right
+Lorenzo,Sonego,Italy,191,76,05/11/1995,33,32,226,222,man,right
+Hubert,Hurkacz,Poland,196,81,02/11/1997,34,28,72,72,man,right
+Adrian,Mannarino,France,180,79,06/29/1988,35,22,184,73,man,left
+Jan-Lennard,Struff,Germany,193,92,04/25/1990,36,29,53,21,man,right
+Jannik,Sinner,Italy,188,76,08/16/2001,37,37,408,380,man,right
+John,Millman,Australia,183,79,06/14/1989,38,33,764,165,man,right
+Reilly,Opelka,USA,211,102,08/28/1997,39,31,118,115,man,right
+Nikoloz,Basilashvili,Georgia,185,79,02/23/1992,40,16,247,148,man,right
+Kei,Nishikori,Japan,178,73,12/29/1989,41,4,491,167,man,right
+Marin,Cilic,Croatia,198,89,09/28/1988,42,3,273,49,man,right
+Guido,Pella,Argentina,183,79,05/17/1990,43,20,71,55,man,left
+Miomir,Kecmanovic,Serbia,183,75,08/31/1999,44,39,248,161,man,right
+Nick,Kyrgios,Australia,193,85,04/27/1995,45,13,253,65,man,right
+Albert,Ramos-Vinolas,Spain,188,76,01/17/1988,46,17,496,117,man,left
+Richard,Gasquet,France,183,79,06/18/1986,47,7,,45,man,right
+Kyle,Edmund,Great Britain,188,83,01/08/1995,48,14,183,143,man,right
+Tennys,Sandgren,USA,188,88,07/22/1991,49,41,228,115,man,right
+Alexander,Bublik,Kazakhstan,198,77,06/17/1997,50,47,89,87,man,right

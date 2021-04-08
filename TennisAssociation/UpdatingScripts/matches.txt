@@ -1,0 +1,3226 @@
+tournament,fristPlayer,secondPlayer,headToHeadFirst,headToHeadSecond,resultFirst,resultSecond,date
+Cagliari,Hanfmann Y.,Cecchinato M.,,,2,0,04/08/2021
+Cagliari,Musetti L.,Evans D. (1),,,2,1,04/08/2021
+Cagliari,Simon G.,Sonego L. (3),0,0,,,04/08/2021
+Cagliari,Djere L.,Millman J. (6),0,1,,,04/08/2021
+Marbella,Ivashka I.,Davidovich Fokina A. (5),,,2,0,04/08/2021
+Marbella,Munar J.,Fognini F. (2),,,2,0,04/08/2021
+Marbella,Mager G.,Ruud C. (3),1,0,,,04/08/2021
+Marbella,Lopez F. (6),Alcaraz C.,0,0,,,04/08/2021
+Split challenger,Zuk K.,Serdarusic N.,,,2,0,04/08/2021
+Split challenger,Kokkinakis T.,Kolar Z.,,,2,0,04/08/2021
+Split challenger,Basic M.,Haase R.,,,2,0,04/08/2021
+Split challenger,Rola B. (6),Ajdukovic D.,,,2,0,04/08/2021
+Oeiras 2 challenger,Cachin P.,Andreev A.,,,2,0,04/08/2021
+Oeiras 2 challenger,Moroni G. (5),Kotov P.,,,2,0,04/08/2021
+Oeiras 2 challenger,Zverev M.,Cacao T.,0,0,,,04/08/2021
+Oeiras 2 challenger,Otte O. (1),Oliveira G.,2,0,,,04/08/2021
+Futures 2021,Braynin A.,Manafov V.,,,2,1,04/08/2021
+Futures 2021,Vanshelboim E.,Galiev B.,,,2,0,04/08/2021
+Futures 2021,Bertuccioli F.,Tryakshin M.,,,2,0,04/08/2021
+Futures 2021,Tashbulatov D.,Klok D.,,,2,0,04/08/2021
+Futures 2021,Gakhov I.,Gibbens J.,,,2,0,04/08/2021
+Futures 2021,Campo A.,Vidal Azorin J.,,,2,0,04/08/2021
+Futures 2021,Pavlasek A.,Kalovelonis M.,,,2,1,04/08/2021
+Futures 2021,Madaras D.,Prihodko O.,,,2,0,04/08/2021
+Futures 2021,Dubrivnyy A.,Ratniuk M.,,,2,0,04/08/2021
+Futures 2021,Nedelko I.,Freund S.,,,2,0,04/08/2021
+Futures 2021,Mochizuki S.,Patael B.,,,2,0,04/08/2021
+Futures 2021,Wenger D.,Tomasetto L.,,,2,0,04/08/2021
+Futures 2021,Gigante M.,Fayziev S.,,,2,0,04/08/2021
+Futures 2021,Galoppini D.,Noguchi R.,,,2,0,04/08/2021
+Futures 2021,Cobolli F.,Schmitz C.,,,2,0,04/08/2021
+Futures 2021,Fomin S.,Chepelev A.,,,2,0,04/08/2021
+Futures 2021,Mukund S.,Roncalli S.,,,2,0,04/08/2021
+Futures 2021,Poljak D.,Bellucci M.,,,2,0,04/08/2021
+Futures 2021,Shimizu Y.,Vilardo F.,,,2,0,04/08/2021
+Futures 2021,Moreno De Alboran N.,Okamura I.,,,2,0,04/08/2021
+Futures 2021,Coulibaly E.,Dembek M.,,,2,1,04/08/2021
+Futures 2021,Agamenone F.,Ouakaa A.,,,2,0,04/08/2021
+Futures 2021,Llamas Ruiz P.,Graziani E.,,,2,0,04/08/2021
+Futures 2021,Eremin E.,Massara A.,,,2,0,04/08/2021
+Futures 2021,Avidzba A.,Barroso Campos A.,,,2,0,04/08/2021
+Futures 2021,Cozbinov A.,Tiurnev E.,,,2,1,04/08/2021
+Futures 2021,Bega A.,Jones A.,,,2,0,04/08/2021
+Futures 2021,Setkic A.,Paulson A.,,,2,0,04/08/2021
+Futures 2021,Jubb P.,Uzhylovsky V.,,,2,0,04/08/2021
+Futures 2021,Safonov A.,Spec M.,,,2,0,04/08/2021
+Futures 2021,Satral J.,Glinka D.,,,2,0,04/08/2021
+Futures 2021,Johnson L.,Boyer T.,,,2,1,04/08/2021
+Futures 2021,Escoffier A.,Boscardin Dias P.,,,2,0,04/08/2021
+Futures 2021,Strombachs R.,Gadamauri B.,,,2,0,04/08/2021
+Futures 2021,Agabigun S.,Zakharov A.,,,2,0,04/08/2021
+Futures 2021,Erel Y.,Kravchuk K.,,,2,0,04/08/2021
+Futures 2021,Balzerani R.,Zhu E.,0,0,,,04/08/2021
+Futures 2021,Shimabukuro S.,Capecchi D.,,,2,0,04/08/2021
+Futures 2021,Alves M.,Negritu C.,0,0,,,04/08/2021
+Futures 2021,Pucinelli De Almeida M.,Egea F.,0,0,,,04/08/2021
+Futures 2021,Darderi L.,Aboian V.,0,0,,,04/08/2021
+Futures 2021,Comesana F.,Rodriguez Taverna S.,0,0,,,04/08/2021
+Futures 2021,Dhoe B.,Kestelboim M.,0,2,,,04/08/2021
+Futures 2021,Lingua Lavallen A.,Juarez F.,0,0,,,04/08/2021
+Futures 2021,Farjat T.,Arreche N.,0,1,,,04/08/2021
+Futures 2021,Lama G.,Derdoy F.,0,0,,,04/08/2021
+Futures 2021,Zukas M.,Carnevalle L.,0,0,,,04/08/2021
+UK Pro Series,Matusevich A.,Hands T.,,,2,0,04/08/2021
+UK Pro Series,Cash J.,Canter A.,,,2,0,04/08/2021
+UK Pro Series,Draper J.,Harris B.,0,0,,,04/08/2021
+UK Pro Series,Weightman O.,Maxted L.,0,0,,,04/08/2021
+UK Pro Series,Findel-Hawkins J.,Houghton G.,1,0,,,04/08/2021
+UK Pro Series,Paris J.,Patten H.,1,2,,,04/08/2021
+UTR Pro Match Series,Byers L.,Griffith W.,0,0,,,04/08/2021
+UTR Pro Match Series,Shane R.,Kessler M.,0,0,,,04/08/2021
+UTR Pro Match Series,Krug C.,Reese H.,0,0,,,04/08/2021
+UTR Pro Match Series,Young G.,Segura M.,0,0,,,04/08/2021
+UTR Pro Match Series,Sinha A.,Caratini V.,0,0,,,04/08/2021
+UTR Pro Match Series,Cid Subervi R.,Gomar Monio L.,0,0,,,04/08/2021
+UTR Pro Match Series,Pannu K.,Gurmendi A.,0,0,,,04/08/2021
+UTR Pro Match Series,Jachuck R.,Farren C.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Adamson A.,Aramburu Contreras I.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Sanchez M.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Brymer G.,Leite W.,1,0,,,04/08/2021
+UTR Pro Tennis Series 2,Oppenheim N.,Rodriguez Rodriguez J.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Evans G.,Gomez J.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Graute C.,Bynoe E.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Carnevale-Miino T.,Gomez M.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Panta J.,Doria L.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Tatlot J.,Dzhavakian Y.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Marie J.,Laurent Y.,,,2,1,04/08/2021
+UTR Pro Tennis Series 5,Bouquet L.,Dinev D.,,,2,0,04/08/2021
+UTR Pro Tennis Series 5,Joncour R.,Milev Y.,,,2,0,04/08/2021
+UTR Pro Tennis Series 5,Madarasz G.,Lazov A.,,,2,0,04/08/2021
+UTR Pro Tennis Series 5,De La Bassetiere C.,Milushev P.,,,2,0,04/08/2021
+UTR Pro Tennis Series 5,Nesterov P.,Faivre P.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Laurent T.,Snitari I.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Dinev D.,Dzhavakian Y.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Bouquet L.,Dimitrov M.,0,0,,,04/08/2021
+Cagliari,Fritz T. (2),Martin A.,,,2,0,04/07/2021
+Cagliari,Basilashvili N. (4),Kovalik J.,,,2,1,04/07/2021
+Cagliari,Bedene A.,Gerasimov E.,,,2,0,04/07/2021
+Cagliari,Struff J. (5),Broady L.,,,2,0,04/07/2021
+Marbella,Carreno-Busta P. (1),Vilella Martinez M.,,,2,0,04/07/2021
+Marbella,Ramos-Vinolas A. (4),Berankis R.,,,2,1,04/07/2021
+Marbella,Kwon S. (7),Bagnis F.,,,2,0,04/07/2021
+Marbella,Gombos N.,Delbonis F. (8),,,2,1,04/07/2021
+Split challenger,Kavcic B.,Ymer E.,,,2,1,04/07/2021
+Split challenger,Petrovic D. (5),Marterer M.,,,2,0,04/07/2021
+Split challenger,Collarini A.,Ignatik U.,,,2,1,04/07/2021
+Split challenger,Vukic A.,Coppejans K. (7),,,2,1,04/07/2021
+Oeiras 2 challenger,Elias G.,Gimeno Valero C.,,,2,0,04/07/2021
+Oeiras 2 challenger,Kuzmanov D.,Escobedo E. (3),,,2,0,04/07/2021
+Oeiras 2 challenger,Borges N.,Brancaccio R.,,,2,1,04/07/2021
+Oeiras 2 challenger,Guinard M.,Grenier H.,,,2,0,04/07/2021
+Futures 2021,Beloborodko I.,Brouwer G.,,,1,0,04/07/2021
+Futures 2021,Comesana F.,Hidalgo G.,,,1,0,04/07/2021
+Futures 2021,Lingua Lavallen A.,Blanch D.,,,2,0,04/07/2021
+Futures 2021,Juarez F.,Arias Bisso F.,,,2,0,04/07/2021
+Futures 2021,Rodriguez Taverna S.,Carraro L.,,,2,0,04/07/2021
+Futures 2021,Derdoy F.,Venturi T.,,,2,0,04/07/2021
+Futures 2021,Carnevalle L.,Saraiva Dos Santos P.,,,2,0,04/07/2021
+Futures 2021,Aboian V.,Carou I.,,,2,0,04/07/2021
+Futures 2021,Lama G.,Cigarran T.,,,2,0,04/07/2021
+Futures 2021,Alves M.,Marcondes I.,,,2,0,04/07/2021
+Futures 2021,Gadamauri B.,Klier Junior G.,,,1,0,04/07/2021
+Futures 2021,Zukas M.,Roncadelli F.,,,2,0,04/07/2021
+Futures 2021,Dhoe B.,Falabella L.,,,2,1,04/07/2021
+Futures 2021,Moreno De Alboran N.,Stevenson K.,,,2,0,04/07/2021
+Futures 2021,Boyer T.,Novansky M.,,,2,0,04/07/2021
+Futures 2021,Okamura I.,Skorilas A.,,,2,0,04/07/2021
+Futures 2021,Uzhylovsky V.,Niki T.,,,2,1,04/07/2021
+Futures 2021,Gakhov I.,Ingarao A.,,,2,0,04/07/2021
+Futures 2021,Capecchi D.,Colson T.,,,2,1,04/07/2021
+Futures 2021,Dembek M.,Mikula M.,,,2,0,04/07/2021
+Futures 2021,Jones A.,Kotze D.,,,2,0,04/07/2021
+Futures 2021,Shimizu Y.,Nijboer R.,,,2,0,04/07/2021
+Futures 2021,Paulson A.,Hodkin S.,,,2,1,04/07/2021
+Futures 2021,Bellucci M.,Krainer L.,,,2,0,04/07/2021
+Futures 2021,Agabigun S.,Abazov A.,,,2,0,04/07/2021
+Futures 2021,Pavlasek A.,Vojinovic L.,,,2,0,04/07/2021
+Futures 2021,Wenger D.,Kashirin N.,,,2,0,04/07/2021
+Futures 2021,Gibbens J.,Lomakin G.,,,2,1,04/07/2021
+Futures 2021,Beloborodko I.,Bittoun Kouzmine C.,,,2,0,04/07/2021
+Futures 2021,Gigante M.,Marchetti F.,,,2,0,04/07/2021
+Futures 2021,Tomasetto L.,Mashtakov M.,,,2,0,04/07/2021
+Futures 2021,Strombachs R.,Shevchenko A.,,,2,1,04/07/2021
+Futures 2021,Coulibaly E.,Pujol Navarro B.,,,2,0,04/07/2021
+Futures 2021,Ouakaa A.,Ruzgas M.,,,2,0,04/07/2021
+Futures 2021,Avidzba A.,Naw H.,,,2,0,04/07/2021
+Futures 2021,Johnson L.,Ochi M.,,,2,0,04/07/2021
+Futures 2021,Poljak D.,Pokorny L.,,,2,0,04/07/2021
+Futures 2021,Vilardo F.,Cox D.,,,2,0,04/07/2021
+Futures 2021,Bega A.,Malgaroli L.,,,2,0,04/07/2021
+Futures 2021,Madaras D.,Hassan B.,,,2,1,04/07/2021
+Futures 2021,Cozbinov A.,Pokotilov B.,,,2,0,04/07/2021
+Futures 2021,Vidal Azorin J.,Shyla Y.,,,2,1,04/07/2021
+Futures 2021,Fomin S.,Almashev Z.,,,2,0,04/07/2021
+Futures 2021,Escoffier A.,Galarza J.,,,2,0,04/07/2021
+Futures 2021,Brouwer G.,Rikl P.,,,2,1,04/07/2021
+Futures 2021,Kalovelonis M.,Kim C.,,,2,0,04/07/2021
+Futures 2021,Barroso Campos A.,Musialek A.,,,2,1,04/07/2021
+Futures 2021,Fayziev S.,Soyler O.,,,2,0,04/07/2021
+Futures 2021,Graziani E.,Ilhan M.,,,2,1,04/07/2021
+Futures 2021,Tryakshin M.,Aitkulov A.,,,2,0,04/07/2021
+Futures 2021,Agamenone F.,Langmo C.,,,2,0,04/07/2021
+Futures 2021,Freund S.,Igoshin A.,,,2,0,04/07/2021
+Futures 2021,Llamas Ruiz P.,Kopp S.,,,2,0,04/07/2021
+Futures 2021,Jubb P.,Connor P.,,,2,0,04/07/2021
+Futures 2021,Roncalli S.,Tkemaladze Z.,,,2,0,04/07/2021
+Futures 2021,Setkic A.,Vincent Ruggeri S.,,,2,1,04/07/2021
+Futures 2021,Mukund S.,Stodder T.,,,2,0,04/07/2021
+Futures 2021,Massara A.,Toledo Bague P.,,,2,1,04/07/2021
+Futures 2021,Chepelev A.,Liutarevich I.,,,2,0,04/07/2021
+Futures 2021,Mochizuki S.,Friberg K.,,,2,0,04/07/2021
+Futures 2021,Vanshelboim E.,Zhukayev B.,,,2,0,04/07/2021
+Futures 2021,Cobolli F.,Ovcharov A.,,,2,0,04/07/2021
+Futures 2021,Erel Y.,Davydov I.,,,2,0,04/07/2021
+Futures 2021,Zakharov A.,Tajima N.,,,2,1,04/07/2021
+Futures 2021,Spec M.,Danilov S.,,,2,0,04/07/2021
+Futures 2021,Galiev B.,Ozernoy D.,,,2,0,04/07/2021
+Futures 2021,Prihodko O.,Vernier M.,,,2,0,04/07/2021
+Futures 2021,Manafov V.,Khomich A.,,,2,0,04/07/2021
+Futures 2021,Bertuccioli F.,Karimov D.,,,2,0,04/07/2021
+Futures 2021,Tashbulatov D.,Whitehouse M.,,,2,0,04/07/2021
+Futures 2021,Campo A.,Sabanin Y.,,,2,0,04/07/2021
+Futures 2021,Klok D.,Orynbasar I.,,,2,0,04/07/2021
+Futures 2021,Braynin A.,Ayap S.,,,2,0,04/07/2021
+UK Pro Series,Hands T.,Weightman O.,,,2,0,04/07/2021
+UK Pro Series,Houghton G.,Canter A.,,,2,0,04/07/2021
+UK Pro Series,Harris B.,Findel-Hawkins J.,,,2,0,04/07/2021
+UK Pro Series,Draper J.,Cash J.,,,2,0,04/07/2021
+UK Pro Series,Matusevich A.,Paris J.,,,2,0,04/07/2021
+UK Pro Series,Patten H.,Maxted L.,,,2,1,04/07/2021
+UTR Pro Match Series,Shane R.,Sinha A.,,,2,1,04/07/2021
+UTR Pro Match Series,Kessler M.,Vashist A.,,,2,1,04/07/2021
+UTR Pro Match Series,Farren C.,Ribeiro Lago E.,,,2,0,04/07/2021
+UTR Pro Match Series,Cid Subervi R.,Jachuck R.,,,2,1,04/07/2021
+UTR Pro Match Series,King E.,Reese H.,,,2,0,04/07/2021
+UTR Pro Match Series,Pannu K.,Krug C.,,,2,1,04/07/2021
+UTR Pro Match Series,Krug J.,Griffith W.,,,2,0,04/07/2021
+UTR Pro Match Series,Young G.,Byers L.,,,2,0,04/07/2021
+UTR Pro Tennis Series 2,Rodriguez Rodriguez J.,Badon J.,,,2,1,04/07/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Oppenheim N.,,,2,0,04/07/2021
+UTR Pro Tennis Series 2,Doria L.,Van Orderlain D.,,,2,1,04/07/2021
+UTR Pro Tennis Series 2,Panta J.,Carnevale-Miino T.,,,2,0,04/07/2021
+UTR Pro Tennis Series 2,Evans G.,Adamson A.,,,2,0,04/07/2021
+UTR Pro Tennis Series 2,Brymer G.,Graute C.,,,2,1,04/07/2021
+UTR Pro Tennis Series 2,Leite W.,De Alencar M.,,,2,0,04/07/2021
+UTR Pro Tennis Series 2,Patino L.,Gomez J.,,,2,0,04/07/2021
+UTR Pro Tennis Series 5,Snitari I.,Thanos A.,,,2,1,04/07/2021
+UTR Pro Tennis Series 5,Laurent T.,Nesterov P.,,,2,1,04/07/2021
+UTR Pro Tennis Series 5,Donev G.,Milushev P.,,,2,0,04/07/2021
+UTR Pro Tennis Series 5,De La Bassetiere C.,Milev Y.,,,2,1,04/07/2021
+UTR Pro Tennis Series 5,Marie J.,Madarasz G.,,,2,1,04/07/2021
+UTR Pro Tennis Series 5,Laurent Y.,Lescure M.,,,2,0,04/07/2021
+Cagliari,Simon G.,Travaglia S.,,,2,1,04/06/2021
+Cagliari,Martin A.,Vesely J.,,,2,1,04/06/2021
+Cagliari,Cecchinato M.,Fabbiano T.,,,2,1,04/06/2021
+Cagliari,Kovalik J.,Nagal S.,,,2,1,04/06/2021
+Cagliari,Musetti L.,Novak D.,,,2,0,04/06/2021
+Cagliari,Broady L.,Huesler M.,,,2,0,04/06/2021
+Cagliari,Struff J. (5),Sousa J.,,,2,1,04/06/2021
+Cagliari,Millman J. (6),Coria F.,,,2,1,04/06/2021
+Marbella,Davidovich Fokina A. (5),Dzumhur D.,,,2,1,04/06/2021
+Marbella,Mager G.,Kukushkin M.,,,2,0,04/06/2021
+Marbella,Munar J.,Laaksonen H.,,,2,0,04/06/2021
+Marbella,Vilella Martinez M.,Zapata Miralles B.,,,2,0,04/06/2021
+Marbella,Lopez F. (6),Daniel T.,,,2,0,04/06/2021
+Marbella,Bagnis F.,Cerundolo F.,,,2,0,04/06/2021
+Marbella,Ivashka I.,Martinez P.,,,2,0,04/06/2021
+Marbella,Alcaraz C.,Milojevic N.,,,2,0,04/06/2021
+Split challenger,Zuk K.,Sousa P. (1),,,1,0,04/06/2021
+Split challenger,Kolar Z.,Santillan A.,,,1,0,04/06/2021
+Split challenger,Serdarusic N.,Clarke J.,,,2,0,04/06/2021
+Split challenger,Haase R.,Polmans M. (2),,,2,1,04/06/2021
+Split challenger,Kokkinakis T.,Horansky F. (8),,,2,1,04/06/2021
+Split challenger,Basic M.,Ilkel C.,,,2,0,04/06/2021
+Split challenger,Ajdukovic D.,Brown D.,,,2,1,04/06/2021
+Split challenger,Kavcic B.,Safwat M. (4),,,2,0,04/06/2021
+Split challenger,Ignatik U.,Bolt A.,,,2,0,04/06/2021
+Oeiras 2 challenger,Oliveira G.,Bonadio R.,,,2,0,04/06/2021
+Oeiras 2 challenger,Cachin P.,Benchetrit E. (4),,,2,0,04/06/2021
+Oeiras 2 challenger,Elias G.,Trungelliti M. (6),,,2,0,04/06/2021
+Oeiras 2 challenger,Zverev M.,Moraing M.,,,1,0,04/06/2021
+Oeiras 2 challenger,Andreev A.,Tseng C.,,,2,1,04/06/2021
+Oeiras 2 challenger,Kotov P.,Bourchier H.,,,1,0,04/06/2021
+Oeiras 2 challenger,Cacao T.,Lamasine T. (8),,,2,0,04/06/2021
+Oeiras 2 challenger,Escobedo E. (3),Furness E.,,,2,0,04/06/2021
+Oeiras 2 challenger,Grenier H.,Lee D.,,,2,0,04/06/2021
+Oeiras 2 challenger,Otte O. (1),Araujo P.,,,2,0,04/06/2021
+Oeiras 2 challenger,Brancaccio R.,Forejtek J.,,,1,0,04/06/2021
+Futures 2021,Glinka D.,Golubev D.,,,2,0,04/06/2021
+Futures 2021,Kestelboim M.,De La Fuente S.,,,2,0,04/06/2021
+Futures 2021,Farjat T.,Justo G.,,,2,0,04/06/2021
+Futures 2021,Pucinelli De Almeida M.,Navone M.,,,2,0,04/06/2021
+Futures 2021,Darderi L.,Reis Da Silva J.,,,2,0,04/06/2021
+Futures 2021,Arreche N.,Torres J.,,,2,0,04/06/2021
+Futures 2021,Egea F.,Huertas Del Pino C.,,,2,0,04/06/2021
+Futures 2021,Tiurnev E.,Ivanov V.,,,2,0,04/06/2021
+Futures 2021,Kravchuk K.,Sharipov M.,,,2,1,04/06/2021
+Futures 2021,Satral J.,Binda A.,,,2,0,04/06/2021
+Futures 2021,Galoppini D.,Fajta P.,,,2,0,04/06/2021
+Futures 2021,Patael B.,Martin Tiffon P.,,,2,1,04/06/2021
+Futures 2021,Negritu C.,Melnic V.,,,2,0,04/06/2021
+Futures 2021,Balzerani R.,Brun T.,,,2,0,04/06/2021
+Futures 2021,Zhu E.,Barrena A.,,,2,0,04/06/2021
+Futures 2021,Shimabukuro S.,Kocevar-Desman T.,,,2,1,04/06/2021
+Futures 2021,Nedelko I.,Bar Biryukov P.,,,2,0,04/06/2021
+Futures 2021,Boscardin Dias P.,Rodrigues N.,,,2,1,04/06/2021
+Futures 2021,Ratniuk M.,Kudriashov I.,,,1,0,04/06/2021
+Futures 2021,Noguchi R.,Orlikowski A.,,,2,0,04/06/2021
+Futures 2021,Eremin E.,Aksu C.,,,2,0,04/06/2021
+Futures 2021,Safonov A.,Wolfschmidt A.,,,2,1,04/06/2021
+Futures 2021,Schmitz C.,Bobrov B.,,,2,0,04/06/2021
+Futures 2021,Dubrivnyy A.,Paul J.,,,2,0,04/06/2021
+UK Pro Series,Hands T.,Patten H.,,,2,1,04/06/2021
+UK Pro Series,Cash J.,Houghton G.,,,2,0,04/06/2021
+UK Pro Series,Paris J.,Maxted L.,,,2,1,04/06/2021
+UK Pro Series,Matusevich A.,Weightman O.,,,2,0,04/06/2021
+UK Pro Series,Draper J.,Findel-Hawkins J.,,,2,0,04/06/2021
+UK Pro Series,Canter A.,Harris B.,,,2,1,04/06/2021
+UTR Pro Match Series,Jachuck R.,Gomar Monio L.,,,2,0,04/06/2021
+UTR Pro Match Series,Shane R.,Caratini V.,,,2,1,04/06/2021
+UTR Pro Match Series,Gurmendi A.,Krug C.,,,2,1,04/06/2021
+UTR Pro Match Series,Young G.,Krug J.,,,2,0,04/06/2021
+UTR Pro Match Series,Cid Subervi R.,Ribeiro Lago E.,,,2,0,04/06/2021
+UTR Pro Match Series,Segura M.,Byers L.,,,2,0,04/06/2021
+UTR Pro Match Series,Pannu K.,King E.,,,2,0,04/06/2021
+UTR Pro Match Series,Vashist A.,Sinha A.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Badon J.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Van Orderlain D.,Carnevale-Miino T.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Sanchez M.,Oppenheim N.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Patino L.,Ansari A.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Evans G.,Aramburu Contreras I.,,,2,0,04/06/2021
+UTR Pro Tennis Series 2,Brymer G.,Bynoe E.,,,2,1,04/06/2021
+UTR Pro Tennis Series 2,Graute C.,De Alencar M.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Laurent T.,Faivre P.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Thanos A.,Nesterov P.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Tatlot J.,Bouquet L.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Dimitrov M.,Dinev D.,,,2,1,04/06/2021
+UTR Pro Tennis Series 5,Marie J.,Lazov A.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Donev G.,Milev Y.,,,2,0,04/06/2021
+UTR Pro Tennis Series 5,Joncour R.,De La Bassetiere C.,,,2,1,04/06/2021
+UTR Pro Tennis Series 5,Madarasz G.,Lescure M.,,,2,0,04/06/2021
+Futures 2021,Arias Bisso F.,Rodriguez L.,,,2,1,04/06/2021
+Futures 2021,Roncadelli F.,Mirgone F.,,,2,0,04/06/2021
+Futures 2021,Derdoy F.,Franchini S.,,,2,0,04/06/2021
+Futures 2021,Saraiva Dos Santos P.,Gimenez J.,,,2,1,04/06/2021
+Futures 2021,Carraro L.,Lopez Linquet L.,,,2,1,04/06/2021
+Futures 2021,Cigarran T.,Vilaro A.,,,2,0,04/06/2021
+Futures 2021,Aboian V.,Villanueva G.,,,2,0,04/06/2021
+Futures 2021,Falabella L.,Aboian L.,,,2,0,04/06/2021
+Futures 2021,Hodkin S.,Dellavedova M.,,,2,1,04/06/2021
+Futures 2021,Cox D.,Rottoli L.,,,2,0,04/06/2021
+Futures 2021,Uzhylovsky V.,Mikhaylyuk I.,,,2,0,04/06/2021
+Futures 2021,Jones A.,Oberleitner N.,,,2,1,04/06/2021
+Futures 2021,Ozernoy D.,Kolganov K.,,,2,0,04/06/2021
+Futures 2021,Novansky M.,Xilas I.,,,2,1,04/06/2021
+Futures 2021,Krainer L.,Ciurletti A.,,,2,0,04/06/2021
+Futures 2021,Skorilas A.,Guberman Y.,,,2,0,04/06/2021
+Futures 2021,Pokorny L.,Cubelic K.,,,2,0,04/06/2021
+Futures 2021,Tryakshin M.,Chepik A.,,,2,0,04/06/2021
+Futures 2021,Vojinovic L.,Sakellaridis M.,,,2,1,04/06/2021
+Futures 2021,Vernier M.,Hubner E.,,,2,1,04/06/2021
+Futures 2021,Kopp S.,Reinberg E.,,,2,0,04/06/2021
+Futures 2021,Gigante M.,Furlanetto M.,,,2,0,04/06/2021
+Futures 2021,Graziani E.,Guttau N.,,,2,0,04/06/2021
+Futures 2021,Prihodko O.,Vilicich B.,,,2,0,04/06/2021
+Futures 2021,Marchetti F.,Pontjodikromo S.,,,2,1,04/06/2021
+Futures 2021,Kim C.,Hellfritsch L.,,,2,1,04/06/2021
+Futures 2021,Gibbens J.,Syrovatskiy O.,,,2,0,04/06/2021
+Futures 2021,Galiev B.,Zaytsev I.,,,2,0,04/06/2021
+Futures 2021,Campo A.,Denisov I.,,,2,1,04/06/2021
+Futures 2021,Braynin A.,Kutybaev S.,,,2,0,04/06/2021
+Futures 2021,Khomich A.,Orso A.,,,2,0,04/06/2021
+Futures 2021,Bertuccioli F.,Urinov I.,,,2,0,04/06/2021
+Cagliari,Bedene A.,Zeppieri G.,,,2,1,04/05/2021
+Cagliari,Hanfmann Y.,Paul T. (8),,,2,1,04/05/2021
+Cagliari,Djere L.,Gaio F.,,,2,0,04/05/2021
+Cagliari,Gerasimov E.,Pella G. (7),,,2,0,04/05/2021
+Marbella,Delbonis F. (8),Carballes Baena R.,,,2,0,04/05/2021
+Marbella,Gombos N.,Londero J.,,,2,1,04/05/2021
+Marbella,Kwon S. (7),Rune H.,,,2,1,04/05/2021
+Marbella,Berankis R.,Pouille L.,,,2,1,04/05/2021
+Split challenger,Rola B. (6),Popko D.,,,2,0,04/05/2021
+Split challenger,Coppejans K. (7),Tomic B.,,,2,1,04/05/2021
+Split challenger,Ymer E.,Muller A.,,,2,0,04/05/2021
+Split challenger,Marterer M.,Domingues J.,,,2,0,04/05/2021
+Split challenger,Petrovic D. (5),Rosol L.,,,2,0,04/05/2021
+Split challenger,Vukic A.,Poljicak M.,,,2,0,04/05/2021
+Split challenger,Collarini A.,Ofner S. (3),,,2,0,04/05/2021
+Oeiras 2 challenger,Moroni G. (5),Molcan A.,,,2,0,04/05/2021
+Oeiras 2 challenger,Borges N.,Couacaud E. (2),,,2,0,04/05/2021
+Oeiras 2 challenger,Guinard M.,Kuhn N. (7),,,2,0,04/05/2021
+Oeiras 2 challenger,Gimeno Valero C.,Ortega-Olmedo R.,,,2,0,04/05/2021
+Oeiras 2 challenger,Kuzmanov D.,Miedler L.,,,2,0,04/05/2021
+UK Pro Series,Maxted L.,Gray J.,,,2,0,04/05/2021
+UK Pro Series,Harris B.,Houghton G.,,,2,1,04/05/2021
+UK Pro Series,Cash J.,Findel-Hawkins J.,,,2,0,04/05/2021
+UK Pro Series,Draper J.,Canter A.,,,2,0,04/05/2021
+UK Pro Series,Matusevich A.,Patten H.,,,2,0,04/05/2021
+UK Pro Series,Weightman O.,Paris J.,,,2,1,04/05/2021
+UTR Pro Match Series,Jachuck R.,Ribeiro Lago E.,,,2,1,04/05/2021
+UTR Pro Match Series,Farren C.,Gomar Monio L.,,,2,0,04/05/2021
+UTR Pro Match Series,Gurmendi A.,Reese H.,,,2,1,04/05/2021
+UTR Pro Match Series,Vashist A.,Shane R.,,,2,0,04/05/2021
+UTR Pro Match Series,Caratini V.,Kessler M.,,,2,1,04/05/2021
+UTR Pro Match Series,Segura M.,Griffith W.,,,2,0,04/05/2021
+UTR Pro Match Series,Krug J.,Byers L.,,,2,1,04/05/2021
+UTR Pro Match Series,King E.,Krug C.,,,2,0,04/05/2021
+UTR Pro Tennis Series 2,Badon J.,Oppenheim N.,,,2,0,04/05/2021
+UTR Pro Tennis Series 2,Gomez J.,Aramburu Contreras I.,,,2,1,04/05/2021
+UTR Pro Tennis Series 2,Patino L.,Evans G.,,,2,0,04/05/2021
+UTR Pro Tennis Series 2,Gomez M.,Doria L.,,,2,1,04/05/2021
+UTR Pro Tennis Series 2,Sanchez M.,Rodriguez Rodriguez J.,,,2,1,04/05/2021
+UTR Pro Tennis Series 2,Panta J.,Van Orderlain D.,,,2,0,04/05/2021
+UTR Pro Tennis Series 2,Brymer G.,De Alencar M.,,,2,0,04/05/2021
+UTR Pro Tennis Series 2,Leite W.,Bynoe E.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Joncour R.,Milushev P.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Donev G.,De La Bassetiere C.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Marie J.,Lescure M.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Lazov A.,Laurent Y.,,,2,1,04/05/2021
+UTR Pro Tennis Series 5,Dimitrov M.,Dzhavakian Y.,,,2,1,04/05/2021
+UTR Pro Tennis Series 5,Snitari I.,Faivre P.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Tatlot J.,Dinev D.,,,2,0,04/05/2021
+UTR Pro Tennis Series 5,Laurent T.,Thanos A.,,,2,0,04/05/2021
+Cagliari,Huesler M. (6),Stebe C. (2),,,1,0,04/05/2021
+Cagliari,Kovalik J. (1),Viola M.,,,2,1,04/05/2021
+Cagliari,Nagal S. (3),Janvier M.,,,2,0,04/05/2021
+Cagliari,Broady L. (8),Rodionov J. (4),,,2,1,04/05/2021
+Futures 2021,Franchini S.,Romano G.,,,2,1,04/05/2021
+Futures 2021,Derdoy F.,Cotler L.,,,2,0,04/05/2021
+Futures 2021,Arias Bisso F.,Aranguren F.,,,2,0,04/05/2021
+Futures 2021,Rodriguez L.,Llanes F.,,,2,0,04/05/2021
+Futures 2021,Saraiva Dos Santos P.,Simonit E.,,,2,1,04/05/2021
+Futures 2021,Cigarran T.,Alarcon B.,,,2,1,04/05/2021
+Futures 2021,Carraro L.,Crespo J.,,,2,0,04/05/2021
+Futures 2021,Aboian V.,Pieckenstainer F.,,,2,0,04/05/2021
+Futures 2021,Gimenez J.,Monferrer E.,,,2,0,04/05/2021
+Futures 2021,Roncadelli F.,Dreycopp I.,,,2,0,04/05/2021
+Futures 2021,Villanueva G.,Berne M.,,,2,0,04/05/2021
+Futures 2021,Aboian L.,Basel V.,,,2,0,04/05/2021
+Futures 2021,Lopez Linquet L.,Mouilleron Salvo M.,,,2,0,04/05/2021
+Futures 2021,Vilaro A.,Marquiselli V.,,,2,0,04/05/2021
+Futures 2021,Mirgone F.,Postay A.,,,2,0,04/05/2021
+Futures 2021,Falabella L.,Hess S.,,,2,0,04/05/2021
+Futures 2021,Pujol Navarro B.,Coelho F.,,,2,1,04/05/2021
+Futures 2021,Ruzgas M.,Kos D.,,,2,0,04/05/2021
+Futures 2021,Naw H.,Faucon R.,,,2,0,04/05/2021
+Futures 2021,Marcondes I.,Van Sambeek F.,,,2,0,04/05/2021
+Futures 2021,Mikula M.,Iradukunda G.,,,2,1,04/05/2021
+Futures 2021,Gadamauri B.,Shvets V.,,,2,1,04/05/2021
+Futures 2021,Colson T.,Steiner M.,,,2,0,04/05/2021
+Futures 2021,Barroso Campos A.,Raynel A.,,,2,0,04/05/2021
+Futures 2021,Jones A.,Kumasaka T.,,,2,1,04/05/2021
+Futures 2021,Mikhaylyuk I.,Calderara A.,,,1,0,04/05/2021
+Futures 2021,Oberleitner N.,Troche E.,,,2,0,04/05/2021
+Futures 2021,Skorilas A.,Clark M.,,,2,0,04/05/2021
+Futures 2021,Glinka D.,Steinegger Y.,,,2,0,04/05/2021
+Futures 2021,Beloborodko I.,Vasilenko A.,,,1,0,04/05/2021
+Futures 2021,Cubelic K.,Cabrera Bello I.,,,2,1,04/05/2021
+Futures 2021,Dellavedova M.,Strestian Stamati M.,,,2,0,04/05/2021
+Futures 2021,Rottoli L.,Palovic L.,,,2,0,04/05/2021
+Futures 2021,Hodkin S.,Jermar J.,,,2,0,04/05/2021
+Futures 2021,Braynin A.,Nelich A.,,,2,0,04/05/2021
+Futures 2021,Kos D.,Roglan A.,,,1,0,04/05/2021
+Futures 2021,Pujol Navarro B.,Martinez M.,,,2,0,04/05/2021
+Futures 2021,Naw H.,Dermiens G.,,,2,0,04/05/2021
+Futures 2021,Van Sambeek F.,Hellum Lilleengen L.,,,2,0,04/05/2021
+Futures 2021,Faucon R.,Van Assendelft J.,,,2,1,04/05/2021
+Futures 2021,Ruzgas M.,Fantini L.,,,2,1,04/05/2021
+Futures 2021,Coelho F.,Allen L.,,,2,0,04/05/2021
+Futures 2021,Marcondes I.,Matuszewski P.,,,2,0,04/05/2021
+Futures 2021,Zaytsev I.,Konovalov R.,,,2,0,04/05/2021
+Futures 2021,Spec M.,Bittoun Kouzmine C.,,,2,0,04/05/2021
+Futures 2021,Nedelko I.,Borisiouk M.,,,2,0,04/05/2021
+Futures 2021,Denisov I.,Rakhmatullayev D.,,,2,0,04/05/2021
+Futures 2021,Ratniuk M.,Kiuamov T.,,,2,1,04/05/2021
+Futures 2021,Iradukunda G.,Carlsson Halldin L.,,,2,1,04/05/2021
+Futures 2021,Steiner M.,Ayral C.,,,2,0,04/05/2021
+Futures 2021,Gadamauri B.,Alkotop M.,,,2,0,04/05/2021
+Futures 2021,Colson T.,Sinclair C.,,,2,1,04/05/2021
+Futures 2021,Raynel A.,Tepmahc N.,,,2,0,04/05/2021
+Futures 2021,Shvets V.,Kountourakis I.,,,2,1,04/05/2021
+Futures 2021,Barroso Campos A.,Elamin A.,,,2,0,04/05/2021
+Futures 2021,Mikula M.,Rojas O.,,,2,0,04/05/2021
+Futures 2021,Xilas I.,Kasemi K.,,,1,0,04/05/2021
+Futures 2021,Ciurletti A.,Luria E.,,,2,0,04/05/2021
+Futures 2021,Krainer L.,Bataljin L.,,,2,0,04/05/2021
+Futures 2021,Cox D.,Ogura K.,,,2,0,04/05/2021
+Futures 2021,Guberman Y.,Bronka A.,,,2,0,04/05/2021
+Futures 2021,Uzhylovsky V.,Park D.,,,2,0,04/05/2021
+Futures 2021,Novansky M.,Khotkov O.,,,2,0,04/05/2021
+Futures 2021,Pokorny L.,Chikami S.,,,2,0,04/05/2021
+Futures 2021,Campo A.,Pawlak P.,,,2,0,04/05/2021
+Futures 2021,Felline G.,Furlanetto M.,0,1,,,04/05/2021
+Futures 2021,Marchetti F.,Moghini G.,,,2,1,04/05/2021
+Futures 2021,Kopp S.,Ben Abdennibi S.,,,2,1,04/05/2021
+Futures 2021,Vilicich B.,Alimli M.,,,2,0,04/05/2021
+Futures 2021,Vojinovic L.,Turchetti N.,,,2,0,04/05/2021
+Futures 2021,Furlanetto M.,Martinez L.,,,2,0,04/05/2021
+Futures 2021,Gigante M.,Albertoni D.,,,2,1,04/05/2021
+Futures 2021,Reinberg E.,Oh S.,,,2,0,04/05/2021
+Futures 2021,Guttau N.,Lanik T.,,,2,0,04/05/2021
+Futures 2021,Graziani E.,Bielinskyi V.,,,2,0,04/05/2021
+Futures 2021,Binda A.,Sheyngezikht L.,,,2,0,04/05/2021
+Futures 2021,Sakellaridis M.,De Rossi M.,,,2,1,04/05/2021
+Futures 2021,Prihodko O.,Villoslada E.,,,2,0,04/05/2021
+Futures 2021,Hellfritsch L.,Dell'elba V.,,,2,0,04/05/2021
+Futures 2021,Vernier M.,Veremeychuk D.,,,2,0,04/05/2021
+Futures 2021,Kim C.,Graf D.,,,2,0,04/05/2021
+Futures 2021,Pontjodikromo S.,Wassermann D.,,,2,0,04/05/2021
+Futures 2021,Ozernoy D.,Chernomaz A.,,,2,0,04/05/2021
+Futures 2021,Hubner E.,Yamanaka T.,,,2,1,04/05/2021
+Futures 2021,Agabigun S.,Trunov I.,,,2,0,04/05/2021
+Futures 2021,Erel Y.,Recek D.,,,2,0,04/05/2021
+Futures 2021,Galiev B.,Murat Y.,,,2,0,04/05/2021
+Futures 2021,Kutybaev S.,Karakayev A.,,,2,0,04/05/2021
+Futures 2021,Kolganov K.,Abzalov S.,,,2,0,04/05/2021
+Futures 2021,Bertuccioli F.,Bayseit S.,,,2,0,04/05/2021
+Futures 2021,Syrovatskiy O.,Makhmudov D.,,,2,0,04/05/2021
+Futures 2021,Orso A.,Galfinger R.,,,2,0,04/05/2021
+Futures 2021,Tryakshin M.,Sidorov N.,,,2,0,04/05/2021
+Futures 2021,Chepik A.,Yerdilda Y.,,,2,0,04/05/2021
+Futures 2021,Gibbens J.,Mikkelsen F.,,,2,0,04/05/2021
+Marbella,Milojevic N. (6),Diez S.,,,2,0,04/05/2021
+Marbella,Vilella Martinez M.,Gomez-Herrera C.,,,2,1,04/05/2021
+Marbella,Zapata Miralles B. (5),Donskoy E. (1),,,2,0,04/05/2021
+Marbella,Laaksonen H. (4),Giustino L. (8),,,2,1,04/05/2021
+Oeiras 2 challenger,Cachin P. (5),Rocha H.,,,2,1,04/05/2021
+Oeiras 2 challenger,Furness E. (3),Faria L.,,,2,0,04/05/2021
+Oeiras 2 challenger,Andreev A. (8),Jianu F.,,,1,0,04/05/2021
+Oeiras 2 challenger,Brancaccio R. (6),Vatutin A. (1),,,1,0,04/05/2021
+Split challenger,Basic M. (5),Klein L. (4),,,2,0,04/05/2021
+Split challenger,Santillan A. (3),Zekic M.,,,2,1,04/05/2021
+Split challenger,Kavcic B. (1),Martineau M.,,,2,1,04/05/2021
+Split challenger,Ignatik U. (7),Wu T. (2),,,2,0,04/05/2021
+Miami,Hurkacz H. (26),Sinner J. (21),,,2,0,04/04/2021
+Marbella challenger,Mager G. (4),Munar J. (3),,,2,1,04/04/2021
+Oeiras challenger,Kolar Z. (8),Elias G.,,,2,0,04/04/2021
+Futures 2021,Van Rijthoven T.,Lehecka J.,,,2,0,04/04/2021
+Futures 2021,Kicker N.,Ugo Carabelli C.,,,2,0,04/04/2021
+Futures 2021,Dougaz A.,Agamenone F.,,,2,0,04/04/2021
+Futures 2021,Chrysochos P.,Bellucci M.,,,2,0,04/04/2021
+Futures 2021,Hong S.,Fayziev S.,,,2,0,04/04/2021
+Futures 2021,Kaliyanda Poonacha N.,Crawford O.,,,2,0,04/04/2021
+UTR Pro Tennis Series 2,Gomez M.,Badon J.,,,2,1,04/04/2021
+UTR Pro Tennis Series 2,Brymer G.,Patino L.,,,2,1,04/04/2021
+UTR Pro Tennis Series 2,Corwin F.,Leite W.,,,2,1,04/04/2021
+UTR Pro Tennis Series 2,Gomez J.,Doria L.,,,2,1,04/04/2021
+UTR Pro Tennis Series 5,Dzhavakian Y.,Ivanov S.,,,2,0,04/04/2021
+UTR Pro Tennis Series 5,Snitari I.,Dinev D.,,,2,0,04/04/2021
+UTR Pro Tennis Series 5,Dima D.,Madarasz G.,,,2,0,04/04/2021
+UTR Pro Tennis Series 5,Marie J.,Tatlot J.,,,2,0,04/04/2021
+UTR Pro Tennis Series 5,Faivre P.,Joncour R.,,,2,0,04/04/2021
+Cagliari,Huesler M. (6),Gabashvili T.,,,2,0,04/04/2021
+Cagliari,Stebe C. (2),Ebden M.,,,2,0,04/04/2021
+Cagliari,Viola M.,Nakashima B. (5),,,2,1,04/04/2021
+Cagliari,Kovalik J. (1),Jaziri M.,,,2,0,04/04/2021
+Cagliari,Rodionov J. (4),Forti F.,,,2,0,04/04/2021
+Cagliari,Nagal S. (3),Pellegrino A.,,,2,0,04/04/2021
+Cagliari,Janvier M.,Cressy M. (7),,,2,0,04/04/2021
+Cagliari,Broady L. (8),Berrettini J.,,,2,0,04/04/2021
+Futures 2021,Aboian L.,La Serna J.,,,2,0,04/04/2021
+Futures 2021,Basel V.,Elias Hanni F.,,,2,0,04/04/2021
+Futures 2021,Falabella L.,Lema N.,,,2,0,04/04/2021
+Futures 2021,Hess S.,Gay F.,,,2,1,04/04/2021
+Futures 2021,Llanes F.,Bianchi N.,,,2,1,04/04/2021
+Futures 2021,Berne M.,Delnido M.,,,2,1,04/04/2021
+Futures 2021,Alarcon B.,Riva M.,,,2,1,04/04/2021
+Futures 2021,Villanueva G.,Fagotti E.,,,2,0,04/04/2021
+Futures 2021,Lopez Linquet L.,Branc M.,,,2,0,04/04/2021
+Futures 2021,Derdoy F.,Boero S.,,,2,0,04/04/2021
+Futures 2021,Marquiselli V.,Faigenbaum F.,,,2,0,04/04/2021
+Futures 2021,Cotler L.,Manfredi I.,,,2,1,04/04/2021
+Futures 2021,Rodriguez L.,Djinbachian E.,,,2,0,04/04/2021
+Futures 2021,Cigarran T.,Gomez Corrales J.,,,2,0,04/04/2021
+Futures 2021,Mouilleron Salvo M.,Ambrogi L.,,,2,0,04/04/2021
+Futures 2021,Trunov I.,Zgirovsky A.,,,2,1,04/04/2021
+Futures 2021,Nedelko I.,Pogosian S.,,,2,0,04/04/2021
+Futures 2021,Recek D.,Liaonenka A.,,,2,0,04/04/2021
+Futures 2021,Raynel A.,De Carvalho V.,,,2,0,04/04/2021
+Futures 2021,Coelho F.,Agostinetto G.,,,2,0,04/04/2021
+Futures 2021,Saraiva Dos Santos P.,Burruchaga R.,,,2,1,04/04/2021
+Futures 2021,Postay A.,Hollender N.,,,2,0,04/04/2021
+Futures 2021,Cox D.,Schubert H.,,,2,0,04/04/2021
+Futures 2021,Gimenez J.,Helguera S.,,,2,0,04/04/2021
+Futures 2021,Bataljin L.,Makzoume Y.,,,2,0,04/04/2021
+Futures 2021,Aboian V.,Delucchi I.,,,2,0,04/04/2021
+Futures 2021,Aranguren F.,De Dios F.,,,2,0,04/04/2021
+Futures 2021,Pieckenstainer F.,Abasto P.,,,2,0,04/04/2021
+Futures 2021,Monferrer E.,Karakachian G.,,,2,0,04/04/2021
+Futures 2021,Franchini S.,Martinez Irigoyen A.,,,2,0,04/04/2021
+Futures 2021,Calderara A.,Palm B.,,,2,0,04/04/2021
+Futures 2021,Crespo J.,Martinez T.,,,2,1,04/04/2021
+Futures 2021,Vilaro A.,Greco V.,,,2,0,04/04/2021
+Futures 2021,Mirgone F.,Goity Zapico S.,,,2,0,04/04/2021
+Futures 2021,Carraro L.,De Pellegrin V.,,,2,0,04/04/2021
+Futures 2021,Roncadelli F.,Bruna N.,,,2,0,04/04/2021
+Futures 2021,Romano G.,Bruna E.,,,2,1,04/04/2021
+Futures 2021,Arias Bisso F.,Serrano B.,,,2,1,04/04/2021
+Futures 2021,Simonit E.,Savu G.,,,2,0,04/04/2021
+Futures 2021,Dreycopp I.,Gaggiofatto T.,,,2,0,04/04/2021
+Futures 2021,Clark M.,Stone Z.,,,2,1,04/04/2021
+Futures 2021,Bittoun Kouzmine C.,Angele J.,,,2,1,04/04/2021
+Futures 2021,Sheyngezikht L.,Ayeni A.,,,2,0,04/04/2021
+Futures 2021,Kiuamov T.,Stepin A.,,,2,0,04/04/2021
+Futures 2021,Kos D.,Presuhn B.,,,2,1,04/04/2021
+Futures 2021,Van Sambeek F.,Yunis F.,,,2,1,04/04/2021
+Futures 2021,Pujol Navarro B.,Delic U.,,,2,0,04/04/2021
+Futures 2021,Fantini L.,Duncan D.,,,2,0,04/04/2021
+Futures 2021,Roglan A.,Hamza Reguig S.,,,2,0,04/04/2021
+Futures 2021,Hellum Lilleengen L.,Hatamleh K.,,,2,0,04/04/2021
+Futures 2021,Ruzgas M.,Sibille I.,,,2,0,04/04/2021
+Futures 2021,Martinez M.,Suntic S.,,,2,0,04/04/2021
+Futures 2021,Kasemi K.,Mania M.,,,2,1,04/04/2021
+Futures 2021,Vasilenko A.,Gurevich V.,,,2,0,04/04/2021
+Futures 2021,Rottoli L.,Lane L.,,,2,0,04/04/2021
+Futures 2021,Strestian Stamati M.,Kravchenko P.,,,2,0,04/04/2021
+Futures 2021,Park D.,Vasiliauskas M.,,,2,1,04/04/2021
+Futures 2021,Steinegger Y.,Noskin E.,,,2,0,04/04/2021
+Futures 2021,Van Assendelft J.,Roberts J.,,,2,0,04/04/2021
+Futures 2021,Allen L.,Ventre A.,,,2,1,04/04/2021
+Futures 2021,Tepmahc N.,Krajcik A.,,,2,0,04/04/2021
+Futures 2021,Dermiens G.,Puskar S.,,,2,0,04/04/2021
+Futures 2021,Matuszewski P.,Pereira M.,,,2,0,04/04/2021
+Futures 2021,Naw H.,Ajavon L.,,,2,0,04/04/2021
+Futures 2021,Faucon R.,Tailleu P.,,,2,0,04/04/2021
+Futures 2021,Marcondes I.,Calzi R.,,,2,0,04/04/2021
+Futures 2021,Glinka D.,Pecak S.,,,2,0,04/04/2021
+Futures 2021,Moghini G.,Stevens B.,,,2,1,04/04/2021
+Futures 2021,Gigante M.,Rohrer N.,,,2,0,04/04/2021
+Futures 2021,De Rossi M.,La Vela G.,,,2,0,04/04/2021
+Futures 2021,Villoslada E.,Peters F.,,,2,0,04/04/2021
+Futures 2021,Hellfritsch L.,Fekete J.,,,2,0,04/04/2021
+Futures 2021,Agabigun S.,Kozyrev K.,,,2,0,04/04/2021
+Futures 2021,Jones A.,Markovski O.,,,2,0,04/04/2021
+Futures 2021,Chikami S.,Nashatyrkin R.,,,2,0,04/04/2021
+Futures 2021,Gadamauri B.,Siddiqui A.,,,2,0,04/04/2021
+Futures 2021,Alkotop M.,Zhuk U.,,,2,0,04/04/2021
+Futures 2021,Cabrera Bello I.,Svanidze M.,,,2,0,04/04/2021
+Futures 2021,Xilas I.,Fouzas C.,,,2,0,04/04/2021
+Futures 2021,Spec M.,Voronin S.,,,2,0,04/04/2021
+Futures 2021,Barroso Campos A.,Duquesne G.,,,2,0,04/04/2021
+Futures 2021,Sinclair C.,Rivera L.,,,2,1,04/04/2021
+Futures 2021,Elamin A.,Immler K.,,,2,0,04/04/2021
+Futures 2021,Mikula M.,Castelletti L.,,,2,0,04/04/2021
+Futures 2021,Kountourakis I.,Yitbarek S.,,,2,1,04/04/2021
+Futures 2021,Shvets V.,Heaney-Secord C.,,,2,0,04/04/2021
+Futures 2021,Erel Y.,Alkaya M.,,,2,0,04/04/2021
+Futures 2021,Binda A.,Smits G.,,,2,1,04/04/2021
+Futures 2021,Steiner M.,Mishkin K.,,,2,0,04/04/2021
+Futures 2021,Carlsson Halldin L.,Ichikawa S.,,,2,0,04/04/2021
+Futures 2021,Guberman Y.,Day L.,,,2,0,04/04/2021
+Futures 2021,Colson T.,Marinovic F.,,,2,0,04/04/2021
+Futures 2021,Ayral C.,Genier T.,,,2,1,04/04/2021
+Futures 2021,Iradukunda G.,Maassen G.,,,2,0,04/04/2021
+Futures 2021,Rojas O.,Wojcik Y.,,,2,1,04/04/2021
+Futures 2021,Jermar J.,Gabay S.,,,2,0,04/04/2021
+Futures 2021,Pokorny L.,Caripi V.,,,2,0,04/04/2021
+Futures 2021,Luria E.,Seely S.,,,2,0,04/04/2021
+Futures 2021,Troche E.,Yeshaya O.,,,2,0,04/04/2021
+Futures 2021,Mikhaylyuk I.,Stefani Figlia B.,,,2,0,04/04/2021
+Futures 2021,Novansky M.,Galik M.,,,2,1,04/04/2021
+Futures 2021,Beloborodko I.,Shchaya-Zubrov P.,,,2,0,04/04/2021
+Futures 2021,Borisiouk M.,Minin M.,,,2,0,04/04/2021
+Futures 2021,Ratniuk M.,Starostin M.,,,2,0,04/04/2021
+Futures 2021,Bielinskyi V.,Mansilla Diez M.,,,2,1,04/04/2021
+Futures 2021,Vernier M.,Parizzia N.,,,2,1,04/04/2021
+Futures 2021,Marchetti F.,Neverov M.,,,2,0,04/04/2021
+Futures 2021,Veremeychuk D.,Gusev D.,,,2,0,04/04/2021
+Futures 2021,Kim C.,Balci O.,,,2,0,04/04/2021
+Futures 2021,Pontjodikromo S.,Malgiaritta M.,,,2,0,04/04/2021
+Futures 2021,Furlanetto M.,Hermans M.,,,2,0,04/04/2021
+Futures 2021,Graziani E.,Arabaci M.,,,2,0,04/04/2021
+Futures 2021,Hubner E.,Savelev D.,,,2,0,04/04/2021
+Futures 2021,Sakellaridis M.,Karimov A.,,,2,0,04/04/2021
+Futures 2021,Ben Abdennibi S.,Mazza M.,,,2,0,04/04/2021
+Futures 2021,Turchetti N.,Piquerez H.,,,2,0,04/04/2021
+Futures 2021,Lanik T.,Larwig N.,,,2,0,04/04/2021
+Futures 2021,Guttau N.,Hopp M.,,,2,0,04/04/2021
+Futures 2021,Oh S.,Sakellaridis S.,,,2,0,04/04/2021
+Futures 2021,Kopp S.,Benedict L.,,,2,0,04/04/2021
+Futures 2021,Albertoni D.,Link J.,,,2,0,04/04/2021
+Futures 2021,Vilicich B.,Vanta V.,,,2,1,04/04/2021
+Futures 2021,Graf D.,Poritzky E.,,,2,1,04/04/2021
+Futures 2021,Wassermann D.,Matvievici E.,,,2,0,04/04/2021
+Futures 2021,Alimli M.,Tasenkov V.,,,2,0,04/04/2021
+Futures 2021,Prihodko O.,Minarik K.,,,2,0,04/04/2021
+Futures 2021,Vojinovic L.,Sveridenko V.,,,2,0,04/04/2021
+Futures 2021,Yamanaka T.,Moller E.,,,2,0,04/04/2021
+Futures 2021,Reinberg E.,Djuric B.,,,2,0,04/04/2021
+Futures 2021,Felline G.,Martinez L.,,,2,0,04/04/2021
+Futures 2021,Dell'elba V.,Borroni A.,,,2,0,04/04/2021
+Marbella,Vilella Martinez M.,Hoang A. (3),,,2,0,04/04/2021
+Marbella,Gomez-Herrera C.,Klizan M. (7),,,2,0,04/04/2021
+Marbella,Milojevic N. (6),Giannessi A.,,,1,0,04/04/2021
+Marbella,Donskoy E. (1),Borg L.,,,2,0,04/04/2021
+Marbella,Zapata Miralles B. (5),Gulbis E.,,,2,0,04/04/2021
+Marbella,Diez S.,Gojowczyk P. (2),,,2,0,04/04/2021
+Marbella,Laaksonen H. (4),Safiullin R.,,,2,1,04/04/2021
+Marbella,Giustino L. (8),Marcora R.,,,2,0,04/04/2021
+Oeiras 2 challenger,Rocha H.,Chappell N. (4),,,2,0,04/04/2021
+Oeiras 2 challenger,Brancaccio R. (6),Gomes M.,,,2,0,04/04/2021
+Oeiras 2 challenger,Furness E. (3),Yevseyev D.,,,2,1,04/04/2021
+Oeiras 2 challenger,Vatutin A. (1),Slobodshikov R.,,,2,0,04/04/2021
+Oeiras 2 challenger,Cachin P. (5),Heyman C.,,,2,0,04/04/2021
+Oeiras 2 challenger,Andreev A. (8),Esteve Lobato E.,,,2,0,04/04/2021
+Oeiras 2 challenger,Faria L.,Orlov V. (7),,,2,0,04/04/2021
+Oeiras 2 challenger,Jianu F.,Uchida K. (2),,,2,0,04/04/2021
+Split challenger,Klein L. (4),Brkic J.,,,2,0,04/04/2021
+Split challenger,Basic M. (5),Doumbia S.,,,2,0,04/04/2021
+Split challenger,Santillan A. (3),Wang T.,,,2,1,04/04/2021
+Split challenger,Martineau M.,Pecotic M. (6),,,2,1,04/04/2021
+Split challenger,Zekic M.,Fatic N. (8),,,2,1,04/04/2021
+Split challenger,Ignatik U. (7),Veldheer M.,,,2,0,04/04/2021
+Split challenger,Wu T. (2),Mikrut L.,,,2,0,04/04/2021
+Split challenger,Kavcic B. (1),Barun B.,,,2,0,04/04/2021
+Miami,Hurkacz H. (26),Rublev A. (4),,,2,0,04/03/2021
+Marbella challenger,Munar J. (3),Vilella Martinez M.,,,2,0,04/03/2021
+Marbella challenger,Mager G. (4),Giannessi A.,,,2,1,04/03/2021
+Oeiras challenger,Elias G.,Furness E.,,,2,0,04/03/2021
+Oeiras challenger,Kolar Z. (8),Trungelliti M.,,,2,0,04/03/2021
+Futures 2021,Lehecka J.,Ehrat S.,,,2,0,04/03/2021
+Futures 2021,Van Rijthoven T.,Virtanen O.,,,2,0,04/03/2021
+Futures 2021,Kicker N.,Casanova H.,,,2,0,04/03/2021
+Futures 2021,Ugo Carabelli C.,Rodriguez Taverna S.,,,2,1,04/03/2021
+Futures 2021,Dougaz A.,Potenza L.,,,2,0,04/03/2021
+Futures 2021,Agamenone F.,Marcondes I.,,,2,0,04/03/2021
+Futures 2021,Hong S.,Hassan B.,,,2,1,04/03/2021
+Futures 2021,Fayziev S.,Martin Tiffon P.,,,2,0,04/03/2021
+Futures 2021,Chrysochos P.,Bega A.,,,2,0,04/03/2021
+Futures 2021,Bellucci M.,Nijboer R.,,,2,0,04/03/2021
+Futures 2021,Kaliyanda Poonacha N.,Svrcina D.,,,1,0,04/03/2021
+Futures 2021,Crawford O.,Carr S.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Badon J.,Sanchez M.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Doria L.,Rodriguez Rodriguez J.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Gomez J.,Boyer D.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Leite W.,Ansari A.,,,1,0,04/03/2021
+UTR Pro Tennis Series 2,Brymer G.,Hernandez Serrano J.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Sheehy J.,Van Orderlain D.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Corwin F.,Evans G.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Patino L.,Panta J.,,,2,0,04/03/2021
+UTR Pro Tennis Series 2,Foster Z.,Aramburu Contreras I.,,,2,1,04/03/2021
+UTR Pro Tennis Series 5,Dinev D.,Lazov A.,,,2,0,04/03/2021
+UTR Pro Tennis Series 5,Ivanov S.,Dimitrov M.,,,2,1,04/03/2021
+UTR Pro Tennis Series 5,Tatlot J.,Laurent T.,,,2,0,04/03/2021
+UTR Pro Tennis Series 5,Marie J.,Terziev S.,,,2,0,04/03/2021
+UTR Pro Tennis Series 5,Faivre P.,Prodanov D.,,,2,0,04/03/2021
+UTR Pro Tennis Series 5,Dima D.,Bouquet L.,,,2,0,04/03/2021
+UTR Pro Tennis Series 5,Vanshelboim E.,Madarasz G.,,,1,0,04/03/2021
+UTR Pro Tennis Series 5,Snitari I.,Thanos A.,,,1,0,04/03/2021
+UTR Pro Tennis Series 5,Joncour R.,Meraut T.,,,2,0,04/03/2021
+Miami,Sinner J. (21),Bautista-Agut R. (7),,,2,1,04/02/2021
+Miami,Rublev A. (4),Korda S.,,,2,0,04/02/2021
+Marbella challenger,Munar J. (3),Daniel T. (6),,,2,1,04/02/2021
+Marbella challenger,Vilella Martinez M.,Milojevic N.,,,2,0,04/02/2021
+Marbella challenger,Giannessi A.,Klizan M.,,,2,0,04/02/2021
+Marbella challenger,Mager G. (4),Marcora R.,,,2,1,04/02/2021
+Oeiras challenger,Elias G.,Molcan A.,,,2,0,04/02/2021
+Oeiras challenger,Furness E.,Brancaccio R.,,,2,1,04/02/2021
+Oeiras challenger,Trungelliti M.,Sijsling I.,,,2,0,04/02/2021
+Oeiras challenger,Kolar Z. (8),Cacao T.,,,2,0,04/02/2021
+Futures 2021,Virtanen O.,Escoffier A.,,,1,0,04/02/2021
+Futures 2021,Ehrat S.,Added D.,,,2,0,04/02/2021
+Futures 2021,Lehecka J.,Gautier A.,,,2,1,04/02/2021
+Futures 2021,Van Rijthoven T.,Cazaux A.,,,2,0,04/02/2021
+Futures 2021,Ugo Carabelli C.,Huertas Del Pino C.,,,2,0,04/02/2021
+Futures 2021,Rodriguez Taverna S.,Lama G.,,,2,0,04/02/2021
+Futures 2021,Casanova H.,Kestelboim M.,,,2,1,04/02/2021
+Futures 2021,Kicker N.,Pucinelli De Almeida M.,,,2,1,04/02/2021
+Futures 2021,Martin Tiffon P.,Madaras D.,,,2,0,04/02/2021
+Futures 2021,Fayziev S.,Gigante M.,,,2,0,04/02/2021
+Futures 2021,Marcondes I.,Avidzba A.,,,2,0,04/02/2021
+Futures 2021,Potenza L.,Shimabukuro S.,,,2,0,04/02/2021
+Futures 2021,Chrysochos P.,Setkic A.,,,2,0,04/02/2021
+Futures 2021,Hong S.,Llamas Ruiz P.,,,2,1,04/02/2021
+Futures 2021,Dougaz A.,Alves M.,,,2,1,04/02/2021
+Futures 2021,Agamenone F.,Barroso Campos A.,,,2,0,04/02/2021
+Futures 2021,Hassan B.,Cobolli F.,,,2,0,04/02/2021
+Futures 2021,Nijboer R.,Poljak D.,,,2,1,04/02/2021
+Futures 2021,Bellucci M.,Ochi M.,,,2,0,04/02/2021
+Futures 2021,Bega A.,Jubb P.,,,2,0,04/02/2021
+Futures 2021,Svrcina D.,McHugh A.,,,2,1,04/02/2021
+Futures 2021,Carr S.,Velcz Z.,,,2,1,04/02/2021
+Futures 2021,Crawford O.,Kotzen A.,,,2,0,04/02/2021
+Futures 2021,Kaliyanda Poonacha N.,Bocchi L.,,,2,1,04/02/2021
+UTR Pro Tennis Series 2,Leite W.,Badon J.,,,2,0,04/02/2021
+UTR Pro Tennis Series 2,Aramburu Contreras I.,Sanchez M.,,,2,0,04/02/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Foster Z.,,,2,0,04/02/2021
+UTR Pro Tennis Series 2,Van Orderlain D.,Gomez M.,,,2,1,04/02/2021
+UTR Pro Tennis Series 2,Ansari A.,Doria L.,,,2,0,04/02/2021
+UTR Pro Tennis Series 2,Brymer G.,Gomez J.,,,2,0,04/02/2021
+UTR Pro Tennis Series 2,Evans G.,Boyer D.,,,2,1,04/02/2021
+UTR Pro Tennis Series 2,Panta J.,Corwin F.,,,2,1,04/02/2021
+UTR Pro Tennis Series 5,Vanshelboim E.,Dimitrov M.,,,2,0,04/02/2021
+UTR Pro Tennis Series 5,Marie J.,Prodanov D.,,,2,0,04/02/2021
+UTR Pro Tennis Series 5,Lazov A.,Joncour R.,,,2,0,04/02/2021
+UTR Pro Tennis Series 5,Bouquet L.,Thanos A.,,,2,1,04/02/2021
+UTR Pro Tennis Series 5,Dinev D.,Ivanov S.,,,2,0,04/02/2021
+UTR Pro Tennis Series 5,Snitari I.,Terziev S.,,,2,0,04/02/2021
+UTR Pro Tennis Series 5,Dzhavakian Y.,Madarasz G.,,,2,1,04/02/2021
+Miami,Hurkacz H. (26),Tsitsipas S. (2),,,2,1,04/01/2021
+Miami,Bautista-Agut R. (7),Medvedev D. (1),,,2,0,04/01/2021
+Marbella challenger,Munar J. (3),Kopriva V.,,,2,0,04/01/2021
+Marbella challenger,Milojevic N.,Janvier M.,,,2,0,04/01/2021
+Marbella challenger,Vilella Martinez M.,Dzumhur D. (7),,,2,0,04/01/2021
+Marbella challenger,Daniel T. (6),Gomez-Herrera C.,,,2,0,04/01/2021
+Oeiras challenger,Elias G.,Ortega-Olmedo R.,,,2,1,04/01/2021
+Oeiras challenger,Molcan A.,Serdarusic N.,,,2,0,04/01/2021
+Oeiras challenger,Cacao T.,Moraing M.,,,2,1,04/01/2021
+Oeiras challenger,Kolar Z. (8),Miedler L.,,,2,0,04/01/2021
+Futures 2021,Added D.,Leshem E.,,,2,1,04/01/2021
+Futures 2021,Gautier A.,Karlovskiy E.,,,2,0,04/01/2021
+Futures 2021,Ehrat S.,Sels J.,,,2,1,04/01/2021
+Futures 2021,Van Rijthoven T.,Riedi L.,,,2,1,04/01/2021
+Futures 2021,Escoffier A.,Clarke J.,,,2,1,04/01/2021
+Futures 2021,Lehecka J.,Kalenichenko D.,,,2,0,04/01/2021
+Futures 2021,Cazaux A.,Kym J.,,,2,0,04/01/2021
+Futures 2021,Virtanen O.,Vrbensky M.,,,2,0,04/01/2021
+Futures 2021,Lama G.,Torres J.,,,2,1,04/01/2021
+Futures 2021,Kestelboim M.,Dhoe B.,,,2,0,04/01/2021
+Futures 2021,Pucinelli De Almeida M.,Villanueva G.,,,2,0,04/01/2021
+Futures 2021,Ugo Carabelli C.,Marquiselli V.,,,2,0,04/01/2021
+Futures 2021,Casanova H.,Lipovsek Puches T.,,,2,0,04/01/2021
+Futures 2021,Kicker N.,Lingua Lavallen A.,,,2,0,04/01/2021
+Futures 2021,Huertas Del Pino C.,Reis Da Silva J.,,,2,0,04/01/2021
+Futures 2021,Rodriguez Taverna S.,Llanes F.,,,2,0,04/01/2021
+Futures 2021,Alves M.,Onclin G.,,,2,1,04/01/2021
+Futures 2021,Marcondes I.,Barrena A.,,,2,1,04/01/2021
+Futures 2021,Dougaz A.,Klier Junior G.,,,2,0,04/01/2021
+Futures 2021,Jubb P.,Moreno De Alboran N.,,,2,0,04/01/2021
+Futures 2021,Agamenone F.,Melnic V.,,,2,0,04/01/2021
+Futures 2021,Chrysochos P.,Roncalli S.,,,2,0,04/01/2021
+Futures 2021,Bega A.,Niki T.,,,2,0,04/01/2021
+Futures 2021,Nijboer R.,Malgaroli L.,,,2,0,04/01/2021
+Futures 2021,Barroso Campos A.,Zhu E.,,,2,0,04/01/2021
+Futures 2021,Avidzba A.,Langmo C.,,,2,1,04/01/2021
+Futures 2021,Shimabukuro S.,Kasnikowski M.,,,2,1,04/01/2021
+Futures 2021,Martin Tiffon P.,Houkes M.,,,2,0,04/01/2021
+Futures 2021,Potenza L.,Roberts J.,,,2,0,04/01/2021
+Futures 2021,Bellucci M.,Chikami S.,,,2,0,04/01/2021
+Futures 2021,Poljak D.,Loffhagen G.,,,1,0,04/01/2021
+Futures 2021,Setkic A.,Johnson L.,,,2,0,04/01/2021
+Futures 2021,Ochi M.,Vilardo F.,,,2,0,04/01/2021
+Futures 2021,Fayziev S.,Ilhan M.,,,2,1,04/01/2021
+Futures 2021,Madaras D.,Michalski D.,,,2,0,04/01/2021
+Futures 2021,Llamas Ruiz P.,Barreto Sanchez D.,,,2,0,04/01/2021
+Futures 2021,Hassan B.,Vernier M.,,,2,0,04/01/2021
+Futures 2021,Cobolli F.,Vilicich B.,,,2,0,04/01/2021
+Futures 2021,Hong S.,Yamanaka T.,,,2,1,04/01/2021
+Futures 2021,Gigante M.,Bobrov B.,,,2,0,04/01/2021
+Futures 2021,McHugh A.,Sinha N.,,,2,1,04/01/2021
+Futures 2021,Kotzen A.,Kadhe A.,,,2,0,04/01/2021
+Futures 2021,Velcz Z.,Sureshkumar M.,,,2,0,04/01/2021
+Futures 2021,Carr S.,Brugnerotto M.,,,2,0,04/01/2021
+Futures 2021,Bocchi L.,Castelnuovo L.,,,1,0,04/01/2021
+Futures 2021,Svrcina D.,Mridha J.,,,2,0,04/01/2021
+Futures 2021,Kaliyanda Poonacha N.,Bergevi F.,,,2,0,04/01/2021
+Futures 2021,Crawford O.,Qamar F.,,,2,0,04/01/2021
+Futures 2021,Kicker N.,Carou I.,,,2,0,04/01/2021
+UTR Pro Tennis Series 2,Gomez J.,Badon J.,,,2,0,04/01/2021
+UTR Pro Tennis Series 2,Rodriguez Rodriguez J.,Gomez M.,,,2,0,04/01/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Sullivan C.,,,2,0,04/01/2021
+UTR Pro Tennis Series 2,Sanchez M.,Ansari A.,,,2,1,04/01/2021
+UTR Pro Tennis Series 2,Leite W.,Sheehy J.,,,2,1,04/01/2021
+UTR Pro Tennis Series 2,Boyer D.,Foster Z.,,,2,1,04/01/2021
+UTR Pro Tennis Series 2,Panta J.,Van Orderlain D.,,,2,0,04/01/2021
+UTR Pro Tennis Series 2,Patino L.,Doria L.,,,2,0,04/01/2021
+UTR Pro Tennis Series 5,Genov A.,Milushev P.,,,1,0,04/01/2021
+UTR Pro Tennis Series 5,Bouquet L.,Marie J.,,,2,1,04/01/2021
+UTR Pro Tennis Series 5,Lazov A.,Dimitrov M.,,,2,0,04/01/2021
+UTR Pro Tennis Series 5,Terziev S.,Dzhavakian Y.,,,2,0,04/01/2021
+UTR Pro Tennis Series 5,Tatlot J.,Vanshelboim E.,,,2,0,04/01/2021
+UTR Pro Tennis Series 5,Dima D.,Laurent T.,,,2,0,04/01/2021
+UTR Pro Tennis Series 5,Madarasz G.,Faivre P.,,,2,1,04/01/2021
+Miami,Sinner J. (21),Bublik A. (32),,,2,0,03/31/2021
+Miami,Tsitsipas S. (2),Sonego L. (24),,,2,0,03/31/2021
+Miami,Rublev A. (4),Cilic M.,,,2,0,03/31/2021
+Miami,Korda S.,Schwartzman D. (5),,,2,1,03/31/2021
+Marbella challenger,Klizan M.,Laaksonen H.,,,2,0,03/31/2021
+Marbella challenger,Giannessi A.,Sousa P. (5),,,2,0,03/31/2021
+Marbella challenger,Mager G. (4),Ymer E.,,,2,0,03/31/2021
+Marbella challenger,Marcora R.,Gulbis E.,,,2,0,03/31/2021
+Oeiras challenger,Furness E.,Bonadio R.,,,2,1,03/31/2021
+Oeiras challenger,Trungelliti M.,Oliveira G.,,,2,0,03/31/2021
+Oeiras challenger,Sijsling I.,Moroni G. (7),,,2,0,03/31/2021
+Oeiras challenger,Brancaccio R.,Kuhn N.,,,2,0,03/31/2021
+Futures 2021,Ehrat S.,Bellier A.,,,2,1,03/31/2021
+Futures 2021,Leshem E.,De Jong J.,,,2,1,03/31/2021
+Futures 2021,Kalenichenko D.,Neuchrist M.,,,2,1,03/31/2021
+Futures 2021,Riedi L.,Stricker D.,,,1,0,03/31/2021
+Futures 2021,Clarke J.,Vanni L.,,,2,1,03/31/2021
+Futures 2021,Cazaux A.,Shimizu Y.,,,2,1,03/31/2021
+Futures 2021,Escoffier A.,Feldbausch K.,,,2,0,03/31/2021
+Futures 2021,Kym J.,Tiurnev E.,,,2,1,03/31/2021
+Futures 2021,Karlovskiy E.,Brouwer G.,,,2,1,03/31/2021
+Futures 2021,Gautier A.,Veldheer M.,,,2,0,03/31/2021
+Futures 2021,Lehecka J.,Mochizuki S.,,,2,0,03/31/2021
+Futures 2021,Virtanen O.,Staeheli L.,,,2,0,03/31/2021
+Futures 2021,Vrbensky M.,Crepatte B.,,,2,1,03/31/2021
+Futures 2021,Kestelboim M.,Egea F.,,,2,0,03/31/2021
+Futures 2021,Lama G.,Cuevas M.,,,2,0,03/31/2021
+Futures 2021,Llanes F.,Bianchi N.,,,2,0,03/31/2021
+Futures 2021,Dhoe B.,Arreche N.,,,2,1,03/31/2021
+Futures 2021,Marquiselli V.,Pieckenstainer F.,,,2,0,03/31/2021
+Futures 2021,Jubb P.,Stevenson K.,,,1,0,03/31/2021
+Futures 2021,Lingua Lavallen A.,Vilaro A.,,,2,0,03/31/2021
+Futures 2021,Huertas Del Pino C.,Falabella L.,,,2,0,03/31/2021
+Futures 2021,Moreno De Alboran N.,Boyer T.,,,2,0,03/31/2021
+Futures 2021,Villanueva G.,Carraro L.,,,2,1,03/31/2021
+Futures 2021,Pucinelli De Almeida M.,Farjat T.,,,2,0,03/31/2021
+Futures 2021,Torres J.,Blanch D.,,,2,0,03/31/2021
+Futures 2021,Malgaroli L.,Uzhylovsky V.,,,2,0,03/31/2021
+Futures 2021,Alves M.,De Cuyper J.,,,1,0,03/31/2021
+Futures 2021,Chrysochos P.,Okamura I.,,,2,0,03/31/2021
+Futures 2021,Roncalli S.,Cias P.,,,2,0,03/31/2021
+Futures 2021,Nijboer R.,Gutierrez O.,,,2,1,03/31/2021
+Futures 2021,Roberts J.,Galarza J.,,,2,1,03/31/2021
+Futures 2021,Marcondes I.,Naw H.,,,2,1,03/31/2021
+Futures 2021,Melnic V.,Sharma N.,,,2,0,03/31/2021
+Futures 2021,Llamas Ruiz P.,Vives Marcos P.,,,2,1,03/31/2021
+Futures 2021,Ilhan M.,Tasenkov V.,,,2,0,03/31/2021
+Futures 2021,Poljak D.,Claverie L.,,,2,1,03/31/2021
+Futures 2021,Bobrov B.,Bielinskyi V.,,,2,0,03/31/2021
+Futures 2021,Niki T.,Zakaryia F.,,,2,0,03/31/2021
+Futures 2021,Loffhagen G.,Li H.,,,2,0,03/31/2021
+Futures 2021,Barreto Sanchez D.,Berrettini J.,,,2,0,03/31/2021
+Futures 2021,Yamanaka T.,Orlikowski A.,,,2,0,03/31/2021
+Futures 2021,Dougaz A.,Iradukunda G.,,,2,0,03/31/2021
+Futures 2021,Onclin G.,Coulibaly E.,,,2,0,03/31/2021
+Futures 2021,Barroso Campos A.,Boscardin Dias P.,,,2,0,03/31/2021
+Futures 2021,Barrena A.,Balzerani R.,,,2,1,03/31/2021
+Futures 2021,Bega A.,Deviatiarov M.,,,2,0,03/31/2021
+Futures 2021,Johnson L.,Vincent Ruggeri S.,,,2,1,03/31/2021
+Futures 2021,Bellucci M.,Mukund S.,,,2,1,03/31/2021
+Futures 2021,Brugnerotto M.,Vishwakarma S.,,,2,1,03/31/2021
+Futures 2021,Velcz Z.,Senthilkumar M.,,,2,0,03/31/2021
+Futures 2021,Potenza L.,Shevchenko A.,,,2,1,03/31/2021
+Futures 2021,Avidzba A.,Tabacco G.,,,2,0,03/31/2021
+Futures 2021,Gigante M.,Ozdemir S.,,,2,0,03/31/2021
+Futures 2021,Cobolli F.,Tomasetto L.,,,2,0,03/31/2021
+Futures 2021,Ochi M.,Metreveli A.,,,1,0,03/31/2021
+Futures 2021,Chikami S.,Purtseladze S.,,,2,0,03/31/2021
+Futures 2021,Setkic A.,Gengel M.,,,2,1,03/31/2021
+Futures 2021,Vilardo F.,Galik M.,,,2,0,03/31/2021
+Futures 2021,Houkes M.,Turchetti N.,,,2,0,03/31/2021
+Futures 2021,Vilicich B.,Dancu V.,,,2,0,03/31/2021
+Futures 2021,Mridha J.,Prabodh S.,,,2,0,03/31/2021
+Futures 2021,Sureshkumar M.,Brown P.,,,2,0,03/31/2021
+Futures 2021,Michalski D.,Weis A.,,,2,0,03/31/2021
+Futures 2021,Crawford O.,Eqbal I.,,,2,1,03/31/2021
+Futures 2021,Vernier M.,Woerner P.,,,2,0,03/31/2021
+Futures 2021,Bergevi F.,Rawat S.,,,2,1,03/31/2021
+Futures 2021,Carr S.,Goveas A.,,,2,0,03/31/2021
+Futures 2021,Castelnuovo L.,Dev S.,,,2,0,03/31/2021
+Futures 2021,McHugh A.,Patten H.,,,2,0,03/31/2021
+Futures 2021,Sinha N.,Shanmugam A.,,,2,0,03/31/2021
+Futures 2021,Kotzen A.,Duhan C.,,,2,0,03/31/2021
+Futures 2021,Svrcina D.,Mehra R.,,,2,0,03/31/2021
+Futures 2021,Kadhe A.,Palan D.,,,2,0,03/31/2021
+Futures 2021,Ugo Carabelli C.,Darderi L.,,,2,0,03/31/2021
+Futures 2021,Reis Da Silva J.,Comesana F.,,,2,0,03/31/2021
+UTR Pro Tennis Series 2,Foster Z.,Sullivan C.,,,2,1,03/31/2021
+UTR Pro Tennis Series 2,Evans G.,Hernandez Serrano J.,,,2,0,03/31/2021
+UTR Pro Tennis Series 2,Corwin F.,Gomez M.,,,2,0,03/31/2021
+UTR Pro Tennis Series 2,Rodriguez Rodriguez J.,Van Orderlain D.,,,2,0,03/31/2021
+UTR Pro Tennis Series 2,Sheehy J.,Badon J.,,,2,0,03/31/2021
+UTR Pro Tennis Series 2,Patino L.,Ansari A.,,,2,1,03/31/2021
+UTR Pro Tennis Series 2,Brymer G.,Leite W.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Vanshelboim E.,Joncour R.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Dima D.,Dinev D.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Tatlot J.,Dimitrov M.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Thanos A.,Milushev P.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Marie J.,Genov A.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Laurent T.,Otegui J.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Madarasz G.,Snitari I.,,,2,0,03/31/2021
+UTR Pro Tennis Series 5,Dzhavakian Y.,Faivre P.,,,2,1,03/31/2021
+Futures 2021,Vishwakarma S.,Reddy R.,,,1,0,03/31/2021
+Miami,Medvedev D. (1),Tiafoe F.,,,2,0,03/30/2021
+Miami,Hurkacz H. (26),Raonic M. (12),,,2,1,03/30/2021
+Miami,Bublik A. (32),Fritz T. (22),,,2,1,03/30/2021
+Miami,Sinner J. (21),Ruusuvuori E.,,,2,0,03/30/2021
+Miami,Bautista-Agut R. (7),Isner J. (18),,,2,1,03/30/2021
+Miami,Tsitsipas S. (2),Nishikori K.,,,2,1,03/30/2021
+Marbella challenger,Milojevic N.,Petrovic D.,,,2,1,03/30/2021
+Marbella challenger,Dzumhur D. (7),Sanchez Izquierdo N.,,,2,0,03/30/2021
+Marbella challenger,Munar J. (3),Ofner S.,,,2,0,03/30/2021
+Marbella challenger,Daniel T. (6),Borg L.,,,2,0,03/30/2021
+Marbella challenger,Janvier M.,Gombos N. (2),,,2,1,03/30/2021
+Marbella challenger,Mager G. (4),Sanchez Jover C.,,,2,0,03/30/2021
+Marbella challenger,Gomez-Herrera C.,Gimeno Valero C.,,,2,0,03/30/2021
+Marbella challenger,Ymer E.,Barranco Cosano J.,,,2,0,03/30/2021
+Marbella challenger,Kopriva V.,Rosol L.,,,2,1,03/30/2021
+Marbella challenger,Vilella Martinez M.,Giustino L.,,,2,0,03/30/2021
+Oeiras challenger,Ortega-Olmedo R.,Escobedo E. (4),,,2,0,03/30/2021
+Oeiras challenger,Elias G.,Tseng C.,,,2,1,03/30/2021
+Oeiras challenger,Molcan A.,Collarini A. (5),,,2,1,03/30/2021
+Oeiras challenger,Serdarusic N.,Faria L.,,,2,0,03/30/2021
+Oeiras challenger,Cacao T.,Lee D.,,,2,0,03/30/2021
+Oeiras challenger,Moraing M.,Cabral F.,,,2,1,03/30/2021
+Oeiras challenger,Miedler L.,Bourchier H.,,,2,0,03/30/2021
+Oeiras challenger,Oliveira G.,Yevseyev D.,,,2,0,03/30/2021
+Oeiras challenger,Brancaccio R.,Benchetrit E. (6),,,2,0,03/30/2021
+Oeiras challenger,Sijsling I.,Guinard M.,,,2,0,03/30/2021
+Oeiras challenger,Furness E.,Couacaud E. (2),,,2,1,03/30/2021
+Oeiras challenger,Kolar Z. (8),Borges N.,,,2,1,03/30/2021
+Futures 2021,Van Rijthoven T.,Andreev A.,,,2,0,03/30/2021
+Futures 2021,Sels J.,Lenz J.,,,2,0,03/30/2021
+Futures 2021,Added D.,Nikles J.,,,2,1,03/30/2021
+Futures 2021,Rodriguez Taverna S.,Juarez F.,,,2,1,03/30/2021
+Futures 2021,Casanova H.,Aboian V.,,,2,0,03/30/2021
+Futures 2021,Lipovsek Puches T.,Burruchaga R.,,,2,0,03/30/2021
+Futures 2021,Klier Junior G.,Donski A.,,,2,0,03/30/2021
+Futures 2021,Hassan B.,March A.,,,2,1,03/30/2021
+Futures 2021,Langmo C.,Negritu C.,,,2,1,03/30/2021
+Futures 2021,Kasnikowski M.,Ouakaa A.,,,2,0,03/30/2021
+Futures 2021,Shimabukuro S.,Rodrigues N.,,,2,1,03/30/2021
+Futures 2021,Zhu E.,Lock B.,,,2,0,03/30/2021
+Futures 2021,Agamenone F.,Capecchi D.,,,2,0,03/30/2021
+Futures 2021,Fayziev S.,Cozbinov A.,,,2,0,03/30/2021
+Futures 2021,Madaras D.,Chepelev A.,,,2,0,03/30/2021
+Futures 2021,Martin Tiffon P.,Schmitz C.,,,2,0,03/30/2021
+Futures 2021,Hong S.,Kirci K.,,,2,0,03/30/2021
+Futures 2021,Bocchi L.,Sunish D.,,,2,0,03/30/2021
+Futures 2021,Kaliyanda Poonacha N.,Dabas N.,,,2,1,03/30/2021
+Futures 2021,Qamar F.,Javia D.,,,2,1,03/30/2021
+UTR Pro Tennis Series 2,Ansari A.,Roddick J.,,,2,1,03/30/2021
+UTR Pro Tennis Series 2,Evans G.,Foster Z.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Patino L.,Sanchez M.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Panta J.,Rodriguez Rodriguez J.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Brymer G.,Badon J.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Corwin F.,Van Orderlain D.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Gomez J.,Sheehy J.,,,2,0,03/30/2021
+UTR Pro Tennis Series 2,Boyer D.,Sullivan C.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Bouquet L.,Genov A.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Thanos A.,Marie J.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Dimitrov M.,Joncour R.,,,2,1,03/30/2021
+UTR Pro Tennis Series 5,Lazov A.,Tatlot J.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Terziev S.,Faivre P.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Snitari I.,Dzhavakian Y.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Otegui J.,Dinev D.,,,2,0,03/30/2021
+UTR Pro Tennis Series 5,Laurent T.,Ivanov S.,,,2,1,03/30/2021
+Futures 2021,Kicker N.,Arias Bisso F.,,,2,0,03/30/2021
+Futures 2021,Bianchi N.,Bruna N.,,,2,0,03/30/2021
+Futures 2021,Carraro L.,Martinez Irigoyen A.,,,2,0,03/30/2021
+Futures 2021,Egea F.,Lopez Linquet L.,,,2,0,03/30/2021
+Futures 2021,Llanes F.,De La Fuente S.,,,2,1,03/30/2021
+Futures 2021,Vilaro A.,Derdoy F.,,,2,0,03/30/2021
+Futures 2021,Falabella L.,Carou I.,,,2,0,03/30/2021
+Futures 2021,Farjat T.,Cigarran T.,,,2,0,03/30/2021
+Futures 2021,Virtanen O.,Marti Y.,,,2,0,03/30/2021
+Futures 2021,Kalenichenko D.,Moraing O.,,,2,1,03/30/2021
+Futures 2021,Cias P.,Ogura K.,,,2,0,03/30/2021
+Futures 2021,Veldheer M.,Paul J.,,,2,1,03/30/2021
+Futures 2021,Cazaux A.,Vanni L.,,,2,0,03/30/2021
+Futures 2021,Gautier A.,Brunold M.,,,2,0,03/30/2021
+Futures 2021,Chikami S.,Skorilas A.,,,2,0,03/30/2021
+Futures 2021,Galik M.,Khotkov O.,,,1,0,03/30/2021
+Futures 2021,Bellucci M.,Cubelic K.,,,2,0,03/30/2021
+Futures 2021,Neuchrist M.,Rosenkranz M.,,,2,1,03/30/2021
+Futures 2021,Naw H.,Fattar A.,,,1,0,03/30/2021
+Futures 2021,Potenza L.,Paliska B.,,,2,0,03/30/2021
+Futures 2021,Marcondes I.,Gadamauri B.,,,2,0,03/30/2021
+Futures 2021,Tabacco G.,Colson T.,,,2,0,03/30/2021
+Futures 2021,De Cuyper J.,Castagnola L.,,,2,1,03/30/2021
+Futures 2021,Brouwer G.,Staeheli L.,,,2,0,03/30/2021
+Futures 2021,Feldbausch K.,Erler A.,,,2,1,03/30/2021
+Futures 2021,Roberts J.,Rodriguez L.,,,2,0,03/30/2021
+Futures 2021,Barroso Campos A.,Tabacco F.,,,2,0,03/30/2021
+Futures 2021,Iradukunda G.,Melnic V.,,,2,0,03/30/2021
+Futures 2021,Loffhagen G.,Nordquist A.,,,2,0,03/30/2021
+Futures 2021,Uzhylovsky V.,Guberman Y.,,,2,0,03/30/2021
+Futures 2021,Boyer T.,Paulson A.,,,2,0,03/30/2021
+Futures 2021,Okamura I.,Lane L.,,,2,1,03/30/2021
+Futures 2021,Dancu V.,Giotis R.,,,2,1,03/30/2021
+Futures 2021,Gigante M.,Mazza M.,,,2,0,03/30/2021
+Futures 2021,Woerner P.,Wassermann D.,,,2,0,03/30/2021
+Futures 2021,Vernier M.,Tomasetto L.,,,2,0,03/30/2021
+Futures 2021,Houkes M.,Donders D.,,,2,0,03/30/2021
+Futures 2021,Barreto Sanchez D.,Donev G.,,,2,1,03/30/2021
+Futures 2021,Yamanaka T.,Bertuccioli F.,,,2,1,03/30/2021
+Futures 2021,Turchetti N.,Minarik K.,,,2,0,03/30/2021
+Futures 2021,Prabodh S.,Brown P.,,,2,0,03/30/2021
+Futures 2021,Senthilkumar M.,Qamar F.,,,2,0,03/30/2021
+Futures 2021,Eqbal I.,Kumar O.,,,2,1,03/30/2021
+Futures 2021,Patten H.,Sinha N.,,,2,0,03/30/2021
+Futures 2021,Kotzen A.,Vardhan V.,,,2,0,03/30/2021
+Miami,Sonego L. (24),Galan D.,,,2,0,03/29/2021
+Miami,Korda S.,Karatsev A. (17),,,2,0,03/29/2021
+Miami,Schwartzman D. (5),Mannarino A. (25),,,2,0,03/29/2021
+Miami,Rublev A. (4),Fucsovics M. (29),,,2,0,03/29/2021
+Miami,Hurkacz H. (26),Shapovalov D. (6),,,2,0,03/29/2021
+Miami,Cilic M.,Musetti L.,,,2,0,03/29/2021
+Miami,Raonic M. (12),Humbert U. (20),,,2,0,03/29/2021
+Miami,Tiafoe F.,Lajovic D. (16),,,2,1,03/29/2021
+Miami,Bublik A. (32),Duckworth J.,,,2,0,03/29/2021
+Miami,Fritz T. (22),Norrie C.,,,2,1,03/29/2021
+Marbella challenger,Laaksonen H.,Carballes Baena R. (1),,,2,1,03/29/2021
+Marbella challenger,Klizan M.,Cressy M.,,,2,0,03/29/2021
+Marbella challenger,Marcora R.,Polmans M.,,,2,0,03/29/2021
+Marbella challenger,Sousa P. (5),Kuznetsov A.,,,2,1,03/29/2021
+Marbella challenger,Giannessi A.,Domingues J.,,,2,0,03/29/2021
+Marbella challenger,Gulbis E.,Donskoy E. (8),,,2,0,03/29/2021
+Oeiras challenger,Bonadio R.,Uchida K.,,,2,1,03/29/2021
+Oeiras challenger,Trungelliti M.,Otte O. (1),,,2,0,03/29/2021
+Oeiras challenger,Kuhn N.,Gabashvili T.,,,2,0,03/29/2021
+Oeiras challenger,Moroni G. (7),Vatutin A.,,,2,0,03/29/2021
+UTR Pro Tennis Series 2,Corwin F.,Rodriguez Rodriguez J.,,,2,0,03/29/2021
+UTR Pro Tennis Series 2,Panta J.,Gomez M.,,,2,0,03/29/2021
+UTR Pro Tennis Series 2,Sullivan C.,Evans G.,,,2,0,03/29/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Boyer D.,,,2,1,03/29/2021
+UTR Pro Tennis Series 2,Doria L.,Sanchez M.,,,2,0,03/29/2021
+UTR Pro Tennis Series 2,Roddick J.,Patino L.,,,2,1,03/29/2021
+UTR Pro Tennis Series 2,Leite W.,Gomez J.,,,2,1,03/29/2021
+UTR Pro Tennis Series 2,Brymer G.,Sheehy J.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Thanos A.,Genov A.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Bouquet L.,Milushev P.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Tatlot J.,Joncour R.,,,2,1,03/29/2021
+UTR Pro Tennis Series 5,Vanshelboim E.,Lazov A.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Dinev D.,Laurent T.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Dima D.,Ivanov S.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Madarasz G.,Terziev S.,,,2,0,03/29/2021
+UTR Pro Tennis Series 5,Snitari I.,Faivre P.,,,2,0,03/29/2021
+Futures 2021,Kalenichenko D.,Vandermeersch C.,,,2,1,03/29/2021
+Futures 2021,Llanes F.,Aboian L.,,,2,0,03/29/2021
+Futures 2021,Bianchi N.,Cuzzani I.,,,2,0,03/29/2021
+Futures 2021,Carraro L.,Boero S.,,,2,0,03/29/2021
+Futures 2021,Bruna N.,Berne M.,,,2,0,03/29/2021
+Futures 2021,Martinez Irigoyen A.,Bruna E.,,,2,0,03/29/2021
+Futures 2021,Moraing O.,Kopp S.,,,2,1,03/29/2021
+Futures 2021,Veldheer M.,Sebesta J.,,,2,0,03/29/2021
+Futures 2021,Paul J.,Welte M.,,,2,0,03/29/2021
+Futures 2021,Galik M.,Liu S.,,,2,1,03/29/2021
+Futures 2021,Cubelic K.,Gibbens J.,,,2,0,03/29/2021
+Futures 2021,Khotkov O.,Bassem Sobhy M.,,,2,0,03/29/2021
+Futures 2021,Rosenkranz M.,Bouquier A.,,,2,1,03/29/2021
+Futures 2021,Egea F.,Martinez M.,,,2,1,03/29/2021
+Futures 2021,Cigarran T.,Simonit E.,,,2,1,03/29/2021
+Futures 2021,Arias Bisso F.,Delucchi I.,,,1,0,03/29/2021
+Futures 2021,Carou I.,Saraiva Dos Santos P.,,,2,0,03/29/2021
+Futures 2021,Virtanen O.,Steinegger Y.,,,2,0,03/29/2021
+Futures 2021,Falabella L.,Roncadelli F.,,,2,1,03/29/2021
+Futures 2021,De La Fuente S.,Postay A.,,,2,0,03/29/2021
+Futures 2021,Lopez Linquet L.,Gaia A.,,,2,0,03/29/2021
+Futures 2021,Vilaro A.,Rodriguez L.,,,2,0,03/29/2021
+Futures 2021,Kicker N.,Castro C.,,,2,0,03/29/2021
+Futures 2021,Derdoy F.,Gomez Corrales J.,,,2,0,03/29/2021
+Futures 2021,Farjat T.,Crespo J.,,,2,0,03/29/2021
+Futures 2021,Marti Y.,Moeller M.,,,2,1,03/29/2021
+Futures 2021,Lane L.,Rottoli L.,,,2,1,03/29/2021
+Futures 2021,Okamura I.,Mikhaylyuk I.,,,2,0,03/29/2021
+Futures 2021,Bellucci M.,Nashatyrkin R.,,,2,0,03/29/2021
+Futures 2021,Brunold M.,Igoshin A.,,,2,0,03/29/2021
+Futures 2021,Gautier A.,Iannaccone F.,,,2,1,03/29/2021
+Futures 2021,Vanni L.,Zimmermann I.,,,2,0,03/29/2021
+Futures 2021,De Cuyper J.,Pereira M.,,,2,1,03/29/2021
+Futures 2021,Castagnola L.,Sinclair C.,,,2,1,03/29/2021
+Futures 2021,Neuchrist M.,Golubev D.,,,2,0,03/29/2021
+Futures 2021,Chikami S.,Stodder T.,,,2,1,03/29/2021
+Futures 2021,Skorilas A.,Bataljin L.,,,2,0,03/29/2021
+Futures 2021,Uzhylovsky V.,Tkemaladze Z.,,,2,1,03/29/2021
+Futures 2021,Cazaux A.,Martinez M.,,,2,0,03/29/2021
+Futures 2021,Brouwer G.,Jebens H.,,,2,0,03/29/2021
+Futures 2021,Colson T.,Rihane Y.,,,2,0,03/29/2021
+Futures 2021,Potenza L.,Kalinin A.,,,2,0,03/29/2021
+Futures 2021,Marcondes I.,Tepmahc N.,,,2,0,03/29/2021
+Futures 2021,Fattar A.,Hamza Reguig S.,,,2,0,03/29/2021
+Futures 2021,Tabacco G.,Maiga R.,,,1,0,03/29/2021
+Futures 2021,Paliska B.,Wunderlich Y.,,,2,0,03/29/2021
+Futures 2021,Naw H.,Kocevar-Desman T.,,,2,0,03/29/2021
+Futures 2021,Rodriguez L.,Liska T.,,,2,0,03/29/2021
+Futures 2021,Iradukunda G.,Elamin A.,,,2,0,03/29/2021
+Futures 2021,Gadamauri B.,Raynel A.,,,2,1,03/29/2021
+Futures 2021,Barroso Campos A.,Pampanin P.,,,2,0,03/29/2021
+Futures 2021,Tabacco F.,Barreiros Reyes M.,,,2,0,03/29/2021
+Futures 2021,Erler A.,Lanz M.,,,2,0,03/29/2021
+Futures 2021,Melnic V.,Rojas O.,,,2,1,03/29/2021
+Futures 2021,Staeheli L.,Strombachs R.,,,2,0,03/29/2021
+Futures 2021,Roberts J.,Ventre A.,,,2,0,03/29/2021
+Futures 2021,Feldbausch K.,Wehnelt K.,,,2,1,03/29/2021
+Futures 2021,Guberman Y.,Martin T.,,,1,0,03/29/2021
+Futures 2021,Cias P.,Revelli G.,,,2,0,03/29/2021
+Futures 2021,Loffhagen G.,Yeshaya O.,,,2,0,03/29/2021
+Futures 2021,Nordquist A.,Markovski O.,,,2,0,03/29/2021
+Futures 2021,Ogura K.,Cox D.,,,2,1,03/29/2021
+Futures 2021,Boyer T.,Vasiliauskas M.,,,2,0,03/29/2021
+Futures 2021,Paulson A.,Zhukayev B.,,,2,0,03/29/2021
+Futures 2021,Yamanaka T.,Alcala Gurri M.,,,2,1,03/29/2021
+Futures 2021,Vernier M.,Karabulut F.,,,2,1,03/29/2021
+Futures 2021,Barreto Sanchez D.,Alemany P.,,,2,0,03/29/2021
+Futures 2021,Woerner P.,Borroni A.,,,2,0,03/29/2021
+Futures 2021,Wassermann D.,Arabaci M.,,,2,0,03/29/2021
+Futures 2021,Donders D.,Schwab G.,,,2,0,03/29/2021
+Futures 2021,Gigante M.,Boureau A.,,,2,0,03/29/2021
+Futures 2021,Donev G.,Sakellaridis S.,,,2,1,03/29/2021
+Futures 2021,Minarik K.,Pontjodikromo S.,,,2,0,03/29/2021
+Futures 2021,Giotis R.,Zlatanovic A.,,,2,0,03/29/2021
+Futures 2021,Bertuccioli F.,Vanta V.,,,2,0,03/29/2021
+Futures 2021,Mazza M.,Oh S.,,,2,0,03/29/2021
+Futures 2021,Tomasetto L.,Loof T.,,,2,0,03/29/2021
+Futures 2021,Houkes M.,Malgiaritta M.,,,2,0,03/29/2021
+Futures 2021,Dancu V.,De Rossi M.,,,2,0,03/29/2021
+Futures 2021,Turchetti N.,Ovcharov A.,,,2,0,03/29/2021
+Marbella challenger,Sanchez Jover C.,Rune H. (2),,,2,1,03/29/2021
+Marbella challenger,Barranco Cosano J. (3),Chappell N. (5),,,2,0,03/29/2021
+Marbella challenger,Sanchez Izquierdo N. (4),Skatov T. (8),,,2,1,03/29/2021
+Marbella challenger,Kopriva V. (1),Esteve Lobato E. (7),,,2,0,03/29/2021
+Oeiras challenger,Yevseyev D. (7),Araujo P.,,,2,0,03/29/2021
+Oeiras challenger,Guinard M. (2),Faria L.,,,2,1,03/29/2021
+Oeiras challenger,Brancaccio R. (4),Torres T.,,,2,0,03/29/2021
+Oeiras challenger,Furness E. (3),Cabral F.,,,2,0,03/29/2021
+Miami,Ruusuvuori E.,Ymer M.,,,2,1,03/28/2021
+Miami,Medvedev D. (1),Popyrin A.,,,2,1,03/28/2021
+Miami,Sinner J. (21),Khachanov K. (14),,,2,1,03/28/2021
+Miami,Bautista-Agut R. (7),Struff J. (31),,,2,1,03/28/2021
+Miami,Isner J. (18),Auger Aliassime F. (11),,,2,0,03/28/2021
+Miami,Schwartzman D. (5),Uchiyama Y.,,,2,0,03/28/2021
+Miami,Korda S.,Fognini F. (10),,,2,1,03/28/2021
+Miami,Rublev A. (4),Sandgren T.,,,2,0,03/28/2021
+Miami,Fucsovics M. (29),Kokkinakis T.,,,2,1,03/28/2021
+Lille challenger,Bergs Z.,Barrere G. (1),,,2,1,03/28/2021
+Lugano challenger,Stricker D.,Sachko V.,,,2,0,03/28/2021
+Zadar challenger,Milojevic N. (3),Kuzmanov D.,,,2,1,03/28/2021
+Futures 2021,Catarina L.,Alves M.,,,2,1,03/28/2021
+Futures 2021,Hsu Y.,Ochi M.,,,2,0,03/28/2021
+Futures 2021,Fonio G.,Dambrosi G.,,,2,0,03/28/2021
+Futures 2021,Zekic M.,Michalski D.,,,2,0,03/28/2021
+Futures 2021,Crawford O.,Khan Z.,,,2,0,03/28/2021
+UTR Pro Tennis Series,Hoole C.,Bulte A.,,,2,0,03/28/2021
+UTR Pro Tennis Series,Mehrotra A.,Jin J.,,,2,0,03/28/2021
+UTR Pro Tennis Series,Sach T.,Tallarida Lyons J.,,,2,0,03/28/2021
+UTR Pro Tennis Series,Sweeny D.,Beale J.,,,2,0,03/28/2021
+UTR Pro Tennis Series,Addison A.,McCabe J.,,,2,1,03/28/2021
+UTR Pro Tennis Series,Tu L.,Jasika O.,,,2,1,03/28/2021
+UTR Pro Tennis Series,Smith J.,Camus C.,,,2,0,03/28/2021
+Futures 2021,Galik M.,Jermar J.,,,2,0,03/28/2021
+Futures 2021,Khotkov O.,Caripi V.,,,2,0,03/28/2021
+Futures 2021,Liu S.,Hamed M.,,,2,0,03/28/2021
+Futures 2021,Bassem Sobhy M.,Mania M.,,,2,0,03/28/2021
+Futures 2021,Nashatyrkin R.,Stone Z.,,,2,1,03/28/2021
+Futures 2021,Berne M.,Augotr L.,,,2,0,03/28/2021
+Futures 2021,Bellucci M.,Makzoume Y.,,,2,0,03/28/2021
+Futures 2021,Cubelic K.,Cabrera Bello I.,,,2,0,03/28/2021
+Futures 2021,Bianchi N.,Ambrogi L.,,,2,1,03/28/2021
+Futures 2021,Llanes F.,Gay F.,,,2,0,03/28/2021
+Futures 2021,Bruna E.,Cotler L.,,,2,0,03/28/2021
+Futures 2021,Gibbens J.,Serafini M.,,,2,0,03/28/2021
+Futures 2021,Bruna N.,Mouilleron Salvo M.,,,2,1,03/28/2021
+Futures 2021,Cuzzani I.,Mirgone F.,,,2,0,03/28/2021
+Futures 2021,Lane L.,Jones A.,,,2,1,03/28/2021
+Futures 2021,Mikhaylyuk I.,Sigsgaard C.,,,2,1,03/28/2021
+Futures 2021,Rottoli L.,Oberleitner N.,,,2,1,03/28/2021
+Futures 2021,Okamura I.,Novansky M.,,,2,0,03/28/2021
+Futures 2021,Saraiva Dos Santos P.,Carnevalle L.,,,2,1,03/28/2021
+Futures 2021,Gaia A.,Baroni A.,,,2,1,03/28/2021
+Futures 2021,Sinha N.,Singh D.,,,2,1,03/28/2021
+Futures 2021,Martinez M.,Trento V.,,,2,0,03/28/2021
+Futures 2021,Aboian L.,Manfredi I.,,,2,0,03/28/2021
+Futures 2021,Carraro L.,Branc M.,,,2,0,03/28/2021
+Futures 2021,Kicker N.,Vitola M.,,,2,0,03/28/2021
+Futures 2021,Castro C.,Aranguren F.,,,2,0,03/28/2021
+Futures 2021,Crespo J.,Bettini N.,,,2,0,03/28/2021
+Futures 2021,De La Fuente S.,Helguera S.,,,2,0,03/28/2021
+Futures 2021,Martinez Irigoyen A.,Lema N.,,,2,0,03/28/2021
+Futures 2021,Postay A.,Greco V.,,,2,1,03/28/2021
+Futures 2021,Egea F.,Hess S.,,,2,0,03/28/2021
+Futures 2021,Boero S.,Savu G.,,,2,0,03/28/2021
+Futures 2021,Kotzen A.,Bhatnagar S.,,,2,0,03/28/2021
+Futures 2021,Tkemaladze Z.,Troche E.,,,2,0,03/28/2021
+Futures 2021,Iradukunda G.,Ben Fraj S.,,,2,0,03/28/2021
+Futures 2021,Chikami S.,Stefani Figlia B.,,,2,0,03/28/2021
+Futures 2021,Patten H.,Catani L.,,,2,0,03/28/2021
+Futures 2021,Stodder T.,Luria E.,,,2,0,03/28/2021
+Futures 2021,Sinclair C.,Jallali W.,,,2,1,03/28/2021
+Futures 2021,Uzhylovsky V.,Palovic L.,,,2,1,03/28/2021
+Futures 2021,Senthilkumar M.,Chaurasia Y.,,,2,0,03/28/2021
+Futures 2021,Lopez Linquet L.,Franco T.,,,2,0,03/28/2021
+Futures 2021,Farjat T.,Gagliardo L.,,,1,0,03/28/2021
+Futures 2021,Roncadelli F.,Faigenbaum F.,,,2,0,03/28/2021
+Futures 2021,Derdoy F.,Riva M.,,,2,0,03/28/2021
+Futures 2021,Carou I.,Berta M.,,,2,0,03/28/2021
+Futures 2021,Arias Bisso F.,Basel V.,,,2,0,03/28/2021
+Futures 2021,Rodriguez L.,Franchini S.,,,2,0,03/28/2021
+Futures 2021,Simonit E.,Damiano A.,,,2,0,03/28/2021
+Futures 2021,Gomez Corrales J.,Alarcon B.,,,2,0,03/28/2021
+Futures 2021,Falabella L.,Karakachian G.,,,2,0,03/28/2021
+Futures 2021,Vilaro A.,Djinbachian E.,,,2,0,03/28/2021
+Futures 2021,Cigarran T.,Serrano B.,,,2,0,03/28/2021
+Futures 2021,Delucchi I.,Hollender N.,,,2,0,03/28/2021
+Futures 2021,Colson T.,Alkotop M.,,,2,1,03/28/2021
+Futures 2021,Gadamauri B.,Ruzgas M.,,,2,1,03/28/2021
+Futures 2021,Qamar F.,Kalyanpur A.,,,2,1,03/28/2021
+Futures 2021,Raynel A.,Ichikawa S.,,,2,0,03/28/2021
+Futures 2021,Ventre A.,Bedouet P.,,,2,0,03/28/2021
+Futures 2021,Rodriguez L.,Kos D.,,,2,1,03/28/2021
+Futures 2021,Nordquist A.,Dellavedova M.,,,2,0,03/28/2021
+Futures 2021,Tepmahc N.,Maassen G.,,,2,0,03/28/2021
+Futures 2021,Skorilas A.,Kayombo G.,,,2,0,03/28/2021
+Futures 2021,Bataljin L.,Gabay S.,,,2,0,03/28/2021
+Futures 2021,Maiga R.,Shvets V.,,,2,0,03/28/2021
+Futures 2021,Markovski O.,Park D.,,,2,0,03/28/2021
+Futures 2021,Liska T.,Kountourakis I.,,,2,0,03/28/2021
+Futures 2021,Brown P.,Kaza V.,,,1,0,03/28/2021
+Futures 2021,Fattar A.,Sperle J.,,,2,1,03/28/2021
+Futures 2021,Barroso Campos A.,De Carvalho V.,,,2,0,03/28/2021
+Futures 2021,Potenza L.,Riedel T.,,,2,0,03/28/2021
+Futures 2021,Vishwakarma S.,Binding J.,,,2,0,03/28/2021
+Futures 2021,Barreiros Reyes M.,O'Neill D.,,,2,0,03/28/2021
+Futures 2021,Pampanin P.,Van Baal A.,,,2,0,03/28/2021
+Futures 2021,Prabodh S.,Singh D.,,,2,0,03/28/2021
+Futures 2021,Tabacco F.,Roglan A.,,,2,1,03/28/2021
+Futures 2021,Tabacco G.,Maguire C.,,,2,0,03/28/2021
+Futures 2021,Rihane Y.,Calzi R.,,,2,0,03/28/2021
+Futures 2021,Kumar O.,Chawla B.,,,2,0,03/28/2021
+Futures 2021,Reddy R.,Gaware S.,,,2,0,03/28/2021
+Futures 2021,Kocevar-Desman T.,Brun T.,,,2,0,03/28/2021
+Futures 2021,Loffhagen G.,Xilas I.,,,2,0,03/28/2021
+Futures 2021,Guberman Y.,Schubert H.,,,2,0,03/28/2021
+Futures 2021,Eqbal I.,Bathrinath L.,,,2,0,03/28/2021
+Futures 2021,Martin T.,Ibrahim K.,,,2,0,03/28/2021
+Futures 2021,Yeshaya O.,Bronka A.,,,2,0,03/28/2021
+Futures 2021,Paliska B.,Civita Telles L.,,,1,0,03/28/2021
+Futures 2021,Roberts J.,Ajavon L.,,,2,1,03/28/2021
+Futures 2021,Wunderlich Y.,Heaney-Secord C.,,,2,1,03/28/2021
+Futures 2021,Melnic V.,Presuhn B.,,,1,0,03/28/2021
+Futures 2021,Rojas O.,Allen L.,,,2,0,03/28/2021
+Futures 2021,Elamin A.,Hatamleh K.,,,2,0,03/28/2021
+Futures 2021,Kalinin A.,Kroslak J.,,,2,0,03/28/2021
+Futures 2021,Hamza Reguig S.,Yunis F.,,,2,1,03/28/2021
+Futures 2021,Naw H.,Immler K.,,,2,0,03/28/2021
+Futures 2021,Marcondes I.,De Boes M.,,,2,0,03/28/2021
+Futures 2021,De Cuyper J.,Sharma T.,,,2,0,03/28/2021
+Futures 2021,Castagnola L.,Mishkin K.,,,2,0,03/28/2021
+Futures 2021,Cox D.,Handel T.,,,2,0,03/28/2021
+Futures 2021,Pereira M.,Agarwal R.,,,2,0,03/28/2021
+Futures 2021,Sinha N.,Peranamallur V.,,,1,0,03/28/2021
+Futures 2021,Patten H.,Somani P.,,,2,0,03/28/2021
+Futures 2021,Bhatnagar S.,Mahadevan A.,,,2,1,03/28/2021
+Futures 2021,Kotzen A.,Madan T.,,,2,0,03/28/2021
+Futures 2021,Paulson A.,Connor P.,,,2,0,03/28/2021
+Futures 2021,Catani L.,Sood C.,,,2,0,03/28/2021
+Futures 2021,Singh D.,Macherla T.,,,2,0,03/28/2021
+Futures 2021,Zhukayev B.,Ciurletti A.,,,2,1,03/28/2021
+Futures 2021,Ogura K.,Rosales R.,,,2,0,03/28/2021
+Futures 2021,Cias P.,Seely S.,,,2,0,03/28/2021
+Futures 2021,Revelli G.,Kotze D.,,,2,0,03/28/2021
+Futures 2021,Boyer T.,Kumasaka T.,,,2,0,03/28/2021
+Futures 2021,Vasiliauskas M.,Hodkin S.,,,2,1,03/28/2021
+Futures 2021,Woerner P.,Mansilla Diez M.,,,2,1,03/28/2021
+Futures 2021,Tomasetto L.,Ataseven B.,,,2,1,03/28/2021
+Futures 2021,Vanta V.,Veremeychuk D.,,,2,1,03/28/2021
+Futures 2021,Pontjodikromo S.,Neverov M.,,,2,0,03/28/2021
+Futures 2021,Alemany P.,Sveridenko V.,,,2,0,03/28/2021
+Futures 2021,Vernier M.,Chaiyarin C.,,,2,0,03/28/2021
+Futures 2021,Sakellaridis S.,Gursoy S.,,,2,0,03/28/2021
+Futures 2021,Vardhan V.,Solanki A.,,,2,0,03/28/2021
+Futures 2021,Kalyanpur A.,Pozzi D.,,,2,0,03/28/2021
+Futures 2021,Loof T.,Patzanovsky C.,,,1,0,03/28/2021
+Futures 2021,Dancu V.,Roggero T.,,,2,1,03/28/2021
+Futures 2021,Arabaci M.,Belanov V.,,,2,0,03/28/2021
+Futures 2021,Qamar F.,Aggarwal P.,,,2,0,03/28/2021
+Futures 2021,Donev G.,Alimli M.,,,2,0,03/28/2021
+Futures 2021,Oh S.,Dabryian A.,,,2,0,03/28/2021
+Futures 2021,Wassermann D.,Vankan M.,,,2,0,03/28/2021
+Futures 2021,Mazza M.,Peters F.,,,2,1,03/28/2021
+Futures 2021,Gigante M.,Barton H.,,,2,0,03/28/2021
+Futures 2021,Bertuccioli F.,Graf D.,,,2,0,03/28/2021
+Futures 2021,Chaurasia Y.,Raman R.,,,2,0,03/28/2021
+Futures 2021,Borroni A.,Rohrer N.,,,2,0,03/28/2021
+Futures 2021,Alcala Gurri M.,Massara A.,,,2,0,03/28/2021
+Futures 2021,Yamanaka T.,Ayar G.,,,2,0,03/28/2021
+Futures 2021,Turchetti N.,Dell'elba V.,,,2,0,03/28/2021
+Futures 2021,Senthilkumar M.,Dahiya J.,,,2,0,03/28/2021
+Futures 2021,Minarik K.,Martinez L.,,,2,0,03/28/2021
+Futures 2021,De Rossi M.,Albertoni D.,,,2,0,03/28/2021
+Futures 2021,Ovcharov A.,Zusman R.,,,2,0,03/28/2021
+Futures 2021,Schwab G.,Semenov D.,,,2,0,03/28/2021
+Futures 2021,Malgiaritta M.,Nad P.,,,2,0,03/28/2021
+Futures 2021,Giotis R.,Fossati A.,,,2,1,03/28/2021
+Futures 2021,Boureau A.,Hubner E.,,,2,0,03/28/2021
+Futures 2021,Zlatanovic A.,Lanik T.,,,2,0,03/28/2021
+Futures 2021,Virali-Murugesan R.,Botezan G.,,,2,0,03/28/2021
+Futures 2021,Barreto Sanchez D.,Sakellaridis M.,,,2,0,03/28/2021
+Futures 2021,Houkes M.,Denisov I.,,,2,0,03/28/2021
+Futures 2021,Karabulut F.,Balci O.,,,2,0,03/28/2021
+Futures 2021,Donders D.,Eremin E.,,,2,1,03/28/2021
+Futures 2021,Prabodh S.,O'Hoisin O.,,,2,1,03/28/2021
+Futures 2021,Vishwakarma S.,Chandrasekar A.,,,2,1,03/28/2021
+Futures 2021,Binding J.,Jadhav G.,,,2,0,03/28/2021
+Futures 2021,Kaza V.,Anand K.,,,2,0,03/28/2021
+Futures 2021,Singh D.,Kumaran B.,,,2,0,03/28/2021
+Futures 2021,Brown P.,Singh J.,,,2,1,03/28/2021
+Futures 2021,Gaware S.,Sharma A.,,,2,0,03/28/2021
+Futures 2021,Bathrinath L.,Loganathan Y.,,,2,0,03/28/2021
+Futures 2021,Kumar O.,Nenwani A.,,,2,0,03/28/2021
+Futures 2021,Eqbal I.,Prasanth V.,,,2,1,03/28/2021
+Futures 2021,Chawla B.,Chilakalapudi T.,,,2,0,03/28/2021
+Futures 2021,Reddy R.,Yadav Y.,,,2,0,03/28/2021
+Futures 2021,Vardhan V.,Virali-Murugesan R.,,,1,0,03/28/2021
+Marbella challenger,Rune H. (2),Pichler D.,,,2,0,03/28/2021
+Marbella challenger,Sanchez Jover C.,Geerts M.,,,2,0,03/28/2021
+Marbella challenger,Chappell N. (5),Tenti F.,,,2,0,03/28/2021
+Marbella challenger,Esteve Lobato E. (7),Dalla Valle E.,,,2,0,03/28/2021
+Marbella challenger,Kopriva V. (1),Marti Pujolras A.,,,2,0,03/28/2021
+Marbella challenger,Sanchez Izquierdo N. (4),Guerrero Melgar A.,,,2,0,03/28/2021
+Marbella challenger,Barranco Cosano J. (3),Vidal Azorin J.,,,2,0,03/28/2021
+Marbella challenger,Skatov T. (8),Gerch L. (6),,,2,0,03/28/2021
+Oeiras challenger,Torres T.,Ionel N. (8),,,2,1,03/28/2021
+Oeiras challenger,Brancaccio R. (4),Rocha H.,,,2,1,03/28/2021
+Oeiras challenger,Faria L.,Orlov V. (5),,,2,1,03/28/2021
+Oeiras challenger,Araujo P.,Kotov P. (1),,,2,1,03/28/2021
+Oeiras challenger,Guinard M. (2),Beaupain S.,,,2,0,03/28/2021
+Oeiras challenger,Cabral F.,Nedelko I. (6),,,2,1,03/28/2021
+Oeiras challenger,Furness E. (3),Gomes M.,,,2,0,03/28/2021
+Oeiras challenger,Yevseyev D. (7),Martos Gornes S.,,,2,0,03/28/2021
+Miami,Shapovalov D. (6),Ivashka I.,,,2,1,03/27/2021
+Miami,Mannarino A. (25),Kecmanovic M.,,,2,0,03/27/2021
+Miami,Humbert U. (20),Sousa J.,,,2,0,03/27/2021
+Miami,Karatsev A. (17),Kukushkin M.,,,2,0,03/27/2021
+Miami,Cilic M.,Garin C. (13),,,2,1,03/27/2021
+Miami,Galan D.,De Minaur A. (15),,,2,1,03/27/2021
+Miami,Musetti L.,Paire B. (23),,,2,0,03/27/2021
+Miami,Tsitsipas S. (2),Dzumhur D.,,,2,0,03/27/2021
+Miami,Hurkacz H. (26),Kudla D.,,,2,0,03/27/2021
+Miami,Raonic M. (12),Thompson J.,,,2,0,03/27/2021
+Miami,Nishikori K.,Bedene A.,,,2,1,03/27/2021
+Miami,Sonego L. (24),Fratangelo B.,,,2,0,03/27/2021
+Miami,Isner J. (18),McDonald M.,,,2,1,03/27/2021
+Miami,Tiafoe F.,Evans D. (19),,,2,1,03/27/2021
+Lille challenger,Bergs Z.,Halys Q. (8),,,2,1,03/27/2021
+Lille challenger,Barrere G. (1),Janvier M.,,,2,1,03/27/2021
+Lugano challenger,Sachko V.,Celikbilek A.,,,2,0,03/27/2021
+Lugano challenger,Stricker D.,Sugita Y. (1),,,2,1,03/27/2021
+Zadar challenger,Kuzmanov D.,Fatic N.,,,1,0,03/27/2021
+Zadar challenger,Milojevic N. (3),Klein L.,,,2,1,03/27/2021
+Futures 2021,Alves M.,Dougaz A.,,,2,1,03/27/2021
+Futures 2021,Dambrosi G.,Denolly C.,,,2,1,03/27/2021
+Futures 2021,Catarina L.,Sinclair C.,,,2,1,03/27/2021
+Futures 2021,Fonio G.,Ovcharenko O.,,,2,0,03/27/2021
+Futures 2021,Ochi M.,Gengel M.,,,2,1,03/27/2021
+Futures 2021,Zekic M.,Madaras D.,,,2,1,03/27/2021
+Futures 2021,Hsu Y.,Serafini M.,,,2,0,03/27/2021
+Futures 2021,Michalski D.,Kravchenko G.,,,2,0,03/27/2021
+Futures 2021,Crawford O.,Sureshkumar M.,,,2,0,03/27/2021
+Futures 2021,Khan Z.,Mridha J.,,,2,0,03/27/2021
+UTR Pro Tennis Series,Schoolkate T.,Tricerri S.,,,2,0,03/27/2021
+UTR Pro Tennis Series,McCabe J.,Hoole C.,,,2,1,03/27/2021
+UTR Pro Tennis Series,Addison A.,Bulte A.,,,2,0,03/27/2021
+UTR Pro Tennis Series,Jasika O.,Winter E.,,,2,1,03/27/2021
+UTR Pro Tennis Series,Beale J.,Smith J.,,,2,0,03/27/2021
+UTR Pro Tennis Series,Tu L.,Mehrotra A.,,,2,0,03/27/2021
+Miami,Bublik A. (32),Djere L.,,,2,0,03/26/2021
+Miami,Bautista-Agut R. (7),Harris L.,,,1,0,03/26/2021
+Miami,Ruusuvuori E.,Zverev A. (3),,,2,1,03/26/2021
+Miami,Khachanov K. (14),Hanfmann Y.,,,2,0,03/26/2021
+Miami,Medvedev D. (1),Lu Y.,,,2,0,03/26/2021
+Miami,Auger Aliassime F. (11),Herbert P.,,,2,0,03/26/2021
+Miami,Sinner J. (21),Gaston H.,,,2,0,03/26/2021
+Miami,Ymer M.,Basilashvili N. (27),,,2,1,03/26/2021
+Miami,Struff J. (31),Berankis R.,,,2,0,03/26/2021
+Miami,Norrie C.,Dimitrov G. (9),,,2,0,03/26/2021
+Miami,Fritz T. (22),Giron M.,,,2,0,03/26/2021
+Miami,Lajovic D. (16),Escobedo E.,,,2,0,03/26/2021
+Miami,Duckworth J.,Goffin D. (8),,,2,0,03/26/2021
+Miami,Popyrin A.,Opelka R. (30),,,2,0,03/26/2021
+Miami,Bedene A.,Fabbiano T.,,,2,1,03/26/2021
+Miami,Sousa J.,O'Connell C.,,,2,1,03/26/2021
+Miami,Musetti L.,Mmoh M.,,,2,0,03/26/2021
+Miami,Korda S.,Albot R.,,,2,0,03/26/2021
+Lille challenger,Bergs Z.,Arnaboldi A.,,,1,0,03/26/2021
+Lille challenger,Janvier M.,Rinderknech A. (3),,,2,0,03/26/2021
+Lille challenger,Halys Q. (8),Bonzi B. (2),,,2,0,03/26/2021
+Lille challenger,Barrere G. (1),Forejtek J.,,,2,1,03/26/2021
+Lugano challenger,Sachko V.,Safiullin R. (6),,,2,0,03/26/2021
+Lugano challenger,Stricker D.,Masur D.,,,2,0,03/26/2021
+Lugano challenger,Celikbilek A.,Grenier H.,,,2,1,03/26/2021
+Lugano challenger,Sugita Y. (1),Karlovskiy E.,,,2,1,03/26/2021
+Zadar challenger,Kuzmanov D.,Kavcic B.,,,2,0,03/26/2021
+Zadar challenger,Milojevic N. (3),Kopriva V.,,,2,0,03/26/2021
+Zadar challenger,Fatic N.,Nagal S. (2),,,2,1,03/26/2021
+Zadar challenger,Klein L.,Mager G. (1),,,2,1,03/26/2021
+Futures 2021,Michalski D.,Fayziev S.,,,2,0,03/26/2021
+Futures 2021,Zekic M.,Marozsan F.,,,1,0,03/26/2021
+Futures 2021,Alves M.,Kirkin E.,,,2,1,03/26/2021
+Futures 2021,Madaras D.,Gima S.,,,2,0,03/26/2021
+Futures 2021,Fonio G.,Rondoni P.,,,2,0,03/26/2021
+Futures 2021,Ovcharenko O.,Galoppini D.,,,2,1,03/26/2021
+Futures 2021,Dougaz A.,Tokuda R.,,,2,0,03/26/2021
+Futures 2021,Dambrosi G.,Rybakov A.,,,2,1,03/26/2021
+Futures 2021,Denolly C.,Nejedly P.,,,2,1,03/26/2021
+Futures 2021,Hsu Y.,Poljak D.,,,2,0,03/26/2021
+Futures 2021,Sinclair C.,Langmo C.,,,2,1,03/26/2021
+Futures 2021,Catarina L.,Correia J.,,,2,0,03/26/2021
+Futures 2021,Gengel M.,Chrysochos P.,,,2,0,03/26/2021
+Futures 2021,Serafini M.,Gutierrez O.,,,2,0,03/26/2021
+Futures 2021,Ochi M.,Cias P.,,,2,0,03/26/2021
+Futures 2021,Marozsan F.,Medjedovic H.,,,2,1,03/26/2021
+Futures 2021,Fayziev S.,Fajta P.,,,2,1,03/26/2021
+Futures 2021,Kravchenko G.,Schmitz C.,,,2,0,03/26/2021
+Futures 2021,Zekic M.,Braynin A.,,,2,0,03/26/2021
+Futures 2021,Tomasetto L.,Hong S.,,,2,0,03/26/2021
+Futures 2021,Michalski D.,Wassermann D.,,,2,1,03/26/2021
+Futures 2021,Madaras D.,Lee D.,,,2,0,03/26/2021
+Futures 2021,Gima S.,Paz J.,,,2,0,03/26/2021
+Futures 2021,Kravchenko G.,Tomasetto L.,,,2,0,03/26/2021
+Futures 2021,Sureshkumar M.,Patten H.,,,2,1,03/26/2021
+Futures 2021,Crawford O.,Kadhe A.,,,2,0,03/26/2021
+Futures 2021,Khan Z.,McHugh A.,,,2,1,03/26/2021
+Futures 2021,Mridha J.,Carr S.,,,2,1,03/26/2021
+UTR Pro Tennis Series,Addison A.,Klein B.,,,2,1,03/26/2021
+UTR Pro Tennis Series,Winter E.,Frawley J.,,,2,1,03/26/2021
+UTR Pro Tennis Series,Kelly D.,Jin J.,,,2,0,03/26/2021
+UTR Pro Tennis Series,Schoolkate T.,Hoole C.,,,2,0,03/26/2021
+UTR Pro Tennis Series,Smith J.,Mehrotra A.,,,2,0,03/26/2021
+UTR Pro Tennis Series,Camus C.,Tricerri S.,,,2,0,03/26/2021
+UTR Pro Tennis Series,Jasika O.,Crnokrak A.,,,2,1,03/26/2021
+UTR Pro Tennis Series,Beale J.,Sach T.,,,2,0,03/26/2021
+UTR Pro Tennis Series,Klein B.,Jin J.,,,2,0,03/26/2021
+Miami,Sandgren T.,Martinez P.,,,1,0,03/25/2021
+Miami,Galan D.,Seyboth Wild T.,,,2,0,03/25/2021
+Miami,Dzumhur D.,Anderson K.,,,2,0,03/25/2021
+Miami,Kecmanovic M.,Broady L.,,,2,1,03/25/2021
+Miami,Cilic M.,Coria F.,,,2,1,03/25/2021
+Miami,Uchiyama Y.,Caruso S.,,,2,0,03/25/2021
+Miami,Thompson J.,Delbonis F.,,,2,0,03/25/2021
+Miami,Kudla D.,Chardy J.,,,2,1,03/25/2021
+Miami,Fratangelo B.,Verdasco F.,,,2,0,03/25/2021
+Miami,Kokkinakis T.,Mochizuki S.,,,2,0,03/25/2021
+Miami,Kukushkin M.,Draper J.,,,1,0,03/25/2021
+Miami,Ivashka I.,Kwon S.,,,2,1,03/25/2021
+Miami,Tiafoe F.,Travaglia S.,,,2,1,03/25/2021
+Miami,Ruusuvuori E.,Alcaraz C.,,,2,1,03/25/2021
+Lille challenger,Rinderknech A. (3),Kuhn N.,,,2,0,03/25/2021
+Lille challenger,Bonzi B. (2),Lamasine T.,,,2,0,03/25/2021
+Lille challenger,Halys Q. (8),Marmousez L.,,,2,0,03/25/2021
+Lille challenger,Forejtek J.,Zeppieri G.,,,2,0,03/25/2021
+Lille challenger,Janvier M.,Jianu F.,,,2,1,03/25/2021
+Lugano challenger,Safiullin R. (6),Sock J.,,,2,0,03/25/2021
+Lugano challenger,Masur D.,Moriya H.,,,2,1,03/25/2021
+Lugano challenger,Celikbilek A.,Miedler L.,,,1,0,03/25/2021
+Lugano challenger,Sachko V.,Stakhovsky S.,,,2,0,03/25/2021
+Zadar challenger,Kuzmanov D.,Kolar Z.,,,2,0,03/25/2021
+Zadar challenger,Mager G. (1),Sanchez Izquierdo N.,,,2,1,03/25/2021
+Zadar challenger,Kopriva V.,Ignatik U.,,,2,1,03/25/2021
+Zadar challenger,Milojevic N. (3),Nedelko I.,,,2,0,03/25/2021
+Futures 2021,Rondoni P.,Legout T.,,,2,1,03/25/2021
+Futures 2021,Galoppini D.,Perchicot M.,,,2,0,03/25/2021
+Futures 2021,Kirkin E.,Gadamauri B.,,,2,1,03/25/2021
+Futures 2021,Fonio G.,Arnaldi M.,,,2,0,03/25/2021
+Futures 2021,Rybakov A.,Maestrelli F.,,,2,0,03/25/2021
+Futures 2021,Nejedly P.,Damm M.,,,2,0,03/25/2021
+Futures 2021,Cias P.,Shimizu Y.,,,2,0,03/25/2021
+Futures 2021,Langmo C.,Lock B.,,,2,1,03/25/2021
+Futures 2021,Correia J.,Rihane Y.,,,2,0,03/25/2021
+Futures 2021,Tokuda R.,Naw H.,,,2,1,03/25/2021
+Futures 2021,Denolly C.,Voisin E.,,,2,1,03/25/2021
+Futures 2021,Dambrosi G.,Wenger D.,,,2,0,03/25/2021
+Futures 2021,Poljak D.,Jubb P.,,,2,0,03/25/2021
+Futures 2021,Hsu Y.,Hajek P.,,,2,0,03/25/2021
+Futures 2021,Ovcharenko O.,Prechtel S.,,,2,0,03/25/2021
+Futures 2021,Serafini M.,Peliwo F.,,,2,0,03/25/2021
+Futures 2021,Dougaz A.,Negritu C.,,,2,1,03/25/2021
+Futures 2021,Alves M.,Klier Junior G.,,,2,1,03/25/2021
+Futures 2021,Sinclair C.,Lokoli L.,,,2,0,03/25/2021
+Futures 2021,Catarina L.,Potenza L.,,,2,0,03/25/2021
+Futures 2021,Sureshkumar M.,Velcz Z.,,,2,1,03/25/2021
+Futures 2021,Crawford O.,Javia D.,,,2,1,03/25/2021
+Futures 2021,Gutierrez O.,Vincent Ruggeri S.,,,2,1,03/25/2021
+Futures 2021,Gengel M.,Niki T.,,,2,0,03/25/2021
+Futures 2021,Chrysochos P.,Johnson L.,,,2,1,03/25/2021
+Futures 2021,Ochi M.,Deviatiarov M.,,,2,0,03/25/2021
+Futures 2021,Michalski D.,Makk P.,,,2,1,03/25/2021
+Futures 2021,Paz J.,Den Heijer G.,,,2,0,03/25/2021
+Futures 2021,Marozsan F.,Woerner P.,,,2,0,03/25/2021
+Futures 2021,Braynin A.,Dhoe B.,,,2,1,03/25/2021
+Futures 2021,Tomasetto L.,Cengiz B.,,,2,0,03/25/2021
+Futures 2021,Medjedovic H.,Dancu V.,,,2,0,03/25/2021
+Futures 2021,Zekic M.,Alcala Gurri M.,,,2,0,03/25/2021
+Futures 2021,Wassermann D.,Barreto Sanchez D.,,,2,0,03/25/2021
+Futures 2021,Kadhe A.,Palan D.,,,2,1,03/25/2021
+Futures 2021,McHugh A.,Eqbal I.,,,2,0,03/25/2021
+Futures 2021,Carr S.,Bergevi F.,,,2,0,03/25/2021
+Futures 2021,Patten H.,Svrcina D.,,,2,1,03/25/2021
+Futures 2021,Mridha J.,Dahiya P.,,,2,1,03/25/2021
+Futures 2021,Khan Z.,Prasanth V.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Sweeny D.,Jasika O.,,,2,1,03/25/2021
+UTR Pro Tennis Series,Winter E.,Crnokrak A.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Tu L.,Beale J.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Kelly D.,Bulte A.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Smith J.,Sach T.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Addison A.,Jin J.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Mehrotra A.,Sach T.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Crnokrak A.,Frawley J.,,,2,1,03/25/2021
+UTR Pro Tennis Series,Tu L.,Smith J.,,,2,0,03/25/2021
+UTR Pro Tennis Series,McCabe J.,Tricerri S.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Winter E.,Sweeny D.,,,2,1,03/25/2021
+UTR Pro Tennis Series,Schoolkate T.,Camus C.,,,2,0,03/25/2021
+UTR Pro Tennis Series,Klein B.,Bulte A.,,,2,0,03/25/2021
+Miami,Djere L.,Vesely J.,,,2,1,03/24/2021
+Miami,McDonald M.,Pospisil V.,,,2,1,03/24/2021
+Miami,Harris L.,Nava E.,,,2,0,03/24/2021
+Miami,Duckworth J.,Zverev M.,,,2,1,03/24/2021
+Miami,Berankis R.,Gaio F.,,,2,0,03/24/2021
+Miami,Hanfmann Y.,Johnson S.,,,2,0,03/24/2021
+Miami,Escobedo E.,Lorenzi P.,,,2,0,03/24/2021
+Miami,Gaston H.,Koepfer D.,,,2,0,03/24/2021
+Miami,Lu Y.,Querrey S.,,,2,0,03/24/2021
+Miami,Giron M.,Paul T.,,,2,0,03/24/2021
+Miami,Ymer M.,Tabilo A.,,,2,0,03/24/2021
+Miami,Norrie C.,Nishioka Y. (28),,,2,1,03/24/2021
+Miami,Herbert P.,Sousa P.,,,2,0,03/24/2021
+Miami,Popyrin A.,Lopez F.,,,2,0,03/24/2021
+Lille challenger,Bergs Z.,Kamke T.,,,2,1,03/24/2021
+Lille challenger,Barrere G. (1),Brown D.,,,2,0,03/24/2021
+Lille challenger,Arnaboldi A.,Hoang A. (4),,,2,1,03/24/2021
+Lille challenger,Marmousez L.,Crepatte B.,,,2,0,03/24/2021
+Lille challenger,Forejtek J.,Cachin P.,,,2,1,03/24/2021
+Lille challenger,Janvier M.,Durasovic V.,,,2,1,03/24/2021
+Lille challenger,Zeppieri G.,Otte O. (5),,,2,0,03/24/2021
+Lille challenger,Jianu F.,Muller A. (6),,,2,1,03/24/2021
+Lugano challenger,Sugita Y. (1),Riedi L.,,,2,1,03/24/2021
+Lugano challenger,Karlovskiy E.,Santillan A.,,,2,0,03/24/2021
+Lugano challenger,Grenier H.,Tomic B.,,,2,1,03/24/2021
+Lugano challenger,Moriya H.,Bachinger M.,,,2,1,03/24/2021
+Lugano challenger,Stricker D.,Van Rijthoven T.,,,2,1,03/24/2021
+Lugano challenger,Miedler L.,Lacko L.,,,2,0,03/24/2021
+Lugano challenger,Masur D.,Marchenko I. (5),,,2,0,03/24/2021
+Zadar challenger,Klein L.,Vrbensky M.,,,2,1,03/24/2021
+Zadar challenger,Nagal S. (2),Nincevic F.,,,2,0,03/24/2021
+Zadar challenger,Kavcic B.,Molcan A.,,,2,0,03/24/2021
+Zadar challenger,Fatic N.,Giannessi A. (5),,,2,1,03/24/2021
+Futures 2021,Serafini M.,Miceli M.,,,2,0,03/24/2021
+Futures 2021,Peliwo F.,Stevenson K.,,,2,0,03/24/2021
+Futures 2021,Cias P.,Hamed M.,,,2,0,03/24/2021
+Futures 2021,Voisin E.,Bakshi A.,,,2,1,03/24/2021
+Futures 2021,Nejedly P.,Spec M.,,,2,1,03/24/2021
+Futures 2021,Maestrelli F.,Zugic M.,,,2,0,03/24/2021
+Futures 2021,Denolly C.,Devald B.,,,2,0,03/24/2021
+Futures 2021,Gutierrez O.,Cubelic K.,,,2,1,03/24/2021
+Futures 2021,Hsu Y.,Ciurletti A.,,,2,0,03/24/2021
+Futures 2021,Vincent Ruggeri S.,Voronin D.,,,2,0,03/24/2021
+Futures 2021,Catarina L.,Rojas O.,,,2,0,03/24/2021
+Futures 2021,Potenza L.,Onclin G.,,,2,0,03/24/2021
+Futures 2021,Klier Junior G.,Collignon R.,,,2,1,03/24/2021
+Futures 2021,Dambrosi G.,Pichler D.,,,2,1,03/24/2021
+Futures 2021,Rondoni P.,Monzon I.,,,2,0,03/24/2021
+Futures 2021,Fonio G.,Otegui J.,,,2,0,03/24/2021
+Futures 2021,Rybakov A.,Tenti F.,,,2,0,03/24/2021
+Futures 2021,Shimizu Y.,Metreveli A.,,,2,0,03/24/2021
+Futures 2021,Jubb P.,Horak O.,,,2,0,03/24/2021
+Futures 2021,Johnson L.,Zakaryia F.,,,2,0,03/24/2021
+Futures 2021,Sinclair C.,Tabacco F.,,,2,0,03/24/2021
+Futures 2021,Lock B.,Ganchev A.,,,2,0,03/24/2021
+Futures 2021,Dougaz A.,Ghorbel A.,,,2,0,03/24/2021
+Futures 2021,Gadamauri B.,Donski A.,,,2,0,03/24/2021
+Futures 2021,Fajta P.,Valkusz M.,,,1,0,03/24/2021
+Futures 2021,Damm M.,Horvat R.,,,2,0,03/24/2021
+Futures 2021,Ovcharenko O.,Passaro F.,,,2,0,03/24/2021
+Futures 2021,Arnaldi M.,Basso A.,,,2,0,03/24/2021
+Futures 2021,Legout T.,Dalla Valle E.,,,2,1,03/24/2021
+Futures 2021,Naw H.,Civita Telles L.,,,2,1,03/24/2021
+Futures 2021,Gengel M.,Bellucci M.,,,2,0,03/24/2021
+Futures 2021,Poljak D.,Nijboer R.,,,2,0,03/24/2021
+Futures 2021,Carr S.,Sunish D.,,,2,1,03/24/2021
+Futures 2021,Rihane Y.,Liaonenka A.,,,2,1,03/24/2021
+Futures 2021,Tokuda R.,Thanos A.,,,2,0,03/24/2021
+Futures 2021,Hajek P.,Ricca G.,,,2,1,03/24/2021
+Futures 2021,Chrysochos P.,Vilardo F.,,,1,0,03/24/2021
+Futures 2021,Deviatiarov M.,Atturu B.,,,2,0,03/24/2021
+Futures 2021,Niki T.,Martin T.,,,2,0,03/24/2021
+Futures 2021,Hong S.,Miladinovic M.,,,2,0,03/24/2021
+Futures 2021,Kravchenko G.,Kirci K.,,,2,1,03/24/2021
+Futures 2021,Lee D.,Sveridenko V.,,,2,0,03/24/2021
+Futures 2021,Ochi M.,Lorens M.,,,2,0,03/24/2021
+Futures 2021,Schmitz C.,Vives Marcos P.,,,2,0,03/24/2021
+Futures 2021,Madaras D.,Weis A.,,,2,1,03/24/2021
+Futures 2021,Gima S.,Ionel N.,,,2,0,03/24/2021
+Futures 2021,Fayziev S.,Ilhan M.,,,2,0,03/24/2021
+Futures 2021,McHugh A.,Kumar O.,,,2,0,03/24/2021
+Futures 2021,Eqbal I.,Castelnuovo L.,,,1,0,03/24/2021
+Futures 2021,Prasanth V.,Qamar F.,,,2,0,03/24/2021
+Futures 2021,Crawford O.,Sharma A.,,,2,0,03/24/2021
+Futures 2021,Kadhe A.,Dev S.,,,2,0,03/24/2021
+Futures 2021,Svrcina D.,Rawat S.,,,2,0,03/24/2021
+Futures 2021,Sureshkumar M.,Bocchi L.,,,2,0,03/24/2021
+Futures 2021,Khan Z.,Shanmugam A.,,,2,0,03/24/2021
+Futures 2021,Palan D.,Virali-Murugesan R.,,,2,0,03/24/2021
+UTR Pro Tennis Series,Schoolkate T.,McCabe J.,,,2,1,03/24/2021
+UTR Pro Tennis Series,Camus C.,Hoole C.,,,2,0,03/24/2021
+UTR Pro Tennis Series,Jin J.,Bulte A.,,,2,0,03/24/2021
+UTR Pro Tennis Series,Jasika O.,Frawley J.,,,2,0,03/24/2021
+UTR Pro Tennis Series,McCabe J.,Camus C.,,,2,0,03/24/2021
+UTR Pro Tennis Series,Sweeny D.,Crnokrak A.,,,2,1,03/24/2021
+UTR Pro Tennis Series,Kelly D.,Addison A.,,,2,0,03/24/2021
+Futures 2021,Alcala Gurri M.,Donev G.,,,2,0,03/24/2021
+Futures 2021,Tomasetto L.,Yamanaka T.,,,2,0,03/24/2021
+Futures 2021,Den Heijer G.,Fossati A.,,,2,0,03/24/2021
+Futures 2021,Wassermann D.,Torski O.,,,2,1,03/24/2021
+Futures 2021,Braynin A.,Vernier M.,,,2,0,03/24/2021
+Futures 2021,Woerner P.,Vankan M.,,,2,0,03/24/2021
+Futures 2021,Dancu V.,Roggero T.,,,2,0,03/24/2021
+Futures 2021,Makk P.,Turchetti N.,,,2,0,03/24/2021
+Lille challenger,Rinderknech A. (3),Geerts M.,,,2,1,03/23/2021
+Lille challenger,Bonzi B. (2),Furness E.,,,2,1,03/23/2021
+Lille challenger,Halys Q. (8),Cazaux A.,,,2,0,03/23/2021
+Lille challenger,Lamasine T.,Briand J.,,,2,1,03/23/2021
+Lille challenger,Kamke T.,Moraing M.,,,2,0,03/23/2021
+Lille challenger,Kuhn N.,Martineau M.,,,2,0,03/23/2021
+Lille challenger,Bergs Z.,Marterer M. (7),,,2,0,03/23/2021
+Lille challenger,Arnaboldi A.,Guinard M.,,,2,0,03/23/2021
+Lugano challenger,Sock J.,Bellier A.,,,2,0,03/23/2021
+Lugano challenger,Safiullin R. (6),Kym J.,,,2,0,03/23/2021
+Lugano challenger,Sachko V.,Polmans M. (4),,,2,1,03/23/2021
+Lugano challenger,Stakhovsky S.,Forti F.,,,2,0,03/23/2021
+Lugano challenger,Van Rijthoven T.,Gojowczyk P. (3),,,2,1,03/23/2021
+Lugano challenger,Santillan A.,Peniston R.,,,2,1,03/23/2021
+Lugano challenger,Karlovskiy E.,Sels J.,,,2,1,03/23/2021
+Zadar challenger,Milojevic N. (3),Wu T.,,,2,0,03/23/2021
+Zadar challenger,Klein L.,Orlov V.,,,2,0,03/23/2021
+Zadar challenger,Nedelko I.,Gabashvili T.,,,2,1,03/23/2021
+Zadar challenger,Kuzmanov D.,Moroni G. (8),,,2,0,03/23/2021
+Zadar challenger,Ignatik U.,Horansky F. (6),,,2,0,03/23/2021
+Zadar challenger,Nagal S. (2),Serdarusic N.,,,2,0,03/23/2021
+Zadar challenger,Mager G. (1),Sijsling I.,,,2,1,03/23/2021
+Zadar challenger,Fatic N.,Bourchier H.,,,2,0,03/23/2021
+Zadar challenger,Sanchez Izquierdo N.,Pecotic M.,,,2,1,03/23/2021
+Zadar challenger,Kopriva V.,Bortolotti M.,,,2,0,03/23/2021
+Zadar challenger,Kolar Z.,Vatutin A.,,,2,0,03/23/2021
+Futures 2021,Perchicot M.,Madarasz G.,,,2,1,03/23/2021
+Futures 2021,Wenger D.,Atmane T.,,,2,1,03/23/2021
+Futures 2021,Galoppini D.,Kalender A.,,,2,0,03/23/2021
+Futures 2021,Prechtel S.,Lazarov A.,,,2,0,03/23/2021
+Futures 2021,Negritu C.,Barrena A.,,,2,1,03/23/2021
+Futures 2021,Kirkin E.,Galarza J.,,,2,0,03/23/2021
+Futures 2021,Correia J.,Kasnikowski M.,,,2,0,03/23/2021
+Futures 2021,Alves M.,De Cuyper J.,,,2,0,03/23/2021
+Futures 2021,Lokoli L.,Rodrigues N.,,,1,0,03/23/2021
+Futures 2021,Langmo C.,Zhu E.,,,2,1,03/23/2021
+Futures 2021,Bergevi F.,Singh K.,,,2,0,03/23/2021
+Futures 2021,Dahiya P.,Prabodh S.,,,2,0,03/23/2021
+Futures 2021,Mridha J.,Goveas A.,,,2,0,03/23/2021
+Futures 2021,Velcz Z.,Brugnerotto M.,,,2,1,03/23/2021
+Futures 2021,Patten H.,Kaliyanda Poonacha N.,,,1,0,03/23/2021
+Futures 2021,Javia D.,Ganta S.,,,2,0,03/23/2021
+UTR Pro Tennis Series,Tu L.,Sach T.,,,2,0,03/23/2021
+Futures 2021,Hajek P.,Cubelic K.,,,2,0,03/23/2021
+Futures 2021,Voisin E.,Ceppellini A.,,,2,0,03/23/2021
+Futures 2021,Passaro F.,Barun B.,,,2,0,03/23/2021
+Futures 2021,Maestrelli F.,Bertran P.,,,2,0,03/23/2021
+Futures 2021,Bakshi A.,Frinzi M.,,,2,0,03/23/2021
+Futures 2021,Zakaryia F.,Mukund S.,,,2,1,03/23/2021
+Futures 2021,Ovcharenko O.,Fuele M.,,,2,0,03/23/2021
+Futures 2021,Ciurletti A.,Handel T.,,,2,0,03/23/2021
+Futures 2021,Dambrosi G.,Goldsteiner P.,,,2,0,03/23/2021
+Futures 2021,Arnaldi M.,Prizmic D.,,,2,0,03/23/2021
+Futures 2021,Spec M.,Biljesko D.,,,2,0,03/23/2021
+Futures 2021,Martin T.,Dellavedova M.,,,2,1,03/23/2021
+Futures 2021,Bellucci M.,Vasiliauskas M.,,,2,0,03/23/2021
+Futures 2021,Vilardo F.,Oberleitner N.,,,2,0,03/23/2021
+Futures 2021,Serafini M.,Rottoli L.,,,2,0,03/23/2021
+Futures 2021,Miceli M.,Eguez S.,,,2,0,03/23/2021
+Miami,Nava E.,Olivo R.,,,2,1,03/23/2021
+Miami,Mochizuki S.,Gomez E. (21),,,2,0,03/23/2021
+Miami,Fabbiano T. (22),Brooksby J.,,,2,1,03/23/2021
+Miami,Zverev M.,Viola M.,,,2,1,03/23/2021
+Miami,Lorenzi P. (14),Jung J. (10),,,2,0,03/23/2021
+Miami,Tabilo A. (18),Dzumhur D. (3),,,2,1,03/23/2021
+Miami,Fratangelo B.,Huesler M. (12),,,2,0,03/23/2021
+Miami,McDonald M. (1),Karlovic I. (19),,,2,0,03/23/2021
+Miami,Escobedo E.,Nakashima B. (9),,,2,0,03/23/2021
+Miami,Broady L. (15),Gaio F. (6),,,2,1,03/23/2021
+Miami,Seyboth Wild T. (2),Krueger M.,,,2,0,03/23/2021
+Miami,Kokkinakis T.,Vilella Martinez M.,,,2,0,03/23/2021
+Lille challenger,Brown D.,Bourgue M.,,,2,1,03/22/2021
+Lille challenger,Barrere G. (1),Safranek V.,,,2,1,03/22/2021
+Lille challenger,Hoang A. (4),Hamou M.,,,2,0,03/22/2021
+Lugano challenger,Sugita Y. (1),Lenz J.,,,2,0,03/22/2021
+Lugano challenger,Celikbilek A.,Donskoy E. (2),,,2,1,03/22/2021
+Lugano challenger,Stricker D.,Clarke J.,,,2,0,03/22/2021
+Lugano challenger,Grenier H.,Marcora R. (8),,,2,0,03/22/2021
+Lugano challenger,Riedi L.,Menendez-Maceiras A.,,,2,1,03/22/2021
+Lugano challenger,Tomic B.,Vukic A.,,,2,0,03/22/2021
+Zadar challenger,Giannessi A. (5),Bonadio R.,,,2,0,03/22/2021
+Zadar challenger,Nincevic F.,Poljicak M.,,,2,1,03/22/2021
+Zadar challenger,Kavcic B.,Pellegrino A.,,,2,0,03/22/2021
+Zadar challenger,Vrbensky M.,Couacaud E. (7),,,2,0,03/22/2021
+Zadar challenger,Molcan A.,Rola B. (4),,,2,0,03/22/2021
+Futures 2021,Civita Telles L.,Marcondes I.,,,2,0,03/22/2021
+Futures 2021,Rojas O.,Kawachi K.,,,2,0,03/22/2021
+Futures 2021,Thanos A.,Hoeveler L.,,,2,0,03/22/2021
+Futures 2021,Barun B.,Polakovic S.,,,2,0,03/22/2021
+Futures 2021,Frinzi M.,Loncar S.,,,2,0,03/22/2021
+Futures 2021,Naw H.,Pampanin P.,,,2,1,03/22/2021
+Futures 2021,Cubelic K.,Boyer T.,,,2,0,03/22/2021
+Futures 2021,Handel T.,Mikhaylyuk I.,,,2,0,03/22/2021
+Futures 2021,Dambrosi G.,Panak Y.,,,2,0,03/22/2021
+Futures 2021,Ciurletti A.,Claverie L.,,,2,0,03/22/2021
+Futures 2021,Bakshi A.,Rossi L.,,,2,0,03/22/2021
+Futures 2021,Tabacco F.,Gadamauri B.,,,2,0,03/22/2021
+Futures 2021,Marcondes I.,Barreiros Reyes M.,,,2,0,03/22/2021
+Futures 2021,Liaonenka A.,Battaglino S.,,,2,1,03/22/2021
+Futures 2021,Spec M.,Bouquet L.,,,2,0,03/22/2021
+Futures 2021,Passaro F.,Brosset S.,,,1,0,03/22/2021
+Futures 2021,Biljesko D.,Radovanovic T.,,,2,0,03/22/2021
+Futures 2021,Bellucci M.,Jones A.,,,2,0,03/22/2021
+Futures 2021,Eguez S.,Jermar J.,,,2,1,03/22/2021
+Futures 2021,Dellavedova M.,Liu S.,,,2,1,03/22/2021
+Futures 2021,Bertran P.,Dimic M.,,,2,1,03/22/2021
+Futures 2021,Civita Telles L.,Zanada E.,,,2,0,03/22/2021
+Futures 2021,Rojas O.,Riedel T.,,,2,0,03/22/2021
+Futures 2021,Prizmic D.,Misolic F.,,,1,0,03/22/2021
+Futures 2021,Ovcharenko O.,Emesz B.,,,2,0,03/22/2021
+Futures 2021,Fuele M.,Matic M.,,,2,1,03/22/2021
+Futures 2021,Hoeveler L.,Iradukunda G.,,,2,1,03/22/2021
+Futures 2021,Martin T.,Stefani Figlia B.,,,2,0,03/22/2021
+Futures 2021,Zakaryia F.,Nordquist A.,,,2,1,03/22/2021
+Futures 2021,Thanos A.,Kroslak J.,,,2,0,03/22/2021
+Futures 2021,Kawachi K.,Sperle J.,,,2,0,03/22/2021
+Futures 2021,Vasiliauskas M.,Jones B.,,,2,0,03/22/2021
+Futures 2021,Ceppellini A.,Ban I.,,,2,0,03/22/2021
+Futures 2021,Pampanin P.,Castagnola L.,,,2,1,03/22/2021
+Futures 2021,Naw H.,Brun T.,,,2,0,03/22/2021
+Futures 2021,Maestrelli F.,Furlanetto M.,,,2,1,03/22/2021
+Futures 2021,Arnaldi M.,Juhas K.,,,2,1,03/22/2021
+Futures 2021,Battaglino S.,Melnic V.,,,2,0,03/22/2021
+Futures 2021,Goldsteiner P.,Voros M.,,,2,0,03/22/2021
+Futures 2021,Voisin E.,Mora M.,,,2,0,03/22/2021
+Futures 2021,Liaonenka A.,De Boes M.,,,2,0,03/22/2021
+Futures 2021,Gadamauri B.,Alkotop M.,,,2,0,03/22/2021
+Futures 2021,Tabacco F.,Agarwal R.,,,2,0,03/22/2021
+Futures 2021,Rottoli L.,Zhukayev B.,,,2,0,03/22/2021
+Futures 2021,Vilardo F.,Malgaroli L.,,,2,0,03/22/2021
+Futures 2021,Mukund S.,Bataljin L.,,,2,0,03/22/2021
+Futures 2021,Hajek P.,Luria E.,,,2,0,03/22/2021
+Futures 2021,Eqbal I.,Sood C.,,,2,0,03/22/2021
+Futures 2021,Serafini M.,Ogura K.,,,2,0,03/22/2021
+Futures 2021,Oberleitner N.,Tkemaladze Z.,,,2,1,03/22/2021
+Futures 2021,Qamar F.,Chandrasekar A.,,,2,1,03/22/2021
+Futures 2021,Miceli M.,Sigsgaard C.,,,2,1,03/22/2021
+Futures 2021,Kumar O.,Singh D.,,,2,0,03/22/2021
+Futures 2021,Torski O.,Houkes M.,,,1,0,03/22/2021
+Futures 2021,Alcala Gurri M.,Patzanovsky C.,,,2,0,03/22/2021
+Futures 2021,Donev G.,Vilicich B.,,,2,0,03/22/2021
+Futures 2021,Turchetti N.,Duran T.,,,2,0,03/22/2021
+Futures 2021,Wassermann D.,Lavagno E.,,,2,1,03/22/2021
+Futures 2021,Braynin A.,Fellin M.,,,2,0,03/22/2021
+Futures 2021,Fossati A.,Vanta V.,,,2,0,03/22/2021
+Futures 2021,Woerner P.,Graf D.,,,2,0,03/22/2021
+Futures 2021,Roggero T.,Denisov I.,,,2,0,03/22/2021
+Futures 2021,Tomasetto L.,Donders D.,,,2,1,03/22/2021
+Futures 2021,Makk P.,Dabryian A.,,,2,0,03/22/2021
+Futures 2021,Vankan M.,Alemany P.,,,2,1,03/22/2021
+Futures 2021,Yamanaka T.,Sakellaridis S.,,,2,0,03/22/2021
+Futures 2021,Den Heijer G.,Gorbatenko V.,,,2,0,03/22/2021
+Futures 2021,Vernier M.,Akkoyun U.,,,2,0,03/22/2021
+Futures 2021,Dancu V.,Parshutin D.,,,2,0,03/22/2021
+Futures 2021,Dahiya P.,Botezan G.,,,2,0,03/22/2021
+Futures 2021,Patten H.,Catani L.,,,2,0,03/22/2021
+Futures 2021,Prasanth V.,Brown P.,,,2,0,03/22/2021
+Futures 2021,Prabodh S.,Senthilkumar M.,,,2,0,03/22/2021
+Futures 2021,Virali-Murugesan R.,Reddy R.,,,2,1,03/22/2021
+Lille challenger,Bergs Z. (1),Leshem E. (6),,,2,0,03/22/2021
+Lille challenger,Crepatte B.,Jianu F. (5),,,2,0,03/22/2021
+Lille challenger,Briand J.,Heyman C.,,,2,1,03/22/2021
+Lille challenger,Martineau M.,Wang T.,,,2,0,03/22/2021
+Lugano challenger,Van Rijthoven T. (4),Ehrat S.,,,2,0,03/22/2021
+Lugano challenger,Bellier A.,Sels J. (6),,,2,1,03/22/2021
+Lugano challenger,Forti F.,Peniston R.,,,2,0,03/22/2021
+Lugano challenger,Sachko V.,Nikles J.,,,2,0,03/22/2021
+Miami,Fabbiano T. (22),Quiroz R.,,,2,0,03/22/2021
+Miami,Nava E.,Torpegaard M. (24),,,2,1,03/22/2021
+Miami,Brooksby J.,Laaksonen H. (5),,,2,1,03/22/2021
+Miami,Olivo R.,Soeda G. (8),,,2,0,03/22/2021
+Miami,Viola M.,Zapata Miralles B. (11),,,2,0,03/22/2021
+Miami,Gomez E. (21),Copil M.,,,2,0,03/22/2021
+Miami,Dzumhur D. (3),Blanch U.,,,2,0,03/22/2021
+Miami,Zverev M.,Petrovic D. (16),,,2,0,03/22/2021
+Miami,Mochizuki S.,Altmaier D. (7),,,1,0,03/22/2021
+Miami,Jung J. (10),Mahut N.,,,2,1,03/22/2021
+Miami,Fratangelo B.,Popko D. (23),,,2,0,03/22/2021
+Miami,Escobedo E.,Cressy M. (13),,,2,0,03/22/2021
+Miami,Lorenzi P. (14),Menezes J.,,,2,1,03/22/2021
+Miami,Tabilo A. (18),Kwiatkowski T.,,,2,0,03/22/2021
+Miami,Gaio F. (6),Schnur B.,,,2,0,03/22/2021
+Miami,McDonald M. (1),Cid Subervi R.,,,2,0,03/22/2021
+Miami,Krueger M.,Giustino L. (17),,,2,0,03/22/2021
+Miami,Seyboth Wild T. (2),Kodat T.,,,2,0,03/22/2021
+Miami,Karlovic I. (19),Ito T.,,,2,0,03/22/2021
+Miami,Kokkinakis T.,Silva F. (20),,,2,0,03/22/2021
+Miami,Broady L. (15),Shang J.,,,2,1,03/22/2021
+Miami,Huesler M. (12),Mena F.,,,2,0,03/22/2021
+Miami,Nakashima B. (9),Eubanks C.,,,2,1,03/22/2021
+Miami,Vilella Martinez M.,Stebe C. (4),,,2,0,03/22/2021
+Zadar challenger,Sanchez Izquierdo N. (2),Mansouri S. (5),,,2,0,03/22/2021
+Zadar challenger,Bortolotti M. (8),Orlov V. (3),,,2,1,03/22/2021
+Zadar challenger,Fatic N. (6),Nedelko I. (4),,,2,1,03/22/2021
+Zadar challenger,Ignatik U. (1),Sabanov M.,,,2,1,03/22/2021
+Acapulco,Zverev A. (2),Tsitsipas S. (1),,,2,0,03/21/2021
+Santiago challenger,Baez S.,Barrios Vera M.,,,2,0,03/21/2021
+Biella 5 challenger,Masur D.,Bachinger M.,,,2,1,03/21/2021
+Futures 2021,Cachin P.,Kravchenko G.,,,2,0,03/21/2021
+Futures 2021,Cachin P.,Fils A.,,,2,0,03/21/2021
+Futures 2021,Kravchenko G.,Marti Pujolras A.,,,2,1,03/21/2021
+Futures 2021,Cachin P.,Gimeno Valero C.,,,2,1,03/21/2021
+Futures 2021,Kravchenko G.,Barranco Cosano J.,,,2,1,03/21/2021
+Futures 2021,Fils A.,Brancaccio R.,,,2,1,03/21/2021
+Futures 2021,Denolly C.,Damm M.,,,2,1,03/21/2021
+Futures 2021,Poullain L.,Loffhagen G.,,,2,1,03/21/2021
+Futures 2021,Onclin G.,Collignon R.,,,2,0,03/21/2021
+Futures 2021,Zekic M.,Pucinelli De Almeida M.,,,2,1,03/21/2021
+Futures 2021,Miedler L.,Ochi M.,,,2,0,03/21/2021
+UK Pro Series,Matusevich A.,Whitehouse M.,,,2,1,03/21/2021
+UK Pro Series,Harris B.,Findel-Hawkins J.,,,2,0,03/21/2021
+UK Pro Series,Wendelken H.,Hands T.,,,2,1,03/21/2021
+UK Pro Series,Cash J.,Gray J.,,,2,0,03/21/2021
+UK Pro Series,Houghton G.,Weightman O.,,,2,1,03/21/2021
+UK Pro Series,Cox D.,Hodkin S.,,,2,0,03/21/2021
+UTR Pro Tennis Series,Jin J.,Rowing L.,,,2,0,03/21/2021
+UTR Pro Tennis Series,Aguiard E.,Hoole C.,,,2,0,03/21/2021
+UTR Pro Tennis Series,Puttergill C.,Cavrak K.,,,2,0,03/21/2021
+UTR Pro Tennis Series,McCabe J.,Smith J.,,,2,1,03/21/2021
+Futures 2021,Zanada E.,Paliska B.,,,2,1,03/21/2021
+Futures 2021,Hoeveler L.,Maguire C.,,,2,0,03/21/2021
+Futures 2021,Rojas O.,Fernandez Flores D.,,,2,0,03/21/2021
+Futures 2021,Riedel T.,D'hulst N.,,,2,0,03/21/2021
+Futures 2021,Mikhaylyuk I.,Eldin M.,,,2,0,03/21/2021
+Futures 2021,Ciurletti A.,Fu H.,,,2,0,03/21/2021
+Futures 2021,Handel T.,Okamura I.,,,2,0,03/21/2021
+Futures 2021,Claverie L.,Paris J.,,,2,1,03/21/2021
+Futures 2021,Civita Telles L.,Campo A.,,,2,1,03/21/2021
+Futures 2021,Kawachi K.,Elamin A.,,,2,1,03/21/2021
+Futures 2021,Marcondes I.,Tabacco G.,,,2,0,03/21/2021
+Futures 2021,Barreiros Reyes M.,Aissa Khelifa M.,,,2,0,03/21/2021
+Futures 2021,Sperle J.,Rodriguez L.,,,2,0,03/21/2021
+Futures 2021,Jones A.,Yeshaya O.,,,2,1,03/21/2021
+Futures 2021,Iradukunda G.,Affes M.,,,2,0,03/21/2021
+Futures 2021,Thanos A.,Biasiolo L.,,,2,0,03/21/2021
+Futures 2021,Kroslak J.,Sharma T.,,,2,0,03/21/2021
+Futures 2021,Cubelic K.,Zaki A.,,,2,0,03/21/2021
+Futures 2021,Boyer T.,Nakamura R.,,,2,0,03/21/2021
+Futures 2021,Bellucci M.,Little D.,,,2,1,03/21/2021
+Futures 2021,Tabacco F.,Hatamleh K.,,,2,0,03/21/2021
+Futures 2021,Naw H.,Liska T.,,,2,0,03/21/2021
+Futures 2021,Pampanin P.,Fattar A.,,,2,1,03/21/2021
+Futures 2021,Castagnola L.,Chakrouni A.,,,2,0,03/21/2021
+Futures 2021,Agarwal R.,Penzlin J.,,,2,0,03/21/2021
+Futures 2021,Brun T.,Chakrouni A.,,,2,0,03/21/2021
+Futures 2021,Dellavedova M.,Wawrzyczek A.,,,2,0,03/21/2021
+Futures 2021,Jermar J.,Stone Z.,,,2,0,03/21/2021
+Futures 2021,Liu S.,Gibbens J.,,,2,0,03/21/2021
+Futures 2021,Eguez S.,Uzhylovsky V.,,,2,1,03/21/2021
+Futures 2021,Alkotop M.,Gourar M.,,,2,0,03/21/2021
+Futures 2021,Gadamauri B.,Bedouet P.,,,2,0,03/21/2021
+Futures 2021,Martin T.,Khurodze D.,,,2,0,03/21/2021
+Futures 2021,Melnic V.,Ichikawa S.,,,2,0,03/21/2021
+Futures 2021,Loncar S.,Vukovic M.,,,2,1,03/21/2021
+Futures 2021,Juhas K.,Jurina P.,,,2,0,03/21/2021
+Futures 2021,Serafini M.,Dodds A.,,,2,0,03/21/2021
+Futures 2021,Battaglino S.,O'Neill D.,,,2,0,03/21/2021
+Futures 2021,Polakovic S.,Rogic Hadzalic A.,,,2,1,03/21/2021
+Futures 2021,Liaonenka A.,Allen L.,,,2,0,03/21/2021
+Futures 2021,De Boes M.,Sharma N.,,,2,0,03/21/2021
+Futures 2021,Ogura K.,Langmajer D.,,,2,0,03/21/2021
+Futures 2021,Voisin E.,Morris E.,,,2,0,03/21/2021
+Futures 2021,Mora M.,Maassen G.,,,2,0,03/21/2021
+Futures 2021,Stefani Figlia B.,Lebedev I.,,,2,0,03/21/2021
+Futures 2021,Vasiliauskas M.,Bassem Sobhy M.,,,2,1,03/21/2021
+Futures 2021,Jones B.,Kana F.,,,2,0,03/21/2021
+Futures 2021,Bataljin L.,Kotze D.,,,2,0,03/21/2021
+Futures 2021,Mukund S.,Revelli G.,,,2,0,03/21/2021
+Futures 2021,Fuele M.,Scomparin P.,,,2,1,03/21/2021
+Futures 2021,Biljesko D.,Simunovic D.,,,2,0,03/21/2021
+Futures 2021,Radovanovic T.,Garifullin A.,,,2,0,03/21/2021
+Futures 2021,Panak Y.,Aaes L.,,,2,0,03/21/2021
+Futures 2021,Emesz B.,Biro A.,,,2,0,03/21/2021
+Futures 2021,Barun B.,Kask M.,,,2,0,03/21/2021
+Futures 2021,Ban I.,Heger T.,,,2,1,03/21/2021
+Futures 2021,Bouquet L.,De Rosa M.,,,2,0,03/21/2021
+Futures 2021,Brosset S.,Ortenzi G.,,,2,0,03/21/2021
+Futures 2021,Ovcharenko O.,Krstanovic J.,,,2,0,03/21/2021
+Futures 2021,Passaro F.,Ferrari G.,,,2,0,03/21/2021
+Futures 2021,Rossi L.,Dagnino P.,,,2,0,03/21/2021
+Futures 2021,Spec M.,Marchetti F.,,,2,0,03/21/2021
+Futures 2021,Chandrasekar A.,Khandge K.,,,2,0,03/21/2021
+Futures 2021,Virali-Murugesan R.,Baskov D.,,,2,0,03/21/2021
+Futures 2021,Prabodh S.,Jadhav G.,,,2,1,03/21/2021
+Futures 2021,Rottoli L.,Michnev P.,,,2,1,03/21/2021
+Futures 2021,Miceli M.,Malan P.,,,2,1,03/21/2021
+Futures 2021,Malgaroli L.,Habib A.,,,2,0,03/21/2021
+Futures 2021,Sigsgaard C.,Papik T.,,,2,0,03/21/2021
+Futures 2021,Eqbal I.,Sinha N.,,,2,0,03/21/2021
+Futures 2021,Brown P.,Peranamallur V.,,,2,0,03/21/2021
+Futures 2021,Roggero T.,Zlatanovic A.,,,2,0,03/21/2021
+Futures 2021,Patzanovsky C.,Ozdemir S.,,,2,0,03/21/2021
+Futures 2021,Botezan G.,Nenwani A.,,,2,0,03/21/2021
+Futures 2021,Senthilkumar M.,Ganguly A.,,,2,0,03/21/2021
+Futures 2021,Goldsteiner P.,Arh A.,,,2,1,03/21/2021
+Futures 2021,Dimic M.,Faullend Heferer B.,,,2,0,03/21/2021
+Futures 2021,Dambrosi G.,Bellifemine A.,,,2,0,03/21/2021
+Futures 2021,Frinzi M.,Radojkovic M.,,,2,0,03/21/2021
+Futures 2021,Prizmic D.,Link J.,,,2,0,03/21/2021
+Futures 2021,Nordquist A.,Caripi V.,,,2,0,03/21/2021
+Futures 2021,Bertran P.,Procopio A.,,,2,0,03/21/2021
+Futures 2021,Arnaldi M.,Valsecchi P.,,,2,0,03/21/2021
+Futures 2021,Ceppellini A.,Filippi N.,,,2,0,03/21/2021
+Futures 2021,Maestrelli F.,Krawcewicz K.,,,2,0,03/21/2021
+Futures 2021,Voros M.,Aubriot A.,,,2,0,03/21/2021
+Futures 2021,Misolic F.,De Maio M.,,,2,1,03/21/2021
+Futures 2021,Furlanetto M.,Srbljak G.,,,2,1,03/21/2021
+Futures 2021,Bakshi A.,Lahky N.,,,2,0,03/21/2021
+Futures 2021,Matic M.,Daljev P.,,,2,0,03/21/2021
+Futures 2021,Prasanth V.,Dattatray Kurale S.,,,2,0,03/21/2021
+Futures 2021,Zakaryia F.,Gabay S.,,,2,0,03/21/2021
+Futures 2021,Donders D.,Sigurdsson E.,,,2,1,03/21/2021
+Futures 2021,Duran T.,Juarez Caro J.,,,2,1,03/21/2021
+Futures 2021,Alemany P.,Marcolini G.,,,1,0,03/21/2021
+Futures 2021,Hajek P.,Guberman Y.,,,2,1,03/21/2021
+Futures 2021,Vilicich B.,Butulija B.,,,2,1,03/21/2021
+Futures 2021,Wassermann D.,Gultekin A.,,,2,0,03/21/2021
+Futures 2021,Dancu V.,Dell'elba V.,,,2,0,03/21/2021
+Futures 2021,Parshutin D.,Semenov D.,,,2,0,03/21/2021
+Futures 2021,Zhukayev B.,Daskalovic N.,,,2,0,03/21/2021
+Futures 2021,Tomasetto L.,Neverov M.,,,2,0,03/21/2021
+Futures 2021,Vankan M.,Suer U.,,,2,0,03/21/2021
+Futures 2021,Tkemaladze Z.,Connor P.,,,2,0,03/21/2021
+Futures 2021,Den Heijer G.,Ovcharov A.,,,2,0,03/21/2021
+Futures 2021,Oberleitner N.,Makzoume Y.,,,2,0,03/21/2021
+Futures 2021,Patten H.,Mahadevan A.,,,2,0,03/21/2021
+Futures 2021,Houkes M.,Minarik K.,,,2,0,03/21/2021
+Futures 2021,Braynin A.,Schuetze C.,,,2,0,03/21/2021
+Futures 2021,Turchetti N.,Alimli M.,,,2,0,03/21/2021
+Futures 2021,Graf D.,Karabulut F.,,,2,0,03/21/2021
+Futures 2021,Makk P.,Tasenkov V.,,,2,0,03/21/2021
+Futures 2021,Akkoyun U.,Alcalde J.,,,2,0,03/21/2021
+Futures 2021,Torski O.,Bertuccioli F.,,,2,0,03/21/2021
+Futures 2021,Woerner P.,Cohen A.,,,2,0,03/21/2021
+Futures 2021,Gorbatenko V.,Konov S.,,,2,0,03/21/2021
+Futures 2021,Yamanaka T.,Cozbinov A.,,,2,0,03/21/2021
+Futures 2021,Fellin M.,Poritzky E.,,,2,0,03/21/2021
+Futures 2021,Lavagno E.,Loof T.,,,2,0,03/21/2021
+Futures 2021,Luria E.,Campese C.,,,2,0,03/21/2021
+Futures 2021,Vilardo F.,Troche E.,,,2,0,03/21/2021
+Futures 2021,Alcala Gurri M.,Pontjodikromo S.,,,2,0,03/21/2021
+Futures 2021,Sakellaridis S.,Karic J.,,,2,0,03/21/2021
+Futures 2021,Vanta V.,Sakellaridis M.,,,2,1,03/21/2021
+Futures 2021,Donev G.,Giotis R.,,,2,0,03/21/2021
+Futures 2021,Denisov I.,Zusman R.,,,2,0,03/21/2021
+Futures 2021,Fossati A.,Chaiyarin C.,,,2,0,03/21/2021
+Futures 2021,Dabryian A.,Schwab G.,,,2,0,03/21/2021
+Futures 2021,Vernier M.,Caruso A.,,,2,0,03/21/2021
+Futures 2021,Catani L.,Binding J.,,,2,0,03/21/2021
+Futures 2021,Dahiya P.,Yashpaul N.,,,2,0,03/21/2021
+Futures 2021,Reddy R.,Sakthivel B.,,,2,0,03/21/2021
+Futures 2021,Sood C.,Chaurasia Y.,,,2,1,03/21/2021
+Futures 2021,Singh D.,Madan T.,,,2,0,03/21/2021
+Futures 2021,Kumar O.,Singh J.,,,2,0,03/21/2021
+Futures 2021,Qamar F.,Gaware S.,,,2,0,03/21/2021
+Lille challenger,Jianu F. (5),Breysach M.,,,2,0,03/21/2021
+Lille challenger,Leshem E. (6),Simon T.,,,2,0,03/21/2021
+Lille challenger,Crepatte B.,Okala J. (3),,,1,0,03/21/2021
+Lille challenger,Bergs Z. (1),Vandermeersch C.,,,2,0,03/21/2021
+Lille challenger,Wang T.,Escoffier A. (7),,,2,1,03/21/2021
+Lille challenger,Martineau M.,Hassan B. (2),,,2,0,03/21/2021
+Lille challenger,Briand J.,Added D. (8),,,2,0,03/21/2021
+Lille challenger,Heyman C.,Andreev A. (4),,,2,1,03/21/2021
+Lugano challenger,Bellier A.,Tiurnev E. (1),,,2,0,03/21/2021
+Lugano challenger,Sels J. (6),Martinez M.,,,2,0,03/21/2021
+Lugano challenger,Ehrat S.,Uchida K. (5),,,2,0,03/21/2021
+Lugano challenger,Van Rijthoven T. (4),Erler A.,,,2,0,03/21/2021
+Lugano challenger,Forti F.,Vavassori A. (3),,,2,0,03/21/2021
+Lugano challenger,Peniston R.,Bega A. (8),,,2,0,03/21/2021
+Lugano challenger,Nikles J.,De Jong J. (2),,,2,1,03/21/2021
+Lugano challenger,Sachko V.,Chappell N. (7),,,2,0,03/21/2021
+Zadar challenger,Bortolotti M. (8),Cornea V.,,,2,0,03/21/2021
+Zadar challenger,Sanchez Izquierdo N. (2),Cobolli F.,,,2,0,03/21/2021
+Zadar challenger,Sabanov M.,Cornut Chauvinc A. (7),,,2,0,03/21/2021
+Zadar challenger,Nedelko I. (4),Vukadin N.,,,2,1,03/21/2021
+Zadar challenger,Mansouri S. (5),Kekez D.,,,2,0,03/21/2021
+Zadar challenger,Orlov V. (3),Capecchi D.,,,2,1,03/21/2021
+Zadar challenger,Fatic N. (6),Golubev A.,,,2,0,03/21/2021
+Zadar challenger,Ignatik U. (1),Mikrut L.,,,2,0,03/21/2021
+Dubai,Karatsev A.,Harris L.,,,2,0,03/20/2021
+Acapulco,Tsitsipas S. (1),Musetti L.,,,2,0,03/20/2021
+Acapulco,Zverev A. (2),Koepfer D.,,,2,0,03/20/2021
+Cleveland challenger,Fratangelo B.,Brooksby J.,,,2,0,03/20/2021
+Cleveland challenger,Fratangelo B.,Kovacevic A.,,,2,1,03/20/2021
+Santiago challenger,Baez S.,Varillas J.,,,2,0,03/20/2021
+Santiago challenger,Barrios Vera M.,Meligeni Rodrigues Alves F.,,,1,0,03/20/2021
+Biella 5 challenger,Bachinger M.,Bonzi B. (8),,,2,0,03/20/2021
+Biella 5 challenger,Masur D.,Marchenko I.,,,2,0,03/20/2021
+Futures 2021,Collignon R.,Marcondes I.,,,2,1,03/20/2021
+Futures 2021,Onclin G.,Polukhin S.,,,2,1,03/20/2021
+Futures 2021,Poullain L.,Jacquet K.,,,2,0,03/20/2021
+Futures 2021,Loffhagen G.,Angele J.,,,1,0,03/20/2021
+Futures 2021,Damm M.,Fonio G.,,,2,1,03/20/2021
+Futures 2021,Denolly C.,Passaro F.,,,2,0,03/20/2021
+Futures 2021,Zekic M.,Valkusz M.,,,1,0,03/20/2021
+Futures 2021,Miedler L.,Poljak D.,,,2,1,03/20/2021
+Futures 2021,Ochi M.,Hsu Y.,,,2,1,03/20/2021
+Futures 2021,Pucinelli De Almeida M.,Heller P.,,,2,0,03/20/2021
+UK Pro Series,Findel-Hawkins J.,Houghton G.,,,2,0,03/20/2021
+UK Pro Series,Cash J.,Wendelken H.,,,2,0,03/20/2021
+UK Pro Series,Whitehouse M.,Cox D.,,,2,1,03/20/2021
+UK Pro Series,Harris B.,Weightman O.,,,2,0,03/20/2021
+UK Pro Series,Matusevich A.,Hodkin S.,,,2,0,03/20/2021
+UK Pro Series,Gray J.,Hands T.,,,2,0,03/20/2021
+UTR Pro Tennis Series,Volonski N.,Camus C.,,,2,1,03/20/2021
+UTR Pro Tennis Series,Sweeny D.,Addison A.,,,2,0,03/20/2021
+UTR Pro Tennis Series,Crnokrak A.,Sach T.,,,2,0,03/20/2021
+UTR Pro Tennis Series,Beale J.,Smith J.,,,2,1,03/20/2021
+UTR Pro Tennis Series,Klein B.,McCabe J.,,,2,0,03/20/2021
+UTR Pro Tennis Series,Crnokrak A.,Bouzige M.,,,2,0,03/20/2021
+UTR Pro Tennis Series,Kelly D.,Beale J.,,,2,0,03/20/2021
+Dubai,Karatsev A.,Rublev A. (2),,,2,1,03/19/2021
+Dubai,Harris L.,Shapovalov D. (3),,,2,1,03/19/2021
+Acapulco,Musetti L.,Dimitrov G. (5),,,2,0,03/19/2021
+Acapulco,Tsitsipas S. (1),Auger Aliassime F. (7),,,2,1,03/19/2021
+Acapulco,Koepfer D.,Norrie C.,,,2,0,03/19/2021
+Acapulco,Zverev A. (2),Ruud C. (8),,,1,0,03/19/2021
+Cleveland challenger,Brooksby J.,Gomez E. (3),,,2,1,03/19/2021
+Cleveland challenger,Kovacevic A.,Watanuki Y.,,,2,1,03/19/2021
+Santiago challenger,Meligeni Rodrigues Alves F.,Kicker N.,,,2,0,03/19/2021
+Santiago challenger,Barrios Vera M.,Lama G.,,,2,0,03/19/2021
+Santiago challenger,Baez S.,Ugo Carabelli C.,,,2,0,03/19/2021
+Santiago challenger,Varillas J.,Jarry N.,,,2,0,03/19/2021
+Biella 5 challenger,Bachinger M.,Ofner S.,,,1,0,03/19/2021
+Biella 5 challenger,Masur D.,Stakhovsky S.,,,2,0,03/19/2021
+Biella 5 challenger,Marchenko I.,Barrere G. (7),,,2,0,03/19/2021
+Biella 5 challenger,Bonzi B. (8),Bourgue M.,,,2,0,03/19/2021
+Futures 2021,Marti Pujolras A.,Vidal Azorin J.,,,2,1,03/19/2021
+Futures 2021,Brancaccio R.,Fanselow S.,,,2,0,03/19/2021
+Futures 2021,Fils A.,Sanchez Jover C.,,,2,0,03/19/2021
+Futures 2021,Cachin P.,Llamas Ruiz P.,,,2,0,03/19/2021
+Futures 2021,Gimeno Valero C.,Zima L.,,,2,0,03/19/2021
+Futures 2021,Barranco Cosano J.,Patael B.,,,2,1,03/19/2021
+Futures 2021,Kravchenko G.,Durasovic V.,,,2,0,03/19/2021
+Futures 2021,Marti Pujolras A.,Bondarevskiy Y.,,,2,0,03/19/2021
+Futures 2021,Vidal Azorin J.,Beaupain S.,,,2,0,03/19/2021
+Futures 2021,Jacquet K.,Moeller M.,,,2,0,03/19/2021
+Futures 2021,Angele J.,Leshem E.,,,2,0,03/19/2021
+Futures 2021,Poullain L.,Breysach M.,,,2,0,03/19/2021
+Futures 2021,Loffhagen G.,de Schepper K.,,,2,0,03/19/2021
+Futures 2021,Damm M.,Pichler D.,,,2,0,03/19/2021
+Futures 2021,Fonio G.,Basso A.,,,2,0,03/19/2021
+Futures 2021,Denolly C.,Nejedly P.,,,2,1,03/19/2021
+Futures 2021,Passaro F.,Legout T.,,,2,1,03/19/2021
+Futures 2021,Ochi M.,Gengel M.,,,2,1,03/19/2021
+Futures 2021,Zekic M.,Paz J.,,,2,1,03/19/2021
+Futures 2021,Polukhin S.,Langmo C.,,,2,1,03/19/2021
+Futures 2021,Marcondes I.,Kotzen A.,,,2,0,03/19/2021
+Futures 2021,Collignon R.,Giacomini L.,,,2,0,03/19/2021
+Futures 2021,Onclin G.,Laurent Y.,,,2,0,03/19/2021
+Futures 2021,Pucinelli De Almeida M.,Hong S.,,,2,1,03/19/2021
+Futures 2021,Hsu Y.,Lorens M.,,,2,0,03/19/2021
+Futures 2021,Valkusz M.,Vives Marcos P.,,,2,0,03/19/2021
+Futures 2021,Poljak D.,Nordquist A.,,,2,0,03/19/2021
+Futures 2021,Miedler L.,Chrysochos P.,,,2,1,03/19/2021
+Futures 2021,Heller P.,Ionel N.,,,2,0,03/19/2021
+UK Pro Series,Harris B.,Houghton G.,,,2,1,03/19/2021
+UK Pro Series,Cox D.,Recci M.,,,2,0,03/19/2021
+UK Pro Series,Findel-Hawkins J.,Gray J.,,,2,0,03/19/2021
+UK Pro Series,Weightman O.,Hodkin S.,,,2,1,03/19/2021
+UK Pro Series,Whitehouse M.,Wendelken H.,,,2,0,03/19/2021
+UK Pro Series,Matusevich A.,Cash J.,,,2,0,03/19/2021
+UTR Pro Tennis Series,Klein B.,Schoolkate T.,,,2,0,03/19/2021
+UTR Pro Tennis Series,Tu L.,Bouzige M.,,,2,0,03/19/2021
+UTR Pro Tennis Series,Tu L.,Puttergill C.,,,2,0,03/19/2021
+UTR Pro Tennis Series,Kelly D.,Sach T.,,,2,0,03/19/2021
+Dubai,Rublev A. (2),Fucsovics M.,,,2,0,03/18/2021
+Dubai,Harris L.,Nishikori K.,,,2,1,03/18/2021
+Dubai,Karatsev A.,Sinner J. (16),,,2,1,03/18/2021
+Dubai,Shapovalov D. (3),Chardy J.,,,2,0,03/18/2021
+Acapulco,Tsitsipas S. (1),Isner J.,,,2,0,03/18/2021
+Acapulco,Norrie C.,Fognini F. (6),,,2,0,03/18/2021
+Acapulco,Zverev A. (2),Djere L.,,,2,0,03/18/2021
+Acapulco,Ruud C. (8),Griekspoor T.,,,2,1,03/18/2021
+Acapulco,Dimitrov G. (5),Kecmanovic M.,,,2,0,03/18/2021
+Acapulco,Musetti L.,Tiafoe F.,,,2,1,03/18/2021
+Acapulco,Auger Aliassime F. (7),Korda S.,,,2,0,03/18/2021
+Acapulco,Koepfer D.,Raonic M. (4),,,2,0,03/18/2021
+Cleveland challenger,Fratangelo B.,Galarneau A.,,,1,0,03/18/2021
+Cleveland challenger,Gomez E. (3),Eubanks C.,,,2,0,03/18/2021
+Cleveland challenger,Brooksby J.,Redlicki M.,,,2,0,03/18/2021
+Cleveland challenger,Galarneau A.,Young D.,,,2,0,03/18/2021
+Santiago challenger,Kicker N.,Benchetrit E.,,,2,0,03/18/2021
+Santiago challenger,Jarry N.,Alvarez N.,,,2,0,03/18/2021
+Santiago challenger,Varillas J.,Martin A. (2),,,2,1,03/18/2021
+Santiago challenger,Meligeni Rodrigues Alves F.,Sousa P. (3),,,2,0,03/18/2021
+Biella 5 challenger,Ofner S.,Maden Y.,,,2,0,03/18/2021
+Biella 5 challenger,Bachinger M.,Seppi A. (3),,,2,0,03/18/2021
+Biella 5 challenger,Barrere G. (7),Kolar Z.,,,2,0,03/18/2021
+Biella 5 challenger,Marchenko I.,Pouille L. (1),,,2,0,03/18/2021
+Futures 2021,Loffhagen G.,Pietri B.,,,2,0,03/18/2021
+Futures 2021,Langmo C.,Donski A.,,,2,0,03/18/2021
+Futures 2021,de Schepper K.,Reymond A.,,,2,0,03/18/2021
+Futures 2021,Moeller M.,Roumane R.,,,1,0,03/18/2021
+Futures 2021,Angele J.,Gautier A.,,,2,0,03/18/2021
+Futures 2021,Leshem E.,Vandermeersch C.,,,2,1,03/18/2021
+Futures 2021,Basso A.,Rybakov A.,,,2,1,03/18/2021
+Futures 2021,Damm M.,Lazarov A.,,,2,1,03/18/2021
+Futures 2021,Fonio G.,Poljicak M.,,,2,0,03/18/2021
+Futures 2021,Poljak D.,Vilardo F.,,,2,0,03/18/2021
+Futures 2021,Pichler D.,Rondoni P.,,,2,0,03/18/2021
+Futures 2021,Jacquet K.,Van Assche L.,,,2,1,03/18/2021
+Futures 2021,Poullain L.,Ayeni A.,,,2,1,03/18/2021
+Futures 2021,Giacomini L.,Lokoli L.,,,2,1,03/18/2021
+Futures 2021,Breysach M.,Wiskandt M.,,,2,1,03/18/2021
+Futures 2021,Collignon R.,Negritu C.,,,2,0,03/18/2021
+Futures 2021,Legout T.,Nedelko I.,,,2,1,03/18/2021
+Futures 2021,Denolly C.,Horvat R.,,,2,0,03/18/2021
+Futures 2021,Chrysochos P.,Berrettini J.,,,2,0,03/18/2021
+Futures 2021,Ochi M.,Niki T.,,,2,0,03/18/2021
+Futures 2021,Passaro F.,Arnaboldi F.,,,2,1,03/18/2021
+Futures 2021,Gengel M.,Jones B.,,,2,1,03/18/2021
+Futures 2021,Nejedly P.,Cornut Chauvinc A.,,,2,0,03/18/2021
+Futures 2021,Onclin G.,Kirkin E.,,,2,1,03/18/2021
+Futures 2021,Ionel N.,Kirci K.,,,2,0,03/18/2021
+Futures 2021,Zekic M.,Korolev V.,,,2,0,03/18/2021
+Futures 2021,Laurent Y.,Rodrigues N.,,,2,1,03/18/2021
+Futures 2021,Marcondes I.,Tokuda R.,,,2,1,03/18/2021
+Futures 2021,Paz J.,Dima D.,,,2,0,03/18/2021
+Futures 2021,Polukhin S.,Carr S.,,,2,0,03/18/2021
+Futures 2021,Kotzen A.,Sinclair C.,,,2,0,03/18/2021
+Futures 2021,Hsu Y.,Li H.,,,1,0,03/18/2021
+Futures 2021,Nordquist A.,Shimizu Y.,,,2,1,03/18/2021
+Futures 2021,Lorens M.,Setkic A.,,,2,0,03/18/2021
+Futures 2021,Miedler L.,Beloborodko I.,,,2,0,03/18/2021
+Futures 2021,Valkusz M.,Lee D.,,,2,0,03/18/2021
+Futures 2021,Vives Marcos P.,Henning B.,,,2,0,03/18/2021
+Futures 2021,Hong S.,Lavagno E.,,,2,0,03/18/2021
+Futures 2021,Pucinelli De Almeida M.,Cozbinov A.,,,2,0,03/18/2021
+Futures 2021,Heller P.,Fajta P.,,,2,0,03/18/2021
+UK Pro Series,Findel-Hawkins J.,Hodkin S.,,,2,1,03/18/2021
+UK Pro Series,Whitehouse M.,Gray J.,,,2,0,03/18/2021
+UK Pro Series,Weightman O.,Wendelken H.,,,2,1,03/18/2021
+UK Pro Series,Recci M.,Houghton G.,,,2,1,03/18/2021
+UK Pro Series,Matusevich A.,Harris B.,,,2,0,03/18/2021
+UK Pro Series,Cox D.,Cash J.,,,2,1,03/18/2021
+UTR Pro Tennis Series,Addison A.,Volonski N.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Sweeny D.,Aguiard E.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Bouzige M.,Smith J.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Beale J.,Camus C.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Sweeny D.,Cavrak K.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Schoolkate T.,Jasika O.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Kelly D.,Jin J.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Puttergill C.,Hoole C.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Klein B.,Sach T.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Sach T.,Jin J.,,,2,0,03/18/2021
+UTR Pro Tennis Series,Smith J.,Camus C.,,,2,0,03/18/2021
+Dubai,Harris L.,Krajinovic F. (14),,,2,0,03/17/2021
+Dubai,Rublev A. (2),Fritz T. (15),,,2,0,03/17/2021
+Dubai,Fucsovics M.,Lajovic D. (11),,,2,1,03/17/2021
+Dubai,Nishikori K.,Bedene A.,,,2,0,03/17/2021
+Dubai,Karatsev A.,Sonego L. (17),,,2,1,03/17/2021
+Dubai,Sinner J. (16),Bautista-Agut R. (4),,,2,1,03/17/2021
+Dubai,Chardy J.,Khachanov K. (8),,,2,1,03/17/2021
+Dubai,Shapovalov D. (3),Hurkacz H. (13),,,2,0,03/17/2021
+Acapulco,Ruud C. (8),Galan D.,,,2,0,03/17/2021
+Acapulco,Dimitrov G. (5),Mannarino A.,,,1,0,03/17/2021
+Acapulco,Kecmanovic M.,Lopez F.,,,2,0,03/17/2021
+Acapulco,Norrie C.,Kozlov S.,,,2,0,03/17/2021
+Acapulco,Tsitsipas S. (1),Paire B.,,,2,0,03/17/2021
+Acapulco,Fognini F. (6),Travaglia S.,,,2,0,03/17/2021
+Acapulco,Griekspoor T.,Kudla D.,,,2,1,03/17/2021
+Acapulco,Tiafoe F.,Nakashima B.,,,2,1,03/17/2021
+Acapulco,Musetti L.,Schwartzman D. (3),,,2,1,03/17/2021
+Acapulco,Raonic M. (4),Paul T.,,,2,0,03/17/2021
+Cleveland challenger,Fratangelo B.,Ritschard A.,,,2,0,03/17/2021
+Cleveland challenger,Brooksby J.,Schnur B. (6),,,2,0,03/17/2021
+Cleveland challenger,Gomez E. (3),Mejia N.,,,2,1,03/17/2021
+Cleveland challenger,Redlicki M.,Draxl L.,,,2,0,03/17/2021
+Cleveland challenger,Kovacevic A.,Smith R.,,,2,0,03/17/2021
+Cleveland challenger,Eubanks C.,King D.,,,2,0,03/17/2021
+Cleveland challenger,Watanuki Y.,Catarina L.,,,2,1,03/17/2021
+Cleveland challenger,Schnur B. (6),Corwin F.,,,2,0,03/17/2021
+Santiago challenger,Lama G.,Carballes Baena R. (1),,,2,1,03/17/2021
+Santiago challenger,Ugo Carabelli C.,Altmaier D. (6),,,2,1,03/17/2021
+Santiago challenger,Barrios Vera M.,Coppejans K. (7),,,2,0,03/17/2021
+Santiago challenger,Jarry N.,Tabilo A. (8),,,2,0,03/17/2021
+Santiago challenger,Baez S.,Villanueva G.,,,2,0,03/17/2021
+Santiago challenger,Martin A. (2),Oliveira G.,,,2,0,03/17/2021
+Biella 5 challenger,Masur D.,Forejtek J.,,,2,1,03/17/2021
+Biella 5 challenger,Stakhovsky S.,Huesler M.,,,2,1,03/17/2021
+Biella 5 challenger,Pouille L. (1),Halys Q.,,,2,0,03/17/2021
+Biella 5 challenger,Bonzi B. (8),Kamke T.,,,2,0,03/17/2021
+Biella 5 challenger,Seppi A. (3),Sock J.,,,2,1,03/17/2021
+Biella 5 challenger,Bourgue M.,Tomic B.,,,2,0,03/17/2021
+Futures 2021,Zima L.,Garcian A.,,,2,0,03/17/2021
+Futures 2021,Fils A.,Vivero Gonzalez P.,,,2,0,03/17/2021
+Futures 2021,Sanchez Jover C.,Uchida K.,,,2,0,03/17/2021
+Futures 2021,Brancaccio R.,Roglan A.,,,2,0,03/17/2021
+Futures 2021,Cachin P.,Canas Garcia J.,,,2,0,03/17/2021
+Futures 2021,Bondarevskiy Y.,Ortega-Olmedo R.,,,2,0,03/17/2021
+Futures 2021,Kravchenko G.,Barreto Sanchez D.,,,2,0,03/17/2021
+Futures 2021,Gimeno Valero C.,Laurent T.,,,2,0,03/17/2021
+Futures 2021,Beaupain S.,Eriksson M.,,,2,0,03/17/2021
+Futures 2021,Barranco Cosano J.,Martin Tiffon P.,,,1,0,03/17/2021
+Futures 2021,Fanselow S.,Toledo Bague P.,,,1,0,03/17/2021
+Futures 2021,Vidal Azorin J.,Lopez Morillo I.,,,2,0,03/17/2021
+Futures 2021,Llamas Ruiz P.,Damas M.,,,2,1,03/17/2021
+Futures 2021,Durasovic V.,Andreu Garcia F.,,,1,0,03/17/2021
+Futures 2021,Jones B.,Habib A.,,,2,1,03/17/2021
+Futures 2021,Nordquist A.,Liu S.,,,2,0,03/17/2021
+Futures 2021,Gengel M.,Papik T.,,,2,0,03/17/2021
+Futures 2021,Nedelko I.,Bouquet L.,,,2,1,03/17/2021
+Futures 2021,Poljicak M.,Arnaldi M.,,,2,0,03/17/2021
+Futures 2021,Hsu Y.,Stevenson K.,,,2,0,03/17/2021
+Futures 2021,Ochi M.,Krainer L.,,,2,1,03/17/2021
+Futures 2021,Niki T.,Peliwo F.,,,2,0,03/17/2021
+Futures 2021,Langmo C.,Hamza Reguig S.,,,2,1,03/17/2021
+Futures 2021,Sinclair C.,Correia J.,,,2,0,03/17/2021
+Futures 2021,Kirkin E.,Zhu E.,,,2,1,03/17/2021
+Futures 2021,de Schepper K.,Wang T.,,,1,0,03/17/2021
+Futures 2021,Pichler D.,Dambrosi G.,,,2,1,03/17/2021
+Futures 2021,Basso A.,Tenti F.,,,2,0,03/17/2021
+Futures 2021,Arnaboldi F.,Perchicot M.,,,2,0,03/17/2021
+Futures 2021,Moeller M.,Rakotohasy J.,,,2,0,03/17/2021
+Futures 2021,Leshem E.,Musialek A.,,,2,0,03/17/2021
+Futures 2021,Lazarov A.,Ignatik U.,,,2,1,03/17/2021
+Futures 2021,Vandermeersch C.,Pontico H.,,,2,0,03/17/2021
+Futures 2021,Roumane R.,Blanchet U.,,,2,0,03/17/2021
+Futures 2021,Reymond A.,Voljacques H.,,,2,1,03/17/2021
+Futures 2021,Lee D.,Manda C.,,,1,0,03/17/2021
+Futures 2021,Shimizu Y.,Revelli G.,,,2,1,03/17/2021
+Futures 2021,Dima D.,Vankan M.,,,2,0,03/17/2021
+Futures 2021,Li H.,Oberleitner N.,,,2,1,03/17/2021
+Futures 2021,Poljak D.,Campese C.,,,2,0,03/17/2021
+Futures 2021,Valkusz M.,Tomasetto L.,,,2,0,03/17/2021
+Futures 2021,Rondoni P.,Kalender A.,,,2,0,03/17/2021
+Futures 2021,Paz J.,Palosi S.,,,2,0,03/17/2021
+Futures 2021,Donski A.,Dougaz A.,,,2,0,03/17/2021
+Futures 2021,Polukhin S.,Kalovelonis M.,,,2,0,03/17/2021
+Futures 2021,Onclin G.,Naw H.,,,2,0,03/17/2021
+Futures 2021,Poullain L.,Delage P.,,,2,1,03/17/2021
+Futures 2021,Legout T.,Nincevic F.,,,2,0,03/17/2021
+Futures 2021,Breysach M.,Veldheer M.,,,2,1,03/17/2021
+Futures 2021,Damm M.,Misolic F.,,,2,0,03/17/2021
+Futures 2021,Rybakov A.,Madarasz G.,,,2,0,03/17/2021
+Futures 2021,Passaro F.,Wenger D.,,,2,0,03/17/2021
+Futures 2021,Wiskandt M.,Moraing O.,,,2,1,03/17/2021
+Futures 2021,Miedler L.,Takahashi Y.,,,2,0,03/17/2021
+Futures 2021,Ayeni A.,Stouff V.,,,2,0,03/17/2021
+Futures 2021,Lorens M.,Visker N.,,,2,0,03/17/2021
+Futures 2021,Vilardo F.,Gutierrez O.,,,2,0,03/17/2021
+Futures 2021,Laurent Y.,Alves M.,,,2,1,03/17/2021
+Futures 2021,Giacomini L.,Ingarao A.,,,2,0,03/17/2021
+Futures 2021,Lokoli L.,Sorrentino L.,,,2,0,03/17/2021
+Futures 2021,Kotzen A.,Allen L.,,,2,0,03/17/2021
+Futures 2021,Carr S.,Barrena A.,,,2,0,03/17/2021
+Futures 2021,Marcondes I.,Potenza L.,,,2,1,03/17/2021
+Futures 2021,Korolev V.,Erel Y.,,,2,1,03/17/2021
+Futures 2021,Zekic M.,Hoogmartens A.,,,2,1,03/17/2021
+Futures 2021,Cozbinov A.,Vanneste J.,,,2,0,03/17/2021
+Futures 2021,Pucinelli De Almeida M.,Weis A.,,,2,0,03/17/2021
+Futures 2021,Vives Marcos P.,Miladinovic M.,,,2,0,03/17/2021
+Futures 2021,Henning B.,Azkara A.,,,2,0,03/17/2021
+Futures 2021,Beloborodko I.,Ozolins K.,,,2,0,03/17/2021
+Futures 2021,Setkic A.,Mukund S.,,,2,0,03/17/2021
+Futures 2021,Chrysochos P.,Deviatiarov M.,,,2,0,03/17/2021
+Futures 2021,Berrettini J.,Hajek P.,,,2,0,03/17/2021
+Futures 2021,Hong S.,Fomin S.,,,1,0,03/17/2021
+Futures 2021,Heller P.,Medjedovic H.,,,2,0,03/17/2021
+Futures 2021,Kirci K.,Den Heijer G.,,,2,0,03/17/2021
+Futures 2021,Lavagno E.,Houkes M.,,,2,1,03/17/2021
+UK Pro Series,Cox D.,Harris B.,,,2,0,03/17/2021
+UK Pro Series,Matusevich A.,Houghton G.,,,2,0,03/17/2021
+UK Pro Series,Cash J.,Recci M.,,,2,0,03/17/2021
+UK Pro Series,Findel-Hawkins J.,Whitehouse M.,,,2,1,03/17/2021
+UK Pro Series,Hodkin S.,Wendelken H.,,,2,1,03/17/2021
+UK Pro Series,Gray J.,Weightman O.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Tu L.,Hoole C.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Addison A.,Puttergill C.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Beale J.,Crnokrak A.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Kelly D.,McCabe J.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Addison A.,Hoole C.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Puttergill C.,Volonski N.,,,2,1,03/17/2021
+UTR Pro Tennis Series,Tu L.,Volonski N.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Smith J.,Crnokrak A.,,,2,0,03/17/2021
+UTR Pro Tennis Series,McCabe J.,Sach T.,,,2,0,03/17/2021
+UTR Pro Tennis Series,Bouzige M.,Camus C.,,,2,1,03/17/2021
+Dubai,Harris L.,Thiem D. (1),,,2,0,03/16/2021
+Dubai,Krajinovic F. (14),Davidovich Fokina A.,,,2,0,03/16/2021
+Dubai,Nishikori K.,Goffin D. (5),,,2,0,03/16/2021
+Dubai,Fritz T. (15),Basilashvili N.,,,2,1,03/16/2021
+Dubai,Fucsovics M.,Carreno-Busta P. (6),,,2,1,03/16/2021
+Dubai,Bautista-Agut R. (4),Ebden M.,,,1,0,03/16/2021
+Dubai,Bedene A.,Giustino L.,,,2,0,03/16/2021
+Dubai,Rublev A. (2),Ruusuvuori E.,,,2,0,03/16/2021
+Dubai,Lajovic D. (11),Jaziri M.,,,2,0,03/16/2021
+Dubai,Sinner J. (16),Bublik A.,,,2,1,03/16/2021
+Dubai,Khachanov K. (8),Popyrin A.,,,2,1,03/16/2021
+Dubai,Shapovalov D. (3),Struff J.,,,2,0,03/16/2021
+Dubai,Sonego L. (17),Zapata Miralles B.,,,2,0,03/16/2021
+Dubai,Hurkacz H. (13),Gasquet R.,,,2,0,03/16/2021
+Dubai,Karatsev A.,Evans D. (12),,,2,1,03/16/2021
+Acapulco,Korda S.,Cilic M.,,,2,0,03/16/2021
+Acapulco,Djere L.,Johnson S.,,,2,0,03/16/2021
+Acapulco,Zverev A. (2),Alcaraz C.,,,2,0,03/16/2021
+Acapulco,Isner J.,Caruso S.,,,2,0,03/16/2021
+Acapulco,Auger Aliassime F. (7),Sandgren T.,,,2,0,03/16/2021
+Acapulco,Koepfer D.,Lopez Villasenor G.,,,2,0,03/16/2021
+Cleveland challenger,Brooksby J.,Svajda Z.,,,2,0,03/16/2021
+Cleveland challenger,Kovacevic A.,Cid Subervi R. (8),,,2,0,03/16/2021
+Cleveland challenger,Smith R.,Chappell N.,,,2,1,03/16/2021
+Cleveland challenger,Galarneau A.,Sekiguchi S.,,,2,0,03/16/2021
+Cleveland challenger,Eubanks C.,Moriya H.,,,2,1,03/16/2021
+Cleveland challenger,King D.,Krueger M. (5),,,2,1,03/16/2021
+Cleveland challenger,Mejia N.,Song E.,,,2,1,03/16/2021
+Cleveland challenger,Ritschard A.,Aragone J.,,,2,1,03/16/2021
+Cleveland challenger,Watanuki Y.,King K.,,,2,0,03/16/2021
+Cleveland challenger,Catarina L.,Torpegaard M. (4),,,2,1,03/16/2021
+Cleveland challenger,Fratangelo B.,Kwiatkowski T. (7),,,2,0,03/16/2021
+Santiago challenger,Kicker N.,Kovalik J. (5),,,2,0,03/16/2021
+Santiago challenger,Varillas J.,Olivo R.,,,2,1,03/16/2021
+Santiago challenger,Meligeni Rodrigues Alves F.,Menezes J.,,,2,1,03/16/2021
+Santiago challenger,Sousa P. (3),Matos R.,,,2,0,03/16/2021
+Santiago challenger,Alvarez N.,Sakamoto P.,,,2,1,03/16/2021
+Santiago challenger,Carballes Baena R. (1),Bellucci T.,,,2,1,03/16/2021
+Santiago challenger,Benchetrit E.,Blancaneaux G.,,,2,0,03/16/2021
+Santiago challenger,Villanueva G.,Collarini A.,,,2,0,03/16/2021
+Santiago challenger,Coppejans K. (7),Luz O.,,,2,0,03/16/2021
+Santiago challenger,Ugo Carabelli C.,Cuevas M.,,,2,0,03/16/2021
+Biella 5 challenger,Kolar Z.,Napolitano S.,,,2,1,03/16/2021
+Biella 5 challenger,Bachinger M.,Santillan A.,,,2,1,03/16/2021
+Biella 5 challenger,Ofner S.,Kuhn N.,,,2,0,03/16/2021
+Biella 5 challenger,Barrere G. (7),Vukic A.,,,2,0,03/16/2021
+Biella 5 challenger,Maden Y.,Ivashka I. (6),,,2,1,03/16/2021
+Biella 5 challenger,Forejtek J.,Brown D.,,,2,1,03/16/2021
+Biella 5 challenger,Masur D.,Sugita Y. (4),,,2,1,03/16/2021
+Biella 5 challenger,Kamke T.,Ymer E.,,,2,0,03/16/2021
+Biella 5 challenger,Marchenko I.,Cobolli F.,,,2,0,03/16/2021
+Futures 2021,Patael B.,Skatov T.,,,2,0,03/16/2021
+Futures 2021,Marti Pujolras A.,Bovy A.,,,2,0,03/16/2021
+Futures 2021,Nejedly P.,Prizmic D.,,,2,0,03/16/2021
+Futures 2021,Van Assche L.,Atmane T.,,,2,0,03/16/2021
+Futures 2021,Loffhagen G.,Brouwer G.,,,2,0,03/16/2021
+Futures 2021,Cornut Chauvinc A.,Mashtakov M.,,,2,1,03/16/2021
+Futures 2021,Fonio G.,Piros Z.,,,2,0,03/16/2021
+Futures 2021,Horvat R.,Sodan I.,,,2,1,03/16/2021
+Futures 2021,Ionel N.,Makk P.,,,2,1,03/16/2021
+Futures 2021,Rodrigues N.,Jovic V.,,,2,1,03/16/2021
+Futures 2021,Collignon R.,Civita Telles L.,,,2,0,03/16/2021
+Futures 2021,Gautier A.,Dussin L.,,,2,0,03/16/2021
+Futures 2021,Jacquet K.,Droguet T.,,,2,1,03/16/2021
+Futures 2021,Angele J.,Strombachs R.,,,2,0,03/16/2021
+Futures 2021,Fajta P.,Zusman R.,,,2,0,03/16/2021
+Futures 2021,Pietri B.,Folliot Q.,,,2,0,03/16/2021
+Futures 2021,Negritu C.,Moreno De Alboran N.,,,2,0,03/16/2021
+Futures 2021,Denolly C.,Bortolotti M.,,,2,0,03/16/2021
+Futures 2021,Tokuda R.,Lipovsek Puches T.,,,2,0,03/16/2021
+UK Pro Series,Hodkin S.,Gray J.,,,2,1,03/16/2021
+UK Pro Series,Wendelken H.,Findel-Hawkins J.,,,2,1,03/16/2021
+UK Pro Series,Whitehouse M.,Weightman O.,,,2,0,03/16/2021
+UK Pro Series,Matusevich A.,Cox D.,,,2,0,03/16/2021
+UK Pro Series,Harris B.,Canter A.,,,2,0,03/16/2021
+UK Pro Series,Houghton G.,Cash J.,,,2,0,03/16/2021
+UTR Pro Tennis Series,Jasika O.,Aguiard E.,,,2,0,03/16/2021
+UTR Pro Tennis Series,Schoolkate T.,Cavrak K.,,,2,0,03/16/2021
+UTR Pro Tennis Series,Klein B.,Jin J.,,,1,0,03/16/2021
+Acapulco,Kozlov S.,Van De Zandschulp B.,,,1,0,03/16/2021
+Acapulco,Nakashima B.,Gaio F.,,,2,0,03/16/2021
+Acapulco,Griekspoor T.,Kudla D. (4),,,2,0,03/16/2021
+Acapulco,Musetti L. (3),Silva F.,,,2,0,03/16/2021
+Futures 2021,Madarasz G.,Brosset S.,,,2,0,03/16/2021
+Futures 2021,Bouquet L.,Pavlovic L.,,,2,0,03/16/2021
+Futures 2021,Nincevic F.,Ortenzi G.,,,2,0,03/16/2021
+Futures 2021,Passaro F.,Juhas K.,,,2,0,03/16/2021
+Futures 2021,Brosset S.,Voisin E.,,,2,1,03/16/2021
+Futures 2021,Wenger D.,Mora M.,,,2,0,03/16/2021
+Futures 2021,Barreto Sanchez D.,Caldes J.,,,2,1,03/16/2021
+Futures 2021,Fils A.,Matas Ortega X.,,,2,1,03/16/2021
+Futures 2021,Liu S.,Guttau N.,,,2,1,03/16/2021
+Futures 2021,Andreu Garcia F.,Amatiste G.,,,2,1,03/16/2021
+Futures 2021,Pavlovic L.,Galoppini D.,,,2,0,03/16/2021
+Futures 2021,Tomasetto L.,Tomescu D.,,,2,1,03/16/2021
+Futures 2021,Visker N.,Steiner M.,,,2,0,03/16/2021
+Futures 2021,Hajek P.,Gibbens J.,,,2,0,03/16/2021
+Futures 2021,Revelli G.,Datei G.,,,2,1,03/16/2021
+Futures 2021,Dambrosi G.,Maestrelli F.,,,2,0,03/16/2021
+Futures 2021,Arnaboldi F.,Welte M.,,,2,0,03/16/2021
+Futures 2021,Arnaldi M.,Zmak D.,,,2,0,03/16/2021
+Futures 2021,Damas M.,Alcala Gurri M.,,,2,1,03/16/2021
+Futures 2021,Lopez Morillo I.,Minin M.,,,2,0,03/16/2021
+Futures 2021,Zima L.,Trapeznikov Z.,,,2,1,03/16/2021
+Futures 2021,Beaupain S.,Amoros Ramos P.,,,2,0,03/16/2021
+Futures 2021,Bondarevskiy Y.,Garcian A.,,,2,0,03/16/2021
+Futures 2021,Oberleitner N.,Little D.,,,2,1,03/16/2021
+Futures 2021,Jones B.,Michnev P.,,,2,1,03/16/2021
+Futures 2021,Vilardo F.,Ciurletti A.,,,2,0,03/16/2021
+Futures 2021,Beloborodko I.,Ricca G.,,,2,0,03/16/2021
+Futures 2021,Palosi S.,Pontjodikromo S.,,,2,1,03/16/2021
+Futures 2021,Houkes M.,Turker M.,,,2,0,03/16/2021
+Futures 2021,Manda C.,Parizzia N.,,,2,0,03/16/2021
+Futures 2021,Lavagno E.,Agabigun S.,,,2,1,03/16/2021
+Futures 2021,Dancu V.,Henning B.,,,2,0,03/16/2021
+Futures 2021,Den Heijer G.,Rizzuti G.,,,2,0,03/16/2021
+Futures 2021,Korolev V.,Vankan M.,,,2,0,03/16/2021
+Dubai,Fucsovics M.,Pospisil V.,,,2,1,03/15/2021
+Dubai,Chardy J.,De Minaur A. (9),,,2,1,03/15/2021
+Dubai,Ruusuvuori E.,Thompson J.,,,2,0,03/15/2021
+Dubai,Gasquet R.,Cecchinato M.,,,2,0,03/15/2021
+Dubai,Harris L.,O'Connell C.,,,2,1,03/15/2021
+Dubai,Bedene A.,Bhambri Y.,,,2,1,03/15/2021
+Dubai,Zapata Miralles B.,Millman J.,,,2,0,03/15/2021
+Dubai,Struff J.,Kukushkin M.,,,2,0,03/15/2021
+Dubai,Davidovich Fokina A.,Albot R.,,,2,0,03/15/2021
+Cleveland challenger,Gomez E. (3),King E.,,,2,0,03/15/2021
+Cleveland challenger,Young D.,Soeda G. (2),,,2,1,03/15/2021
+Cleveland challenger,Draxl L.,Quiroz R.,,,2,0,03/15/2021
+Cleveland challenger,Redlicki M.,Duckworth J. (1),,,2,0,03/15/2021
+Santiago challenger,Lama G.,Etcheverry T.,,,2,0,03/15/2021
+Santiago challenger,Barrios Vera M.,Lindell C.,,,2,1,03/15/2021
+Santiago challenger,Altmaier D. (6),Andreozzi G.,,,2,0,03/15/2021
+Santiago challenger,Baez S.,Rune H.,,,2,0,03/15/2021
+Biella 5 challenger,Bourgue M.,Hanfmann Y. (2),,,2,1,03/15/2021
+Biella 5 challenger,Bonzi B. (8),Rodionov J.,,,2,1,03/15/2021
+Biella 5 challenger,Stakhovsky S.,Gigante M.,,,2,1,03/15/2021
+Biella 5 challenger,Huesler M.,Uchiyama Y. (5),,,2,0,03/15/2021
+Biella 5 challenger,Tomic B.,Marcora R.,,,2,0,03/15/2021
+UK Pro Series,Cox D.,Houghton G.,,,2,0,03/15/2021
+UK Pro Series,Harris B.,Cash J.,,,2,0,03/15/2021
+UK Pro Series,Matusevich A.,Canter A.,,,2,0,03/15/2021
+UK Pro Series,Weightman O.,Findel-Hawkins J.,,,2,0,03/15/2021
+UK Pro Series,Hodkin S.,Whitehouse M.,,,2,0,03/15/2021
+UK Pro Series,Gray J.,Wendelken H.,,,2,0,03/15/2021
+UTR Pro Tennis Series,Schoolkate T.,Sweeny D.,,,2,0,03/15/2021
+UTR Pro Tennis Series,Cavrak K.,Aguiard E.,,,2,1,03/15/2021
+UTR Pro Tennis Series,Bouzige M.,Beale J.,,,2,1,03/15/2021
+UTR Pro Tennis Series,Klein B.,Kelly D.,,,2,0,03/15/2021
+UTR Pro Tennis Series,Crnokrak A.,Camus C.,,,2,0,03/15/2021
+UTR Pro Tennis Series,McCabe J.,Jin J.,,,2,1,03/15/2021
+UTR Pro Tennis Series,Tu L.,Addison A.,,,2,1,03/15/2021
+UTR Pro Tennis Series,Hoole C.,Volonski N.,,,2,0,03/15/2021
+Acapulco,Kozlov S.,Sousa J. (2),,,2,1,03/15/2021
+Acapulco,Silva F.,Stebe C. (7),,,2,1,03/15/2021
+Acapulco,Van De Zandschulp B.,Dzumhur D. (6),,,1,0,03/15/2021
+Acapulco,Musetti L. (3),Velotti A.,,,2,0,03/15/2021
+Acapulco,Griekspoor T.,Kokkinakis T.,,,2,1,03/15/2021
+Acapulco,Gaio F.,Mahut N. (1),,,1,0,03/15/2021
+Acapulco,Kudla D. (4),Gonzalez A.,,,2,0,03/15/2021
+Acapulco,Nakashima B.,Seyboth Wild T. (5),,,2,0,03/15/2021
+Biella 5 challenger,Santillan A. (4),Sock J. (6),,,2,1,03/15/2021
+Biella 5 challenger,Masur D. (2),Arnaboldi A. (8),,,2,1,03/15/2021
+Biella 5 challenger,Bachinger M. (7),Vanni L.,,,2,1,03/15/2021
+Biella 5 challenger,Forejtek J.,Kuhn N. (1),,,2,1,03/15/2021
+Cleveland challenger,Song E. (6),Novikov D. (1),,,2,1,03/15/2021
+Cleveland challenger,Corwin F. (4),Redlicki M.,,,2,1,03/15/2021
+Cleveland challenger,Kovacevic A.,Pervolarakis M. (2),,,2,0,03/15/2021
+Cleveland challenger,Galarneau A. (5),Kirchheimer S. (3),,,2,1,03/15/2021
+Futures 2021,Madarasz G.,Panak Y.,,,2,0,03/15/2021
+Futures 2021,Bouquet L.,Cornea V.,,,2,1,03/15/2021
+Futures 2021,Ortenzi G.,Matic M.,,,2,1,03/15/2021
+Futures 2021,Maestrelli F.,Emesz B.,,,2,1,03/15/2021
+Futures 2021,Wenger D.,Srbljak G.,,,2,0,03/15/2021
+Futures 2021,Juhas K.,Otegui J.,,,2,0,03/15/2021
+Futures 2021,Polukhin S.,Zanada E.,,,2,0,03/15/2021
+Futures 2021,Nincevic F.,Tessa L.,,,2,1,03/15/2021
+Futures 2021,Mora M.,Bertran P.,,,2,1,03/15/2021
+Futures 2021,Arnaldi M.,Monzon I.,,,2,1,03/15/2021
+Futures 2021,Welte M.,Prechtel S.,,,2,1,03/15/2021
+Futures 2021,Gibbens J.,Serafini M.,,,2,1,03/15/2021
+Futures 2021,Hajek P.,Malgaroli L.,,,2,0,03/15/2021
+Futures 2021,Revelli G.,Khotkov O.,,,2,0,03/15/2021
+Futures 2021,Dambrosi G.,Ferrari G.,,,2,0,03/15/2021
+Futures 2021,Ingarao A.,Naw H.,,,2,1,03/15/2021
+Futures 2021,Kotzen A.,Lemstra K.,,,2,0,03/15/2021
+Futures 2021,Laurent Y.,Campo A.,,,2,0,03/15/2021
+Futures 2021,Marcondes I.,Fernandez Flores D.,,,2,0,03/15/2021
+Futures 2021,Zmak D.,Rogic Hadzalic A.,,,2,0,03/15/2021
+Futures 2021,Sorrentino L.,Reitano S.,,,2,0,03/15/2021
+Futures 2021,Trapeznikov Z.,Link J.,,,2,0,03/15/2021
+Futures 2021,Arnaboldi F.,Krstanovic J.,,,2,0,03/15/2021
+Futures 2021,Liu S.,Makzoume Y.,,,2,0,03/15/2021
+Futures 2021,Passaro F.,Kekez D.,,,2,0,03/15/2021
+Futures 2021,Guttau N.,Rottoli L.,,,2,0,03/15/2021
+Futures 2021,Little D.,Kana F.,,,2,0,03/15/2021
+Futures 2021,Vandermeersch C.,Baltensperger R.,,,2,1,03/15/2021
+Futures 2021,Ayeni A.,Stouff V.,,,2,1,03/15/2021
+Futures 2021,Voljacques H.,Sinius W.,,,2,0,03/15/2021
+Futures 2021,Lopez Morillo I.,Garcia Mestre J.,,,2,0,03/15/2021
+Futures 2021,Bondarevskiy Y.,Cekirge K.,,,2,0,03/15/2021
+Futures 2021,Garcian A.,Alemany P.,,,2,0,03/15/2021
+Futures 2021,Minin M.,Mir Anglada L.,,,2,0,03/15/2021
+Futures 2021,Dussin L.,De Schepper J.,,,2,0,03/15/2021
+Futures 2021,Steiner M.,Eguez S.,,,2,0,03/15/2021
+Futures 2021,Oberleitner N.,Rossi M.,,,2,0,03/15/2021
+Futures 2021,Voisin E.,Thirouin J.,,,2,1,03/15/2021
+Futures 2021,Michnev P.,Tkemaladze Z.,,,2,0,03/15/2021
+Futures 2021,Angele J.,Beauge M.,,,2,1,03/15/2021
+Futures 2021,Andreu Garcia F.,Aranzabal M.,,,2,1,03/15/2021
+Futures 2021,Blanchet U.,Pontico H.,,,2,1,03/15/2021
+Futures 2021,Alcala Gurri M.,Molino J.,,,2,0,03/15/2021
+Futures 2021,Galoppini D.,Vukovic M.,,,2,0,03/15/2021
+Futures 2021,Emesz B.,Aaes L.,,,2,0,03/15/2021
+Futures 2021,Loffhagen G.,Lescure M.,,,2,0,03/15/2021
+Futures 2021,Amatiste G.,Wuelfing M.,,,2,0,03/15/2021
+Futures 2021,Moraing O.,Faivre P.,,,2,0,03/15/2021
+Futures 2021,Bouquet L.,Fuele M.,,,2,1,03/15/2021
+Futures 2021,Caldes J.,Prihodko O.,,,2,1,03/15/2021
+Futures 2021,Matic M.,Carou I.,,,2,1,03/15/2021
+Futures 2021,Barreto Sanchez D.,Martinez Martinez J.,,,2,0,03/15/2021
+Futures 2021,Nincevic F.,Heger T.,,,2,0,03/15/2021
+Futures 2021,Polukhin S.,Franco T.,,,2,0,03/15/2021
+Futures 2021,Zanada E.,Born Y.,,,2,0,03/15/2021
+Futures 2021,Campo A.,Agarwal R.,,,2,0,03/15/2021
+Futures 2021,Laurent Y.,Penzlin J.,,,2,0,03/15/2021
+Futures 2021,Korolev V.,Bertuccioli F.,,,2,1,03/15/2021
+Futures 2021,Fils A.,Mpetshi Perricard G.,,,1,0,03/15/2021
+Futures 2021,Beaupain S.,Bini V.,,,2,0,03/15/2021
+Futures 2021,Matas Ortega X.,Seateun N.,,,1,0,03/15/2021
+Futures 2021,Den Heijer G.,Alcalde J.,,,2,0,03/15/2021
+Futures 2021,Rizzuti G.,Tasenkov V.,,,2,0,03/15/2021
+Futures 2021,Agabigun S.,Gorbatenko V.,,,2,0,03/15/2021
+Futures 2021,Henning B.,Vescovi T.,,,2,0,03/15/2021
+Futures 2021,Mora M.,Mikrut L.,,,2,0,03/15/2021
+Futures 2021,Pontjodikromo S.,Zaytsev I.,,,2,0,03/15/2021
+Futures 2021,Cornea V.,Biljesko D.,,,2,1,03/15/2021
+Futures 2021,Dancu V.,Yamanaka T.,,,2,0,03/15/2021
+Futures 2021,Parizzia N.,Sigurdsson E.,,,2,0,03/15/2021
+Futures 2021,Damas M.,Garcia Garcia J.,,,2,0,03/15/2021
+Futures 2021,Amoros Ramos P.,Lopez Montagud C.,,,2,1,03/15/2021
+Futures 2021,Zima L.,Echevarri J.,,,2,0,03/15/2021
+Futures 2021,Vankan M.,Bejenaru A.,,,2,1,03/15/2021
+Futures 2021,Naw H.,Kawachi K.,,,2,1,03/15/2021
+Futures 2021,Brosset S.,Ceppellini A.,,,2,1,03/15/2021
+Futures 2021,Reitano S.,Rihane Y.,,,2,1,03/15/2021
+Futures 2021,Pavlovic L.,Sarouk Y.,,,2,1,03/15/2021
+Futures 2021,Kotzen A.,Melnic V.,,,2,1,03/15/2021
+Futures 2021,Wenger D.,Devald B.,,,2,1,03/15/2021
+Futures 2021,Lavagno E.,Marcolini G.,,,2,0,03/15/2021
+Futures 2021,Sorrentino L.,Kos D.,,,2,0,03/15/2021
+Futures 2021,Monzon I.,Lahky N.,,,2,0,03/15/2021
+Futures 2021,Houkes M.,Duran B.,,,2,0,03/15/2021
+Futures 2021,Palosi S.,Caruso A.,,,2,0,03/15/2021
+Futures 2021,Ingarao A.,Castagnola L.,,,2,1,03/15/2021
+Futures 2021,Fernandez Flores D.,De Cuyper J.,,,2,0,03/15/2021
+Futures 2021,Maestrelli F.,Tabur C.,,,2,0,03/15/2021
+Futures 2021,Tomasetto L.,Donders D.,,,2,0,03/15/2021
+Futures 2021,Turker M.,Parshutin D.,,,2,0,03/15/2021
+Futures 2021,Lemstra K.,Sperle J.,,,2,0,03/15/2021
+Futures 2021,Srbljak G.,Goldsteiner P.,,,2,0,03/15/2021
+Futures 2021,Ortenzi G.,Dujmovic G.,,,2,0,03/15/2021
+Futures 2021,Marcondes I.,Rodriguez L.,,,2,0,03/15/2021
+Futures 2021,Madarasz G.,Krawcewicz K.,,,2,0,03/15/2021
+Futures 2021,Manda C.,Vilicich B.,,,2,0,03/15/2021
+Futures 2021,Tomescu D.,Zlatanovic A.,,,2,0,03/15/2021
+Futures 2021,Datei G.,Boyer T.,,,2,1,03/15/2021
+Futures 2021,Vilardo F.,Agostinetto G.,,,2,0,03/15/2021
+Futures 2021,Beloborodko I.,Troche E.,,,2,0,03/15/2021
+Futures 2021,Ciurletti A.,Danova F.,,,2,0,03/15/2021
+Futures 2021,Jones B.,La Vela G.,,,2,1,03/15/2021
+Futures 2021,Visker N.,Horak O.,,,2,1,03/15/2021
+Futures 2021,Ricca G.,Mikhaylyuk I.,,,2,0,03/15/2021
+Santiago challenger,Kicker N.,Galdos S.,,,2,0,03/15/2021
+Santiago challenger,Menezes J. (1),Matos R. (7),,,2,0,03/15/2021
+Santiago challenger,Villanueva G. (5),Gomez-Herrera C. (3),,,2,0,03/15/2021
+Santiago challenger,Cuevas M. (6),Carvajal Suazo H.,,,2,0,03/15/2021
+Dubai,Popyrin A.,Novak D.,,,2,0,03/14/2021
+Dubai,Jaziri M.,Tsonga J.,,,1,0,03/14/2021
+Dubai,Bublik A.,Nishioka Y.,,,2,0,03/14/2021
+Dubai,Karatsev A.,Gerasimov E.,,,2,0,03/14/2021
+Dubai,Chardy J.,Ramos-Vinolas A.,,,2,1,03/14/2021
+Dubai,Nishikori K.,Opelka R.,,,2,1,03/14/2021
+Marseille,Medvedev D. (1),Herbert P.,,,2,1,03/14/2021
+Santiago,Garin C. (1),Bagnis F.,,,2,1,03/14/2021
+St. Petersburg 2 challenger,Tiurnev E.,Zuk K. (6),,,2,0,03/14/2021
+Biella 4 challenger,Seppi A. (2),Broady L.,,,2,0,03/14/2021
+Futures 2021,Uchida K.,Fanselow S.,,,2,1,03/14/2021
+Futures 2021,Brouwer G.,Ejupovic E.,,,2,0,03/14/2021
+Futures 2021,Nava E.,Sanchez Izquierdo N.,,,2,0,03/14/2021
+Futures 2021,Marozsan F.,Eysseric J.,,,1,0,03/14/2021
+Futures 2021,Pucinelli De Almeida M.,Zekic M.,,,2,0,03/14/2021
+Futures 2021,Misolic F.,Rondoni P.,,,2,0,03/14/2021
+Futures 2021,Nakagawa N.,Agamenone F.,,,2,0,03/14/2021
+Futures 2021,Erel Y.,Zakharov A.,,,1,0,03/14/2021
+Futures 2021,Hsu Y.,Krainer L.,,,2,0,03/14/2021
+Futures 2021,Khan Z.,McHugh A.,,,2,1,03/14/2021
+UTR Pro Match Series,Pannu K.,Panta J.,,,2,0,03/14/2021
+UTR Pro Match Series,Walker H.,Sheehy J.,,,2,0,03/14/2021
+UTR Pro Match Series,Rodriguez C.,Dhoe B.,,,2,0,03/14/2021
+UTR Pro Match Series,Kotzen N.,Termat R.,,,2,0,03/14/2021
+UTR Pro Tennis Series,Sweeny D.,Jasika O.,,,2,1,03/14/2021
+UTR Pro Tennis Series,Schoolkate T.,Aguiard E.,,,2,0,03/14/2021
+Acapulco,Velotti A.,Justo G.,,,2,0,03/14/2021
+Acapulco,Dzumhur D. (6),Altamirano C.,,,2,1,03/14/2021
+Acapulco,Kozlov S.,Arconada J.,,,2,0,03/14/2021
+Acapulco,Van De Zandschulp B.,Bega A.,,,2,0,03/14/2021
+Acapulco,Sousa J. (2),Zverev M.,,,2,1,03/14/2021
+Acapulco,Musetti L. (3),Hernandez Serrano J.,,,2,1,03/14/2021
+Acapulco,Silva F.,Jung J.,,,2,0,03/14/2021
+Acapulco,Gonzalez A.,Sarmiento R.,,,1,0,03/14/2021
+Acapulco,Stebe C. (7),Lorenzi P.,,,2,0,03/14/2021
+Acapulco,Griekspoor T.,Casanova H.,,,2,1,03/14/2021
+Acapulco,Kokkinakis T.,Laaksonen H. (8),,,2,0,03/14/2021
+Biella 5 challenger,Arnaboldi A. (8),Ornago F.,,,1,0,03/14/2021
+Biella 5 challenger,Masur D. (2),Pecotic M.,,,2,0,03/14/2021
+Biella 5 challenger,Sock J. (6),Nikles J.,,,2,1,03/14/2021
+Biella 5 challenger,Santillan A. (4),Nardi L.,,,2,0,03/14/2021
+Biella 5 challenger,Vanni L.,Lamasine T. (3),,,2,0,03/14/2021
+Biella 5 challenger,Forejtek J.,Menendez-Maceiras A. (5),,,2,0,03/14/2021
+Biella 5 challenger,Bachinger M. (7),Claverie L.,,,2,0,03/14/2021
+Biella 5 challenger,Kuhn N. (1),Forti F.,,,2,0,03/14/2021
+Cleveland challenger,Novikov D. (1),Pavic A.,,,1,0,03/14/2021
+Cleveland challenger,Song E. (6),Hopper J.,,,2,1,03/14/2021
+Cleveland challenger,Corwin F. (4),Rodriguez-Pace R.,,,2,0,03/14/2021
+Cleveland challenger,Redlicki M.,Leite W. (7),,,2,0,03/14/2021
+Cleveland challenger,Kirchheimer S. (3),Kang K.,,,2,0,03/14/2021
+Cleveland challenger,Galarneau A. (5),Gregg P.,,,2,0,03/14/2021
+Cleveland challenger,Pervolarakis M. (2),Shane R.,,,2,1,03/14/2021
+Cleveland challenger,Kovacevic A.,Gomez A. (8),,,2,1,03/14/2021
+Dubai,Bhambri Y.,Ramanathan R.,,,2,1,03/14/2021
+Dubai,Zapata Miralles B. (9),Albot R. (1),,,2,1,03/14/2021
+Dubai,Harris L. (2),Rola B. (11),,,2,0,03/14/2021
+Dubai,Kukushkin M. (4),Giustino L. (10),,,2,0,03/14/2021
+Dubai,Ruusuvuori E. (3),Troicki V.,,,2,0,03/14/2021
+Dubai,O'Connell C. (5),Fabbiano T. (12),,,2,0,03/14/2021
+Futures 2021,Hajek P.,Boco G.,,,2,0,03/14/2021
+Futures 2021,Serafini M.,Ragy M.,,,2,0,03/14/2021
+Futures 2021,Gibbens J.,Bataljin L.,,,2,0,03/14/2021
+Futures 2021,Malgaroli L.,Stefani Figlia B.,,,2,0,03/14/2021
+Futures 2021,Rossi M.,Milchenko D.,,,1,0,03/14/2021
+Futures 2021,Revelli G.,Gabay S.,,,2,0,03/14/2021
+Futures 2021,Khotkov O.,Yeshaya O.,,,2,0,03/14/2021
+Futures 2021,Kana F.,Ferrari M.,,,2,0,03/14/2021
+Futures 2021,Guttau N.,Atturu B.,,,2,0,03/14/2021
+Futures 2021,Liu S.,Eldin M.,,,2,0,03/14/2021
+Futures 2021,Makzoume Y.,Larwig N.,,,2,0,03/14/2021
+Futures 2021,Rottoli L.,Mora Clement R.,,,2,0,03/14/2021
+Futures 2021,Baltensperger R.,Hellum Lilleengen L.,,,2,0,03/14/2021
+Futures 2021,Minin M.,Sanchis Melero H.,,,2,0,03/14/2021
+Futures 2021,Garcian A.,Torres Munoz D.,,,2,0,03/14/2021
+Futures 2021,Bondarevskiy Y.,Cabrera Bello I.,,,2,0,03/14/2021
+Futures 2021,Cekirge K.,Loncar S.,,,2,0,03/14/2021
+Futures 2021,Alemany P.,Snitari I.,,,2,1,03/14/2021
+Futures 2021,Mir Anglada L.,Novakovic L.,,,2,0,03/14/2021
+Futures 2021,Vandermeersch C.,Martinez M.,,,2,0,03/14/2021
+Futures 2021,Voljacques H.,Fassbender B.,,,2,0,03/14/2021
+Futures 2021,La Vela G.,Dellavedova M.,,,2,1,03/14/2021
+Futures 2021,Lopez Morillo I.,Rolland D.,,,2,0,03/14/2021
+Futures 2021,Zima L.,Garmendia Olasagasti I.,,,2,0,03/14/2021
+Futures 2021,Garcia Mestre J.,Guarin S.,,,2,0,03/14/2021
+Futures 2021,Tkemaladze Z.,Nakamura R.,,,2,0,03/14/2021
+Futures 2021,Michnev P.,Malan P.,,,2,0,03/14/2021
+Futures 2021,Link J.,Soler Santa Maria A.,,,2,0,03/14/2021
+Futures 2021,Jones B.,Lagasio M.,,,2,0,03/14/2021
+Futures 2021,Echevarri J.,Martinez Arjona S.,,,2,1,03/14/2021
+Futures 2021,Sinius W.,Tepmahc N.,,,2,1,03/14/2021
+Futures 2021,Amatiste G.,Winter Lopez B.,,,1,0,03/14/2021
+Futures 2021,Aranzabal M.,Traskin H.,,,2,1,03/14/2021
+Futures 2021,Wuelfing M.,Cizelj-Zivkovic S.,,,2,0,03/14/2021
+Futures 2021,Andreu Garcia F.,Fortin M.,,,2,0,03/14/2021
+Futures 2021,Trapeznikov Z.,Barroso Campos A.,,,2,0,03/14/2021
+Futures 2021,Stouff V.,Bittoun Kouzmine C.,,,2,1,03/14/2021
+Futures 2021,Dussin L.,Lapalu V.,,,2,0,03/14/2021
+Futures 2021,De Schepper J.,Freire Da Silva A.,,,2,0,03/14/2021
+Futures 2021,Matas Ortega X.,Dossetter C.,,,2,0,03/14/2021
+Futures 2021,Horak O.,Facchini T.,,,2,0,03/14/2021
+Futures 2021,Laurent Y.,Castelletti L.,,,2,0,03/14/2021
+Futures 2021,Visker N.,Lebedev I.,,,1,0,03/14/2021
+Futures 2021,Campo A.,Thurner N.,,,2,0,03/14/2021
+Futures 2021,Seateun N.,Matvievici E.,,,2,0,03/14/2021
+Futures 2021,Fils A.,Gabarro X.,,,2,0,03/14/2021
+Futures 2021,Datei G.,Sada I.,,,2,0,03/14/2021
+Futures 2021,Mpetshi Perricard G.,Perez Contri S.,,,2,0,03/14/2021
+Futures 2021,Agarwal R.,Gadamauri B.,,,2,0,03/14/2021
+Futures 2021,Penzlin J.,Riedel T.,,,2,0,03/14/2021
+Futures 2021,Boyer T.,Miceli M.,,,2,0,03/14/2021
+Futures 2021,Molino J.,Chepelev A.,,,2,0,03/14/2021
+Futures 2021,Ayeni A.,Freslon A.,,,2,0,03/14/2021
+Futures 2021,Loffhagen G.,Arribage T.,,,2,0,03/14/2021
+Futures 2021,Zanada E.,Battaglino S.,,,2,1,03/14/2021
+Futures 2021,Ingarao A.,O'Neill D.,,,2,0,03/14/2021
+Futures 2021,Fernandez Flores D.,Biasiolo L.,,,2,0,03/14/2021
+Futures 2021,Born Y.,Pieri S.,,,2,1,03/14/2021
+Futures 2021,Polukhin S.,Thanos A.,,,2,0,03/14/2021
+Futures 2021,Kawachi K.,Ganchev A.,,,2,0,03/14/2021
+Futures 2021,Franco T.,Thurner D.,,,2,0,03/14/2021
+Futures 2021,Castagnola L.,Tabacco F.,,,2,0,03/14/2021
+Futures 2021,Lescure M.,Broquin P.,,,2,0,03/14/2021
+Futures 2021,Blanchet U.,Darras M.,,,2,1,03/14/2021
+Futures 2021,Pontico H.,Bondaz M.,,,2,0,03/14/2021
+Futures 2021,Oberleitner N.,Rosales R.,,,2,1,03/14/2021
+Futures 2021,Ciurletti A.,Paris J.,,,2,1,03/14/2021
+Futures 2021,Danova F.,Slyepkan D.,,,2,0,03/14/2021
+Futures 2021,Little D.,Nijboer R.,,,2,0,03/14/2021
+Futures 2021,Kos D.,Corino M.,,,1,0,03/14/2021
+Futures 2021,Damas M.,Gabor D.,,,2,0,03/14/2021
+Futures 2021,Sorrentino L.,Eminefendic E.,,,2,0,03/14/2021
+Futures 2021,Prihodko O.,Bas Mengual I.,,,2,0,03/14/2021
+Futures 2021,Rihane Y.,Toffanin N.,,,2,0,03/14/2021
+Futures 2021,Garcia Garcia J.,Rudiukov I.,,,2,0,03/14/2021
+Futures 2021,Reitano S.,Galarza J.,,,2,0,03/14/2021
+Futures 2021,Alcala Gurri M.,Turriziani Alvarez A.,,,2,0,03/14/2021
+Futures 2021,De Cuyper J.,Vatteroni L.,,,2,0,03/14/2021
+Futures 2021,Caldes J.,Oliver Moratalla V.,,,2,0,03/14/2021
+Futures 2021,Naw H.,Tabacco G.,,,2,0,03/14/2021
+Futures 2021,Juhas K.,Zvech Flaborea Mreule M.,,,2,0,03/14/2021
+Futures 2021,Tessa L.,Vidak A.,,,2,0,03/14/2021
+Futures 2021,Prechtel S.,Valsecchi P.,,,2,0,03/14/2021
+Futures 2021,Arnaldi M.,Dagnino P.,,,2,0,03/14/2021
+Futures 2021,Arnaboldi F.,Voros M.,,,2,0,03/14/2021
+Futures 2021,Dambrosi G.,Procopio A.,,,2,0,03/14/2021
+Futures 2021,Otegui J.,Cataldi C.,,,2,0,03/14/2021
+Futures 2021,Ferrari G.,Aubriot A.,,,2,0,03/14/2021
+Futures 2021,Bertran P.,Oreskovic Z.,,,2,0,03/14/2021
+Futures 2021,Beauge M.,Deleersnyder C.,,,2,0,03/14/2021
+Futures 2021,Krstanovic J.,Frinzi M.,,,2,0,03/14/2021
+Futures 2021,Passaro F.,Arh A.,,,2,0,03/14/2021
+Futures 2021,Moraing O.,Bouquier A.,,,2,0,03/14/2021
+Futures 2021,Welte M.,Compagnucci T.,,,2,0,03/14/2021
+Futures 2021,Faivre P.,Gobat A.,,,2,0,03/14/2021
+Futures 2021,Kekez D.,Spec M.,,,2,0,03/14/2021
+Futures 2021,Zmak D.,Ragazzi A.,,,2,0,03/14/2021
+Futures 2021,Angele J.,Dubouch M.,,,2,0,03/14/2021
+Futures 2021,Rogic Hadzalic A.,Bakshi A.,,,2,0,03/14/2021
+Futures 2021,Panak Y.,Moghini G.,,,2,1,03/14/2021
+Futures 2021,Beloborodko I.,Guberman Y.,,,2,0,03/14/2021
+Futures 2021,Sperle J.,Juneja S.,,,2,0,03/14/2021
+Futures 2021,Martinez Martinez J.,Melzer L.,,,2,0,03/14/2021
+Futures 2021,Barreto Sanchez D.,Kazakov I.,,,2,0,03/14/2021
+Futures 2021,Melnic V.,Sharma N.,,,2,0,03/14/2021
+Futures 2021,Amoros Ramos P.,Moreno Pulido A.,,,2,0,03/14/2021
+Futures 2021,Beaupain S.,Mazon-Hernandez R.,,,2,0,03/14/2021
+Futures 2021,Marcondes I.,Elamin A.,,,2,0,03/14/2021
+Futures 2021,Bini V.,Vinuesa Irias J.,,,2,0,03/14/2021
+Futures 2021,Lopez Montagud C.,Mansilla Diez M.,,,2,0,03/14/2021
+Futures 2021,Rodriguez L.,Pampanin P.,,,2,0,03/14/2021
+Futures 2021,Lemstra K.,Iradukunda G.,,,2,0,03/14/2021
+Futures 2021,Kotzen A.,Hoeveler L.,,,2,0,03/14/2021
+Futures 2021,Donders D.,Soyler O.,,,1,0,03/14/2021
+Futures 2021,Vilardo F.,Bresciani L.,,,2,1,03/14/2021
+Futures 2021,Lavagno E.,Sakellaridis M.,,,2,0,03/14/2021
+Futures 2021,Korolev V.,Butulija B.,,,2,0,03/14/2021
+Futures 2021,Palosi S.,Tan B.,,,2,0,03/14/2021
+Futures 2021,Tomescu D.,Giotis R.,,,2,0,03/14/2021
+Futures 2021,Parshutin D.,Sakellaridis S.,,,2,0,03/14/2021
+Futures 2021,Agostinetto G.,Connor P.,,,2,0,03/14/2021
+Futures 2021,Alcalde J.,Pekel E.,,,2,0,03/14/2021
+Futures 2021,Houkes M.,Cigarran T.,,,2,0,03/14/2021
+Futures 2021,Gorbatenko V.,Turknas D.,,,2,0,03/14/2021
+Futures 2021,Eguez S.,Kotze D.,,,2,0,03/14/2021
+Futures 2021,Den Heijer G.,Gola A.,,,2,0,03/14/2021
+Futures 2021,Tomasetto L.,Schuetze C.,,,2,0,03/14/2021
+Futures 2021,Duran B.,Balci O.,,,2,0,03/14/2021
+Futures 2021,Henning B.,Gima S.,,,2,0,03/14/2021
+Futures 2021,Troche E.,Langmajer D.,,,2,0,03/14/2021
+Futures 2021,Zlatanovic A.,Karic J.,,,2,0,03/14/2021
+Futures 2021,Marcolini G.,Chaiyarin C.,,,2,0,03/14/2021
+Futures 2021,Sigurdsson E.,Dell'elba V.,,,2,0,03/14/2021
+Futures 2021,Bertuccioli F.,Konov S.,,,2,0,03/14/2021
+Futures 2021,Rizzuti G.,Vanta V.,,,2,0,03/14/2021
+Futures 2021,Mikhaylyuk I.,Spencer P.,,,2,0,03/14/2021
+Futures 2021,Pontjodikromo S.,Prinoth P.,,,2,0,03/14/2021
+Futures 2021,Steiner M.,Mugelli P.,,,2,0,03/14/2021
+Futures 2021,Vankan M.,Roggero T.,,,2,1,03/14/2021
+Futures 2021,Dancu V.,Alimli M.,,,2,1,03/14/2021
+Futures 2021,Vilicich B.,Saritas G.,,,2,0,03/14/2021
+Futures 2021,Yamanaka T.,Sveridenko V.,,,2,0,03/14/2021
+Futures 2021,Zaytsev I.,Walder J.,,,2,0,03/14/2021
+Futures 2021,Turker M.,Denisov I.,,,2,0,03/14/2021
+Futures 2021,Manda C.,Erhard M.,,,2,0,03/14/2021
+Futures 2021,Ricca G.,Vasiliauskas M.,,,2,0,03/14/2021
+Futures 2021,Parizzia N.,Fellin M.,,,2,1,03/14/2021
+Futures 2021,Vescovi T.,Lysov S.,,,2,0,03/14/2021
+Futures 2021,Agabigun S.,Fossati A.,,,2,0,03/14/2021
+Futures 2021,Tasenkov V.,Sutekin E.,,,2,1,03/14/2021
+Futures 2021,Bejenaru A.,Cohen A.,,,2,0,03/14/2021
+Futures 2021,Caruso A.,Akkoyun U.,,,2,0,03/14/2021
+Santiago challenger,Galdos S.,Vernier M. (8),,,2,1,03/14/2021
+Santiago challenger,Kicker N.,Mena F. (2),,,2,1,03/14/2021
+Santiago challenger,Carvajal Suazo H.,Tirante T. (4),,,1,0,03/14/2021
+Santiago challenger,Cuevas M. (6),Torres Fernandez B.,,,2,0,03/14/2021
+Santiago challenger,Gomez-Herrera C. (3),Nunez V.,,,2,0,03/14/2021
+Santiago challenger,Villanueva G. (5),Nunez D.,,,2,1,03/14/2021
+Santiago challenger,Matos R. (7),Martinez L.,,,2,0,03/14/2021
+Doha,Basilashvili N.,Bautista-Agut R. (5),,,2,0,03/13/2021
+Marseille,Herbert P.,Humbert U. (4),,,2,0,03/13/2021
+Marseille,Medvedev D. (1),Ebden M.,,,1,0,03/13/2021
+Santiago,Garin C. (1),Galan D.,,,2,0,03/13/2021
+Santiago,Bagnis F.,Delbonis F. (8),,,2,0,03/13/2021
+St. Petersburg 2 challenger,Zuk K. (6),Lehecka J.,,,2,0,03/13/2021
+St. Petersburg 2 challenger,Tiurnev E.,Copil M. (4),,,2,0,03/13/2021
+Biella 4 challenger,Seppi A. (2),Haase R.,,,2,0,03/13/2021
+Biella 4 challenger,Broady L.,Marchenko I.,,,2,0,03/13/2021
+Futures 2021,Fanselow S.,Wang T.,,,2,0,03/13/2021
+Futures 2021,Brouwer G.,Bellier A.,,,2,0,03/13/2021
+Futures 2021,Ejupovic E.,Martineau M.,,,2,1,03/13/2021
+Futures 2021,Uchida K.,de Schepper K.,,,2,1,03/13/2021
+Futures 2021,Marozsan F.,Dembek M.,,,2,1,03/13/2021
+Futures 2021,Sanchez Izquierdo N.,Llamas Ruiz P.,,,2,0,03/13/2021
+Futures 2021,Erel Y.,Philippov E.,,,2,0,03/13/2021
+Futures 2021,Nava E.,Martin Tiffon P.,,,2,0,03/13/2021
+Futures 2021,Eysseric J.,Briand J.,,,1,0,03/13/2021
+Futures 2021,Misolic F.,Rybakov A.,,,2,1,03/13/2021
+Futures 2021,Pucinelli De Almeida M.,Dima D.,,,2,0,03/13/2021
+Futures 2021,Rondoni P.,Wenger D.,,,2,0,03/13/2021
+Futures 2021,Agamenone F.,Giacomini L.,,,2,1,03/13/2021
+Futures 2021,Nakagawa N.,Torres J.,,,1,0,03/13/2021
+Futures 2021,Zakharov A.,Kachmazov A.,,,2,0,03/13/2021
+Futures 2021,Krainer L.,Li H.,,,2,1,03/13/2021
+Futures 2021,Hsu Y.,Chrysochos P.,,,2,1,03/13/2021
+Futures 2021,Zekic M.,Heller P.,,,2,0,03/13/2021
+Futures 2021,McHugh A.,Brugnerotto M.,,,2,1,03/13/2021
+Futures 2021,Khan Z.,Vanshelboim E.,,,2,0,03/13/2021
+UTR Pro Match Series,Termat R.,Scott F.,,,2,1,03/13/2021
+UTR Pro Match Series,Panta J.,Bangoura S.,,,2,1,03/13/2021
+UTR Pro Match Series,Walker H.,Segura M.,,,2,0,03/13/2021
+UTR Pro Match Series,Rodriguez C.,Zheng M.,,,2,0,03/13/2021
+UTR Pro Match Series,Sheehy J.,Perego G.,,,2,0,03/13/2021
+UTR Pro Match Series,Pannu K.,Jachuck R.,,,2,1,03/13/2021
+Acapulco,Mahut N. (1),Saville L.,,,2,0,03/13/2021
+Acapulco,Gaio F.,Dalla Valle E.,,,2,0,03/13/2021
+Acapulco,Seyboth Wild T. (5),Petrovic D.,,,2,1,03/13/2021
+Acapulco,Kudla D. (4),Smith J.,,,2,0,03/13/2021
+Acapulco,Nakashima B.,Patino L.,,,2,0,03/13/2021
+Dubai,Giustino L. (10),Vavassori A.,,,2,0,03/13/2021
+Dubai,Rola B. (11),Popko D.,,,2,1,03/13/2021
+Dubai,Ruusuvuori E. (3),Kuzmanov D.,,,2,1,03/13/2021
+Dubai,Harris L. (2),Gabashvili T.,,,2,0,03/13/2021
+Dubai,Kukushkin M. (4),Janvier M.,,,2,1,03/13/2021
+Dubai,Albot R. (1),Lacko L.,,,2,1,03/13/2021
+Dubai,Zapata Miralles B. (9),Al Awadhy O.,,,2,0,03/13/2021
+Dubai,Troicki V.,Polmans M. (8),,,2,0,03/13/2021
+Dubai,Fabbiano T. (12),Al Janahi A.,,,2,0,03/13/2021
+Dubai,Bhambri Y.,Gunneswaran P. (7),,,2,0,03/13/2021
+Dubai,O'Connell C. (5),Ilkel C.,,,2,0,03/13/2021
+Dubai,Ramanathan R.,Donskoy E. (6),,,2,0,03/13/2021
+Doha,Basilashvili N.,Fritz T.,,,2,0,03/12/2021
+Doha,Bautista-Agut R. (5),Rublev A. (3),,,2,0,03/12/2021
+Marseille,Humbert U. (4),Rinderknech A.,,,2,1,03/12/2021
+Marseille,Herbert P.,Tsitsipas S. (2),,,2,1,03/12/2021
+Marseille,Medvedev D. (1),Sinner J. (5),,,2,0,03/12/2021
+Marseille,Ebden M.,Khachanov K. (3),,,2,1,03/12/2021
+Santiago,Galan D.,Carballes Baena R.,,,2,0,03/12/2021
+Santiago,Garin C. (1),Varillas J.,,,2,0,03/12/2021
+Santiago,Delbonis F. (8),Rune H.,,,2,0,03/12/2021
+Santiago,Bagnis F.,Djere L. (4),,,2,1,03/12/2021
+St. Petersburg 2 challenger,Zuk K. (6),Sock J.,,,2,0,03/12/2021
+St. Petersburg 2 challenger,Tiurnev E.,Basic M.,,,2,0,03/12/2021
+St. Petersburg 2 challenger,Lehecka J.,Popko D. (2),,,2,0,03/12/2021
+St. Petersburg 2 challenger,Copil M. (4),Eubanks C. (7),,,2,0,03/12/2021
+Biella 4 challenger,Seppi A. (2),Gojowczyk P. (5),,,1,0,03/12/2021
+Biella 4 challenger,Marchenko I.,Forejtek J.,,,2,0,03/12/2021
+Biella 4 challenger,Haase R.,Schnur B.,,,2,0,03/12/2021
+Biella 4 challenger,Broady L.,Rodionov J. (6),,,2,0,03/12/2021
+Futures 2021,Uchida K.,Dussin L.,,,2,0,03/12/2021
+Futures 2021,Wang T.,Cabral F.,,,2,0,03/12/2021
+Futures 2021,Bellier A.,Ornago F.,,,2,0,03/12/2021
+Futures 2021,Brouwer G.,Stricker D.,,,2,0,03/12/2021
+Futures 2021,Fanselow S.,Araujo P.,,,2,0,03/12/2021
+Futures 2021,de Schepper K.,Neuchrist M.,,,2,0,03/12/2021
+Futures 2021,Ejupovic E.,Erler A.,,,2,1,03/12/2021
+Futures 2021,Martineau M.,Paul J.,,,2,1,03/12/2021
+Futures 2021,Llamas Ruiz P.,Eriksson M.,,,2,0,03/12/2021
+Futures 2021,Nava E.,Barranco Cosano J.,,,2,1,03/12/2021
+Futures 2021,Briand J.,Jacquet K.,,,2,0,03/12/2021
+Futures 2021,Martin Tiffon P.,Toledo Bague P.,,,2,1,03/12/2021
+Futures 2021,Sanchez Izquierdo N.,Kravchenko G.,,,2,0,03/12/2021
+Futures 2021,Agamenone F.,Tokuda R.,,,1,0,03/12/2021
+Futures 2021,Torres J.,Parker S.,,,2,0,03/12/2021
+Futures 2021,Rondoni P.,Arnaldi M.,,,1,0,03/12/2021
+Futures 2021,Marozsan F.,Rikl P.,,,2,1,03/12/2021
+Futures 2021,Rybakov A.,Prechtel S.,,,2,0,03/12/2021
+Futures 2021,Chrysochos P.,Mukund S.,,,2,0,03/12/2021
+Futures 2021,Eysseric J.,Paulson A.,,,2,0,03/12/2021
+Futures 2021,Misolic F.,Nejedly P.,,,2,0,03/12/2021
+Futures 2021,Dembek M.,Orlikowski A.,,,2,1,03/12/2021
+Futures 2021,Wenger D.,Lazarov A.,,,2,0,03/12/2021
+Futures 2021,Nakagawa N.,Carr S.,,,2,0,03/12/2021
+Futures 2021,Giacomini L.,Wehnelt K.,,,2,0,03/12/2021
+Futures 2021,Dima D.,Korolev V.,,,2,0,03/12/2021
+Futures 2021,Zakharov A.,Binda A.,,,2,0,03/12/2021
+Futures 2021,Kachmazov A.,Gakhov I.,,,2,1,03/12/2021
+Futures 2021,Philippov E.,Fomin S.,,,2,0,03/12/2021
+Futures 2021,Hsu Y.,Gengel M.,,,2,0,03/12/2021
+Futures 2021,Krainer L.,Setkic A.,,,2,0,03/12/2021
+Futures 2021,Li H.,Beloborodko I.,,,2,0,03/12/2021
+Futures 2021,Heller P.,Frunza N.,,,1,0,03/12/2021
+Futures 2021,Zekic M.,Kirkin E.,,,2,0,03/12/2021
+Futures 2021,Erel Y.,Fayziev S.,,,2,1,03/12/2021
+Futures 2021,Pucinelli De Almeida M.,Ovcharenko O.,,,2,0,03/12/2021
+Futures 2021,Khan Z.,Sureshkumar M.,,,2,0,03/12/2021
+Futures 2021,Brugnerotto M.,Bergevi F.,,,2,1,03/12/2021
+Futures 2021,Vanshelboim E.,Bocchi L.,,,2,1,03/12/2021
+Futures 2021,McHugh A.,Castelnuovo L.,,,2,0,03/12/2021
+UTR Pro Match Series,Zheng M.,Bangoura S.,,,2,1,03/12/2021
+UTR Pro Match Series,Walker H.,Termat R.,,,2,0,03/12/2021
+UTR Pro Match Series,Sheehy J.,Cassone M.,,,2,0,03/12/2021
+UTR Pro Match Series,Dhoe B.,Pannu K.,,,2,0,03/12/2021
+UTR Pro Match Series,Panta J.,Segura M.,,,2,0,03/12/2021
+UTR Pro Match Series,Rodriguez C.,Zeballos F.,,,2,1,03/12/2021
+UTR Pro Match Series,Kotzen N.,Meraut T.,,,1,0,03/12/2021
+Doha,Bautista-Agut R. (5),Thiem D. (1),,,2,1,03/11/2021
+Doha,Basilashvili N.,Federer R. (2),,,2,1,03/11/2021
+Doha,Rublev A. (3),Fucsovics M.,,,1,0,03/11/2021
+Doha,Fritz T.,Shapovalov D. (4),,,2,1,03/11/2021
+Marseille,Tsitsipas S. (2),Pouille L.,,,2,0,03/11/2021
+Marseille,Medvedev D. (1),Gerasimov E.,,,2,0,03/11/2021
+Marseille,Rinderknech A.,Davidovich Fokina A. (7),,,2,1,03/11/2021
+Marseille,Herbert P.,Norrie C.,,,2,0,03/11/2021
+Santiago,Garin C. (1),Tabilo A.,,,2,0,03/11/2021
+Santiago,Varillas J.,Coria F. (7),,,2,0,03/11/2021
+Santiago,Carballes Baena R.,Cerundolo J.,,,2,0,03/11/2021
+Santiago,Galan D.,Andujar P. (3),,,2,0,03/11/2021
+St. Petersburg 2 challenger,Sock J.,Kotov P.,,,2,0,03/11/2021
+St. Petersburg 2 challenger,Tiurnev E.,Celikbilek A.,,,2,1,03/11/2021
+St. Petersburg 2 challenger,Zuk K. (6),Bergs Z.,,,2,1,03/11/2021
+St. Petersburg 2 challenger,Basic M.,Ortega-Olmedo R.,,,2,0,03/11/2021
+Biella 4 challenger,Forejtek J.,Santillan A.,,,2,0,03/11/2021
+Biella 4 challenger,Seppi A. (2),Lamasine T.,,,2,1,03/11/2021
+Biella 4 challenger,Marchenko I.,Arnaboldi A.,,,2,0,03/11/2021
+Biella 4 challenger,Schnur B.,Giustino L.,,,2,0,03/11/2021
+Futures 2021,Fanselow S.,Paliska B.,,,2,0,03/11/2021
+Futures 2021,Brouwer G.,Riedi L.,,,2,0,03/11/2021
+Futures 2021,Neuchrist M.,Leshem E.,,,2,1,03/11/2021
+Futures 2021,de Schepper K.,Robert Q.,,,2,1,03/11/2021
+Futures 2021,Uchida K.,Musialek A.,,,2,0,03/11/2021
+Futures 2021,Ornago F.,Iannaccone F.,,,2,1,03/11/2021
+Futures 2021,Stricker D.,Moeller M.,,,2,0,03/11/2021
+Futures 2021,Cabral F.,Falcao G.,,,2,0,03/11/2021
+Futures 2021,Dussin L.,Heyman C.,,,2,1,03/11/2021
+Futures 2021,Ejupovic E.,Marti Y.,,,1,0,03/11/2021
+Futures 2021,Bellier A.,Ayeni A.,,,2,0,03/11/2021
+Futures 2021,Araujo P.,Poullain L.,,,2,0,03/11/2021
+Futures 2021,Wang T.,Escoffier A.,,,2,0,03/11/2021
+Futures 2021,Erler A.,Folliot Q.,,,2,0,03/11/2021
+Futures 2021,Martineau M.,Kym J.,,,2,1,03/11/2021
+Futures 2021,Paul J.,Reymond A.,,,2,1,03/11/2021
+Futures 2021,Barranco Cosano J.,Laurent T.,,,2,1,03/11/2021
+Futures 2021,Sanchez Izquierdo N.,Seateun N.,,,2,0,03/11/2021
+Futures 2021,Kravchenko G.,Tatlot J.,,,2,0,03/11/2021
+Futures 2021,Briand J.,Satral J.,,,2,1,03/11/2021
+Futures 2021,Orlikowski A.,Crepatte B.,,,2,0,03/11/2021
+Futures 2021,Llamas Ruiz P.,Slobodshikov R.,,,2,0,03/11/2021
+Futures 2021,Carr S.,Jovic V.,,,2,0,03/11/2021
+Futures 2021,Giacomini L.,Pujol Navarro B.,,,2,0,03/11/2021
+Futures 2021,Wenger D.,Pichler D.,,,1,0,03/11/2021
+Futures 2021,Misolic F.,Damm M.,,,2,1,03/11/2021
+Futures 2021,Prechtel S.,Cornut Chauvinc A.,,,2,1,03/11/2021
+Futures 2021,Rybakov A.,Tenti F.,,,2,0,03/11/2021
+Futures 2021,Dembek M.,Petit G.,,,2,0,03/11/2021
+Futures 2021,Jacquet K.,Fajta P.,,,2,0,03/11/2021
+Futures 2021,Mukund S.,Pervolarakis M.,,,2,0,03/11/2021
+Futures 2021,Kachmazov A.,Stepin A.,,,2,0,03/11/2021
+Futures 2021,Marozsan F.,Krumich M.,,,2,0,03/11/2021
+Futures 2021,Philippov E.,Bobrov B.,,,2,0,03/11/2021
+Futures 2021,Martin Tiffon P.,Lopez Morillo I.,,,1,0,03/11/2021
+Futures 2021,Toledo Bague P.,Alcala Gurri M.,,,2,1,03/11/2021
+Futures 2021,Nava E.,Sanchez Jover C.,,,2,0,03/11/2021
+Futures 2021,Eriksson M.,Bouquet L.,,,2,1,03/11/2021
+Futures 2021,Parker S.,Polukhin S.,,,2,0,03/11/2021
+Futures 2021,Torres J.,Lemstra K.,,,2,0,03/11/2021
+Futures 2021,Beloborodko I.,Eremin E.,,,2,1,03/11/2021
+Futures 2021,Nejedly P.,Tabur C.,,,2,1,03/11/2021
+Futures 2021,Fayziev S.,Pogosian S.,,,2,0,03/11/2021
+Futures 2021,Lazarov A.,Madarasz G.,,,2,0,03/11/2021
+Futures 2021,Paulson A.,Kalenichenko D.,,,2,0,03/11/2021
+Futures 2021,Eysseric J.,Van Assche L.,,,2,0,03/11/2021
+Futures 2021,Chrysochos P.,Visker N.,,,2,0,03/11/2021
+Futures 2021,Gakhov I.,Ibragimov D.,,,2,1,03/11/2021
+Futures 2021,Rikl P.,Sachko V.,,,2,1,03/11/2021
+Futures 2021,Rondoni P.,Galoppini D.,,,2,0,03/11/2021
+Futures 2021,Arnaldi M.,Denolly C.,,,2,1,03/11/2021
+Futures 2021,Hsu Y.,Imai S.,,,2,0,03/11/2021
+Futures 2021,Nakagawa N.,Mertens Y.,,,2,1,03/11/2021
+Futures 2021,Wehnelt K.,Tanuma R.,,,2,0,03/11/2021
+Futures 2021,Agamenone F.,Capecchi D.,,,2,0,03/11/2021
+Futures 2021,Tokuda R.,Ouakaa A.,,,2,0,03/11/2021
+Futures 2021,Binda A.,Ratniuk M.,,,2,1,03/11/2021
+Futures 2021,Erel Y.,Bolotov S.,,,2,0,03/11/2021
+Futures 2021,Zakharov A.,Shyla Y.,,,2,0,03/11/2021
+Futures 2021,Fomin S.,Dzhanashia S.,,,2,0,03/11/2021
+Futures 2021,Setkic A.,Kumar O.,,,2,1,03/11/2021
+Futures 2021,Gengel M.,Berrettini J.,,,2,0,03/11/2021
+Futures 2021,Li H.,Yitbarek S.,,,1,0,03/11/2021
+Futures 2021,Krainer L.,Gutierrez O.,,,2,0,03/11/2021
+Futures 2021,Kirkin E.,Maggioli E.,,,2,1,03/11/2021
+Futures 2021,Heller P.,Krutykh O.,,,2,0,03/11/2021
+Futures 2021,Korolev V.,Vanneste J.,,,2,0,03/11/2021
+Futures 2021,Ovcharenko O.,Shevchenko A.,,,1,0,03/11/2021
+Futures 2021,Dima D.,Hong S.,,,2,0,03/11/2021
+Futures 2021,Pucinelli De Almeida M.,Agabigun S.,,,2,0,03/11/2021
+Futures 2021,Frunza N.,Zukas M.,,,2,0,03/11/2021
+Futures 2021,Zekic M.,Weis A.,,,2,0,03/11/2021
+Futures 2021,Vanshelboim E.,Kamath M.,,,2,0,03/11/2021
+Futures 2021,Khan Z.,Rawat S.,,,2,0,03/11/2021
+Futures 2021,Castelnuovo L.,Singh D.,,,2,0,03/11/2021
+Futures 2021,Bocchi L.,Mridha J.,,,2,1,03/11/2021
+Futures 2021,Bergevi F.,Myneni S.,,,1,0,03/11/2021
+Futures 2021,Sureshkumar M.,Dev S.,,,2,1,03/11/2021
+Futures 2021,McHugh A.,Dahiya P.,,,2,0,03/11/2021
+Futures 2021,Brugnerotto M.,Crawford O.,,,2,0,03/11/2021
+UTR Pro Match Series,Rodriguez C.,Panta J.,,,2,0,03/11/2021
+UTR Pro Match Series,Dhoe B.,Cassone M.,,,2,1,03/11/2021
+UTR Pro Match Series,Pannu K.,Sullivan C.,,,2,0,03/11/2021
+UTR Pro Match Series,Scott F.,Zeballos F.,,,2,0,03/11/2021
+UTR Pro Match Series,Perego G.,Meraut T.,,,2,1,03/11/2021
+UTR Pro Match Series,Termat R.,Krug C.,,,2,1,03/11/2021
+UTR Pro Match Series,Zheng M.,Walker H.,,,2,0,03/11/2021
+Futures 2021,Polukhin S.,De La Bassetiere C.,,,2,0,03/11/2021
+Doha,Fucsovics M.,Harris L.,,,2,1,03/10/2021
+Doha,Federer R. (2),Evans D.,,,2,1,03/10/2021
+Doha,Basilashvili N.,Jaziri M.,,,2,0,03/10/2021
+Doha,Fritz T.,Goffin D. (6),,,2,1,03/10/2021
+Doha,Bautista-Agut R. (5),Bublik A.,,,2,0,03/10/2021
+Doha,Thiem D. (1),Karatsev A.,,,2,1,03/10/2021
+Doha,Shapovalov D. (4),Pospisil V.,,,2,0,03/10/2021
+Doha,Rublev A. (3),Gasquet R.,,,1,0,03/10/2021
+Marseille,Humbert U. (4),Tsonga J.,,,2,0,03/10/2021
+Marseille,Sinner J. (5),Gaston H.,,,2,0,03/10/2021
+Marseille,Khachanov K. (3),McDonald M.,,,2,0,03/10/2021
+Marseille,Ebden M.,Ruusuvuori E.,,,2,0,03/10/2021
+Marseille,Norrie C.,Lestienne C.,,,2,1,03/10/2021
+Marseille,Gerasimov E.,Hanfmann Y.,,,2,0,03/10/2021
+Santiago,Rune H.,Paire B. (2),,,2,0,03/10/2021
+Santiago,Delbonis F. (8),Martin A.,,,2,0,03/10/2021
+Santiago,Bagnis F.,Tiafoe F. (5),,,2,0,03/10/2021
+Santiago,Djere L. (4),Sousa P.,,,2,1,03/10/2021
+St. Petersburg 2 challenger,Lehecka J.,Molleker R. (5),,,2,0,03/10/2021
+St. Petersburg 2 challenger,Copil M. (4),Vatutin A.,,,2,1,03/10/2021
+St. Petersburg 2 challenger,Popko D. (2),Yevseyev D.,,,2,1,03/10/2021
+St. Petersburg 2 challenger,Bergs Z.,Krstin P.,,,2,0,03/10/2021
+St. Petersburg 2 challenger,Eubanks C. (7),Ajdukovic D.,,,2,0,03/10/2021
+Biella 4 challenger,Haase R.,Bachinger M.,,,2,0,03/10/2021
+Biella 4 challenger,Broady L.,Nardi L.,,,2,0,03/10/2021
+Biella 4 challenger,Gojowczyk P. (5),Halys Q.,,,2,1,03/10/2021
+Biella 4 challenger,Seppi A. (2),Stakhovsky S.,,,2,0,03/10/2021
+Biella 4 challenger,Rodionov J. (6),Kolar Z.,,,2,1,03/10/2021
+Biella 4 challenger,Santillan A.,Huesler M. (7),,,2,1,03/10/2021
+Biella 4 challenger,Marchenko I.,Wu T.,,,2,0,03/10/2021
+Futures 2021,Araujo P.,Gerch L.,,,2,1,03/10/2021
+Futures 2021,Uchida K.,Tamm K.,,,2,1,03/10/2021
+Futures 2021,Wang T.,Boureau A.,,,2,0,03/10/2021
+Futures 2021,Escoffier A.,Blanchet U.,,,2,0,03/10/2021
+Futures 2021,Reymond A.,Stevens B.,,,2,0,03/10/2021
+Futures 2021,Kym J.,Roncalli S.,,,2,0,03/10/2021
+Futures 2021,Martineau M.,Bertola R.,,,2,0,03/10/2021
+Futures 2021,Poullain L.,Elias G.,,,2,0,03/10/2021
+Futures 2021,Fanselow S.,Coelho F.,,,2,0,03/10/2021
+Futures 2021,Leshem E.,Pontico H.,,,2,0,03/10/2021
+Futures 2021,Paliska B.,Added D.,,,1,0,03/10/2021
+Futures 2021,Bellier A.,Sebesta J.,,,2,0,03/10/2021
+Futures 2021,Marti Y.,Staeheli L.,,,2,0,03/10/2021
+Futures 2021,Ornago F.,Jebens H.,,,2,0,03/10/2021
+Futures 2021,Neuchrist M.,Nikles J.,,,2,1,03/10/2021
+Futures 2021,Falcao G.,Goldsteiner P.,,,2,0,03/10/2021
+Futures 2021,Heyman C.,Cacao T.,,,2,0,03/10/2021
+Futures 2021,Dussin L.,Voljacques H.,,,2,0,03/10/2021
+Futures 2021,Paul J.,Bouquier A.,,,2,0,03/10/2021
+Futures 2021,Stricker D.,Lanz M.,,,2,0,03/10/2021
+Futures 2021,Ejupovic E.,Schell N.,,,2,0,03/10/2021
+Futures 2021,Cabral F.,Hamou M.,,,1,0,03/10/2021
+Futures 2021,Musialek A.,Garcian A.,,,2,0,03/10/2021
+Futures 2021,de Schepper K.,Roumane R.,,,2,0,03/10/2021
+Futures 2021,Robert Q.,Andrews M.,,,2,0,03/10/2021
+Futures 2021,Moeller M.,Hartmeier P.,,,2,1,03/10/2021
+Futures 2021,Riedi L.,Brunold M.,,,2,0,03/10/2021
+Futures 2021,Ayeni A.,Martinez M.,,,2,0,03/10/2021
+Futures 2021,Pogosian S.,Sharipov M.,,,2,1,03/10/2021
+Futures 2021,Dembek M.,Nouza P.,,,2,1,03/10/2021
+Futures 2021,Damm M.,Guinard M.,,,1,0,03/10/2021
+Futures 2021,Alcala Gurri M.,Vivero Gonzalez P.,,,2,0,03/10/2021
+Futures 2021,Rikl P.,Raynel A.,,,2,0,03/10/2021
+Futures 2021,Sanchez Izquierdo N.,Mpetshi Perricard G.,,,2,1,03/10/2021
+Futures 2021,Krumich M.,Pecak S.,,,2,1,03/10/2021
+Futures 2021,Kalenichenko D.,Breysach M.,,,2,1,03/10/2021
+Futures 2021,Binda A.,Fufygin M.,,,2,1,03/10/2021
+Futures 2021,Mukund S.,Niki T.,,,2,1,03/10/2021
+Futures 2021,Imai S.,Habib A.,,,2,0,03/10/2021
+Futures 2021,Erel Y.,Cozbinov A.,,,2,0,03/10/2021
+Futures 2021,Bobrov B.,Sabanin Y.,,,2,0,03/10/2021
+Futures 2021,Pervolarakis M.,Burruchaga R.,,,2,1,03/10/2021
+Futures 2021,Nava E.,Brancaccio R.,,,2,0,03/10/2021
+Futures 2021,Madarasz G.,Mashtakov M.,,,2,1,03/10/2021
+Futures 2021,Toledo Bague P.,Andreu Garcia F.,,,2,0,03/10/2021
+Futures 2021,Petit G.,Novansky M.,,,2,0,03/10/2021
+Futures 2021,Van Assche L.,Virtanen O.,,,2,0,03/10/2021
+Futures 2021,Satral J.,Hampel L.,,,2,0,03/10/2021
+Futures 2021,Cornut Chauvinc A.,Arnaboldi F.,,,2,1,03/10/2021
+Futures 2021,Misolic F.,Brosset S.,,,2,0,03/10/2021
+Futures 2021,Seateun N.,Damas M.,,,2,0,03/10/2021
+Futures 2021,Kumar O.,Miedler L.,,,2,1,03/10/2021
+Futures 2021,Visker N.,Ochi M.,,,2,1,03/10/2021
+Futures 2021,Ratniuk M.,Zhurbin A.,,,2,0,03/10/2021
+Futures 2021,Gengel M.,Vasiliauskas M.,,,2,0,03/10/2021
+Futures 2021,Kachmazov A.,Noskin E.,,,2,0,03/10/2021
+Futures 2021,Ibragimov D.,Verbin P.,,,2,0,03/10/2021
+Futures 2021,Gakhov I.,Khomich A.,,,2,0,03/10/2021
+Futures 2021,Stepin A.,Deviatiarov M.,,,2,0,03/10/2021
+Futures 2021,Barranco Cosano J.,Atmane T.,,,2,0,03/10/2021
+Futures 2021,Lopez Morillo I.,Beaupain S.,,,2,0,03/10/2021
+Futures 2021,Polukhin S.,Laurent Y.,,,2,0,03/10/2021
+Futures 2021,Jovic V.,Ganchev A.,,,2,0,03/10/2021
+Futures 2021,Lemstra K.,Negritu C.,,,2,1,03/10/2021
+Futures 2021,Sachko V.,Bittoun Kouzmine C.,,,2,1,03/10/2021
+Futures 2021,Pichler D.,Donati M.,,,1,0,03/10/2021
+Futures 2021,Jacquet K.,Palovic L.,,,2,0,03/10/2021
+Futures 2021,Nejedly P.,Kalender A.,,,2,0,03/10/2021
+Futures 2021,Wenger D.,Nagy P.,,,2,1,03/10/2021
+Futures 2021,Rybakov A.,De Maio M.,,,2,0,03/10/2021
+Futures 2021,Eysseric J.,Karol M.,,,2,0,03/10/2021
+Futures 2021,Dzhanashia S.,Ivanov V.,,,2,1,03/10/2021
+Futures 2021,Berrettini J.,Ozolins K.,,,2,0,03/10/2021
+Futures 2021,Krainer L.,Weng J.,,,2,0,03/10/2021
+Futures 2021,Hsu Y.,Nijboer R.,,,2,0,03/10/2021
+Futures 2021,Frunza N.,Yamanaka T.,,,2,0,03/10/2021
+Futures 2021,Zukas M.,Cengiz B.,,,2,0,03/10/2021
+Futures 2021,Shyla Y.,Kiuamov T.,,,2,0,03/10/2021
+Futures 2021,Vanneste J.,Lorens M.,,,2,0,03/10/2021
+Futures 2021,Sanchez Jover C.,Lopez Montagud C.,,,2,0,03/10/2021
+Futures 2021,Mertens Y.,Schmitz C.,,,2,0,03/10/2021
+Futures 2021,Parker S.,Galarza J.,,,2,0,03/10/2021
+Futures 2021,Tatlot J.,Winter Lopez B.,,,2,1,03/10/2021
+Futures 2021,Llamas Ruiz P.,Vidal Azorin J.,,,2,0,03/10/2021
+Futures 2021,Kravchenko G.,Aranzabal M.,,,2,0,03/10/2021
+Futures 2021,Bouquet L.,Martinez Martinez J.,,,2,0,03/10/2021
+Futures 2021,Tanuma R.,Ghorbel A.,,,2,1,03/10/2021
+Futures 2021,Krutykh O.,Cagnina J.,,,2,1,03/10/2021
+Futures 2021,Dima D.,Lavagno E.,,,2,1,03/10/2021
+Futures 2021,Beloborodko I.,Shimizu Y.,,,2,1,03/10/2021
+Futures 2021,Denolly C.,Matic M.,,,2,0,03/10/2021
+Futures 2021,Arnaldi M.,Bortolotti M.,,,2,0,03/10/2021
+Futures 2021,Ovcharenko O.,Erhard M.,,,2,0,03/10/2021
+Futures 2021,Chrysochos P.,Vilardo F.,,,2,0,03/10/2021
+Futures 2021,Marozsan F.,Oberleitner N.,,,2,0,03/10/2021
+Futures 2021,Fajta P.,Hubner E.,,,2,1,03/10/2021
+Futures 2021,Gutierrez O.,Friberg K.,,,2,1,03/10/2021
+Futures 2021,Prechtel S.,Prizmic D.,,,2,0,03/10/2021
+Futures 2021,Lazarov A.,Safranek V.,,,2,0,03/10/2021
+Futures 2021,Paulson A.,Haliak M.,,,2,0,03/10/2021
+Futures 2021,Agamenone F.,Kotzen A.,,,2,0,03/10/2021
+Futures 2021,Pujol Navarro B.,Marek W.,,,1,0,03/10/2021
+Futures 2021,Carr S.,Tabacco G.,,,2,0,03/10/2021
+Futures 2021,Tokuda R.,Takeuchi K.,,,2,0,03/10/2021
+Futures 2021,Weis A.,Ilhan M.,,,2,1,03/10/2021
+Futures 2021,Zekic M.,Westphal M.,,,2,0,03/10/2021
+Futures 2021,Kirkin E.,Reis Da Silva J.,,,2,0,03/10/2021
+Futures 2021,Maggioli E.,Hoogmartens A.,,,2,0,03/10/2021
+Futures 2021,Shevchenko A.,Valkusz M.,,,2,1,03/10/2021
+Futures 2021,Eremin E.,Montsi K.,,,2,1,03/10/2021
+Futures 2021,Setkic A.,Takahashi Y.,,,2,0,03/10/2021
+Futures 2021,Yitbarek S.,Peliwo F.,,,2,1,03/10/2021
+Futures 2021,Li H.,Podzus M.,,,2,0,03/10/2021
+Futures 2021,Korolev V.,Tasenkov V.,,,2,0,03/10/2021
+Futures 2021,Hong S.,Ionel N.,,,2,0,03/10/2021
+Futures 2021,Khan Z.,Prasanth V.,,,2,0,03/10/2021
+Futures 2021,Castelnuovo L.,Senthilkumar M.,,,2,0,03/10/2021
+Futures 2021,Rawat S.,Kaliyanda Poonacha N.,,,2,1,03/10/2021
+Futures 2021,Bocchi L.,Palan D.,,,2,0,03/10/2021
+Futures 2021,Bolotov S.,Danilov S.,,,2,0,03/10/2021
+Futures 2021,Pucinelli De Almeida M.,Oliel Y.,,,2,0,03/10/2021
+Futures 2021,Kamath M.,Vishwakarma S.,,,2,1,03/10/2021
+Futures 2021,Bergevi F.,Baskov D.,,,2,0,03/10/2021
+Futures 2021,Brugnerotto M.,Binding J.,,,2,0,03/10/2021
+Futures 2021,Myneni S.,Eqbal I.,,,2,0,03/10/2021
+Futures 2021,Mridha J.,Javia D.,,,2,0,03/10/2021
+Futures 2021,McHugh A.,Goveas A.,,,2,0,03/10/2021
+Futures 2021,Dahiya P.,Sunish D.,,,2,0,03/10/2021
+Futures 2021,Vanshelboim E.,Canter A.,,,2,0,03/10/2021
+UTR Pro Match Series,Segura M.,Zeballos F.,,,2,0,03/10/2021
+UTR Pro Match Series,Bangoura S.,Termat R.,,,2,0,03/10/2021
+UTR Pro Match Series,Dhoe B.,Sullivan C.,,,2,1,03/10/2021
+UTR Pro Match Series,Pannu K.,Sheehy J.,,,2,1,03/10/2021
+UTR Pro Match Series,Walker H.,Krug C.,,,2,0,03/10/2021
+UTR Pro Match Series,Rodriguez C.,Scott F.,,,2,1,03/10/2021
+UTR Pro Match Series,Jachuck R.,Perego G.,,,2,0,03/10/2021
+Futures 2021,Seateun N.,Damas M.,,,2,0,03/10/2021

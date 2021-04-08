@@ -4,69 +4,69 @@
     <UserSecretsId>b88edec2-2b9c-4875-81b0-b7246f2367c4</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Client\"/>
-    <Folder Include="Client\src\assets\images\"/>
+    <Folder Include="Client\" />
+    <Folder Include="Client\src\assets\images\" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Client\e2e\src\app.e2e-spec.ts"/>
-    <None Remove="Client\e2e\src\app.po.ts"/>
-    <None Remove="Client\src\main.ts"/>
-    <None Remove="Client\src\test.ts"/>
-    <None Remove="Client\src\polyfills.ts"/>
-    <None Remove="Client\src\app\app-routing.module.ts"/>
-    <None Remove="Client\src\app\app.component.spec.ts"/>
-    <None Remove="Client\src\app\app.module.ts"/>
-    <None Remove="Client\src\app\app.component.ts"/>
-    <None Remove="Client\src\environments\environment.prod.ts"/>
-    <None Remove="Client\src\environments\environment.ts"/>
-    <None Remove="scripts\client\favicon.ico"/>
-    <None Remove="scripts\client\polyfills.js.map"/>
-    <None Remove="scripts\client\runtime.js"/>
-    <None Remove="scripts\client\main.js.map"/>
-    <None Remove="scripts\client\polyfills.js"/>
-    <None Remove="scripts\client\styles.js.map"/>
-    <None Remove="scripts\client\vendor.js"/>
-    <None Remove="scripts\client\main.js"/>
-    <None Remove="scripts\client\runtime.js.map"/>
-    <None Remove="scripts\client\styles.js"/>
-    <None Remove="scripts\client\vendor.js.map"/>
-    <None Remove="Client\src\assets\images\novak.png"/>
-    <None Remove="Client\src\assets\images\tennis.png"/>
-    <None Remove="Client\src\assets\images\silueta-2.png"/>
-    <None Remove="Client\src\assets\images\silueta-3.png"/>
-    <None Remove="Client\src\assets\images\silueta.png"/>
+    <None Remove="Client\e2e\src\app.e2e-spec.ts" />
+    <None Remove="Client\e2e\src\app.po.ts" />
+    <None Remove="Client\src\main.ts" />
+    <None Remove="Client\src\test.ts" />
+    <None Remove="Client\src\polyfills.ts" />
+    <None Remove="Client\src\app\app-routing.module.ts" />
+    <None Remove="Client\src\app\app.component.spec.ts" />
+    <None Remove="Client\src\app\app.module.ts" />
+    <None Remove="Client\src\app\app.component.ts" />
+    <None Remove="Client\src\environments\environment.prod.ts" />
+    <None Remove="Client\src\environments\environment.ts" />
+    <None Remove="scripts\client\favicon.ico" />
+    <None Remove="scripts\client\polyfills.js.map" />
+    <None Remove="scripts\client\runtime.js" />
+    <None Remove="scripts\client\main.js.map" />
+    <None Remove="scripts\client\polyfills.js" />
+    <None Remove="scripts\client\styles.js.map" />
+    <None Remove="scripts\client\vendor.js" />
+    <None Remove="scripts\client\main.js" />
+    <None Remove="scripts\client\runtime.js.map" />
+    <None Remove="scripts\client\styles.js" />
+    <None Remove="scripts\client\vendor.js.map" />
+    <None Remove="Client\src\assets\images\novak.png" />
+    <None Remove="Client\src\assets\images\tennis.png" />
+    <None Remove="Client\src\assets\images\silueta-2.png" />
+    <None Remove="Client\src\assets\images\silueta-3.png" />
+    <None Remove="Client\src\assets\images\silueta.png" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Client\e2e\src\app.e2e-spec.ts"/>
-    <TypeScriptCompile Include="Client\e2e\src\app.po.ts"/>
-    <TypeScriptCompile Include="Client\src\main.ts"/>
-    <TypeScriptCompile Include="Client\src\test.ts"/>
-    <TypeScriptCompile Include="Client\src\polyfills.ts"/>
-    <TypeScriptCompile Include="Client\src\app\app-routing.module.ts"/>
-    <TypeScriptCompile Include="Client\src\app\app.component.spec.ts"/>
-    <TypeScriptCompile Include="Client\src\app\app.module.ts"/>
-    <TypeScriptCompile Include="Client\src\app\app.component.ts"/>
-    <TypeScriptCompile Include="Client\src\environments\environment.prod.ts"/>
-    <TypeScriptCompile Include="Client\src\environments\environment.ts"/>
+    <TypeScriptCompile Include="Client\e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="Client\e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="Client\src\main.ts" />
+    <TypeScriptCompile Include="Client\src\test.ts" />
+    <TypeScriptCompile Include="Client\src\polyfills.ts" />
+    <TypeScriptCompile Include="Client\src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="Client\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="Client\src\app\app.module.ts" />
+    <TypeScriptCompile Include="Client\src\app\app.component.ts" />
+    <TypeScriptCompile Include="Client\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="Client\src\environments\environment.ts" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.10"/>
-    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.10"/>
-    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.4"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.4"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1"/>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4"/>
-    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0"/>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4"/>
-    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7"/>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}"/>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
 </Project>
