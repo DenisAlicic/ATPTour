@@ -1,20 +1,20 @@
 tournament,fristPlayer,secondPlayer,headToHeadFirst,headToHeadSecond,resultFirst,resultSecond,date
 Cagliari,Hanfmann Y.,Cecchinato M.,,,2,0,04/08/2021
 Cagliari,Musetti L.,Evans D. (1),,,2,1,04/08/2021
-Cagliari,Simon G.,Sonego L. (3),0,0,,,04/08/2021
-Cagliari,Djere L.,Millman J. (6),0,1,,,04/08/2021
+Cagliari,Sonego L. (3),Simon G.,,,2,0,04/08/2021
+Cagliari,Djere L.,Millman J. (6),,,2,0,04/08/2021
 Marbella,Ivashka I.,Davidovich Fokina A. (5),,,2,0,04/08/2021
 Marbella,Munar J.,Fognini F. (2),,,2,0,04/08/2021
-Marbella,Mager G.,Ruud C. (3),1,0,,,04/08/2021
-Marbella,Lopez F. (6),Alcaraz C.,0,0,,,04/08/2021
+Marbella,Ruud C. (3),Mager G.,,,2,0,04/08/2021
+Marbella,Alcaraz C.,Lopez F. (6),,,2,1,04/08/2021
 Split challenger,Zuk K.,Serdarusic N.,,,2,0,04/08/2021
 Split challenger,Kokkinakis T.,Kolar Z.,,,2,0,04/08/2021
 Split challenger,Basic M.,Haase R.,,,2,0,04/08/2021
 Split challenger,Rola B. (6),Ajdukovic D.,,,2,0,04/08/2021
 Oeiras 2 challenger,Cachin P.,Andreev A.,,,2,0,04/08/2021
 Oeiras 2 challenger,Moroni G. (5),Kotov P.,,,2,0,04/08/2021
-Oeiras 2 challenger,Zverev M.,Cacao T.,0,0,,,04/08/2021
-Oeiras 2 challenger,Otte O. (1),Oliveira G.,2,0,,,04/08/2021
+Oeiras 2 challenger,Cacao T.,Zverev M.,,,2,1,04/08/2021
+Oeiras 2 challenger,Oliveira G.,Otte O. (1),,,2,1,04/08/2021
 Futures 2021,Braynin A.,Manafov V.,,,2,1,04/08/2021
 Futures 2021,Vanshelboim E.,Galiev B.,,,2,0,04/08/2021
 Futures 2021,Bertuccioli F.,Tryakshin M.,,,2,0,04/08/2021
@@ -51,49 +51,49 @@ Futures 2021,Escoffier A.,Boscardin Dias P.,,,2,0,04/08/2021
 Futures 2021,Strombachs R.,Gadamauri B.,,,2,0,04/08/2021
 Futures 2021,Agabigun S.,Zakharov A.,,,2,0,04/08/2021
 Futures 2021,Erel Y.,Kravchuk K.,,,2,0,04/08/2021
-Futures 2021,Balzerani R.,Zhu E.,0,0,,,04/08/2021
+Futures 2021,Zhu E.,Balzerani R.,,,2,1,04/08/2021
 Futures 2021,Shimabukuro S.,Capecchi D.,,,2,0,04/08/2021
-Futures 2021,Alves M.,Negritu C.,0,0,,,04/08/2021
-Futures 2021,Pucinelli De Almeida M.,Egea F.,0,0,,,04/08/2021
-Futures 2021,Darderi L.,Aboian V.,0,0,,,04/08/2021
-Futures 2021,Comesana F.,Rodriguez Taverna S.,0,0,,,04/08/2021
-Futures 2021,Dhoe B.,Kestelboim M.,0,2,,,04/08/2021
-Futures 2021,Lingua Lavallen A.,Juarez F.,0,0,,,04/08/2021
-Futures 2021,Farjat T.,Arreche N.,0,1,,,04/08/2021
-Futures 2021,Lama G.,Derdoy F.,0,0,,,04/08/2021
-Futures 2021,Zukas M.,Carnevalle L.,0,0,,,04/08/2021
+Futures 2021,Negritu C.,Alves M.,,,2,0,04/08/2021
+Futures 2021,Rodriguez Taverna S.,Comesana F.,,,2,1,04/08/2021
+Futures 2021,Kestelboim M.,Dhoe B.,,,2,0,04/08/2021
+Futures 2021,Pucinelli De Almeida M.,Egea F.,,,2,0,04/08/2021
+Futures 2021,Juarez F.,Lingua Lavallen A.,,,2,0,04/08/2021
+Futures 2021,Darderi L.,Aboian V.,,,2,0,04/08/2021
+Futures 2021,Lama G.,Derdoy F.,,,2,0,04/08/2021
+Futures 2021,Farjat T.,Arreche N.,,,2,0,04/08/2021
+Futures 2021,Carnevalle L.,Zukas M.,,,1,0,04/08/2021
 UK Pro Series,Matusevich A.,Hands T.,,,2,0,04/08/2021
 UK Pro Series,Cash J.,Canter A.,,,2,0,04/08/2021
-UK Pro Series,Draper J.,Harris B.,0,0,,,04/08/2021
-UK Pro Series,Weightman O.,Maxted L.,0,0,,,04/08/2021
-UK Pro Series,Findel-Hawkins J.,Houghton G.,1,0,,,04/08/2021
-UK Pro Series,Paris J.,Patten H.,1,2,,,04/08/2021
-UTR Pro Match Series,Byers L.,Griffith W.,0,0,,,04/08/2021
-UTR Pro Match Series,Shane R.,Kessler M.,0,0,,,04/08/2021
-UTR Pro Match Series,Krug C.,Reese H.,0,0,,,04/08/2021
-UTR Pro Match Series,Young G.,Segura M.,0,0,,,04/08/2021
-UTR Pro Match Series,Sinha A.,Caratini V.,0,0,,,04/08/2021
-UTR Pro Match Series,Cid Subervi R.,Gomar Monio L.,0,0,,,04/08/2021
+UK Pro Series,Draper J.,Harris B.,,,2,0,04/08/2021
+UK Pro Series,Findel-Hawkins J.,Houghton G.,,,2,1,04/08/2021
+UK Pro Series,Patten H.,Paris J.,,,2,1,04/08/2021
+UK Pro Series,Maxted L.,Weightman O.,,,2,0,04/08/2021
+UTR Pro Match Series,Shane R.,Kessler M.,,,2,0,04/08/2021
+UTR Pro Match Series,Griffith W.,Byers L.,,,2,0,04/08/2021
+UTR Pro Match Series,Reese H.,Krug C.,,,2,0,04/08/2021
+UTR Pro Match Series,Young G.,Segura M.,,,2,1,04/08/2021
+UTR Pro Match Series,Cid Subervi R.,Gomar Monio L.,,,2,0,04/08/2021
+UTR Pro Match Series,Sinha A.,Caratini V.,,,2,0,04/08/2021
 UTR Pro Match Series,Pannu K.,Gurmendi A.,0,0,,,04/08/2021
-UTR Pro Match Series,Jachuck R.,Farren C.,0,0,,,04/08/2021
-UTR Pro Tennis Series 2,Adamson A.,Aramburu Contreras I.,0,0,,,04/08/2021
-UTR Pro Tennis Series 2,Hernandez Serrano J.,Sanchez M.,0,0,,,04/08/2021
-UTR Pro Tennis Series 2,Brymer G.,Leite W.,1,0,,,04/08/2021
+UTR Pro Match Series,Farren C.,Jachuck R.,,,2,1,04/08/2021
+UTR Pro Tennis Series 2,Aramburu Contreras I.,Adamson A.,,,2,0,04/08/2021
+UTR Pro Tennis Series 2,Brymer G.,Leite W.,,,2,1,04/08/2021
 UTR Pro Tennis Series 2,Oppenheim N.,Rodriguez Rodriguez J.,0,0,,,04/08/2021
+UTR Pro Tennis Series 2,Hernandez Serrano J.,Sanchez M.,,,2,0,04/08/2021
+UTR Pro Tennis Series 2,Panta J.,Doria L.,,,2,0,04/08/2021
 UTR Pro Tennis Series 2,Evans G.,Gomez J.,0,0,,,04/08/2021
 UTR Pro Tennis Series 2,Graute C.,Bynoe E.,0,0,,,04/08/2021
 UTR Pro Tennis Series 2,Carnevale-Miino T.,Gomez M.,0,0,,,04/08/2021
-UTR Pro Tennis Series 2,Panta J.,Doria L.,0,0,,,04/08/2021
 UTR Pro Tennis Series 5,Tatlot J.,Dzhavakian Y.,0,0,,,04/08/2021
 UTR Pro Tennis Series 5,Marie J.,Laurent Y.,,,2,1,04/08/2021
 UTR Pro Tennis Series 5,Bouquet L.,Dinev D.,,,2,0,04/08/2021
 UTR Pro Tennis Series 5,Joncour R.,Milev Y.,,,2,0,04/08/2021
 UTR Pro Tennis Series 5,Madarasz G.,Lazov A.,,,2,0,04/08/2021
 UTR Pro Tennis Series 5,De La Bassetiere C.,Milushev P.,,,2,0,04/08/2021
-UTR Pro Tennis Series 5,Nesterov P.,Faivre P.,0,0,,,04/08/2021
-UTR Pro Tennis Series 5,Laurent T.,Snitari I.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Faivre P.,Nesterov P.,,,2,1,04/08/2021
+UTR Pro Tennis Series 5,Snitari I.,Laurent T.,,,2,0,04/08/2021
 UTR Pro Tennis Series 5,Dinev D.,Dzhavakian Y.,0,0,,,04/08/2021
-UTR Pro Tennis Series 5,Bouquet L.,Dimitrov M.,0,0,,,04/08/2021
+UTR Pro Tennis Series 5,Bouquet L.,Dimitrov M.,,,2,0,04/08/2021
 Cagliari,Fritz T. (2),Martin A.,,,2,0,04/07/2021
 Cagliari,Basilashvili N. (4),Kovalik J.,,,2,1,04/07/2021
 Cagliari,Bedene A.,Gerasimov E.,,,2,0,04/07/2021
