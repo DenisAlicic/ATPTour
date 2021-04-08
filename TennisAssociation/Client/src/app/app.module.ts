@@ -3,6 +3,7 @@ import { HomeModule } from './components/home/home.module';
 import { NavBarModule } from './components/nav-bar/nav-bar.module';
 import { PlayersModule } from './components/players/players.module';
 import { TournamentsModule } from './components/tournaments/tournaments.module';
+import { MatchesModule } from './components/matches/matches.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -32,6 +33,7 @@ import { MatButtonModule} from '@angular/material/button';
     HttpClientModule,
     PlayersModule,
     TournamentsModule,
+    MatchesModule,
     NavBarModule, 
     HomeModule,
     SignupModule
