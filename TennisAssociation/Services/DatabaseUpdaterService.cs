@@ -31,6 +31,7 @@ namespace TennisAssociation.Services
             _builder = builder;
             _itemsForAdding = new List<T>();
         }
+        
         public bool PrepareData()
         {
             Dictionary<string, int> columnNumbers = _reader.GetColumns();
@@ -46,7 +47,6 @@ namespace TennisAssociation.Services
                 
                 _itemsForAdding.Add(t);
             }
-
             
             return true;
         }
@@ -62,7 +62,7 @@ namespace TennisAssociation.Services
 
             _db.SaveChanges();
 
-            return true;;
+            return true;
         }
     }
 }

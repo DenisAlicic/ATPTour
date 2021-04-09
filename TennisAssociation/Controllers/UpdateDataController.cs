@@ -32,30 +32,30 @@ namespace TennisAssociation.Controllers
             IDatabaseUpdater<Tournament> service = new DatabaseUpdaterService<Tournament>(ScriptDirectory, TournamentScript, TournamentsFile, db,
                 (row, columnNumbers) => new Tournament
                 {
+                    Tournament1 = row[columnNumbers["tournament"]],
                     _1RoundPrize = row[columnNumbers["1. round prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["1. round prize"]])
+                        : null,
+                    _1RoundPoints = row[columnNumbers["1. round points"]] != null
+                        ? (int?) int.Parse(row[columnNumbers["1. round points"]])
                         : null,
                     _2RoundPrize = row[columnNumbers["2. round prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["2. round prize"]])
                         : null,
-                    Tournament1 = row[columnNumbers["tournament"]],
-                    _1RoundPoints = row[columnNumbers["1. round points"]] != null
-                        ? (int?) int.Parse(row[columnNumbers["1. round points"]])
-                        : null,
                     _2RoundPoints = row[columnNumbers["2. round points"]] != null
                         ? (int?) int.Parse(row[columnNumbers["2. round points"]])
-                        : null,
-                    _3RountPoints = row[columnNumbers["3. rount points"]] != null
-                        ? (int?) int.Parse(row[columnNumbers["3. rount points"]])
                         : null,
                     _3RoundPrize = row[columnNumbers["3. round prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["3. round prize"]])
                         : null,
-                    RoundOf16Points = row[columnNumbers["round of 16 points"]] != null
-                        ? (int?) int.Parse(row[columnNumbers["round of 16 points"]])
+                    _3RountPoints = row[columnNumbers["3. rount points"]] != null
+                        ? (int?) int.Parse(row[columnNumbers["3. rount points"]])
                         : null,
                     RoundOf16Prize = row[columnNumbers["round of 16 prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["round of 16 prize"]])
+                        : null,
+                    RoundOf16Points = row[columnNumbers["round of 16 points"]] != null
+                        ? (int?) int.Parse(row[columnNumbers["round of 16 points"]])
                         : null,
                     QuarterfinalPoints = row[columnNumbers["quarterfinal points"]] != null
                         ? (int?) int.Parse(row[columnNumbers["quarterfinal points"]])
@@ -72,11 +72,11 @@ namespace TennisAssociation.Controllers
                     FinalPoints = row[columnNumbers["final points"]] != null
                         ? (int?) int.Parse(row[columnNumbers["final points"]])
                         : null,
-                    FinalPrize = row[columnNumbers["semifinal prize"]] != null
+                    FinalPrize = row[columnNumbers["final prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["final prize"]])
                         : null,
                     WinnerPoints = row[columnNumbers["winner points"]] != null
-                        ? (int?) int.Parse(row[columnNumbers["final points"]])
+                        ? (int?) int.Parse(row[columnNumbers["winner points"]])
                         : null,
                     WinnerPrize = row[columnNumbers["winner prize"]] != null
                         ? (int?) int.Parse(row[columnNumbers["winner prize"]])
@@ -93,37 +93,37 @@ namespace TennisAssociation.Controllers
                 (row, columnNames) =>
                 {
                     Console.Out.WriteLine(row.Count);
-                    var player = new Player();
-                    player.FirstName = row[columnNames["firstName"]];
-                    player.LastName = row[columnNames["lastName"]];
-                    player.Country = row[columnNames["country"]];
-                    player.Sex = row[columnNames["sex"]];
-                    player.Hand = row[columnNames["hand"]];
-                    player.Height = row[columnNames["height"]] != null
-                        ? (short?) short.Parse(row[columnNames["height"]])
-                        : null;
-                    player.Weight = row[columnNames["weight"]] != null
-                        ? (short?) short.Parse(row[columnNames["weight"]])
-                        : null;
-                    player.Birth = DateTime.Parse(row[columnNames["birth"]]);
-                    player.CurrentRankingSingle = row[columnNames["currentRankingSingle"]] != null
-                        ? (short?) short.Parse(row[columnNames["currentRankingSingle"]])
-                        : null;
-                    player.CurrentRankingDouble = row[columnNames["currentRankingDouble"]] != null
-                        ? (short?) short.Parse(row[columnNames["currentRankingDouble"]])
-                        : null;
-                    player.BestRankingDouble = row[columnNames["bestRankingDouble"]] != null
-                        ? (short?) short.Parse(row[columnNames["bestRankingDouble"]])
-                        : null;
-                    player.BestRankingSingle = row[columnNames["bestRankingSingle"]] != null
-                        ? (short?) short.Parse(row[columnNames["bestRankingSingle"]])
-                        : null;
-                    player.Img = Convert.FromBase64String(row[columnNames["img"]]);
+                    var player = new Player
+                    {
+                        FirstName = row[columnNames["firstName"]],
+                        LastName = row[columnNames["lastName"]],
+                        Country = row[columnNames["country"]],
+                        Sex = row[columnNames["sex"]],
+                        Hand = row[columnNames["hand"]],
+                        Height = row[columnNames["height"]] != null
+                            ? (short?) short.Parse(row[columnNames["height"]])
+                            : null,
+                        Weight = row[columnNames["weight"]] != null
+                            ? (short?) short.Parse(row[columnNames["weight"]])
+                            : null,
+                        Birth = DateTime.Parse(row[columnNames["birth"]]),
+                        CurrentRankingSingle = row[columnNames["currentRankingSingle"]] != null
+                            ? (short?) short.Parse(row[columnNames["currentRankingSingle"]])
+                            : null,
+                        CurrentRankingDouble = row[columnNames["currentRankingDouble"]] != null
+                            ? (short?) short.Parse(row[columnNames["currentRankingDouble"]])
+                            : null,
+                        BestRankingDouble = row[columnNames["bestRankingDouble"]] != null
+                            ? (short?) short.Parse(row[columnNames["bestRankingDouble"]])
+                            : null,
+                        BestRankingSingle = row[columnNames["bestRankingSingle"]] != null
+                            ? (short?) short.Parse(row[columnNames["bestRankingSingle"]])
+                            : null,
+                        Img = Convert.FromBase64String(row[columnNames["img"]])
+                    };
                     return player;
                 });
-            service.PrepareData();
-            service.UpdateData(db.Players, "Players");
-            return true;
+            return service.PrepareData() && service.UpdateData(db.Players, "Players");
         }
 
         [HttpGet("matches")]
