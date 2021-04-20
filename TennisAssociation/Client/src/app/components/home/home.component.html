@@ -1,7 +1,7 @@
 <app-nav-bar> </app-nav-bar>
 <section class="container">
   <div class="left-half">
-    <form [formGroup]="loginForm" class="form-box login-box" (ngSubmit)="onSubmit()">
+    <form [formGroup]="loginForm" class="form-box login-box" (submit)="onSubmit()">
       <fieldset>
         <legend class="style-text-dirty-yellow">LOG IN</legend>
         <div 
@@ -34,6 +34,7 @@
           <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field.</div>
           <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least {{minPasswordLength}} letters.</div>
           <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long.</div>
+          <div style="display: flex;" class="invalid-feedback" *ngIf="isError$ | async">Your username or password is wrong. Please try again.</div>
         </div>
 
         <button type="submit" class="btn btn-primary btn-submit style-text-black" [disabled]="!loginForm.valid">Log in</button>

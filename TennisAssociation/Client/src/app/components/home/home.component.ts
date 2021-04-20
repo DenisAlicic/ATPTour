@@ -3,6 +3,7 @@ import { minPasswordLength, maxPasswordLength, minUsernameLength, maxUsernameLen
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { BehaviorSubject } from 'rxjs';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,8 +11,8 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
 
-  public loginForm: FormGroup;
-  public isError: boolean;
+  loginForm: FormGroup;
+  isError$ = new BehaviorSubject(false);
   minPasswordLength = minPasswordLength;
   returnUrl: string;
 
@@ -37,21 +38,15 @@ export class HomeComponent {
     
     this.userService.login(this.loginForm.value)
       .subscribe(
-        dat => {
-          console.log(dat)
+        data => {
           this.returnUrl = '/players';
           this.router.navigate([this.returnUrl]);
         },
         error => {
-          console.log('2 ' + error.status);
-          this.isError = true;
-          console.log('error is ', error);
+          this.isError$.next(true);
           setTimeout(() => {
-            this.isError = false;
+            this.isError$.next(false);
           }, 3000);
         });  
-        
   }
-
-
 }
