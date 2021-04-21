@@ -4,12 +4,14 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
 import { maxPasswordLength, maxUsernameLength, minPasswordLength, minUsernameLength } from 'src/app/shared/constants';
+import { Pages } from 'src/app/shared/pages';
 @Component({
   selector: 'app-home',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
+  Pages = Pages;
 
   loginForm: FormGroup;
   isError$ = new BehaviorSubject(false);

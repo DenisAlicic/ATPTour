@@ -14,9 +14,9 @@
           /> 
 
           <ng-container *ngIf="f.firstname.touched">
-            <div class="invalid-feedback" *ngIf="f.firstname.errors?.required">Please enter your first name.</div>
-            <div class="invalid-feedback" *ngIf="f.firstname.errors?.pattern">Please use only alphabet letters.</div>
-            <div class="invalid-feedback" *ngIf="f.firstname.errors?.maxlength">Is this your name? Seems too long.</div>
+            <div class="invalid-feedback" *ngIf="f.firstname.errors?.required">Please enter your first name</div>
+            <div class="invalid-feedback" *ngIf="f.firstname.errors?.pattern">Please use only alphabet letters</div>
+            <div class="invalid-feedback" *ngIf="f.firstname.errors?.maxlength">Is this your name? Seems too long</div>
           </ng-container>
         </div>
   
@@ -30,9 +30,9 @@
           />
 
           <ng-container *ngIf="f.lastname.touched">
-            <div class="invalid-feedback" *ngIf="f.lastname.errors?.required">Please enter your last name.</div>
-            <div class="invalid-feedback" *ngIf="f.lastname.errors?.pattern">Please use only alphabet letters.</div>
-            <div class="invalid-feedback" *ngIf="f.lastname.errors?.maxlength">Is this your last name? Seems too long.</div>
+            <div class="invalid-feedback" *ngIf="f.lastname.errors?.required">Please enter your last name</div>
+            <div class="invalid-feedback" *ngIf="f.lastname.errors?.pattern">Please use only alphabet letters</div>
+            <div class="invalid-feedback" *ngIf="f.lastname.errors?.maxlength">Is this your last name? Seems too long</div>
           </ng-container>
         </div>
       </div> 
@@ -47,9 +47,9 @@
         />
 
         <ng-container *ngIf="f.username.touched">
-          <div class="invalid-feedback" *ngIf="f.username.errors?.required">Please enter username.</div>
-          <div class="invalid-feedback" *ngIf="f.username.errors?.minlength">Username is too short.</div>
-          <div class="invalid-feedback" *ngIf="f.username.errors?.maxlength">Username is too long.</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.required">Please enter username</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.minlength">Username is too short</div>
+          <div class="invalid-feedback" *ngIf="f.username.errors?.maxlength">Username is too long</div>
         </ng-container>
       </div>
 
@@ -63,8 +63,8 @@
         />
 
         <ng-container *ngIf="f.email.touched">
-          <div class="invalid-feedback" *ngIf="f.email.errors?.required">Email address is a required field.</div>
-          <div class="invalid-feedback" *ngIf="f.email.errors?.email">Email address is not valid.</div>
+          <div class="invalid-feedback" *ngIf="f.email.errors?.required">Email address is a required field</div>
+          <div class="invalid-feedback" *ngIf="f.email.errors?.email">Email address is not valid</div>
         </ng-container>
       </div>
 
@@ -78,9 +78,9 @@
         />
 
         <ng-container *ngIf="f.password.touched">
-          <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field.</div>
-          <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters.</div>
-          <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long.</div>
+          <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field</div>
+          <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters</div>
+          <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long</div>
         </ng-container>
       </div>
 
@@ -94,14 +94,14 @@
         />
 
         <ng-container *ngIf="f.confirmPassword.touched">
-          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.required">Please confirm your password.</div>
-          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.minlength">Password must contain at least {{minPasswordLength}} letters.</div>
-          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.maxlength">Your password is too long.</div>
-          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.mustMatch">Passwords must match.</div>
+          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.required">Please confirm your password</div>
+          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.minlength">Password must contain at least {{minPasswordLength}} letters</div>
+          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.maxlength">Your password is too long</div>
+          <div class="invalid-feedback" *ngIf="f.confirmPassword.errors?.mustMatch">Passwords must match</div>
         </ng-container>
       </div>
 
-      <button type="submit" class="form__submit mt-16" [class.form__submit__disabled]="!signupForm.valid" [disabled]="!signupForm.valid" (click)="onSubmit()">Sign up</button>
+      <button type="submit" class="form__submit mt-16 mb-8" [class.form__submit__disabled]="!signupForm.valid" [disabled]="!signupForm.valid" (click)="onSubmit()">Sign up</button>
       <span class="form__text">Already a user? <a [routerLink]="['/', Pages.Login]"> Log in here</a></span>
     </form>
   </div>

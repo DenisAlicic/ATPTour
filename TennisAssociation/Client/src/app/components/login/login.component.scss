@@ -1,21 +1,51 @@
-app-home {
+@import 'src/styles/variables';
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  background: $color-gray-2;
+}
+
+.box__form {
+  width: 400px;
+  margin: 5% 0 0 10%;
+}
+
+.title {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.left-half {
-  position: relative;
-  width: 100%;
-}
-
-.login-box {
-  padding: 10% 0;
-}
+  justify-content: start;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.44px;
+  color: $color-blue;
+} 
 
 .img__tennis {
-  height: 500px;
+  height: 400px;
   width: auto;
-  margin-right: 200px;
-  margin-top: 100px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+@media only screen and (max-width: $app-md) {
+  .box__form {
+    width: 100vw;
+    padding: 5%;
+    margin: 0;
+  }
+
+  .img__tennis { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $app-sm) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
 }
