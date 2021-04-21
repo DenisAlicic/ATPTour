@@ -1,5 +1,5 @@
 import { SignupModule } from './components/signup/signup.module';
-import { HomeModule } from './components/home/home.module';
+import { LoginModule } from './components/login/login.module';
 import { NavBarModule } from './components/nav-bar/nav-bar.module';
 import { PlayersModule } from './components/players/players.module';
 import { TournamentsModule } from './components/tournaments/tournaments.module';
@@ -35,7 +35,7 @@ import { MatButtonModule} from '@angular/material/button';
     TournamentsModule,
     MatchesModule,
     NavBarModule, 
-    HomeModule,
+    LoginModule,
     SignupModule
   ],
   providers: [],

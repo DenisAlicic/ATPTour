@@ -1,11 +1,11 @@
 import { UserService } from '../../services/user.service';
 import { AlertService } from '../../services/alert.service';
-import { minPasswordLength, alphaPattern, maxNameLength, maxPasswordLength } from '../../constants';
-import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Component } from '@angular/core';
 import { passwordsMustMatch } from './password.validator';
 import { Router } from '@angular/router';
-
+import { alphaPattern, maxNameLength, maxPasswordLength, minPasswordLength } from 'src/app/shared/constants';
+import { Pages } from 'src/app/shared/pages';
 
 @Component({
   selector: 'app-signup',
@@ -13,8 +13,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./signup.component.scss']
 })
 export class SignupComponent {
-
-  public signupForm: FormGroup;
+  Pages = Pages;
+  
+  signupForm: FormGroup;
   minPasswordLength = minPasswordLength;
 
   constructor(
@@ -26,8 +27,6 @@ export class SignupComponent {
     this.signupForm = this.formBuilder.group({
       firstname: [null, [Validators.required, Validators.pattern(alphaPattern), Validators.maxLength(maxNameLength)]],
       lastname: [null, [Validators.required, Validators.pattern(alphaPattern), Validators.maxLength(maxNameLength)]],
-      birthday: [null, [Validators.required]],
-      gender: new FormControl(null, Validators.required),
       username: [null, [Validators.required, Validators.minLength(6), Validators.maxLength(15)]],
       email: [null, [Validators.required, Validators.email]],
       password: [null, [Validators.required, Validators.minLength(minPasswordLength), Validators.maxLength(maxPasswordLength)]],

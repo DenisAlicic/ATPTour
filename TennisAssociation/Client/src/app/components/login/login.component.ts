@@ -1,15 +1,15 @@
 import { UserService } from '../../services/user.service';
-import { minPasswordLength, maxPasswordLength, minUsernameLength, maxUsernameLength } from '../../constants';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
+import { maxPasswordLength, maxUsernameLength, minPasswordLength, minUsernameLength } from 'src/app/shared/constants';
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss']
 })
-export class HomeComponent {
+export class LoginComponent {
 
   loginForm: FormGroup;
   isError$ = new BehaviorSubject(false);
