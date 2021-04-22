@@ -24,11 +24,11 @@ a {
 }
 
 a:active {
-  color: $color-pink;
+  color: $color-pink !important;
 }
 
 a:hover {
-  color: $color-pink;
+  color: $color-pink !important;
 }
 
 .centered {
@@ -41,6 +41,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin: 0 !important;
 }
 
 .form__input {
@@ -85,7 +86,7 @@ a:hover {
   }
 }
 
-.invalid-feedback {
+.invalid {
   @extend %base-text;
   color: $color-invalid;
   margin-top: 4px;
@@ -135,10 +136,6 @@ a:hover {
 
 .mt-16 {
   margin-top: 16px;
-}
-
-.w-100 { 
-  width: 100%;
 }
 
 .w-48 {

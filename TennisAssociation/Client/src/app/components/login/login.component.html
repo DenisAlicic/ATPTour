@@ -13,9 +13,9 @@
         />
 
         <ng-container *ngIf="f.username.touched">
-          <div class="invalid-feedback" *ngIf="f.username.errors?.required">Please enter username</div>
-          <div class="invalid-feedback" *ngIf="f.username.errors?.minlength">Username is too short</div>
-          <div class="invalid-feedback" *ngIf="f.username.errors?.maxlength">Username is too long</div>
+          <div class="invalid" *ngIf="f.username.errors?.required">Please enter username</div>
+          <div class="invalid" *ngIf="f.username.errors?.minlength">Username is too short</div>
+          <div class="invalid" *ngIf="f.username.errors?.maxlength">Username is too long</div>
         </ng-container>
       </div>
 
@@ -29,13 +29,13 @@
         />
 
         <ng-container *ngIf="f.password.touched">
-          <div class="invalid-feedback" *ngIf="f.password.errors?.required">Password is a required field</div>
-          <div class="invalid-feedback" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters</div>
-          <div class="invalid-feedback" *ngIf="f.password.errors?.maxlength">Your password is too long</div>
+          <div class="invalid" *ngIf="f.password.errors?.required">Password is a required field</div>
+          <div class="invalid" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters</div>
+          <div class="invalid" *ngIf="f.password.errors?.maxlength">Your password is too long</div>
         </ng-container>
       </div>
 
-      <div style="display: flex;" class="invalid-feedback" *ngIf="isError$ | async">Your username or password is wrong. Please try again</div>
+      <div style="display: flex;" class="invalid" *ngIf="isError$ | async">Your username or password is wrong. Please try again</div>
 
       <button type="submit" class="form__submit mt-16 mb-8" [class.form__submit__disabled]="!loginForm.valid" [disabled]="!loginForm.valid" (click)="onSubmit()">Log In</button>
       <span class="form__text">Don't have an account yet? <a [routerLink]="['/', Pages.SignUp]">Register here</a></span>
