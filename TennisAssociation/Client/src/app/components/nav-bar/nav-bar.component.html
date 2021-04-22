@@ -1,16 +1,7 @@
-
-<nav class="navbar navbar__text">
-  <div class="navbar__left">
-    <a [routerLink]="['/']"> 
-      <img class="logo" src="../../../assets/images/logo.jpg">   
-      TENNIS
-    </a>
-  </div> 
-
-  <div class="navbar__right"> 
-    <div class="navbar__link_box"> <a [routerLink]="['/players']">PLAYERS</a> </div>
-    <div class="navbar__link_box"> <a [routerLink]="['/tournaments']">TOURNAMENTS</a> </div>
-    <div class="navbar__link_box"> <a [routerLink]="['/matches']">MATCHES</a> </div>
-    <div class="navbar__link_box"> <a [routerLink]="['/signup']">SIGN UP</a> </div>
-  </div>
-</nav>
+<div class="topnav" id="myTopnav">
+  <!-- <a [routerLink]="['/', Pages.Home]" [routerLinkActive]="['active']">Home</a> -->
+  <a [routerLink]="['/', Pages.Players]" [routerLinkActive]="['active']">Players</a>
+  <a [routerLink]="['/', Pages.Tournaments]" [routerLinkActive]="['active']">Tournaments</a>
+  <a [routerLink]="['/', Pages.Matches]" [routerLinkActive]="['active']">Matches</a>
+  <a *ngIf="isLogged$ | async" class="logout" (click)="onLogout()">Logout</a>
+</div>

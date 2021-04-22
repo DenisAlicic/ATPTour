@@ -1,8 +1,8 @@
-import { UserService } from '../../services/user.service';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
+import { AuthService } from 'src/app/services/auth.service';
 import { maxPasswordLength, maxUsernameLength, minPasswordLength, minUsernameLength } from 'src/app/shared/constants';
 import { Pages } from 'src/app/shared/pages';
 @Component({
@@ -20,7 +20,7 @@ export class LoginComponent {
 
   constructor(
     private formBuilder: FormBuilder,
-    private userService: UserService,
+    private authService: AuthService,
     private router: Router
   ) { 
     this.loginForm = this.formBuilder.group({
@@ -30,19 +30,17 @@ export class LoginComponent {
   }
   
   ngOnInit() {
-    this.userService.logout();
+    this.authService.logout();
   }
 
   get f() { return this.loginForm.controls; }
 
   onSubmit() {
-    console.log(this.loginForm.value);
-    
-    this.userService.login(this.loginForm.value)
+    this.authService.login(this.loginForm.value)
       .subscribe(
         data => {
-          this.returnUrl = '/players';
-          this.router.navigate([this.returnUrl]);
+          console.log(data);
+          this.router.navigate(['/', Pages.Players]);
         },
         error => {
           this.isError$.next(true);

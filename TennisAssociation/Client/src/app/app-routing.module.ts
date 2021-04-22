@@ -6,14 +6,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { Pages } from './shared/pages';
+import { LoginActivate } from './helpers/login.guard';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: Pages.Login, component: LoginComponent},
   { path: Pages.SignUp, component: SignupComponent },
-  { path: Pages.Players, component: PlayersComponent },
-  { path: Pages.Tournaments, component: TournamentsComponent },
-  { path: Pages.Matches, component: MatchesComponent }
+  { path: Pages.Players, component: PlayersComponent, canActivate:[LoginActivate] },
+  { path: Pages.Tournaments, component: TournamentsComponent, canActivate:[LoginActivate] },
+  { path: Pages.Matches, component: MatchesComponent, canActivate:[LoginActivate] }
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-import { UserService } from '../../services/user.service';
+import { AuthService } from '../../services/auth.service';
 import { AlertService } from '../../services/alert.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Component } from '@angular/core';
@@ -21,7 +21,7 @@ export class SignupComponent {
   constructor(
     private formBuilder: FormBuilder, 
     private alertService: AlertService,
-    private userService: UserService,
+    private authService: AuthService,
     private router: Router
   ) { 
     this.signupForm = this.formBuilder.group({
@@ -41,11 +41,11 @@ export class SignupComponent {
 
   onSubmit() {
     
-    this.userService.signup(this.signupForm.value)
+    this.authService.signup(this.signupForm.value)
       .subscribe(
         _ => {
           this.alertService.success('Registration successful', true);
-          this.router.navigate(['/']);
+          this.router.navigate(['/', Pages.Login]);
         },
         error => {
           this.alertService.error(error);

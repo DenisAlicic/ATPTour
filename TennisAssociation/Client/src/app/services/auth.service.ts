@@ -6,15 +6,15 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
-  private readonly usersUrl = 'http://localhost:8080/api/account/';
+export class AuthService {
+  private readonly authUrl = 'http://localhost:8080/api/account/';
 
   constructor(private http: HttpClient) {}
 
   signup(formData) {
     const body = { ...formData};
     console.log(body);
-    return this.http.post<UserModel>(this.usersUrl + "register", body);
+    return this.http.post<UserModel>(this.authUrl + "register", body);
   }
 
   login(data) {
@@ -22,10 +22,10 @@ export class UserService {
       ...data
     };
 
-    return this.http.post<any>(this.usersUrl + "login", body)
+    return this.http.post<any>(this.authUrl + "login", body)
       .pipe(map(user => {
         // login successful if there's a jwt token in the response
-        if (user && user.token) {
+        if (user) { //TODO: && user.token
           // store user details and jwt token in local storage to keep user logged in between page refreshes
           localStorage.setItem('currentUser', JSON.stringify(user));
         }
@@ -37,5 +37,9 @@ export class UserService {
   logout() {
     // remove user from local storage to log user out
     localStorage.removeItem('currentUser');
+  }
+
+  isLogged() {
+    return localStorage.getItem("currentUser") !== null;
   }
 }
