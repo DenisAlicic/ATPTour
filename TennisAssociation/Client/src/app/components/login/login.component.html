@@ -1,0 +1,46 @@
+<div class="wrapper">
+  <div class="box__form"> 
+    <div class="title">LOG IN</div>
+
+    <form [formGroup]="loginForm"> 
+      <div class="w-100">
+        <input
+          type="text"
+          class="form__input"
+          [class.form__input__invalid]="f.username.invalid && f.username.touched"
+          formControlName="username"
+          placeholder="Username" 
+        />
+
+        <ng-container *ngIf="f.username.touched">
+          <div class="invalid" *ngIf="f.username.errors?.required">Please enter username</div>
+          <div class="invalid" *ngIf="f.username.errors?.minlength">Username is too short</div>
+          <div class="invalid" *ngIf="f.username.errors?.maxlength">Username is too long</div>
+        </ng-container>
+      </div>
+
+      <div class="w-100">
+        <input
+          type="password"
+          class="form__input"
+          [class.form__input__invalid]="f.password.invalid && f.password.touched"
+          formControlName="password"
+          placeholder="Password" 
+        />
+
+        <ng-container *ngIf="f.password.touched">
+          <div class="invalid" *ngIf="f.password.errors?.required">Password is a required field</div>
+          <div class="invalid" *ngIf="f.password.errors?.minlength">Password must contain at least 8 letters</div>
+          <div class="invalid" *ngIf="f.password.errors?.maxlength">Your password is too long</div>
+        </ng-container>
+      </div>
+
+      <div style="display: flex;" class="invalid" *ngIf="isError$ | async">Your username or password is wrong. Please try again</div>
+
+      <button type="submit" class="form__submit mt-16 mb-8" [class.form__submit__disabled]="!loginForm.valid" [disabled]="!loginForm.valid" (click)="onSubmit()">Log In</button>
+      <span class="form__text">Don't have an account yet? <a [routerLink]="['/', Pages.SignUp]">Register here</a></span>
+    </form> 
+  </div>
+
+  <img class="img__tennis" src="../../../assets/images/silueta-2.png"/> 
+</div> 

@@ -1,41 +1,49 @@
-.signup-box {
-  margin: auto;
-}
+@import 'src/styles/variables';
 
-.row {
-  margin: 0px;
-  justify-content: space-between
-}
-
-.input-shorter {
-  width: 200px;
-}
-
-input {
-  width: 450px;
-}
-
-.btn-submit {
-  width: 450px;
-}
-
-input[type="date"]::before { 
-  color: gray;
-  content: attr(data-placeholder);
+.wrapper {
   width: 100%;
-  cursor: pointer;
+  height: 100%;
 }
 
-/* hide our custom/fake placeholder text when in focus to show the default
- * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
- */
-input[type="date"]:focus::before,
-input[type="date"]:valid::before { display: none; cursor: pointer; }
+.box__form {
+  width: 400px;
+  margin: 5% 0 0 10%;
+}
 
-select {
-  &.ng-pristine{
-    color: gray;
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.44px;
+  color: $color-blue;
+} 
+
+.img__tennis {
+  height: 400px;
+  width: auto;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+@media only screen and (max-width: $app-md) {
+  .box__form {
+    width: 100vw;
+    padding: 5%;
+    margin: 0;
   }
 
-  cursor: pointer;
+  .img__tennis { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $app-sm) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
 }

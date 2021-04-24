@@ -4,14 +4,17 @@ import { MatchesComponent } from './components/matches/matches.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { Pages } from './shared/pages';
+import { LoginActivate } from './helpers/login.guard';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'signup', component: SignupComponent },
-  { path: 'players', component: PlayersComponent },
-  { path: 'tournaments', component: TournamentsComponent },
-  { path: 'matches', component: MatchesComponent }
+  { path: '', component: LoginComponent },
+  { path: Pages.Login, component: LoginComponent},
+  { path: Pages.SignUp, component: SignupComponent },
+  { path: Pages.Players, component: PlayersComponent, canActivate:[LoginActivate] },
+  { path: Pages.Tournaments, component: TournamentsComponent, canActivate:[LoginActivate] },
+  { path: Pages.Matches, component: MatchesComponent, canActivate:[LoginActivate] }
 ];
 
 @NgModule({

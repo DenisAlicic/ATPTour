@@ -1,34 +1,35 @@
-@import '../../../styles';
+@import 'src/styles/variables';
 
-a:hover {
+.topnav {
+  overflow: hidden;
+  background-color: $color-blue;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: $color-gray-2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
 }
 
-a {
-  color: $color-dirty-yellow;
-  font-size: 20px;
-  font-weight: 400;
+.topnav a:hover {
+  background-color: $color-blue-hover;
 }
 
-.logo {
-  height: 70px;
+.topnav a.active {
+  background-color: $color-pink;
+  color: $color-gray-2;
+
+  &:hover {
+    background-color: $color-pink-hover;
+  }
 }
 
-.navbar {
-  padding: 0;
-  padding-right: 30px;
-}
-
-.navbar__right {
-  display: flex;
-}
-
-.navbar__link_box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 40px;
-
+.logout {
+  position: absolute;
+  right: 0;
 }

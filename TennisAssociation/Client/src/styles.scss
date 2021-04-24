@@ -1,8 +1,4 @@
-@import "./_variables.scss";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-
-$color-dirty-yellow: #ddb70c;
+@import 'src/styles/variables';
 
 * {
   box-sizing: border-box;
@@ -11,63 +7,151 @@ $color-dirty-yellow: #ddb70c;
 html, body {
   height: 100%;
   background-color: transparent;
-}
-
-.container {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  min-width: 100%;
-  display: flex;
-  width: 100%;
-  position: relative;
-}
-
-.form-box {
-  width: 100%;
-  max-width: 100%;
+  margin: 0;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.input, .input:focus, .input:hover, .input:active {
-  color: black;
-  margin-top:10px;
-  height: 45px;
-  background: transparent;
-  border-bottom: 1px solid #000000;
-  border-radius: 0px !important;
-  &::placeholder {
-    color: gray !important;
-  }
-}
-
-.btn-submit {
-  margin-top: 15px;
-  background-color: $color-dirty-yellow !important;
-  border: 2px solid black !important;
-  width: 330px;
-  height: 45px;
+%base-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.15px;
 }
 
 a {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.15px;
-  color: $color-dirty-yellow !important;
+  @extend %base-text;
+  color: $color-blue;
 }
 
-.style-text-dirty-yellow {
-  color: $color-dirty-yellow !important;
+a:active {
+  color: $color-pink;
 }
 
-.style-text-black {
-  color: black !important;
+a:hover {
+  color: $color-pink;
 }
 
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 !important;
+}
+
+.form__input {
+  @extend %base-text;
+  width: 100%;
+  height: 40px;
+  padding: 0 8px;
+  margin-top: 16px;
+
+  outline: none;
+  background: rgba($color: $color-gray-2, $alpha: 0.7);
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: $color-black;
+  cursor: pointer;
+
+  &:hover {
+    background: white;
+  }
+
+  &:focus {
+    background: white;
+    border: 1px solid $color-blue;
+  }
+
+  &::placeholder {
+    letter-spacing: 0.44px;
+    color: rgba($color: gray, $alpha: 0.7);
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    line-height: 30px !important;
+  }
+}
+
+.form__input__invalid {
+  border: 1px solid $color-invalid !important; 
+
+  &::placeholder {
+    color: $color-invalid;
+  }
+}
+
+.invalid {
+  @extend %base-text;
+  color: $color-invalid;
+  margin-top: 4px;
+}
+
+.form__text {
+  @extend %base-text;
+}
+
+.form__submit {
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: $color-blue;
+  
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.44px;
+
+  &:hover {
+    background: $color-dark-blue;
+  }
+}
+
+.form__submit__disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+
+  &:hover {
+    background: $color-blue;
+  }
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.w-48 {
+  width: 48%;
+}
+
+@media only screen and (max-width: $app-sm) {
+  .form__input {
+    height: 48px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .w-48 {
+    width: 100%;
+  }
+}
