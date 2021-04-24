@@ -26,7 +26,7 @@ import {
   ],
 })
 export class TournamentsComponent implements OnInit {
-  displayedColumns: string[] = ['name'];
+  displayedColumns: string[] = ['ranking', 'name', 'winnerPrize'];
   dataSource: MatTableDataSource<TournamentModel>;
   expandedElement: TournamentModel | null;
 
