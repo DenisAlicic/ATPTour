@@ -22,19 +22,19 @@ import {
   selector: 'app-players',
   templateUrl: './players.component.html',
   styleUrls: ['./players.component.scss'],
-
   animations: [
     trigger('detailExpand', [
-        state('collapsed', style({height: '0px', minHeight: '0'})),
-        state('expanded', style({height: '*'})),
-        transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
-  ]
+  ],
 })
 export class PlayersComponent implements OnInit {
  
-  displayedColumns: string[] = ['currentRankingSingle',  'name'];
+  displayedColumns: string[] = ['currentRankingSingle', 'name',  'country'];
   dataSource: MatTableDataSource<PlayerModel>;
+  expandedElement: PlayerModel | null;
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
@@ -47,6 +47,7 @@ export class PlayersComponent implements OnInit {
 
   loadPlayers() {
     this.playersService.getPlayers().subscribe(value => {
+      console.log(value);
       this.dataSource = new MatTableDataSource(value);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;

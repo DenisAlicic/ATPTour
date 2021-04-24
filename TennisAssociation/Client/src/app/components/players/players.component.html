@@ -1,6 +1,6 @@
 <app-nav-bar> </app-nav-bar>
 
-<div class="header__players"> 
+<div class="table__header"> 
   Active ATP players
 </div>
 
@@ -10,120 +10,69 @@
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Novak" #input>
   </mat-form-field>
 
-  <div class="box__players__table">
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" multiTemplateDataRows>
-        <!-- Ranking Column -->
-        <ng-container matColumnDef="currentRankingSingle">
-            <th mat-header-cell *matHeaderCellDef mat-sort-header> Ranking </th>
-            <td mat-cell *matCellDef="let row"> {{row.currentRankingSingle}} </td>
-        </ng-container> 
-    
-    
-        <ng-container  matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef>Name</th>
-            <td mat-cell *matCellDef="let element">
-              <a mat-button href="javascript:void(0)" (click)="element.isExpanded = !element.isExpanded"><h4 class="flag-icon  {{getCountryCode(element.country)}}"></h4> {{element.firstName}} {{element.lastName}}</a>
-            </td>
-        </ng-container>
+  <div class="table__wrapper">
+    <table mat-table [dataSource]="dataSource" multiTemplateDataRows matSort>
 
-        <ng-container matColumnDef="expandedDetail">
-            <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-                <div class="row queue-element-detail" [@detailExpand]="element.isExpanded ? 'expanded' : 'collapsed'">
-                
-                  <div class="card green">
-                    <div class="additional">
-                      <div class="user-card">
-                        <div class="level center">
-                          Ranking: {{element.currentRankingSingle}}
-                        </div>
-                  
-                        <img src="{{'data:image/png;base64,'+ element.img}}" alt="img" class=" mx-auto rounded-circle img-fluid d-block topmargin mb-4"/>
-                      </div>
-                      <div class="more-info">
-                        <h3>{{element.firstName}} {{element.lastName}}</h3>
-                  
-                        <div class="stats">
-                          <div>
-                            <div class="title">Titles</div>
-                            <i class="fa fa-trophy"></i>
-                            <div class="value"></div>
-                          </div>
-                          <div>
-                            <div class="title">Matches</div>
-                            <i class="fa fa-gamepad"></i>
-                            <div class="value"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="general">
-                      <h3>{{element.firstName}} {{element.lastName}}</h3>
-                      <div class="coords">
-                        <span>Country: </span>
-                        <span>{{element.country}} 
-                          <span class="flag-icon  {{getCountryCode(element.country)}} flag-icon-squared"></span>
-                        </span>
-                      </div>
-                      <div class="coords">
-                        <span>Sex: </span>
-                        <span>{{element.sex}}</span>
-                      </div>
-                      <div>
-                        <span>Height: </span>
-                        <span>{{element.height}} cm</span>
-                      </div>
-                      <div>
-                        <span>Weight: </span>
-                        <span>{{element.weight}} kg</span>
-                      </div>
-                      <div>
-                        <span>Birth: </span>
-                        <span>{{element.birth | date : format : timezone}}</span>
-                      </div>
-                      <div>
-                        <span>Hand: </span>
-                        <span>{{element.hand}}</span>
-                      </div>
-                      <div>
-                        <span>Current ranking single: </span>
-                        <span>{{element.currentRankingSingle}}</span>
-                      </div>
-                      <div>
-                        <span>Best ranking single: </span>
-                        <span>{{element.bestRankingSingle}}</span>
-                      </div>
-                      <div>
-                        <span>Current ranking double: </span>
-                        <span>{{element.currentRankingDouble}}</span>
-                      </div>
-                      <div>
-                        <span>Best ranking double: </span>
-                        <span>{{element.bestRankingDouble}}</span>
-                      </div>
-                      <span class="more">Mouse over the card for more info</span>
-                    </div>
-                  </div>
+      <!-- Ranking Column -->
+      <ng-container matColumnDef="currentRankingSingle">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Ranking </th>
+        <td mat-cell *matCellDef="let row"> {{row.currentRankingSingle}} </td>
+      </ng-container>
+      
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+        <td mat-cell *matCellDef="let row"> {{row.firstName}} {{row.lastName}}</td>
+      </ng-container>
 
-                
+      <!-- Country Column -->
+      <ng-container matColumnDef="country">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Country </th>
+        <td mat-cell *matCellDef="let row"><span class="flag-icon {{getCountryCode(row.country)}}"></span> {{row.country}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="expandedDetail">
+        <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+          <div class="example-element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'"> 
+            <div class="details__card">
+              <img class="details__card_img" src="{{'data:image/png;base64,'+ element.img}}" alt="img"/>
+              
+              <div class="details__card_body"> 
+                <div class="details__card_row"> 
+                  <span>Ranking: {{element.currentRankingSingle}}</span>
+                  <div class="dot"></div> 
+                  <span>Best Ranking: {{element.bestRankingSingle}}</span>
                 </div>
-            </td>
-        </ng-container>
+                <div class="d-flex flex-row align-items-center"> 
+                  <span class="flag-icon {{getCountryCode(element.country)}} mr-8"></span>
+                  <h5>{{element.firstName}} {{element.lastName}}</h5>
+                </div>
+                <span>Height: {{element.height}}cm</span>
+                <span>Weight: {{element.weight}}kg</span> 
+                <span>Birth: {{element.birth | date}}</span>
+                <span>Hand: {{element.hand}}</span>
+                <div class="details__card_row"> 
+                  <span>Current ranking double: {{element.currentRankingDouble}}</span>
+                  <div class="dot"></div> 
+                  <span>Best ranking double: {{element.bestRankingDouble}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </ng-container>
 
-        <tr mat-header-row *matHeaderRowDef="displayedColumns;sticky: true"></tr>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr 
+        mat-row 
+        *matRowDef="let element; columns: displayedColumns;"
+        class="example-element-row"
+        [class.example-expanded-row]="expandedElement === element"
+        (click)="expandedElement = expandedElement === element ? null : element"  
+      ></tr>
 
-        <tr mat-row *matRowDef="let element; columns: displayedColumns;"
-          class="queue-element-row"
-          [class.queue-expanded-row]="element.isExpanded"></tr>
-
-        <tr mat-row *matRowDef="let row; columns: ['expandedDetail']"
-          class="queue-detail-row"></tr> 
-
-        <!-- Row shown when there is no matching data. -->
-        <tr class="mat-row" *matNoDataRow>
-          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
-        </tr>
+      <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr> 
     </table>
-
-    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
   </div>
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
 </div>
