@@ -1,11 +1,11 @@
 export interface MatchModel {
-  Id: string;
-  Tournament: string;
-  FirstPlayer: string;
-  SecondPlayer: string;
-  HeadToHeadFirst: number;
-  HeadToHeadSecond: number;
-  ResultFirst: number;
-  ResultSecond: number;
-  Date: Date;
+  id: string;
+  tournament: string;
+  firstPlayer: string;
+  secondPlayer: string;
+  headToHeadFirst: number;
+  headToHeadSecond: number;
+  resultFirst: number;
+  resultSecond: number;
+  date: Date;
 }
