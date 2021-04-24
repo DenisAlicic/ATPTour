@@ -6,9 +6,6 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTableModule } from '@angular/material/table';
-import { MatButtonModule} from '@angular/material/button';
 import {
   trigger,
   state,
@@ -47,7 +44,6 @@ export class PlayersComponent implements OnInit {
 
   loadPlayers() {
     this.playersService.getPlayers().subscribe(value => {
-      console.log(value);
       this.dataSource = new MatTableDataSource(value);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;

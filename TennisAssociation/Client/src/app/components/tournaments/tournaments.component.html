@@ -1,6 +1,6 @@
 <app-nav-bar> </app-nav-bar>
 
-<div class="header__tournaments"> 
+<div class="table__header"> 
   Tournaments
 </div>
 
@@ -10,115 +10,92 @@
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Australian open" #input>
   </mat-form-field>
 
-  <div class="box__tournaments__table">
-
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" multiTemplateDataRows>
+  <div class="table__wrapper">
+    <table mat-table [dataSource]="dataSource" multiTemplateDataRows matSort>
+      <!-- Name -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+        <td mat-cell *matCellDef="let row"> {{row.tournament1}} </td>
+      </ng-container>
       
-        <ng-container  matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef>Name</th>
-            <td mat-cell *matCellDef="let element">
-              <a mat-button href="javascript:void(0)" (click)="element.isExpanded = !element.isExpanded">
-                {{element.tournament1}}</a>
-            </td>
-        </ng-container>
+      <ng-container matColumnDef="expandedDetail">
+        <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+          <div class="example-element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'"> 
+            <div class="details__card flex-column">
+              <h5 class="details__card__tournament__name">{{element.tournament1}}</h5>
 
-        <ng-container matColumnDef="expandedDetail">
-            <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-                <div class="row queue-element-detail" [@detailExpand]="element.isExpanded ? 'expanded' : 'collapsed'">
+              <ng-container *ngIf="isInfoAvailable(element); else tournamentsInfoEmpty">
+                <span style="font-weight: bold;">{{element.winnerPoints ? 'Ranking: ' + element.winnerPoints : ''}}</span>
                 
-                  <div class="card green">
-                    <div class="additional">
-                      <div class="user-card">
-                        <div class="level center">
-                          Ranking: {{element.winnerPoints}}
-                        </div>
-                      </div>
-                      <div class="more-info">
-                        <h3>{{element.tournament1}}</h3>
-                  
-                        <div class="stats">
-                          <div>
-                            <div class="title">Winner</div>
-                            <i class="fa fa-trophy"></i>
-                            <div class="value"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="general">
-                      <h3>{{element.tournament1}}</h3>
-                      <div class="coords">
-                        <span>{{combine('1 round prize', element._1RoundPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('1 round points', element._1RoundPoints)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('2 round prize', element._2RoundPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('2 round points', element._2RoundPoints)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('3 round prize', element._3RoundPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('3 round points', element._3RountPoints)}}</span>
-                      </div>                     
-                      <div class="coords">
-                        <span>{{combine('Round of 16 prize', element.roundOf16Prize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Round of 16 points', element.roundOf16Points)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Quarter final prize', element.quarterfinalPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Quarter final points', element.quarterfinalPoints)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Semi final prize', element.semifinalPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Semi final points', element.semifinalPoints)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Final prize', element.finalPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Final points', element.finalPoints)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Winner prize', element.winnerPrize)}}</span>
-                      </div>
-                      <div class="coords">
-                        <span>{{combine('Winner points', element.winnerPoints)}}</span>
-                      </div>
-                      <span class="more">Mouse over the card for more info</span>
-                    </div>
-                  </div>
-
-                
+                <div class="details__card_row" *ngIf="element._1RoundPrize || element._1RoundPoints"> 
+                  <span>{{element._1RoundPrize ? '1 round prize: ' + element._1RoundPrize : ''}}</span>
+                  <div *ngIf="element._1RoundPrize && element._1RoundPoints" class="dot"></div> 
+                  <span>{{element._1RoundPoints ? '1 round points: ' + element._1RoundPoints : ''}}</span>
                 </div>
-            </td>
-        </ng-container>
+                
+                <div class="details__card_row" *ngIf="element._2RoundPrize || element._2RoundPoints"> 
+                  <span>{{element._2RoundPrize ? '2 round prize: ' + element._2RoundPrize : ''}}</span>
+                  <div *ngIf="element._2RoundPrize && element._2RoundPoints" class="dot"></div> 
+                  <span>{{element._2RoundPoints ? '2 round points: ' + element._2RoundPoints : ''}}</span>
+                </div>
 
-        <tr mat-header-row *matHeaderRowDef="displayedColumns;sticky: true"></tr>
+                <div class="details__card_row" *ngIf="element._3RoundPrize || element._3RoundPoints">
+                  <span>{{element._3RoundPrize ? '3 round prize: ' + element._3RoundPrize : ''}}</span>
+                  <div *ngIf="element._3RoundPrize && element._3RoundPoints" class="dot"></div> 
+                  <span>{{element._3RoundPoints ? '3 round points: ' + element._3RoundPoints : ''}}</span>
+                </div>
+                
+                <div class="details__card_row" *ngIf="element.roundOf16Prize || element.roundOf16Points">
+                  <span>{{element.roundOf16Prize ? 'Round of 16 prize: ' + element.roundOf16Prize : ''}}</span>
+                  <div *ngIf="element.roundOf16Prize && element.roundOf16Points" class="dot"></div> 
+                  <span>{{element.roundOf16Points ? 'Round of 16 points: ' + element.roundOf16Points : ''}}</span>
+                </div>
 
-        <tr mat-row *matRowDef="let element; columns: displayedColumns;"
-          class="queue-element-row"
-          [class.queue-expanded-row]="element.isExpanded"></tr>
+                <div class="details__card_row" *ngIf="element.quarterfinalPrize || element.quarterfinalPoints">
+                  <span>{{element.quarterfinalPrize ? 'Quarter final prize: ' + element.quarterfinalPrize : ''}}</span>
+                  <div *ngIf="element.quarterfinalPrize && element.quarterfinalPoints" class="dot"></div> 
+                  <span>{{element.quarterfinalPoints ? 'Quarter final points: ' + element.quarterfinalPoints : ''}}</span>
+                </div>
 
-        <tr mat-row *matRowDef="let row; columns: ['expandedDetail']"
-          class="queue-detail-row"></tr> 
+                <div class="details__card_row" *ngIf="element.semifinalPrize || element.semifinalPoints">
+                  <span>{{element.semifinalPrize ? 'Semi final prize: ' + element.semifinalPrize : ''}}</span>
+                  <div *ngIf="element.semifinalPrize && element.semifinalPoints" class="dot"></div> 
+                  <span>{{element.semifinalPoints ? 'Semi final points: ' + element.semifinalPoints : ''}}</span>
+                </div>
 
-        <!-- Row shown when there is no matching data. -->
-        <tr class="mat-row" *matNoDataRow>
-          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
-        </tr>
+                <div class="details__card_row" *ngIf="element.finalPrize || element.finalPoints">
+                  <span>{{element.finalPrize ? 'Final prize: ' + element.finalPrize : ''}}</span>
+                  <div *ngIf="element.finalPrize && element.finalPoints" class="dot"></div> 
+                  <span>{{element.finalPoints ? 'Final points: ' + element.finalPoints : ''}}</span>
+                </div>
+
+                <div class="details__card_row" *ngIf="element.winnerPrize || element.winnerPoints">
+                  <span style="font-weight: bold;">{{element.winnerPrize ? 'Winner prize: ' + element.winnerPrize : ''}}</span>
+                  <div *ngIf="element.winnerPrize && element.winnerPoints" class="dot"></div> 
+                  <span style="font-weight: bold;">{{element.winnerPoints ? 'Winner points: ' + element.winnerPoints : ''}}</span>
+                </div>
+              </ng-container>
+
+              <ng-template #tournamentsInfoEmpty> 
+                Unfortunately we don't have any information about this tournament at the moment.s
+                Please try again later.
+              </ng-template>
+            </div>
+          </div>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr 
+        mat-row 
+        *matRowDef="let element; columns: displayedColumns;"
+        class="example-element-row"
+        [class.example-expanded-row]="expandedElement === element"
+        (click)="expandedElement = expandedElement === element ? null : element"  
+      ></tr>
+
+      <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr> 
     </table>
-
-    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
   </div>
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
 </div>
