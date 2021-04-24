@@ -5,34 +5,13 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { MatTableModule } from '@angular/material/table';
-import { MatButtonModule} from '@angular/material/button';
-import {
-  trigger,
-  state,
-  style,
-  animate,
-  transition,
-  // ...
-} from '@angular/animations';
-
 @Component({
   selector: 'app-matches',
   templateUrl: './matches.component.html',
   styleUrls: ['./matches.component.scss'],
-  animations: [
-    trigger('detailExpand', [
-        state('collapsed', style({height: '0px', minHeight: '0'})),
-        state('expanded', style({height: '*'})),
-        transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
-    ]),
-  ]
 })
 export class MatchesComponent implements OnInit {
- 
-  displayedColumns: string[] = ['tournament'];
+  displayedColumns: string[] = ['date', 'tournament', 'firstPlayer', 'secondPlayer', 'h2h', 'results'];
   dataSource: MatTableDataSource<MatchModel>;
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
@@ -59,13 +38,5 @@ export class MatchesComponent implements OnInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
-  }
-
-  combine(label, val) {
-      if (val != null) {
-        console.log(label + ": " + val)
-        return label + ": " + val
-      }
-      return ''
   }
 }
