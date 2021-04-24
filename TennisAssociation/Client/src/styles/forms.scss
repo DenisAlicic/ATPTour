@@ -28,7 +28,7 @@
 
   &::-moz-placeholder {
     /* Firefox 19+ */
-    line-height: 30px !important;
+    line-height: 40px !important;
   }
 }
 
@@ -77,6 +77,16 @@
 
   &:hover {
     background: $color-blue;
+  }
+}
+
+mat-paginator {
+  .mat-form-field-appearance-fill .mat-form-field-flex {
+    padding: 0 8px;
+  }
+  
+  .mat-form-field-appearance-fill .mat-select-arrow-wrapper {
+    transform: none;
   }
 }
 

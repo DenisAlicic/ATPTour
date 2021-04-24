@@ -3,7 +3,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PlayersComponent } from './players.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatFormFieldModule, MatInputModule, MatNativeDateModule, MatPaginatorModule, MatTableModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material';
+import { MatFormFieldModule, MatInputModule, MatNativeDateModule, MatPaginatorModule, MatSortModule, MatTableModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     MatTableModule,
     MatFormFieldModule,
+    MatSortModule,
     MatPaginatorModule,
     MatNativeDateModule,
     ReactiveFormsModule,
