@@ -1,0 +1,19 @@
+<app-nav-bar> </app-nav-bar>
+
+<div class="table__header"> 
+  Statistics
+</div>
+
+<div class="statistics__hand">
+  <h4 class="chart__header"> Players hand statistics</h4>
+  <canvas baseChart
+    chartType="pie"
+    [labels]="handPieChartLabels$ | async"
+    [data]="handPieChartData$ | async"
+    [colors]="pieChartColors"
+    [options]="handPieOptions"
+  ></canvas>
+</div>
+
+<!-- (chartHover)="chartHovered($event)"
+(chartClick)="chartClicked($event)" -->

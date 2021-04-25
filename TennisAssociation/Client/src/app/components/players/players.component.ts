@@ -1,6 +1,6 @@
 import { PlayerModel } from '../../models/players.model';
 import { PlayersService } from '../../services/players.service';
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -28,7 +28,6 @@ import {
   ],
 })
 export class PlayersComponent implements OnInit {
- 
   displayedColumns: string[] = ['currentRankingSingle', 'name',  'country'];
   dataSource: MatTableDataSource<PlayerModel>;
   expandedElement: PlayerModel | null;

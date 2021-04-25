@@ -1,3 +1,4 @@
+import { StatisticsModule } from './components/statistics/statistics.module';
 import { SignupModule } from './components/signup/signup.module';
 import { LoginModule } from './components/login/login.module';
 import { NavBarModule } from './components/nav-bar/nav-bar.module';
@@ -16,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule} from '@angular/material/button';
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { MatButtonModule} from '@angular/material/button';
     MatchesModule,
     NavBarModule, 
     LoginModule,
-    SignupModule
+    SignupModule,
+    StatisticsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+@import '../../../styles.scss';
+
+canvas {
+  cursor: pointer;
+  max-height: 300px;
+  max-width: 600px;
+}
+
+.statistics__hand {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 30px;
+}
+
+.chart__header {
+  color: $color-blue;
+}
