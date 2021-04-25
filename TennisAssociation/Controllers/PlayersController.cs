@@ -57,5 +57,19 @@ namespace TennisAssociation.Controllers
             var player = db.Players.Where(b => b.Id == id).First();
             return Json(player);
         }
+
+        [HttpGet("hand/left")]
+        public IActionResult LeftHanded()
+        {
+            var players = db.Players.Where(p => p.Hand == "left").ToList();
+            return Json(players);
+        }
+        
+        [HttpGet("hand/right")]
+        public IActionResult RightHanded()
+        {
+            var players = db.Players.Where(p => p.Hand == "right").ToList();
+            return Json(players);
+        }
     }
 }
