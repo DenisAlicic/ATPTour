@@ -96,7 +96,7 @@ export class StatisticsComponent implements OnInit {
   }
 
   getLabelFromActiveChart(chart: any) {
-    return chart.active[0]._model.label;
+    return chart.active[0] !== undefined ? chart.active[0]._model.label : null;
   }
 
   getLabelFromHand(hand: string) {
@@ -124,6 +124,8 @@ export class StatisticsComponent implements OnInit {
   }
 
   handChartClicked(event: any) {
+    if(this.getLabelFromActiveChart(event) === null) return;
+
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
     this.playersTitle$.next(this.getLabelFromActiveChart(event) + ' Players');
@@ -136,6 +138,8 @@ export class StatisticsComponent implements OnInit {
   }
 
   heightBarClicked(event: any) {
+    if(this.getLabelFromActiveChart(event) === null) return;
+
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
     this.playersTitle$.next('Players with ' + this.getLabelFromActiveChart(event) + ' of height');
@@ -148,6 +152,8 @@ export class StatisticsComponent implements OnInit {
   }
 
   yearBarClicked(event: any) {
+    if(this.getLabelFromActiveChart(event) === null) return;
+
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
     this.playersTitle$.next(this.getLabelFromActiveChart(event) + ' old players');

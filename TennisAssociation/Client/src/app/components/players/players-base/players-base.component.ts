@@ -29,7 +29,7 @@ export class PlayersBaseComponent implements OnInit {
 
   ngOnInit() {
     if(this.players.length !== 0) {
-      this.dataSource = new MatTableDataSource(this.players);
+      this.dataSource = new MatTableDataSource(this.players.sort(p => p.currentRankingSingle));
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     }
