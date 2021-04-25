@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule} from '@angular/material/button';
 import { ChartsModule } from 'ng2-charts';
+import { IconModule } from './shared/icon.module';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { ChartsModule } from 'ng2-charts';
     LoginModule,
     SignupModule,
     StatisticsModule,
+    IconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

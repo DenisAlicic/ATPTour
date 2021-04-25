@@ -1,34 +1,6 @@
-@import '../../../styles.scss';
-@import "../../../../node_modules/flag-icon-css/css/flag-icon.min.css";
-
-.box__players {
+.mat__spinner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  overflow-y: auto;
-}
-
-.details__card_img {
-  width: 115px;
-  height: 137px;
-  max-width: 115px;
-  max-height: 137px;
-}
-
-.details__card_body {
-  display: flex;
-  flex-direction: column;
-  margin-left: 122px;
-}
-
-@media only screen and (max-width: $app-sm) {
-  .details__card_body {
-    margin-left: 18px;
-  }
-
-  .details__card_img {
-    width: 100px;
-    height: 120px;
-  }
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
 }

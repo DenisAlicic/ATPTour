@@ -1,6 +1,6 @@
-import { TitleCasePipe, UpperCasePipe } from '@angular/common';
+import { PlayersService } from './../../services/players.service';
+import { LowerCasePipe, TitleCasePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Color } from 'ng2-charts';
 import { BehaviorSubject } from 'rxjs';
 import { StatisticsService } from 'src/app/services/statistics.service';
 
@@ -10,31 +10,29 @@ import { StatisticsService } from 'src/app/services/statistics.service';
   styleUrls: ['./statistics.component.scss']
 })
 export class StatisticsComponent implements OnInit {
-  // Pie
+  // Hand Chart Pie
   handPieChartLabels$ = new BehaviorSubject([]);
   handPieChartData$ = new BehaviorSubject([]);
-
   handPieOptions: any = {
     legend: { position: 'left' }
   }
-
-  pieChartColors: Array<any> = [{
+  handPieChartColors: Array<any> = [{
     backgroundColor: ['#ac97c1', '#71839d'],
   }];
 
+  showStatistics$ = new BehaviorSubject(true);
+
+  showPlayersByHand$ = new BehaviorSubject(false);
+  arePlayersLoading$ = new BehaviorSubject(false);
+  players$ = new BehaviorSubject([]);
+  playersTitle$ = new BehaviorSubject('');
+
   constructor(
     private statisticsService: StatisticsService,
-    private titleCasePipe: TitleCasePipe
+    private playersService: PlayersService,
+    private titleCasePipe: TitleCasePipe,
+    private lowerCasePipe: LowerCasePipe,
   ) {}
-
-  // events
-  // public chartClicked(e:any):void {
-  //   console.log(e);
-  // }
-  
-  // public chartHovered(e:any):void {
-  //   console.log(e);
-  // }
 
   ngOnInit() {
     this.loadHandStatistics();
@@ -49,5 +47,30 @@ export class StatisticsComponent implements OnInit {
 
   getLabel(hand: string) {
     return this.titleCasePipe.transform(hand + ' Handed'); 
+  }
+
+  getLabelFromActiveChart(chart: any) {
+    return chart.active[0]._model.label;
+  }
+
+  getHandFromLabel(chart: any) {
+    return this.lowerCasePipe.transform(this.getLabelFromActiveChart(chart).split(' ')[0]);
+  }
+
+  public handChartClicked(e:any) {
+    this.showStatistics$.next(false);
+    this.arePlayersLoading$.next(true);
+    this.playersTitle$.next(this.getLabelFromActiveChart(e) + ' Players');
+    const hand = this.getHandFromLabel(e);
+    this.playersService.getPlayersByHand(hand).subscribe(value => {
+      this.players$.next(value);
+      this.arePlayersLoading$.next(false);
+      this.showPlayersByHand$.next(true);
+    });
+  }
+
+  backToStatistics() {
+    this.showStatistics$.next(true);
+    this.showPlayersByHand$.next(false);
   }
 }
