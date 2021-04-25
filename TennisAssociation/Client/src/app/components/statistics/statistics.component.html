@@ -1,11 +1,11 @@
 <app-nav-bar> </app-nav-bar>
 
 <div class="table__header"> 
-  Statistics
+  Players Statistics
 </div>
 
 <div style="overflow-y: scroll; max-height: 500px;"> 
-  <div *ngIf="(showStatistics$ | async)" class="statistics__hand">
+  <div *ngIf="(showStatistics$ | async)" class="statistics">
     <h4 class="chart__header"> Players hand statistics</h4>
     <canvas baseChart
       chartType="pie"
@@ -15,9 +15,20 @@
       [options]="handPieOptions"
       (chartClick)="handChartClicked($event)"
     ></canvas>
+
+    <h4 class="chart__header"> Players height statistics</h4>
+    <canvas baseChart 
+      chartType="bar"
+      [labels]="heightsBarLabels$ | async"
+      [data]="heightsBarData$ | async"
+      [options]="heightsBarOpions"
+      [legend]="false"
+      (chartClick)="heightBarClicked($event)"
+    >
+    </canvas>
   </div>
 
-  <ng-container *ngIf="!(arePlayersLoading$ | async) && (showPlayersByHand$ | async)">
+  <ng-container *ngIf="!(arePlayersLoading$ | async) && ((showPlayersByHand$ | async) || (showPlayersByHeights$ | async))">
     <div class="statistics__players_header d-flex flex-row justify-content-start">  
       <mat-icon svgIcon="arrowBack" class="back__icon" (click)="backToStatistics()"></mat-icon>
       <h4 class="header">{{playersTitle$ | async}}</h4>

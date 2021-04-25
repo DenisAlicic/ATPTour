@@ -15,17 +15,25 @@ export class StatisticsComponent implements OnInit {
   handPieChartData$ = new BehaviorSubject([]);
   handPieOptions: any = {
     legend: { position: 'left' }
-  }
+  };
   handPieChartColors: Array<any> = [{
     backgroundColor: ['#ac97c1', '#71839d'],
   }];
 
-  showStatistics$ = new BehaviorSubject(true);
+  // Height bars
+  heightsBarLabels$ = new BehaviorSubject([]);
+  heightsBarData$ = new BehaviorSubject([]);
+  heightsBarOpions: any = {
+    legend: { position: 'left' }
+  };
 
-  showPlayersByHand$ = new BehaviorSubject(false);
+  showStatistics$ = new BehaviorSubject(true);
   arePlayersLoading$ = new BehaviorSubject(false);
   players$ = new BehaviorSubject([]);
   playersTitle$ = new BehaviorSubject('');
+
+  showPlayersByHand$ = new BehaviorSubject(false);
+  showPlayersByHeights$ = new BehaviorSubject(false);
 
   constructor(
     private statisticsService: StatisticsService,
@@ -36,41 +44,80 @@ export class StatisticsComponent implements OnInit {
 
   ngOnInit() {
     this.loadHandStatistics();
+    this.loadHeightsStatistics();
   }
 
   loadHandStatistics() {
     this.statisticsService.getHandStatistics().subscribe(value => {
-      this.handPieChartLabels$.next([this.getLabel(value[0].hand), this.getLabel(value[1].hand)]);
+      this.handPieChartLabels$.next([this.getLabelFromHand(value[0].hand), this.getLabelFromHand(value[1].hand)]);
       this.handPieChartData$.next([value[0].count, value[1].count]);
     });
   }
 
-  getLabel(hand: string) {
-    return this.titleCasePipe.transform(hand + ' Handed'); 
+  loadHeightsStatistics() {
+    this.statisticsService.getHeightsStatistics().subscribe(heights => {
+      heights.forEach(el => {
+        // Add label
+        const labels = this.heightsBarLabels$.getValue();
+        labels.push(this.getLabelFromHeight(el.heightRange));
+        this.heightsBarLabels$.next(labels);
+
+        // Add value
+        const values = this.heightsBarData$.getValue();
+        values.push(el.count);
+        this.heightsBarData$.next(values);
+      });
+    });
   }
 
   getLabelFromActiveChart(chart: any) {
     return chart.active[0]._model.label;
   }
 
+  getLabelFromHand(hand: string) {
+    return this.titleCasePipe.transform(hand + ' Handed'); 
+  }
+
   getHandFromLabel(chart: any) {
     return this.lowerCasePipe.transform(this.getLabelFromActiveChart(chart).split(' ')[0]);
   }
 
-  public handChartClicked(e:any) {
+  getLabelFromHeight(heightRange: string) {
+    return heightRange.split('-')[0].trim() + ' cm';
+  }
+
+  getHeightFromLabel(bar: any) {
+    return Number(this.getLabelFromActiveChart(bar).split(' ')[0]);
+  }
+
+  handChartClicked(event: any) {
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
-    this.playersTitle$.next(this.getLabelFromActiveChart(e) + ' Players');
-    const hand = this.getHandFromLabel(e);
-    this.playersService.getPlayersByHand(hand).subscribe(value => {
-      this.players$.next(value);
+    this.playersTitle$.next(this.getLabelFromActiveChart(event) + ' Players');
+    const hand = this.getHandFromLabel(event);
+    this.playersService.getPlayers().subscribe(value => {
+      this.players$.next(value.filter(player => player.hand === hand));
       this.arePlayersLoading$.next(false);
       this.showPlayersByHand$.next(true);
     });
   }
 
+  heightBarClicked(event: any) {
+    this.showStatistics$.next(false);
+    this.arePlayersLoading$.next(true);
+    this.playersTitle$.next('Players with ' + this.getLabelFromActiveChart(event) + ' of height');
+    const height = this.getHeightFromLabel(event);
+    this.playersService.getPlayers().subscribe(value => {
+      this.players$.next(value.filter(player => player.height === height));
+      this.arePlayersLoading$.next(false);
+      this.showPlayersByHeights$.next(true);
+    });
+  }
+
   backToStatistics() {
     this.showStatistics$.next(true);
+    this.arePlayersLoading$.next(false);
     this.showPlayersByHand$.next(false);
+    this.showPlayersByHeights$.next(false);
   }
 }

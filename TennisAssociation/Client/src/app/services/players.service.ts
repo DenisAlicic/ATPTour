@@ -18,8 +18,4 @@ export class PlayersService {
   getPlayerById(id: string) {
     return this.http.get<PlayerModel>(this.playersUrl + id);
   }
-
-  getPlayersByHand(hand: string) {
-    return this.http.get<PlayerModel[]>(this.playersUrl + this.handUrl + hand);
-  }
 }

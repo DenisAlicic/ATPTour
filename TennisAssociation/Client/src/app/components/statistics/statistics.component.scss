@@ -2,14 +2,14 @@
 
 canvas {
   cursor: pointer;
-  max-height: 300px;
-  max-width: 600px;
+  max-height: 250px;
+  max-width: 550px;
 }
 
-.statistics__hand {
+.statistics {
   display: flex;
-  flex-direction: column;
-  margin: 30px 0 0 30px;
+  flex-direction: row;
+  margin: 30px 30px 0 30px;
 }
 
 .chart__header {
@@ -17,8 +17,8 @@ canvas {
 }
 
 .statistics__players_header {
-  margin: 30px 0 0 30px;
   color: $color-blue;
+  margin: 30px 20px 0 20px;
 }
 
 .back__icon {
@@ -32,7 +32,12 @@ canvas {
 }
 
 @media only screen and (max-width: $app-sm) {
-  .statistics__players_header {
-    margin: 30px 0 0 20px;
+  .statistics {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .chart__header {
+    margin-top: 20px;
   }
 }

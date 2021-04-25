@@ -1,6 +1,7 @@
 @import 'src/styles/variables';
 
-.topnav {
+.topnav { 
+  position: relative;
   overflow: hidden;
   background-color: $color-blue;
 }
@@ -32,4 +33,15 @@
 .logout {
   position: absolute;
   right: 0;
+  bottom: 0;
 }
+
+@media only screen and (max-width: $app-sm) {
+  .topnav {
+    min-height: 106px;
+  }
+
+  .topnav a {
+    min-width: 90px;
+  }
+} 
