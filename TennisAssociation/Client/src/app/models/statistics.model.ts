@@ -6,3 +6,7 @@ export interface HeightsStatisticsModel {
   heightRange: string;
   count: number;
 }
+export interface YearsStatisticsModel {
+  age: number;
+  count: number;
+}

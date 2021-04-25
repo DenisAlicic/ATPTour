@@ -27,6 +27,13 @@ export class StatisticsComponent implements OnInit {
     legend: { position: 'left' }
   };
 
+  // Years bars
+  yearsBarLabels$ = new BehaviorSubject([]);
+  yearsBarData$ = new BehaviorSubject([]);
+  yearsBarOpions: any = {
+    legend: { position: 'left' }
+  };
+
   showStatistics$ = new BehaviorSubject(true);
   arePlayersLoading$ = new BehaviorSubject(false);
   players$ = new BehaviorSubject([]);
@@ -34,6 +41,7 @@ export class StatisticsComponent implements OnInit {
 
   showPlayersByHand$ = new BehaviorSubject(false);
   showPlayersByHeights$ = new BehaviorSubject(false);
+  showPlayersByYears$ = new BehaviorSubject(false);
 
   constructor(
     private statisticsService: StatisticsService,
@@ -45,6 +53,7 @@ export class StatisticsComponent implements OnInit {
   ngOnInit() {
     this.loadHandStatistics();
     this.loadHeightsStatistics();
+    this.loadYearsStatistics();
   }
 
   loadHandStatistics() {
@@ -70,6 +79,22 @@ export class StatisticsComponent implements OnInit {
     });
   }
 
+  loadYearsStatistics() {
+    this.statisticsService.getYearsStatistics().subscribe(years => {
+      years.forEach(el => {
+        // Add label
+        const labels = this.yearsBarLabels$.getValue();
+        labels.push(this.getLabelFromYears(el.age));
+        this.yearsBarLabels$.next(labels);
+
+        // Add value
+        const values = this.yearsBarData$.getValue();
+        values.push(el.count);
+        this.yearsBarData$.next(values);
+      });
+    });
+  }
+
   getLabelFromActiveChart(chart: any) {
     return chart.active[0]._model.label;
   }
@@ -87,6 +112,14 @@ export class StatisticsComponent implements OnInit {
   }
 
   getHeightFromLabel(bar: any) {
+    return Number(this.getLabelFromActiveChart(bar).split(' ')[0]);
+  }
+
+  getLabelFromYears(age: number) {
+    return age + ' years';
+  }
+
+  getYearsFromLabel(bar: any) {
     return Number(this.getLabelFromActiveChart(bar).split(' ')[0]);
   }
 
@@ -114,10 +147,23 @@ export class StatisticsComponent implements OnInit {
     });
   }
 
+  yearBarClicked(event: any) {
+    this.showStatistics$.next(false);
+    this.arePlayersLoading$.next(true);
+    this.playersTitle$.next(this.getLabelFromActiveChart(event) + ' old players');
+    const years = this.getHeightFromLabel(event);
+    this.playersService.getPlayers().subscribe(value => {
+      this.players$.next(value.filter(player => (new Date().getFullYear() - new Date(player.birth).getFullYear()) === years));
+      this.arePlayersLoading$.next(false);
+      this.showPlayersByYears$.next(true);
+    });
+  }
+
   backToStatistics() {
     this.showStatistics$.next(true);
     this.arePlayersLoading$.next(false);
     this.showPlayersByHand$.next(false);
     this.showPlayersByHeights$.next(false);
+    this.showPlayersByYears$.next(false);
   }
 }

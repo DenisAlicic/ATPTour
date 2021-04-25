@@ -8,8 +8,14 @@ canvas {
 
 .statistics {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 30px 30px 0 30px;
+}
+
+.statistics__row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .chart__header {
@@ -35,6 +41,11 @@ canvas {
   .statistics {
     margin-top: 0;
     flex-direction: column;
+  }
+
+  .statistics__row {
+    flex-direction: column;
+    margin-bottom: 0;
   }
 
   .chart__header {
