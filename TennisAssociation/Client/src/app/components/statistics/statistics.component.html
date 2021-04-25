@@ -4,23 +4,24 @@
   Statistics
 </div>
 
-<div *ngIf="(showStatistics$ | async)" class="statistics__hand">
-  <h4 class="chart__header"> Players hand statistics</h4>
-  <canvas baseChart
-    chartType="pie"
-    [labels]="handPieChartLabels$ | async"
-    [data]="handPieChartData$ | async"
-    [colors]="handPieChartColors"
-    [options]="handPieOptions"
-    (chartClick)="handChartClicked($event)"
-  ></canvas>
-</div>
-
-<ng-container *ngIf="!(arePlayersLoading$ | async) && (showPlayersByHand$ | async)">
-  <div class="statistics__players_header d-flex flex-row justify-content-start">  
-    <mat-icon svgIcon="arrowBack" class="back__icon" (click)="backToStatistics()"></mat-icon>
-    <h4 class="header">{{playersTitle$ | async}}</h4>
+<div style="overflow-y: scroll; max-height: 500px;"> 
+  <div *ngIf="(showStatistics$ | async)" class="statistics__hand">
+    <h4 class="chart__header"> Players hand statistics</h4>
+    <canvas baseChart
+      chartType="pie"
+      [labels]="handPieChartLabels$ | async"
+      [data]="handPieChartData$ | async"
+      [colors]="handPieChartColors"
+      [options]="handPieOptions"
+      (chartClick)="handChartClicked($event)"
+    ></canvas>
   </div>
-  <app-players-base [players]="players$ | async"> </app-players-base>
-</ng-container>
 
+  <ng-container *ngIf="!(arePlayersLoading$ | async) && (showPlayersByHand$ | async)">
+    <div class="statistics__players_header d-flex flex-row justify-content-start">  
+      <mat-icon svgIcon="arrowBack" class="back__icon" (click)="backToStatistics()"></mat-icon>
+      <h4 class="header">{{playersTitle$ | async}}</h4>
+    </div>
+    <app-players-base [players]="players$ | async"> </app-players-base>
+  </ng-container>
+</div>

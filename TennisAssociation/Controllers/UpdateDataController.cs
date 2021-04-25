@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using TennisAssociation.Models;
 using TennisAssociation.Interfaces;
 using TennisAssociation.Services;
+using System.Globalization;
 
 namespace TennisAssociation.Controllers
 {
@@ -106,7 +107,7 @@ namespace TennisAssociation.Controllers
                         Weight = row[columnNames["weight"]] != null
                             ? (short?) short.Parse(row[columnNames["weight"]])
                             : null,
-                        Birth = DateTime.Parse(row[columnNames["birth"]]),
+                        Birth = DateTime.ParseExact(row[columnNames["birth"]], "MM/dd/yyyy", CultureInfo.InvariantCulture),
                         CurrentRankingSingle = row[columnNames["currentRankingSingle"]] != null
                             ? (short?) short.Parse(row[columnNames["currentRankingSingle"]])
                             : null,
@@ -147,7 +148,7 @@ namespace TennisAssociation.Controllers
                     ResultSecond = row[columnNames["resultSecond"]] != null
                         ? (short?) short.Parse(row[columnNames["resultSecond"]])
                         : null,
-                    Date = DateTime.Parse(row[columnNames["date"]])
+                    Date = DateTime.ParseExact(row[columnNames["date"]], "MM/dd/yyyy", CultureInfo.InvariantCulture)
                 });
             return service.PrepareData() && service.UpdateData(db.Matches, "Matches");
         }

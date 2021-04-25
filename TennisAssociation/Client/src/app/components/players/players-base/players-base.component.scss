@@ -13,21 +13,18 @@
   height: 137px;
   max-width: 115px;
   max-height: 137px;
+  margin-right: 76px;
 }
 
 .details__card_body {
   display: flex;
   flex-direction: column;
-  margin-left: 122px;
 }
 
 @media only screen and (max-width: $app-sm) {
-  .details__card_body {
-    margin-left: 18px;
-  }
-
   .details__card_img {
     width: 100px;
     height: 120px;
+    margin-right: 16px;
   }
 }
