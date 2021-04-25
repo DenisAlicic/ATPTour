@@ -86,6 +86,8 @@ namespace TennisAssociation.Controllers
                 var result = await signInManager.PasswordSignInAsync(myUser, logInInfo.Password, false, false);
                 if (result.Succeeded)
                 {
+                    var isAdmin = await userManager.IsInRoleAsync(myUser, "Admin");
+                    myUser.IsAdmin = isAdmin;
                     return Ok(myUser);
                 }
                 else
