@@ -3,5 +3,6 @@
   <a [routerLink]="['/', Pages.Players]" [routerLinkActive]="['active']">Players</a>
   <a [routerLink]="['/', Pages.Tournaments]" [routerLinkActive]="['active']">Tournaments</a>
   <a [routerLink]="['/', Pages.Matches]" [routerLinkActive]="['active']">Matches</a>
+  <a [routerLink]="['/', Pages.Statistics]" [routerLinkActive]="['active']">Stats</a>
   <a *ngIf="isLogged$ | async" class="logout" (click)="onLogout()">Logout</a>
 </div>

@@ -7,6 +7,7 @@ import { Injectable } from "@angular/core";
 })
 export class PlayersService {
   private readonly playersUrl = 'http://localhost:8080/api/players/';
+  private readonly handUrl = 'hand/';
 
   constructor(private http: HttpClient) { }
 
