@@ -10,7 +10,7 @@ using TennisAssociation.Models;
 namespace TennisAssociation.Migrations
 {
     [DbContext(typeof(TennisAssociationIdentityContext))]
-    [Migration("20210404144004_Initial")]
+    [Migration("20210427150736_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -169,6 +169,9 @@ namespace TennisAssociation.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsAdmin")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
