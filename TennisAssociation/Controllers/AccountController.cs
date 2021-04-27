@@ -99,6 +99,38 @@ namespace TennisAssociation.Controllers
             return NotFound(myUser);
         }
 
+
+        /// POST api/account/changepass
+        /// <summary>
+        /// Change password for a user.
+        /// </summary>
+        /// <param name="logInInfo">User for which we need to change the password.</param>
+        /// <returns>Returns true if succeeded</returns>
+        [HttpPost("changepass")]
+        public async Task<IActionResult> ChangePass(UserUpdateInfo updateInfo)
+        {
+            MyUser myUser = await userManager.FindByNameAsync(updateInfo.Username);
+
+            if (myUser != null)
+            {
+                var result = await signInManager.PasswordSignInAsync(myUser, updateInfo.Password, false, false);
+
+                if (result.Succeeded)
+                {
+                    var token = await userManager.GeneratePasswordResetTokenAsync(myUser);
+                    var changePasswordResult = await userManager.ResetPasswordAsync(myUser, token, updateInfo.NewPassword);
+                    if (changePasswordResult.Succeeded)
+                    {
+                        return Ok();
+                    }
+
+                    return BadRequest();
+                }
+            }
+
+            return NotFound();
+        }
+
         /// GET api/account/signout
         /// <summary>
         /// Sign out the active users.
