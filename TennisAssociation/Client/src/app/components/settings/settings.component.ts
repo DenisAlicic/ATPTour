@@ -12,7 +12,7 @@ import { passwordsMustMatch } from '../signup/password.validator';
   styleUrls: ['./settings.component.scss']
 })
 export class SettingsComponent implements OnInit {
-  isAdmin$ = new BehaviorSubject(true);
+  isAdmin$ = new BehaviorSubject(false);
 
   changePassForm: FormGroup;
   minPasswordLength = minPasswordLength;
@@ -37,7 +37,7 @@ export class SettingsComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.isAdmin$.next(this.authService.isAdmin());
+    this.isAdmin$.next(this.authService.isAdmin());
   }
 
   get f() { return this.changePassForm.controls; }
