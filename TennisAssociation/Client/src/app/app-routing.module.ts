@@ -1,3 +1,4 @@
+import { SettingsComponent } from './components/settings/settings.component';
 import { PlayersComponent } from './components/players/players.component';
 import { TournamentsComponent } from './components/tournaments/tournaments.component';
 import { MatchesComponent } from './components/matches/matches.component';
@@ -16,7 +17,9 @@ const routes: Routes = [
   { path: Pages.Players, component: PlayersComponent, canActivate: [LoginActivate] },
   { path: Pages.Tournaments, component: TournamentsComponent, canActivate: [LoginActivate] },
   { path: Pages.Matches, component: MatchesComponent, canActivate: [LoginActivate] },
-  { path: Pages.Statistics, component: StatisticsComponent, canActivate: [LoginActivate] }
+  { path: Pages.Statistics, component: StatisticsComponent, canActivate: [LoginActivate] },
+  { path: Pages.Settings, component: SettingsComponent, canActivate: [LoginActivate]},
+  { path: '**', redirectTo: Pages.Players, canActivate: [LoginActivate] },
 ];
 
 @NgModule({

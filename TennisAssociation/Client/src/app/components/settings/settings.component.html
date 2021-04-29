@@ -1,0 +1,73 @@
+<app-nav-bar> </app-nav-bar>
+
+<div class="settings"> 
+  <div> 
+    <div class="d-flex flex-row"> 
+      <div class="title">Change Password</div>
+      <div class="success__msg" *ngIf="isPasswordChangedSuccessfully$ | async">Your password is changed</div>
+    </div>
+
+    <div class="passForm">
+      <form [formGroup]="changePassForm"> 
+        <div class="w-100">
+          <input
+            type="password"
+            class="form__input"
+            [class.form__input__invalid]="f.password.invalid && f.password.touched"
+            formControlName="password"
+            placeholder="Current password" 
+          />
+        </div>
+
+        <div class="w-100">
+          <input
+            type="password"
+            class="form__input"
+            [class.form__input__invalid]="f.newPassword.invalid && f.newPassword.touched"
+            formControlName="newPassword"
+            placeholder="New password" 
+          />
+
+          <ng-container *ngIf="f.newPassword.touched">
+            <div class="invalid" *ngIf="f.newPassword.errors?.required">Password is a required field</div>
+            <div class="invalid" *ngIf="f.newPassword.errors?.minlength">Password must contain at least 8 letters</div>
+            <div class="invalid" *ngIf="f.newPassword.errors?.maxlength">Your password is too long</div>
+          </ng-container>
+        </div>
+
+        <div class="w-100">
+          <input
+            type="password"
+            class="form__input"
+            [class.form__input__invalid]="f.confirmPassword.invalid && f.confirmPassword.touched"
+            formControlName="confirmPassword"
+            placeholder="Confirm password" 
+          />
+
+          <ng-container *ngIf="f.confirmPassword.touched">
+            <div class="invalid" *ngIf="f.confirmPassword.errors?.required">Please confirm your password</div>
+            <div class="invalid" *ngIf="f.confirmPassword.errors?.minlength">Password must contain at least {{minPasswordLength}} letters</div>
+            <div class="invalid" *ngIf="f.confirmPassword.errors?.maxlength">Your password is too long</div>
+            <div class="invalid" *ngIf="f.confirmPassword.errors?.mustMatch">Passwords must match</div>
+          </ng-container>
+        </div>
+
+        <div style="display: flex;" class="invalid" *ngIf="isError$ | async">Something went wrong. Please check your passwords and try again.</div>
+        <button type="submit" class="form__submit mt-16 mb-8" [class.form__submit__disabled]="!changePassForm.valid" [disabled]="!changePassForm.valid" (click)="onChangePassword()">Change password</button>
+      </form>
+    </div>
+  </div>
+
+  <div *ngIf="isAdmin$ | async" class="admin__wrapper">
+    <div class="d-flex flex-row"> 
+      <div class="title">Update databases</div>
+      <div class="success__msg" *ngIf="isUpdateSuccessfull$ | async">Updated successfully</div>
+    </div>
+
+    <button class="form__submit update__btn mt-16" (click)="onUpdatePlayersDb()">Click to update players DB</button>
+    <button class="form__submit update__btn mt-16" (click)="onUpdateTournamentsDb()">Click to update tournaments DB</button>
+    <button class="form__submit update__btn mt-16" (click)="onUpdateMatchesDb()">Click to update matches DB</button>
+
+    <div style="display: flex;" class="invalid" *ngIf="isError$ | async">Something went wrong. Please try again later.</div>
+  </div>
+</div>

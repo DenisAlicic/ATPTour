@@ -1,8 +1,12 @@
 <div class="topnav" id="myTopnav">
-  <!-- <a [routerLink]="['/', Pages.Home]" [routerLinkActive]="['active']">Home</a> -->
-  <a [routerLink]="['/', Pages.Players]" [routerLinkActive]="['active']">Players</a>
-  <a [routerLink]="['/', Pages.Tournaments]" [routerLinkActive]="['active']">Tournaments</a>
+  <a class="app-ellipsis tennis">Tennis</a>
+  <a [routerLink]="['/', Pages.Players]" [routerLinkActive]="['active']" class="app-ellipsis">Players</a>
+  <a [routerLink]="['/', Pages.Tournaments]" [routerLinkActive]="['active']" class="app-ellipsis">Tournaments</a>
   <a [routerLink]="['/', Pages.Matches]" [routerLinkActive]="['active']">Matches</a>
-  <a [routerLink]="['/', Pages.Statistics]" [routerLinkActive]="['active']">Stats</a>
-  <a *ngIf="isLogged$ | async" class="logout" (click)="onLogout()">Logout</a>
+  <a [routerLink]="['/', Pages.Statistics]" [routerLinkActive]="['active']" class="app-ellipsis">Statistics</a>
+  <div class="right__side"> 
+    <a [routerLink]="['/', Pages.Settings]" [routerLinkActive]="['active']">Settings</a>
+    <a *ngIf="isLogged$ | async" (click)="onLogout()">Logout</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" (click)="addMobileTheme()">&#9776;</a>
 </div>

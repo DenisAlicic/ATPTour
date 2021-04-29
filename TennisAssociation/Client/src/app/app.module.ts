@@ -1,3 +1,4 @@
+import { SettingsModule } from './components/settings/settings.module';
 import { StatisticsModule } from './components/statistics/statistics.module';
 import { SignupModule } from './components/signup/signup.module';
 import { LoginModule } from './components/login/login.module';
@@ -41,7 +42,8 @@ import { IconModule } from './shared/icon.module';
     LoginModule,
     SignupModule,
     StatisticsModule,
-    IconModule
+    IconModule,
+    SettingsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
