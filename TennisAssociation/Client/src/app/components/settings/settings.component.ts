@@ -96,5 +96,4 @@ export class SettingsComponent implements OnInit {
       _ => this.onError()
     );
   }
-
 }

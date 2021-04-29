@@ -18,7 +18,8 @@ const routes: Routes = [
   { path: Pages.Tournaments, component: TournamentsComponent, canActivate: [LoginActivate] },
   { path: Pages.Matches, component: MatchesComponent, canActivate: [LoginActivate] },
   { path: Pages.Statistics, component: StatisticsComponent, canActivate: [LoginActivate] },
-  { path: Pages.Settings, component: SettingsComponent, canActivate: [LoginActivate]}
+  { path: Pages.Settings, component: SettingsComponent, canActivate: [LoginActivate]},
+  { path: '**', redirectTo: Pages.Players, canActivate: [LoginActivate] },
 ];
 
 @NgModule({
