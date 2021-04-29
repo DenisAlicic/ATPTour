@@ -6,6 +6,7 @@ import { passwordsMustMatch } from './password.validator';
 import { Router } from '@angular/router';
 import { alphaPattern, maxNameLength, maxPasswordLength, minPasswordLength } from 'src/app/shared/constants';
 import { Pages } from 'src/app/shared/pages';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-signup',
@@ -16,11 +17,11 @@ export class SignupComponent {
   Pages = Pages;
   
   signupForm: FormGroup;
+  isError$ = new BehaviorSubject(false);
   minPasswordLength = minPasswordLength;
 
   constructor(
     private formBuilder: FormBuilder, 
-    private alertService: AlertService,
     private authService: AuthService,
     private router: Router
   ) { 
@@ -40,16 +41,18 @@ export class SignupComponent {
   get f() { return this.signupForm.controls; }
 
   onSubmit() {
-    
     this.authService.signup(this.signupForm.value)
       .subscribe(
         _ => {
-          this.alertService.success('Registration successful', true);
           this.router.navigate(['/', Pages.Login]);
         },
         error => {
-          this.alertService.error(error);
+          this.isError$.next(true);
+          setTimeout(() => {
+            this.isError$.next(false);
+          }, 3000);
       });
   }
 
 }
+

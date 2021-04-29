@@ -39,7 +39,6 @@ export class LoginComponent {
     this.authService.login(this.loginForm.value)
       .subscribe(
         data => {
-          console.log(data);
           this.router.navigate(['/', Pages.Players]);
         },
         error => {
