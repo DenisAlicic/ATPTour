@@ -44,7 +44,7 @@ export class LoginComponent {
         },
         error => {
           this.isError$.next(true);
-          this.errorMessage$.next(error.message);
+          this.errorMessage$.next(error.error);
           setTimeout(() => {
             this.isError$.next(false);
           }, 3000);

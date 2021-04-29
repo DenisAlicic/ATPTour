@@ -101,7 +101,7 @@
         </ng-container>
       </div>
 
-      <div style="display: flex;" class="invalid" *ngIf="isError$ | async">{{errorMessage$ | aync}}</div>
+      <div style="display: flex;" class="invalid" *ngIf="isError$ | async">{{errorMessage$ | async}}</div>
 
       <button type="submit" class="form__submit mt-16 mb-8" [class.form__submit__disabled]="!signupForm.valid" [disabled]="!signupForm.valid" (click)="onSubmit()">Sign up</button>
       <span class="form__text">Already a user? <a [routerLink]="['/', Pages.Login]"> Log in here</a></span>
