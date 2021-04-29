@@ -5,5 +5,6 @@ export enum Pages {
   Players = 'players',
   Tournaments = 'tournaments',
   Matches = 'matches',
-  Statistics = 'statistics'
+  Statistics = 'statistics',
+  Settings = 'settings'
 }

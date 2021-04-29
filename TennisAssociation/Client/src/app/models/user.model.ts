@@ -5,3 +5,9 @@ export interface UserModel {
   username: string;
   password: string;
 }
+
+export interface ChangePassModel {
+  username: string;
+  password: string;
+  newPassword: string;
+}

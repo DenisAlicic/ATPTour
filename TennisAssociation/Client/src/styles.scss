@@ -20,6 +20,20 @@ html, body {
   letter-spacing: 0.15px;
 }
 
+.app-ellipsis {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  line-height: 24px;
+
+  span {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    line-height: 24px;
+  }
+}
+
 // LINKS
 a {
   @extend %base-text;
@@ -92,5 +106,9 @@ a:hover {
 
   .dot {
     display: none;
+  }
+
+  .mat-paginator-container {
+    flex-wrap: nowrap !important;
   }
 }

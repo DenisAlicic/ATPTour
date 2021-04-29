@@ -1,0 +1,68 @@
+@import 'src/styles/variables';
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 40px 60px 0 60px;
+}
+
+.passForm {
+  width: 400px;
+}
+
+.success__msg {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  line-height: 24px;
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.44px;
+  color: $color-blue;
+} 
+
+.admin__wrapper {
+  width: 400px;
+}
+
+.update__btn {
+  height: 40px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+
+@media only screen and (max-width: $app-md) {
+  .settings {
+    margin: 0 20px;
+    flex-direction: column;
+    max-height: 85%;
+    overflow: scroll;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .admin__wrapper {
+    width: auto;
+  }
+
+  .passForm {
+    width: auto;
+  }
+
+  .form__input {
+    height: 40px;
+  }
+}
