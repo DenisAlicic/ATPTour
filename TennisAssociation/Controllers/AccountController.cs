@@ -50,7 +50,7 @@ namespace TennisAssociation.Controllers
         /// <param name="user">User to be registered.</param>
         /// <returns>Returns true if register succeeded</returns>
         [HttpPost("register")]
-        public async Task<bool> RegisterUser(User user)
+        public async Task<IActionResult> RegisterUser(User user)
         {
             MyUser myUser = new MyUser
             {
@@ -59,14 +59,14 @@ namespace TennisAssociation.Controllers
             };
 
             IdentityResult result = await userManager.CreateAsync(myUser, user.Password);
-            bool success = result.Succeeded;
 
-            if (success)
+            if (result.Succeeded)
             {
                 await userManager.AddToRoleAsync(myUser, "Basic");
+                return Ok(user);
             }
 
-            return success;
+            return StatusCode(409, "Register failed.");
         }
 
         /// POST api/account/login
@@ -96,7 +96,7 @@ namespace TennisAssociation.Controllers
                 }
             }  
 
-            return NotFound(myUser);
+            return StatusCode(401, "Login failed.");
         }
 
 
