@@ -18,6 +18,7 @@ export class SignupComponent {
   
   signupForm: FormGroup;
   isError$ = new BehaviorSubject(false);
+  errorMessage$ = new BehaviorSubject('');
   minPasswordLength = minPasswordLength;
 
   constructor(
@@ -48,6 +49,7 @@ export class SignupComponent {
         },
         error => {
           this.isError$.next(true);
+          this.errorMessage$.next(error.message);
           setTimeout(() => {
             this.isError$.next(false);
           }, 3000);

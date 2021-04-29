@@ -15,6 +15,7 @@ export class LoginComponent {
 
   loginForm: FormGroup;
   isError$ = new BehaviorSubject(false);
+  errorMessage$ = new BehaviorSubject('');
   minPasswordLength = minPasswordLength;
   returnUrl: string;
 
@@ -43,6 +44,7 @@ export class LoginComponent {
         },
         error => {
           this.isError$.next(true);
+          this.errorMessage$.next(error.message);
           setTimeout(() => {
             this.isError$.next(false);
           }, 3000);
