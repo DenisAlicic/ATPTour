@@ -92,11 +92,11 @@ namespace TennisAssociation.Controllers
                 }
                 else
                 {
-                    return NotFound(myUser);
+                    return StatusCode(401, "Password incorrect.");
                 }
             }  
 
-            return StatusCode(401, "Login failed.");
+            return StatusCode(401, "Username incorrect.");
         }
 
 
@@ -121,14 +121,18 @@ namespace TennisAssociation.Controllers
                     var changePasswordResult = await userManager.ResetPasswordAsync(myUser, token, updateInfo.NewPassword);
                     if (changePasswordResult.Succeeded)
                     {
-                        return Ok();
+                        return Ok(myUser);
                     }
 
-                    return BadRequest();
+                    return StatusCode(409, "Someting went wrong. Try later.");
+                }
+                else
+                {
+                    return StatusCode(401, "Password incorrect.");
                 }
             }
 
-            return NotFound();
+            return StatusCode(401, "Username incorrect.");
         }
 
         /// GET api/account/signout
@@ -137,10 +141,10 @@ namespace TennisAssociation.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("signout")]
-        public async Task<bool> SignOut()
+        public async Task<IActionResult> SignOut()
         {
             await signInManager.SignOutAsync();
-            return true;
+            return Ok();
         }
 
         // POST api/account/remove
@@ -150,18 +154,22 @@ namespace TennisAssociation.Controllers
         /// <param name="id">User's id to be removed.</param>
         /// <returns>Returns true removal succeeded</returns>
         [HttpPost("remove")]
-        public async Task<bool> RemoveUser([FromBody]string id)
+        public async Task<IActionResult> RemoveUser([FromBody]string id)
         {
             MyUser myUser = await userManager.FindByIdAsync(id);
 
             if (myUser != null)
             {
                 IdentityResult result = await userManager.DeleteAsync(myUser);
-                return result.Succeeded;
+                if (result.Succeeded)
+                {
+                    return Ok(myUser);
+                }
 
+                return StatusCode(409, "Someting went wrong. Try later.");
             }
             
-            return false;
+            return StatusCode(401, "Username incorrect.");
         }
     }
 }
