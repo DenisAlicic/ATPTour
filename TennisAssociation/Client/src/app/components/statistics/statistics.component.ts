@@ -77,7 +77,7 @@ export class StatisticsComponent implements OnInit {
       heights.forEach(el => {
         // Add label
         const labels = this.heightsBarLabels$.getValue();
-        labels.push(this.getLabelFromHeight(el.heightRange));
+        labels.push(el.heightRange + ' cm');
         this.heightsBarLabels$.next(labels);
 
         // Add value
@@ -132,12 +132,9 @@ export class StatisticsComponent implements OnInit {
     return this.lowerCasePipe.transform(this.getLabelFromActiveChart(chart).split(' ')[0]);
   }
 
-  getLabelFromHeight(heightRange: string) {
-    return heightRange.split('-')[0].trim() + ' cm';
-  }
-
   getHeightFromLabel(bar: any) {
-    return Number(this.getLabelFromActiveChart(bar).split(' ')[0]);
+    const years = this.getLabelFromActiveChart(bar).split('-');
+    return {minHeigth: Number(years[0]), maxHeigth: Number(years[1].split(' ')[0].trim())};
   }
 
   getLabelFromYears(age: number) {
@@ -172,12 +169,25 @@ export class StatisticsComponent implements OnInit {
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
     this.playersTitle$.next('Players with ' + this.getLabelFromActiveChart(event) + ' of height');
-    const height = this.getHeightFromLabel(event);
+    const heights = this.getHeightFromLabel(event);
     this.playersService.getPlayers().subscribe(value => {
-      this.players$.next(value.filter(player => player.height === height));
+      this.players$.next(value.filter(player => player.height >= heights.minHeigth && player.height <= (heights.maxHeigth - 1)));
       this.arePlayersLoading$.next(false);
       this.showPlayersByHeights$.next(true);
     });
+  }
+
+  public ageFromDateOfBirthday(dateOfBirth: any): number {
+    const today = new Date();
+    const birthDate = new Date(dateOfBirth);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+
+    return age;
   }
 
   yearBarClicked(event: any) {
@@ -186,9 +196,9 @@ export class StatisticsComponent implements OnInit {
     this.showStatistics$.next(false);
     this.arePlayersLoading$.next(true);
     this.playersTitle$.next(this.getLabelFromActiveChart(event) + ' old players');
-    const years = this.getHeightFromLabel(event);
+    const years = this.getYearsFromLabel(event);
     this.playersService.getPlayers().subscribe(value => {
-      this.players$.next(value.filter(player => (new Date().getFullYear() - new Date(player.birth).getFullYear()) === years));
+      this.players$.next(value.filter(player => this.ageFromDateOfBirthday(player.birth) === years));
       this.arePlayersLoading$.next(false);
       this.showPlayersByYears$.next(true);
     });
