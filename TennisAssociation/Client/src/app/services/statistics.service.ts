@@ -1,4 +1,4 @@
-import { HandStatisticsModel, HeightsStatisticsModel, YearsStatisticsModel } from './../models/statistics.model';
+import { CountriesStatisticsModel, HandStatisticsModel, HeightsStatisticsModel, YearsStatisticsModel } from './../models/statistics.model';
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
@@ -11,6 +11,7 @@ export class StatisticsService {
   private readonly handUrl = 'hand';
   private readonly heightUrl = 'heights';
   private readonly yearUrl = 'years';
+  private readonly countriesUrl = 'countries';
 
   constructor(private http: HttpClient) { }
 
@@ -24,5 +25,9 @@ export class StatisticsService {
 
   getYearsStatistics() {
     return this.http.get<YearsStatisticsModel[]>(this.statisticsUrl + this.yearUrl);
+  }
+
+  getCountriesStatistics() {
+    return this.http.get<CountriesStatisticsModel[]>(this.statisticsUrl + this.countriesUrl);
   }
 }

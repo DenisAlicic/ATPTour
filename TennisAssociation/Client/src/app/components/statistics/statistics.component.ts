@@ -34,6 +34,13 @@ export class StatisticsComponent implements OnInit {
     legend: { position: 'left' }
   };
 
+  // Countries bars
+  countriesBarLabels$ = new BehaviorSubject([]);
+  countriesBarData$ = new BehaviorSubject([]);
+  countriesBarOpions: any = {
+    legend: { position: 'left' }
+  };
+
   showStatistics$ = new BehaviorSubject(true);
   arePlayersLoading$ = new BehaviorSubject(false);
   players$ = new BehaviorSubject([]);
@@ -42,6 +49,7 @@ export class StatisticsComponent implements OnInit {
   showPlayersByHand$ = new BehaviorSubject(false);
   showPlayersByHeights$ = new BehaviorSubject(false);
   showPlayersByYears$ = new BehaviorSubject(false);
+  showPlayersByCountries$ = new BehaviorSubject(false);
 
   constructor(
     private statisticsService: StatisticsService,
@@ -54,6 +62,7 @@ export class StatisticsComponent implements OnInit {
     this.loadHandStatistics();
     this.loadHeightsStatistics();
     this.loadYearsStatistics();
+    this.loadCountriesStatistics();
   }
 
   loadHandStatistics() {
@@ -95,6 +104,22 @@ export class StatisticsComponent implements OnInit {
     });
   }
 
+  loadCountriesStatistics() {
+    this.statisticsService.getCountriesStatistics().subscribe(countries => {
+      countries.forEach(el => {
+        // Add label
+        const labels = this.countriesBarLabels$.getValue();
+        labels.push(el.country);
+        this.countriesBarLabels$.next(labels);
+
+        // Add value
+        const values = this.countriesBarData$.getValue();
+        values.push(el.count);
+        this.countriesBarData$.next(values);
+      });
+    });
+  }
+
   getLabelFromActiveChart(chart: any) {
     return chart.active[0] !== undefined ? chart.active[0]._model.label : null;
   }
@@ -121,6 +146,10 @@ export class StatisticsComponent implements OnInit {
 
   getYearsFromLabel(bar: any) {
     return Number(this.getLabelFromActiveChart(bar).split(' ')[0]);
+  }
+
+  getCountryFromLabel(bar: any) {
+    return this.getLabelFromActiveChart(bar).split(' ')[0];
   }
 
   handChartClicked(event: any) {
@@ -165,11 +194,26 @@ export class StatisticsComponent implements OnInit {
     });
   }
 
+  countryBarClicked(event: any) {
+    if(this.getLabelFromActiveChart(event) === null) return;
+
+    this.showStatistics$.next(false);
+    this.arePlayersLoading$.next(true);
+    this.playersTitle$.next('Players from ' + this.getLabelFromActiveChart(event));
+    const country = this.getCountryFromLabel(event);
+    this.playersService.getPlayers().subscribe(value => {
+      this.players$.next(value.filter(player => player.country === country));
+      this.arePlayersLoading$.next(false);
+      this.showPlayersByCountries$.next(true);
+    });
+  }
+
   backToStatistics() {
     this.showStatistics$.next(true);
     this.arePlayersLoading$.next(false);
     this.showPlayersByHand$.next(false);
     this.showPlayersByHeights$.next(false);
     this.showPlayersByYears$.next(false);
+    this.showPlayersByCountries$.next(false);
   }
 }

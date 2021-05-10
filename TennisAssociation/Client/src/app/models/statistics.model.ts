@@ -10,3 +10,8 @@ export interface YearsStatisticsModel {
   age: number;
   count: number;
 }
+
+export interface CountriesStatisticsModel {
+  country: string;
+  count: number;
+}
