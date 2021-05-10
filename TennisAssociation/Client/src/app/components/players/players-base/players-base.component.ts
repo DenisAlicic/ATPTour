@@ -5,6 +5,17 @@ import { animate, state, style, transition, trigger } from "@angular/animations"
 import { Component, Input, OnInit, ViewChild } from "@angular/core";
 import { PlayerModel } from 'src/app/models/players.model';
 
+export const US = 'USA';
+export const GB = 'Great Britain';
+export const RSA = 'RSA';
+export const MD = 'Moldavsko';
+export const BA = 'Bosnia and Herzeg.';
+export const CN = 'Taipei (CHN)';
+export const DO = 'Dominican Rep.';
+export const TN = 'Tunis';
+export const MP = 'N. Mariana Isl.';
+export const BS = 'Bahamas';
+
 @Component({
   selector: 'app-players-base',
   templateUrl: './players-base.component.html',
@@ -29,18 +40,36 @@ export class PlayersBaseComponent implements OnInit {
 
   ngOnInit() {
     if(this.players.length !== 0) {
-      this.dataSource = new MatTableDataSource(this.players.sort(p => p.currentRankingSingle));
+      this.dataSource = new MatTableDataSource(this.players.sort((player1, player2) => player1.currentRankingSingle - player2.currentRankingSingle));
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     }
   }
 
   getCountryCode(country) {
-    if (!country) {
-      return ''
-    }
-    if (country == 'USA') {
-      return 'flag-icon-us'
+    switch(country) {
+      case '':
+        return '';
+      case US: 
+        return 'flag-icon-us';
+      case GB:
+        return 'flag-icon-gb';
+      case RSA: 
+        return 'flag-icon-za';
+      case MD:
+        return 'flag-icon-md';
+      case BA:
+        return 'flag-icon-ba';
+      case CN:
+        return 'flag-icon-cn';
+      case DO:
+        return 'flag-icon-do';
+      case TN:
+        return 'flag-icon-tn';
+      case MP:
+        return 'flag-icon-mp';
+      case BS:
+        return 'flag-icon-bs';  
     }
 
     const lookup = require('country-code-lookup')
@@ -48,6 +77,7 @@ export class PlayersBaseComponent implements OnInit {
     if (!countryInfo) {
       return ''
     }
+
     return 'flag-icon-'+countryInfo['iso2'].toLowerCase()
   }
 
