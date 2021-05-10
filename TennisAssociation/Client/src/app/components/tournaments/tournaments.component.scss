@@ -11,3 +11,19 @@
 .details__card__tournament__name {
   color: $color-pink;
 }
+
+.details__card_row_div {
+  min-width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot {
+  margin: 0 32px;
+}
+
+@media only screen and (max-width: $app-sm) {
+  .details__card_row_div {
+    min-width: 350px;
+  }
+}

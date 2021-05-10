@@ -40,51 +40,99 @@
                 <span style="font-weight: bold;">{{element.winnerPoints ? 'Ranking: ' + element.winnerPoints : ''}}</span>
                 
                 <div class="details__card_row" *ngIf="element._1RoundPrize || element._1RoundPoints"> 
-                  <span>{{element._1RoundPrize ? '1 round prize: ' + element._1RoundPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._1RoundPrize">
+                    <span>1 round prize: </span>
+                    <span>{{element._1RoundPrize}}</span>
+                  </div>
                   <div *ngIf="element._1RoundPrize && element._1RoundPoints" class="dot"></div> 
-                  <span>{{element._1RoundPoints ? '1 round points: ' + element._1RoundPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._1RoundPoints">
+                    <span>1 round points: </span>
+                    <span>{{element._1RoundPoints}}</span>
+                  </div>
                 </div>
                 
                 <div class="details__card_row" *ngIf="element._2RoundPrize || element._2RoundPoints"> 
-                  <span>{{element._2RoundPrize ? '2 round prize: ' + element._2RoundPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._2RoundPrize">
+                    <span>2 round prize: </span>
+                    <span>{{element._2RoundPrize}}</span>
+                  </div>
                   <div *ngIf="element._2RoundPrize && element._2RoundPoints" class="dot"></div> 
-                  <span>{{element._2RoundPoints ? '2 round points: ' + element._2RoundPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._2RoundPoints">
+                    <span>2 round points: </span>
+                    <span>{{element._2RoundPoints}}</span>
+                  </div>
                 </div>
 
                 <div class="details__card_row" *ngIf="element._3RoundPrize || element._3RoundPoints">
-                  <span>{{element._3RoundPrize ? '3 round prize: ' + element._3RoundPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._3RoundPrize">
+                    <span>3 round prize: </span>
+                    <span>{{element._3RoundPrize}}</span>
+                  </div>
                   <div *ngIf="element._3RoundPrize && element._3RoundPoints" class="dot"></div> 
-                  <span>{{element._3RoundPoints ? '3 round points: ' + element._3RoundPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element._3RoundPoints">
+                    <span>3 round points: </span>
+                    <span>{{element._3RoundPoints}}</span>
+                  </div>
                 </div>
                 
                 <div class="details__card_row" *ngIf="element.roundOf16Prize || element.roundOf16Points">
-                  <span>{{element.roundOf16Prize ? 'Round of 16 prize: ' + element.roundOf16Prize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.roundOf16Prize">
+                    <span>Round of 16 prize: </span>
+                    <span>{{element.roundOf16Prize}}</span>
+                  </div>
                   <div *ngIf="element.roundOf16Prize && element.roundOf16Points" class="dot"></div> 
-                  <span>{{element.roundOf16Points ? 'Round of 16 points: ' + element.roundOf16Points : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.roundOf16Points">
+                    <span>Round of 16 points: </span>
+                    <span>{{element.roundOf16Points}}</span>
+                  </div>  
                 </div>
 
                 <div class="details__card_row" *ngIf="element.quarterfinalPrize || element.quarterfinalPoints">
-                  <span>{{element.quarterfinalPrize ? 'Quarter final prize: ' + element.quarterfinalPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.quarterfinalPrize">
+                    <span>Quarter final prize: </span>
+                    <span>{{element.quarterfinalPrize}}</span>
+                  </div>
                   <div *ngIf="element.quarterfinalPrize && element.quarterfinalPoints" class="dot"></div> 
-                  <span>{{element.quarterfinalPoints ? 'Quarter final points: ' + element.quarterfinalPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.quarterfinalPoints">
+                    <span>Quarter final points: </span>
+                    <span>{{element.quarterfinalPoints}}</span>
+                  </div>  
                 </div>
 
                 <div class="details__card_row" *ngIf="element.semifinalPrize || element.semifinalPoints">
-                  <span>{{element.semifinalPrize ? 'Semi final prize: ' + element.semifinalPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.semifinalPrize">
+                    <span>Semi final prize: </span>
+                    <span>{{element.semifinalPrize}}</span>
+                  </div>
                   <div *ngIf="element.semifinalPrize && element.semifinalPoints" class="dot"></div> 
-                  <span>{{element.semifinalPoints ? 'Semi final points: ' + element.semifinalPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.semifinalPoints">
+                    <span>Semi final points: </span>
+                    <span>{{element.semifinalPoints}}</span>
+                  </div>  
                 </div>
 
                 <div class="details__card_row" *ngIf="element.finalPrize || element.finalPoints">
-                  <span>{{element.finalPrize ? 'Final prize: ' + element.finalPrize : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.finalPrize">
+                    <span>Final prize: </span>
+                    <span>{{element.finalPrize}}</span>
+                  </div>
                   <div *ngIf="element.finalPrize && element.finalPoints" class="dot"></div> 
-                  <span>{{element.finalPoints ? 'Final points: ' + element.finalPoints : ''}}</span>
+                  <div class="details__card_row_div" *ngIf="element.finalPoints">
+                    <span>Final points: </span>
+                    <span>{{element.finalPoints}}</span>
+                  </div>  
                 </div>
 
                 <div class="details__card_row" *ngIf="element.winnerPrize || element.winnerPoints">
-                  <span style="font-weight: bold;">{{element.winnerPrize ? 'Winner prize: ' + element.winnerPrize : ''}}</span>
+                  <div class="details__card_row_div" style="font-weight: bold;" *ngIf="element.winnerPrize">
+                    <span>Winner prize: </span>
+                    <span>{{element.winnerPrize}}</span>
+                  </div>
                   <div *ngIf="element.winnerPrize && element.winnerPoints" class="dot"></div> 
-                  <span style="font-weight: bold;">{{element.winnerPoints ? 'Winner points: ' + element.winnerPoints : ''}}</span>
+                  <div class="details__card_row_div" style="font-weight: bold;" *ngIf="element.winnerPoints">
+                    <span>Winner points: </span>
+                    <span>{{element.winnerPoints}}</span>
+                  </div>  
                 </div>
               </ng-container>
 
