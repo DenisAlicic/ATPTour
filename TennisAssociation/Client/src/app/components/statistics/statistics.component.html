@@ -22,7 +22,8 @@
       chartType="bar"
       [labels]="heightsBarLabels$ | async"
       [data]="heightsBarData$ | async"
-      [options]="heightsBarOpions"
+      [options]="chartOptions"
+      [colors]="heightsBarColors"
       [legend]="false"
       (chartClick)="heightBarClicked($event)"
     >
@@ -33,7 +34,8 @@
       chartType="bar"
       [labels]="yearsBarLabels$ | async"
       [data]="yearsBarData$ | async"
-      [options]="yearsBarOpions"
+      [options]="chartOptions"
+      [colors]="yearsBarColors"
       [legend]="false"
       (chartClick)="yearBarClicked($event)"
     >
@@ -44,7 +46,8 @@
       chartType="bar"
       [labels]="countriesBarLabels$ | async"
       [data]="countriesBarData$ | async"
-      [options]="countriesBarOpions"
+      [options]="chartOptions"
+      [colors]="countriesBarColors"
       [legend]="false"
       (chartClick)="countryBarClicked($event)"
     >
