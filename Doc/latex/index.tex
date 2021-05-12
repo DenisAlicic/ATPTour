@@ -1,0 +1,48 @@
+\label{index_md__home_denis_Documents_Faks_master_RS2_TennisAssociation_README}%
+\Hypertarget{index_md__home_denis_Documents_Faks_master_RS2_TennisAssociation_README}%
+ \DoxyHorRuler{0}
+ \hypertarget{index_autotoc_md1}{}\doxysection{\+:package\+: Installation}\label{index_autotoc_md1}
+\+:exclamation\+: Requirements\+: .NET Core, Angular, SQL Server, Azure Data Studio, Docker
+
+
+\begin{DoxyEnumerate}
+\item Install .NET Core \`{}\`{}\`{}sh sudo pacman -\/S dotnet-\/sdk aspnet-\/runtime export DOTNET\+\_\+\+ROOT=/usr/share/dotnet export MSBuild\+SDKs\+Path=\$\+DOTNET\+\_\+\+ROOT/sdk/\$(\$\{DOTNET\+\_\+\+ROOT\}/dotnet --version)/\+Sdks export PATH=\$\{PATH\}\+:\$\{DOTNET\+\_\+\+ROOT\}
+
+\`{}\`{}\`{}
+\item Install Angular \`{}\`{}\`{}sh cd Client sudo npm install -\/g @angular/cli sudo npm install
+
+\`{}\`{}\`{}
+\item SQL Server (at least 2019) \`{}\`{}`sh docker run -\/-\/name sql\+\_\+server -\/e \textquotesingle{}ACCEPT\+\_\+\+EULA=Y' -\/e \textquotesingle{}SA\+\_\+\+PASSWORD=$<$password$>$\textquotesingle{} -\/p 1433\+:1433 -\/d mcr.\+microsoft.\+com/mssql/server mssql -\/u $<$username$>$ -\/p $<$password$>$ ~\newline
+ select @version
+
+\`{}\`{}\`{}
+\end{DoxyEnumerate}\hypertarget{index_autotoc_md2}{}\doxysubsection{Manual}\label{index_autotoc_md2}
+
+\begin{DoxyEnumerate}
+\item Clone this repository somewhere on your machine.
+
+\`{}\`{}\`{}sh git clone \href{https://github.com/DenisAlicic/TennisAssociation/tree/develop/TennisAssociation}{\texttt{ https\+://github.\+com/\+Denis\+Alicic/\+Tennis\+Association/tree/develop/\+Tennis\+Association}}
+
+\`{}\`{}\`{}
+\item Start (front-\/end)
+
+\`{}\`{}\`{}sh cd Client ng serve
+
+\`{}\`{}\`{}
+\item Start app
+
+\`{}\`{}\`{}sh dotnet build dotnet run --urls \char`\"{}http\+://localhost\+:8080\char`\"{} ~\newline
+
+
+\`{}\`{}\`{}
+\end{DoxyEnumerate}\hypertarget{index_autotoc_md3}{}\doxysubsection{Create migrations}\label{index_autotoc_md3}
+\begin{DoxyVerb}```sh
+dotnet tool install --global dotnet-ef
+add ~/.dotnet/tools in path
+
+dotnet ef migrations add Initial --context TennisAssociationIdentityContext  
+dotnet ef database update --context TennisAssociationIdentityContext  
+
+```
+\end{DoxyVerb}
+ 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Tennis Association: Main Page</title>
+<title>Tennis Association: ATPTour</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,11 +60,55 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div><div class="header">
   <div class="headertitle">
-<div class="title">Tennis Association Documentation</div>  </div>
+<div class="title">ATPTour </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p class=""><a class="anchor" id="md__home_denis_Documents_Faks_master_RS2_TennisAssociation_README"></a> </p><hr  />
+ <h1><a class="anchor" id="autotoc_md1"></a>
+:package: Installation</h1>
+<p class="">:exclamation: Requirements: .NET Core, Angular, SQL Server, Azure Data Studio, Docker</p>
+<ol type="1">
+<li><p class="startli">Install .NET Core ```sh sudo pacman -S dotnet-sdk aspnet-runtime export DOTNET_ROOT=/usr/share/dotnet export MSBuildSDKsPath=$DOTNET_ROOT/sdk/$(${DOTNET_ROOT}/dotnet &ndash;version)/Sdks export PATH=${PATH}:${DOTNET_ROOT}</p>
+<p class="startli">```</p>
+</li>
+<li><p class="startli">Install Angular ```sh cd Client sudo npm install -g @angular/cli sudo npm install</p>
+<p class="startli">```</p>
+</li>
+<li><p class="startli">SQL Server (at least 2019) ``&lsquo;sh docker run --name sql_server -e 'ACCEPT_EULA=Y&rsquo; -e 'SA_PASSWORD=&lt;password&gt;' -p 1433:1433 -d mcr.microsoft.com/mssql/server mssql -u &lt;username&gt; -p &lt;password&gt; <br  />
+ select @version</p>
+<p class="startli">```</p>
+</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Manual</h2>
+<ol type="1">
+<li><p class="startli">Clone this repository somewhere on your machine.</p>
+<p class="startli">```sh git clone <a href="https://github.com/DenisAlicic/TennisAssociation/tree/develop/TennisAssociation">https://github.com/DenisAlicic/TennisAssociation/tree/develop/TennisAssociation</a></p>
+<p class="startli">```</p>
+</li>
+<li><p class="startli">Start (front-end)</p>
+<p class="startli">```sh cd Client ng serve</p>
+<p class="startli">```</p>
+</li>
+<li><p class="startli">Start app</p>
+<p class="startli">```sh dotnet build dotnet run &ndash;urls "http://localhost:8080" <br  />
+</p>
+<p class="startli">```</p>
+</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Create migrations</h2>
+<pre class="fragment">```sh
+dotnet tool install --global dotnet-ef
+add ~/.dotnet/tools in path
+
+dotnet ef migrations add Initial --context TennisAssociationIdentityContext  
+dotnet ef database update --context TennisAssociationIdentityContext  
+
+```
+</pre> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

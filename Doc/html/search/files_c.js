@@ -1,25 +1,6 @@
 var searchData=
 [
-  ['mac_5ftool_2epy_2924',['mac_tool.py',['../mac__tool_8py.html',1,'']]],
-  ['macos_5fcatalina_2emd_2925',['macOS_Catalina.md',['../macOS__Catalina_8md.html',1,'']]],
-  ['make_2epy_2926',['make.py',['../make_8py.html',1,'']]],
-  ['match_2ecs_2927',['Match.cs',['../Match_8cs.html',1,'']]],
-  ['matches_2epy_2928',['matches.py',['../matches_8py.html',1,'']]],
-  ['matchescontroller_2ecs_2929',['MatchesController.cs',['../MatchesController_8cs.html',1,'']]],
-  ['migratingfromv1_2emd_2930',['migratingFromV1.md',['../npm_2node__modules_2socks_2docs_2migratingFromV1_8md.html',1,'(Global Namespace)'],['../socks_2docs_2migratingFromV1_8md.html',1,'(Global Namespace)']]],
-  ['migration_2emd_2931',['MIGRATION.md',['../MIGRATION_8md.html',1,'']]],
-  ['migration_2emd_2932',['migration.md',['../migration_8md.html',1,'']]],
-  ['mobile_2emd_2933',['mobile.md',['../mobile_8md.html',1,'']]],
-  ['msvs_2epy_2934',['msvs.py',['../msvs_8py.html',1,'']]],
-  ['msvs_5femulation_2epy_2935',['msvs_emulation.py',['../msvs__emulation_8py.html',1,'']]],
-  ['msvs_5ftest_2epy_2936',['msvs_test.py',['../msvs__test_8py.html',1,'']]],
-  ['msvsnew_2epy_2937',['MSVSNew.py',['../MSVSNew_8py.html',1,'']]],
-  ['msvsproject_2epy_2938',['MSVSProject.py',['../MSVSProject_8py.html',1,'']]],
-  ['msvssettings_2epy_2939',['MSVSSettings.py',['../MSVSSettings_8py.html',1,'']]],
-  ['msvssettings_5ftest_2epy_2940',['MSVSSettings_test.py',['../MSVSSettings__test_8py.html',1,'']]],
-  ['msvstoolfile_2epy_2941',['MSVSToolFile.py',['../MSVSToolFile_8py.html',1,'']]],
-  ['msvsuserfile_2epy_2942',['MSVSUserFile.py',['../MSVSUserFile_8py.html',1,'']]],
-  ['msvsutil_2epy_2943',['MSVSUtil.py',['../MSVSUtil_8py.html',1,'']]],
-  ['msvsversion_2epy_2944',['MSVSVersion.py',['../MSVSVersion_8py.html',1,'']]],
-  ['myuser_2ecs_2945',['MyUser.cs',['../MyUser_8cs.html',1,'']]]
+  ['updatedatacontroller_2ecs_187',['UpdateDataController.cs',['../UpdateDataController_8cs.html',1,'']]],
+  ['user_2ecs_188',['User.cs',['../User_8cs.html',1,'']]],
+  ['userupdateinfo_2ecs_189',['UserUpdateInfo.cs',['../UserUpdateInfo_8cs.html',1,'']]]
 ];
