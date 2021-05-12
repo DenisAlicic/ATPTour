@@ -11,8 +11,12 @@ using Microsoft.Extensions.Logging;
 using TennisAssociation.Models;
 using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Http;
+using TennisAssociation.Interfaces;
+using TennisAssociation.Services;
+using TennisAssociation.Utils;
 
 
 namespace TennisAssociation.Controllers
@@ -23,11 +27,13 @@ namespace TennisAssociation.Controllers
     {
         private UserManager<MyUser> userManager;
         private SignInManager<MyUser> signInManager;
+        private IEmailSender _emailSenderService;
 
         public AccountController(UserManager<MyUser> userManager, SignInManager<MyUser> signInManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
+            _emailSenderService = new EmailSender();
         }
 
 
@@ -63,6 +69,13 @@ namespace TennisAssociation.Controllers
             if (result.Succeeded)
             {
                 await userManager.AddToRoleAsync(myUser, "Basic");
+                //Send mail!
+                var mail = new Email
+                {
+                    Body = "You registered in TennisAssociation app with this email!\n \n Your admin team!",
+                    Subject = "Registration using this email"
+                };
+                _emailSenderService.Send(myUser.Email, mail);
                 return Ok(user);
             }
 
@@ -121,6 +134,12 @@ namespace TennisAssociation.Controllers
                     var changePasswordResult = await userManager.ResetPasswordAsync(myUser, token, updateInfo.NewPassword);
                     if (changePasswordResult.Succeeded)
                     {
+                        var mail = new Email
+                        {
+                            Body = "Your password in TennisAssociation app is changed!\n \nYour admin team!",
+                            Subject = "Password changed"
+                        };
+                        _emailSenderService.Send(myUser.Email, mail);
                         return Ok(myUser);
                     }
 
@@ -163,6 +182,13 @@ namespace TennisAssociation.Controllers
                 IdentityResult result = await userManager.DeleteAsync(myUser);
                 if (result.Succeeded)
                 {
+                    var mail = new Email
+                    {
+                        Body =
+                            "User in TennisAssocation app connected with this email is removed from system!\n \nYour admin team!",
+                        Subject = "User removing"
+                    };
+                    _emailSenderService.Send(myUser.Email, mail);
                     return Ok(myUser);
                 }
 
