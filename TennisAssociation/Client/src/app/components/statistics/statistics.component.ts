@@ -10,6 +10,19 @@ import { StatisticsService } from 'src/app/services/statistics.service';
   styleUrls: ['./statistics.component.scss']
 })
 export class StatisticsComponent implements OnInit {
+  chartOptions: any = {
+    legend: { position: 'left' },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true
+          }
+        }
+      ]
+    }
+  };
+
   // Hand Chart Pie
   handPieChartLabels$ = new BehaviorSubject([]);
   handPieChartData$ = new BehaviorSubject([]);
@@ -23,23 +36,23 @@ export class StatisticsComponent implements OnInit {
   // Height bars
   heightsBarLabels$ = new BehaviorSubject([]);
   heightsBarData$ = new BehaviorSubject([]);
-  heightsBarOpions: any = {
-    legend: { position: 'left' }
-  };
+  heightsBarColors: Array<any> = [{
+    backgroundColor: '#efafc2'
+  }];
 
   // Years bars
   yearsBarLabels$ = new BehaviorSubject([]);
   yearsBarData$ = new BehaviorSubject([]);
-  yearsBarOpions: any = {
-    legend: { position: 'left' }
-  };
+  yearsBarColors: Array<any> = [{
+    backgroundColor: '#5a7c8d'
+  }];
 
   // Countries bars
   countriesBarLabels$ = new BehaviorSubject([]);
   countriesBarData$ = new BehaviorSubject([]);
-  countriesBarOpions: any = {
-    legend: { position: 'left' }
-  };
+  countriesBarColors: Array<any> = [{
+    backgroundColor: '#ef9f71'
+  }]; 
 
   showStatistics$ = new BehaviorSubject(true);
   arePlayersLoading$ = new BehaviorSubject(false);
@@ -146,7 +159,7 @@ export class StatisticsComponent implements OnInit {
   }
 
   getCountryFromLabel(bar: any) {
-    return this.getLabelFromActiveChart(bar).split(' ')[0];
+    return this.getLabelFromActiveChart(bar);
   }
 
   handChartClicked(event: any) {
