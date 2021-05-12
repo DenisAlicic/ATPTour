@@ -1,0 +1,242 @@
+\hypertarget{namespacegyp_1_1generator_1_1msvs}{}\doxysection{gyp.\+generator.\+msvs Namespace Reference}
+\label{namespacegyp_1_1generator_1_1msvs}\index{gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1msvs_1_1MSBuildRule}{MSBuild\+Rule}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a7abfe05153b8b7b568a58931d53f701b}{Calculate\+Variables}} (default\+\_\+variables, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a4ea4ac3280cab45b750300a5a2134404}{Perform\+Build}} (data, configurations, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a73358ecb7536cddffaf0a943149f0797}{Calculate\+Generator\+Input\+Info}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a63be9c4c7865172864f2cfe06a555cf5}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_ab492d8ab8c4cc44583d31cdfe21b91fe}{PY3}} = str
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a87574ba05fc3c58f168c74a363932fc9}{VALID\+\_\+\+MSVS\+\_\+\+GUID\+\_\+\+CHARS}} = re.\+compile(r\char`\"{}$^\wedge$\mbox{[}A-\/F0-\/9\textbackslash{}-\/\mbox{]}+\$\char`\"{})
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a4ff98b1d1b4edd9c7c96b2f55c02f299}{generator\+\_\+supports\+\_\+multiple\+\_\+toolsets}} = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_ab4896eed527156e525d6f33448c9ee00}{generator\+\_\+default\+\_\+variables}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a3aff482a16090caf90f489ed7de98b9b}{generator\+\_\+additional\+\_\+path\+\_\+sections}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a07a9f11a91a68d5c821f61a5cdbe77a5}{generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a13a4b70b83c4b850a00452b596430476}{generator\+\_\+filelist\+\_\+paths}} = None
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a1ec7b5257da705a1da18db3119aed453}{precomp\+\_\+keys}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_aa296ebb4bd3c1b81193452582c54f073}{cached\+\_\+username}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_ad9c75894140ec20b663a8d4523b25bdc}{cached\+\_\+domain}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a1b73c12ce9635e8494c2d0de8ba06b2c}{fixpath\+\_\+prefix}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_a525dde7d0562571b85951142a0e7afba}{quote\+\_\+replacer\+\_\+regex}} = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}$\ast$)\char`\"{}\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_aea99ca52178aadd91f4349679c40ad1e}{delimiters\+\_\+replacer\+\_\+regex}} = re.\+compile(r\char`\"{}(\textbackslash{}\textbackslash{}$\ast$)(\mbox{[},;\mbox{]}+)\char`\"{})
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_ae0bb1e1fe83a03eb950c12c1c277fae5}{quote\+\_\+replacer\+\_\+regex2}} = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}+)\char`\"{}\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1msvs_accfc2ac220983b3b4014069b24b2ee72}{MSVS\+\_\+\+VARIABLE\+\_\+\+REFERENCE}} = re.\+compile(r\char`\"{}\textbackslash{}\$\textbackslash{}((\mbox{[}a-\/zA-\/Z\+\_\+\mbox{]}\mbox{[}a-\/zA-\/Z0-\/9\+\_\+\mbox{]}$\ast$)\textbackslash{})\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a73358ecb7536cddffaf0a943149f0797}\label{namespacegyp_1_1generator_1_1msvs_a73358ecb7536cddffaf0a943149f0797}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}}
+\index{CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{CalculateGeneratorInputInfo()}{CalculateGeneratorInputInfo()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+msvs.\+Calculate\+Generator\+Input\+Info (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a7abfe05153b8b7b568a58931d53f701b}\label{namespacegyp_1_1generator_1_1msvs_a7abfe05153b8b7b568a58931d53f701b}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!CalculateVariables@{CalculateVariables}}
+\index{CalculateVariables@{CalculateVariables}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{CalculateVariables()}{CalculateVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+msvs.\+Calculate\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generated variables that require params to be known.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a63be9c4c7865172864f2cfe06a555cf5}\label{namespacegyp_1_1generator_1_1msvs_a63be9c4c7865172864f2cfe06a555cf5}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+msvs.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generate .sln and .vcproj files.
+
+This is the entry point for this generator.
+Arguments:
+target_list: List of target pairs: 'base/base.gyp:base'.
+target_dicts: Dict of target properties keyed on target pair.
+data: Dictionary containing per .gyp data.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a4ea4ac3280cab45b750300a5a2134404}\label{namespacegyp_1_1generator_1_1msvs_a4ea4ac3280cab45b750300a5a2134404}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!PerformBuild@{PerformBuild}}
+\index{PerformBuild@{PerformBuild}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{PerformBuild()}{PerformBuild()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+msvs.\+Perform\+Build (\begin{DoxyParamCaption}\item[{}]{data,  }\item[{}]{configurations,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_ad9c75894140ec20b663a8d4523b25bdc}\label{namespacegyp_1_1generator_1_1msvs_ad9c75894140ec20b663a8d4523b25bdc}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!cached\_domain@{cached\_domain}}
+\index{cached\_domain@{cached\_domain}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{cached\_domain}{cached\_domain}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+cached\+\_\+domain = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_aa296ebb4bd3c1b81193452582c54f073}\label{namespacegyp_1_1generator_1_1msvs_aa296ebb4bd3c1b81193452582c54f073}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!cached\_username@{cached\_username}}
+\index{cached\_username@{cached\_username}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{cached\_username}{cached\_username}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+cached\+\_\+username = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_aea99ca52178aadd91f4349679c40ad1e}\label{namespacegyp_1_1generator_1_1msvs_aea99ca52178aadd91f4349679c40ad1e}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!delimiters\_replacer\_regex@{delimiters\_replacer\_regex}}
+\index{delimiters\_replacer\_regex@{delimiters\_replacer\_regex}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{delimiters\_replacer\_regex}{delimiters\_replacer\_regex}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+delimiters\+\_\+replacer\+\_\+regex = re.\+compile(r\char`\"{}(\textbackslash{}\textbackslash{}$\ast$)(\mbox{[},;\mbox{]}+)\char`\"{})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a1b73c12ce9635e8494c2d0de8ba06b2c}\label{namespacegyp_1_1generator_1_1msvs_a1b73c12ce9635e8494c2d0de8ba06b2c}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!fixpath\_prefix@{fixpath\_prefix}}
+\index{fixpath\_prefix@{fixpath\_prefix}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{fixpath\_prefix}{fixpath\_prefix}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+fixpath\+\_\+prefix = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a07a9f11a91a68d5c821f61a5cdbe77a5}\label{namespacegyp_1_1generator_1_1msvs_a07a9f11a91a68d5c821f61a5cdbe77a5}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}}
+\index{generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_non\_configuration\_keys}{generator\_additional\_non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+generator.\+msvs.\+generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}msvs\_cygwin\_dirs"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}msvs\_cygwin\_shell"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}msvs\_large\_pdb"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}msvs\_shard"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}msvs\_external\_builder"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}msvs\_external\_builder\_out\_dir"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}msvs\_external\_builder\_build\_cmd"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}msvs\_external\_builder\_clean\_cmd"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}msvs\_external\_builder\_clcompile\_cmd"{}},}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}msvs\_enable\_winrt"{}},}
+\DoxyCodeLine{12     \textcolor{stringliteral}{"{}msvs\_requires\_importlibrary"{}},}
+\DoxyCodeLine{13     \textcolor{stringliteral}{"{}msvs\_enable\_winphone"{}},}
+\DoxyCodeLine{14     \textcolor{stringliteral}{"{}msvs\_application\_type\_revision"{}},}
+\DoxyCodeLine{15     \textcolor{stringliteral}{"{}msvs\_target\_platform\_version"{}},}
+\DoxyCodeLine{16     \textcolor{stringliteral}{"{}msvs\_target\_platform\_minversion"{}},}
+\DoxyCodeLine{17 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a3aff482a16090caf90f489ed7de98b9b}\label{namespacegyp_1_1generator_1_1msvs_a3aff482a16090caf90f489ed7de98b9b}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!generator\_additional\_path\_sections@{generator\_additional\_path\_sections}}
+\index{generator\_additional\_path\_sections@{generator\_additional\_path\_sections}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_path\_sections}{generator\_additional\_path\_sections}}
+{\footnotesize\ttfamily list gyp.\+generator.\+msvs.\+generator\+\_\+additional\+\_\+path\+\_\+sections}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}msvs\_cygwin\_dirs"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}msvs\_props"{}},}
+\DoxyCodeLine{4 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_ab4896eed527156e525d6f33448c9ee00}\label{namespacegyp_1_1generator_1_1msvs_ab4896eed527156e525d6f33448c9ee00}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+msvs.\+generator\+\_\+default\+\_\+variables}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}DRIVER\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}DRIVER\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.sys"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}EXECUTABLE\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}EXECUTABLE\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.exe"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}STATIC\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}SHARED\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}STATIC\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.lib"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}SHARED\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.dll"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(IntDir)"{}},}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}SHARED\_INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(OutDir)/obj/global\_intermediate"{}},}
+\DoxyCodeLine{12     \textcolor{stringliteral}{"{}OS"{}}: \textcolor{stringliteral}{"{}win"{}},}
+\DoxyCodeLine{13     \textcolor{stringliteral}{"{}PRODUCT\_DIR"{}}: \textcolor{stringliteral}{"{}\$(OutDir)"{}},}
+\DoxyCodeLine{14     \textcolor{stringliteral}{"{}LIB\_DIR"{}}: \textcolor{stringliteral}{"{}\$(OutDir)lib"{}},}
+\DoxyCodeLine{15     \textcolor{stringliteral}{"{}RULE\_INPUT\_ROOT"{}}: \textcolor{stringliteral}{"{}\$(InputName)"{}},}
+\DoxyCodeLine{16     \textcolor{stringliteral}{"{}RULE\_INPUT\_DIRNAME"{}}: \textcolor{stringliteral}{"{}\$(InputDir)"{}},}
+\DoxyCodeLine{17     \textcolor{stringliteral}{"{}RULE\_INPUT\_EXT"{}}: \textcolor{stringliteral}{"{}\$(InputExt)"{}},}
+\DoxyCodeLine{18     \textcolor{stringliteral}{"{}RULE\_INPUT\_NAME"{}}: \textcolor{stringliteral}{"{}\$(InputFileName)"{}},}
+\DoxyCodeLine{19     \textcolor{stringliteral}{"{}RULE\_INPUT\_PATH"{}}: \textcolor{stringliteral}{"{}\$(InputPath)"{}},}
+\DoxyCodeLine{20     \textcolor{stringliteral}{"{}CONFIGURATION\_NAME"{}}: \textcolor{stringliteral}{"{}\$(ConfigurationName)"{}},}
+\DoxyCodeLine{21 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a13a4b70b83c4b850a00452b596430476}\label{namespacegyp_1_1generator_1_1msvs_a13a4b70b83c4b850a00452b596430476}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!generator\_filelist\_paths@{generator\_filelist\_paths}}
+\index{generator\_filelist\_paths@{generator\_filelist\_paths}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{generator\_filelist\_paths}{generator\_filelist\_paths}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+generator\+\_\+filelist\+\_\+paths = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a4ff98b1d1b4edd9c7c96b2f55c02f299}\label{namespacegyp_1_1generator_1_1msvs_a4ff98b1d1b4edd9c7c96b2f55c02f299}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}}
+\index{generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{generator\_supports\_multiple\_toolsets}{generator\_supports\_multiple\_toolsets}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+generator\+\_\+supports\+\_\+multiple\+\_\+toolsets = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_accfc2ac220983b3b4014069b24b2ee72}\label{namespacegyp_1_1generator_1_1msvs_accfc2ac220983b3b4014069b24b2ee72}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!MSVS\_VARIABLE\_REFERENCE@{MSVS\_VARIABLE\_REFERENCE}}
+\index{MSVS\_VARIABLE\_REFERENCE@{MSVS\_VARIABLE\_REFERENCE}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{MSVS\_VARIABLE\_REFERENCE}{MSVS\_VARIABLE\_REFERENCE}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+MSVS\+\_\+\+VARIABLE\+\_\+\+REFERENCE = re.\+compile(r\char`\"{}\textbackslash{}\$\textbackslash{}((\mbox{[}a-\/zA-\/Z\+\_\+\mbox{]}\mbox{[}a-\/zA-\/Z0-\/9\+\_\+\mbox{]}$\ast$)\textbackslash{})\char`\"{})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a1ec7b5257da705a1da18db3119aed453}\label{namespacegyp_1_1generator_1_1msvs_a1ec7b5257da705a1da18db3119aed453}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!precomp\_keys@{precomp\_keys}}
+\index{precomp\_keys@{precomp\_keys}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{precomp\_keys}{precomp\_keys}}
+{\footnotesize\ttfamily list gyp.\+generator.\+msvs.\+precomp\+\_\+keys}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}msvs\_precompiled\_header"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}msvs\_precompiled\_source"{}},}
+\DoxyCodeLine{4 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_ab492d8ab8c4cc44583d31cdfe21b91fe}\label{namespacegyp_1_1generator_1_1msvs_ab492d8ab8c4cc44583d31cdfe21b91fe}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!PY3@{PY3}}
+\index{PY3@{PY3}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{PY3}{PY3}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+PY3 = str}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a525dde7d0562571b85951142a0e7afba}\label{namespacegyp_1_1generator_1_1msvs_a525dde7d0562571b85951142a0e7afba}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!quote\_replacer\_regex@{quote\_replacer\_regex}}
+\index{quote\_replacer\_regex@{quote\_replacer\_regex}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{quote\_replacer\_regex}{quote\_replacer\_regex}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+quote\+\_\+replacer\+\_\+regex = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}$\ast$)\char`\"{}\textquotesingle{})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_ae0bb1e1fe83a03eb950c12c1c277fae5}\label{namespacegyp_1_1generator_1_1msvs_ae0bb1e1fe83a03eb950c12c1c277fae5}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!quote\_replacer\_regex2@{quote\_replacer\_regex2}}
+\index{quote\_replacer\_regex2@{quote\_replacer\_regex2}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{quote\_replacer\_regex2}{quote\_replacer\_regex2}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+quote\+\_\+replacer\+\_\+regex2 = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}+)\char`\"{}\textquotesingle{})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1msvs_a87574ba05fc3c58f168c74a363932fc9}\label{namespacegyp_1_1generator_1_1msvs_a87574ba05fc3c58f168c74a363932fc9}} 
+\index{gyp.generator.msvs@{gyp.generator.msvs}!VALID\_MSVS\_GUID\_CHARS@{VALID\_MSVS\_GUID\_CHARS}}
+\index{VALID\_MSVS\_GUID\_CHARS@{VALID\_MSVS\_GUID\_CHARS}!gyp.generator.msvs@{gyp.generator.msvs}}
+\doxysubsubsection{\texorpdfstring{VALID\_MSVS\_GUID\_CHARS}{VALID\_MSVS\_GUID\_CHARS}}
+{\footnotesize\ttfamily gyp.\+generator.\+msvs.\+VALID\+\_\+\+MSVS\+\_\+\+GUID\+\_\+\+CHARS = re.\+compile(r\char`\"{}$^\wedge$\mbox{[}A-\/F0-\/9\textbackslash{}-\/\mbox{]}+\$\char`\"{})}
+

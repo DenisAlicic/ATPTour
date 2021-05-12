@@ -1,0 +1,94 @@
+\hypertarget{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}{}\doxysection{Tennis\+Association.\+Services.\+Database\+Updater\+Service$<$ T $>$ Class Template Reference}
+\label{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}\index{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}}
+
+
+Generic service for updating databases using .csv files.  
+
+
+Inheritance diagram for Tennis\+Association.\+Services.\+Database\+Updater\+Service$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_acb74bf5d678946cb05d942b01bfa64ae}{Database\+Updater\+Service}} (string script\+Directory, string script\+Name, string path\+To\+File, \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}} context, Func$<$ List$<$ string $>$, Dictionary$<$ string, int $>$, T $>$ builder)
+\item 
+bool \mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_ac81315ac0ce96fbec6fa9e0c07a51d59}{Prepare\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Function which makes list of objects from .csv files \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_a0a87ce0413fb4359b689c5c3c9adb589}{Update\+Data}} (Db\+Set$<$ T $>$ changing\+Set, string table\+Name)
+\begin{DoxyCompactList}\small\item\em Function which delete table given as second parameter and population with new data provided as first parameter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic service for updating databases using .csv files. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em class}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_acb74bf5d678946cb05d942b01bfa64ae}\label{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_acb74bf5d678946cb05d942b01bfa64ae}} 
+\index{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}!DatabaseUpdaterService@{DatabaseUpdaterService}}
+\index{DatabaseUpdaterService@{DatabaseUpdaterService}!TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{DatabaseUpdaterService()}{DatabaseUpdaterService()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}{Tennis\+Association.\+Services.\+Database\+Updater\+Service}}$<$ T $>$.\mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}{Database\+Updater\+Service}} (\begin{DoxyParamCaption}\item[{string}]{script\+Directory,  }\item[{string}]{script\+Name,  }\item[{string}]{path\+To\+File,  }\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}}}]{context,  }\item[{Func$<$ List$<$ string $>$, Dictionary$<$ string, int $>$, T $>$}]{builder }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_ac81315ac0ce96fbec6fa9e0c07a51d59}\label{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_ac81315ac0ce96fbec6fa9e0c07a51d59}} 
+\index{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}!PrepareData@{PrepareData}}
+\index{PrepareData@{PrepareData}!TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{PrepareData()}{PrepareData()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}{Tennis\+Association.\+Services.\+Database\+Updater\+Service}}$<$ T $>$.Prepare\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function which makes list of objects from .csv files 
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceTennisAssociation_1_1Interfaces_1_1IDatabaseUpdater_a287806d87b422f07be0b7be959b05254}{Tennis\+Association.\+Interfaces.\+IDatabase\+Updater$<$ T $>$}}.
+
+\mbox{\Hypertarget{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_a0a87ce0413fb4359b689c5c3c9adb589}\label{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService_a0a87ce0413fb4359b689c5c3c9adb589}} 
+\index{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}!UpdateData@{UpdateData}}
+\index{UpdateData@{UpdateData}!TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$@{TennisAssociation.Services.DatabaseUpdaterService$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{UpdateData()}{UpdateData()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{classTennisAssociation_1_1Services_1_1DatabaseUpdaterService}{Tennis\+Association.\+Services.\+Database\+Updater\+Service}}$<$ T $>$.Update\+Data (\begin{DoxyParamCaption}\item[{Db\+Set$<$ T $>$}]{changing\+Set,  }\item[{string}]{table\+Name }\end{DoxyParamCaption})}
+
+
+
+Function which delete table given as second parameter and population with new data provided as first parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em changing\+Set} & \\
+\hline
+{\em table\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceTennisAssociation_1_1Interfaces_1_1IDatabaseUpdater_a5d3f5211f8958c2a7118e92ad68fafb9}{Tennis\+Association.\+Interfaces.\+IDatabase\+Updater$<$ T $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Services/\mbox{\hyperlink{DatabaseUpdaterService_8cs}{Database\+Updater\+Service.\+cs}}\end{DoxyCompactItemize}

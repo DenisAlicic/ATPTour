@@ -1,0 +1,142 @@
+
+\begin{DoxyItemize}
+\item Fixed {\bfseries{}}
+\item {\bfseries{Fixed {\bfseries{@font-\/face}} block evaluation \mbox{[}Suor\mbox{]}}}
+\end{DoxyItemize}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4168}{}\doxysection{0.\+19.\+3 / 2011-\/11-\/17}\label{_2strong_autotoc_md4168}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added \char`\"{}include css\char`\"{} setting (need docs) to literally include imported css. Closes \#448
+\item Added EOL escape. Related to \#195
+\item Fixed tab support in lexical analysis (trailing colors etc). Closes \#460
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4169}{}\doxysection{0.\+19.\+2 / 2011-\/11-\/09}\label{_2strong_autotoc_md4169}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Fixed \char`\"{}in\char`\"{} within selectors. Closes \#458
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4170}{}\doxysection{0.\+19.\+1 / 2011-\/11-\/08}\label{_2strong_autotoc_md4170}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added {\ttfamily spin()} BIF (same as {\ttfamily color + 50deg} etc)
+\item Removed \char`\"{}sys\char`\"{} require()s for 0.\+6.\+x
+\item Fixed sibling property lookup bug. Closes \#452
+\item Fixed\+: retain original quote for strings
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4171}{}\doxysection{0.\+19.\+0 / 2011-\/10-\/26}\label{_2strong_autotoc_md4171}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added property lookup bubbling support. Closes \#446
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4172}{}\doxysection{0.\+18.\+1 / 2011-\/10-\/26}\label{_2strong_autotoc_md4172}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added \char`\"{}indent spaces\char`\"{} compiler setting. Closes \#445
+\item Allow node $>$ 0.\+4.\+x $<$ 0.\+7.\+0
+\item Fixed\+: allow function execution within @imports
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4173}{}\doxysection{0.\+18.\+0 / 2011-\/10-\/21}\label{_2strong_autotoc_md4173}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added \#n support (\#e -\/$>$ \#eeeeee). Closes \#430
+\item Added \#nn support (\#ef -\/$>$ \#efefef)
+\item Added support for rgb percentages.
+\item Fixed property rendering in blocks. Closes \#440
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4174}{}\doxysection{0.\+17.\+0 / 2011-\/09-\/30}\label{_2strong_autotoc_md4174}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added {\ttfamily @scope $<$selector$>$} feature to scope all subsequent selectors
+\item Added list equality to the {\ttfamily !=} operator
+\item Added list equality to the {\ttfamily ==} operator
+\item Added mkdir -\/p support to the middleware
+\item Changed\+: {\ttfamily !} coerces expression not the first value
+\item Fixed Ternary boolean coercion. Closes \#420
+\item Fixed {\bfseries{@font-\/face}} {\bfseries{@import}} regression. Closes \#418
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4175}{}\doxysection{0.\+16.\+0 / 2011-\/09-\/26}\label{_2strong_autotoc_md4175}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added {\ttfamily mkdir -\/p} support to the middleware
+\item Added {\ttfamily @import url(string)} support. Closes \#352
+\item Added {\ttfamily fade-\/in()} and {\ttfamily fade-\/out()} BIFs
+\item Adding prefixes for Opera and IE
+\item Fixed comments trailing {\bfseries{@media}}. Closes \#415 \mbox{[}guillermo\mbox{]}
+\item Fixed\+: Output from --help in stylus executable cut-\/off half way through
+\item Changed\+: treat -\//+ operations with percentages as lighten()/darken(). Closes \#401
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4176}{}\doxysection{0.\+15.\+4 / 2011-\/09-\/14}\label{_2strong_autotoc_md4176}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Fixed {\ttfamily String\#coerce()} for Expressions
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4177}{}\doxysection{0.\+15.\+3 / 2011-\/09-\/14}\label{_2strong_autotoc_md4177}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added {\ttfamily -\/U, -\/-\/inline} to stylus(1)
+\item Added {\ttfamily rem} support. Closes \#395
+\item Fixed {\bfseries{@charset}} semi-\/colon. Closes \#400
+\item Fixed infinite loop in {\ttfamily Parser\#function()}. Closes \#393
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4178}{}\doxysection{0.\+15.\+2 / 2011-\/09-\/06}\label{_2strong_autotoc_md4178}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added alias {\ttfamily \+:=} of {\ttfamily ?=}. Closes \#389
+\item Removed auto-\/prefixing of pseudo element selectors. Closes \#385
+\item Changed\+: when left-\/hand operand has no unit assign the right
+\item Fixed {\bfseries{@keyframes}} with {\bfseries{@import}} regression. Closes \#372
+\item Fixed css {\bfseries{@import}} within blocks regression. Closes \#388
+\item Fixed unwrapping of property args expression. Closes \#379
+\item Fixed {\bfseries{@prop}} access scope issue, use closet block, not current
+\item Fixed {\bfseries{@font-\/face}}. Closes \#375
+\end{DoxyItemize}}}
+
+{\bfseries{}}\hypertarget{_2strong_autotoc_md4179}{}\doxysection{0.\+15.\+1 / 2011-\/08-\/18}\label{_2strong_autotoc_md4179}
+{\bfseries{}}
+
+{\bfseries{
+\begin{DoxyItemize}
+\item Added pseudo-\/element vendor expansion support
+\item Added {\ttfamily @keyframe} expansion support. Closes \#293
+\item Added support for arbitrary {\ttfamily @-\/VENDOR-\/keyframes} support
+\item Added support for {\ttfamily @property} mixin property access Closes \#363
+\item Added {\ttfamily /$\ast$!} support to comments to disable suppression
+\item Changed\+: allow uses to append {\ttfamily .styl} when importing. Closes \#366
+\item Fixed paren matching issue. Closes \#368
+\item Fixed windows absolute path checking Added {\ttfamily utils.\+absolute(path)}
+\item Fixed {\ttfamily Ident\#clone()} with {\ttfamily .property} flag
+\item Fixed evaluation of expression when using 
+\end{DoxyItemize}}}

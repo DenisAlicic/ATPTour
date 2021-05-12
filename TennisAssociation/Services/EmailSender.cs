@@ -5,6 +5,10 @@ using TennisAssociation.Utils;
 
 namespace TennisAssociation.Services
 {
+    /// <summary>
+    /// Service which provide sending mails from default.
+    /// application mail account.
+    /// </summary>
     public class EmailSender : IEmailSender
     {
         private readonly SmtpClient _smtpClient;
@@ -22,7 +26,12 @@ namespace TennisAssociation.Services
                 EnableSsl = true
             };
         }
-
+        
+        /// <summary>
+        /// Send mails from default application mail account to users.
+        /// </summary>
+        /// <param name="to"></param>
+        /// <param name="mail"></param>
         public void Send(string to, Email mail)
         {
             MailMessage mailMessage = new MailMessage {From = new MailAddress(From, "Tennis Assocation app")};

@@ -1,0 +1,225 @@
+\hypertarget{namespacegyp_1_1generator_1_1ninja}{}\doxysection{gyp.\+generator.\+ninja Namespace Reference}
+\label{namespacegyp_1_1generator_1_1ninja}\index{gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter}{Ninja\+Writer}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1Target}{Target}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_aabee68ebb89d8aac6a02693a3f263cc7}{Strip\+Prefix}} (arg, prefix)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_ad40ce79b9af02c262f14a31da6b75346}{Quote\+Shell\+Argument}} (arg, flavor)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_aff7965347a65b28d3eadb8e5b3e97c19}{Define}} (d, flavor)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_aea554741b549e9570c9d07db50ea07b3}{Add\+Arch}} (output, arch)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_ae23d263f54a2037524fde0feadfe76b3}{Calculate\+Variables}} (default\+\_\+variables, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a9d082c9e3341ff1749e4d90aadbddccf}{Compute\+Output\+Dir}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a0c74be8388bce84d6434df7c5eef6039}{Calculate\+Generator\+Input\+Info}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a1c773881136a9c4b56d8bb7d3ad7f813}{Open\+Output}} (path, mode=\char`\"{}w\char`\"{})
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a71e1cba187b6cfabe1b29cc5080f4f84}{Command\+With\+Wrapper}} (cmd, wrappers, prog)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a88df1a9c091dabff3e0de534b6176d00}{Get\+Default\+Concurrent\+Links}} ()
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_ae62c9a5b6724fa56cf9245f81422ac70}{Generate\+Output\+For\+Config}} (target\+\_\+list, target\+\_\+dicts, data, params, config\+\_\+name)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a431a5818cf39d8f1c18cc3796bbdc3d6}{Perform\+Build}} (data, configurations, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a56336a5b24390c5dfaccf33044865558}{Call\+Generate\+Output\+For\+Config}} (arglist)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a17af293595bb889d2041091a8a163e34}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a0a53a8b737ed55af6d8a08d4f1f9a88c}{generator\+\_\+default\+\_\+variables}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_ad5a340bfdf0f07eebc2435505a57b26d}{generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}} = \mbox{[}$\,$\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a1962853adab3f54633a27f7fde2ec473}{generator\+\_\+additional\+\_\+path\+\_\+sections}} = \mbox{[}$\,$\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_aed8fbce493c0603bb28adcdd2c9f7083}{generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_a2c88ab0fbc0add758cb7930b2bcf71bf}{generator\+\_\+filelist\+\_\+paths}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1ninja_aa2a4612ae51e9a4092252a6168603cb5}{generator\+\_\+supports\+\_\+multiple\+\_\+toolsets}} = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_aea554741b549e9570c9d07db50ea07b3}\label{namespacegyp_1_1generator_1_1ninja_aea554741b549e9570c9d07db50ea07b3}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!AddArch@{AddArch}}
+\index{AddArch@{AddArch}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{AddArch()}{AddArch()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Add\+Arch (\begin{DoxyParamCaption}\item[{}]{output,  }\item[{}]{arch }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Adds an arch string to an output path.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a0c74be8388bce84d6434df7c5eef6039}\label{namespacegyp_1_1generator_1_1ninja_a0c74be8388bce84d6434df7c5eef6039}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}}
+\index{CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{CalculateGeneratorInputInfo()}{CalculateGeneratorInputInfo()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Calculate\+Generator\+Input\+Info (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Called by __init__ to initialize generator values based on params.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_ae23d263f54a2037524fde0feadfe76b3}\label{namespacegyp_1_1generator_1_1ninja_ae23d263f54a2037524fde0feadfe76b3}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!CalculateVariables@{CalculateVariables}}
+\index{CalculateVariables@{CalculateVariables}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{CalculateVariables()}{CalculateVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Calculate\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate additional variables for use in the build (called by gyp).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a56336a5b24390c5dfaccf33044865558}\label{namespacegyp_1_1generator_1_1ninja_a56336a5b24390c5dfaccf33044865558}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!CallGenerateOutputForConfig@{CallGenerateOutputForConfig}}
+\index{CallGenerateOutputForConfig@{CallGenerateOutputForConfig}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{CallGenerateOutputForConfig()}{CallGenerateOutputForConfig()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Call\+Generate\+Output\+For\+Config (\begin{DoxyParamCaption}\item[{}]{arglist }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a71e1cba187b6cfabe1b29cc5080f4f84}\label{namespacegyp_1_1generator_1_1ninja_a71e1cba187b6cfabe1b29cc5080f4f84}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!CommandWithWrapper@{CommandWithWrapper}}
+\index{CommandWithWrapper@{CommandWithWrapper}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{CommandWithWrapper()}{CommandWithWrapper()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Command\+With\+Wrapper (\begin{DoxyParamCaption}\item[{}]{cmd,  }\item[{}]{wrappers,  }\item[{}]{prog }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a9d082c9e3341ff1749e4d90aadbddccf}\label{namespacegyp_1_1generator_1_1ninja_a9d082c9e3341ff1749e4d90aadbddccf}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!ComputeOutputDir@{ComputeOutputDir}}
+\index{ComputeOutputDir@{ComputeOutputDir}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{ComputeOutputDir()}{ComputeOutputDir()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Compute\+Output\+Dir (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the path from the toplevel_dir to the build output directory.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_aff7965347a65b28d3eadb8e5b3e97c19}\label{namespacegyp_1_1generator_1_1ninja_aff7965347a65b28d3eadb8e5b3e97c19}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!Define@{Define}}
+\index{Define@{Define}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{Define()}{Define()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Define (\begin{DoxyParamCaption}\item[{}]{d,  }\item[{}]{flavor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes a preprocessor define and returns a -D parameter that's ninja- and
+shell-escaped.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a17af293595bb889d2041091a8a163e34}\label{namespacegyp_1_1generator_1_1ninja_a17af293595bb889d2041091a8a163e34}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_ae62c9a5b6724fa56cf9245f81422ac70}\label{namespacegyp_1_1generator_1_1ninja_ae62c9a5b6724fa56cf9245f81422ac70}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!GenerateOutputForConfig@{GenerateOutputForConfig}}
+\index{GenerateOutputForConfig@{GenerateOutputForConfig}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{GenerateOutputForConfig()}{GenerateOutputForConfig()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Generate\+Output\+For\+Config (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params,  }\item[{}]{config\+\_\+name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a88df1a9c091dabff3e0de534b6176d00}\label{namespacegyp_1_1generator_1_1ninja_a88df1a9c091dabff3e0de534b6176d00}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!GetDefaultConcurrentLinks@{GetDefaultConcurrentLinks}}
+\index{GetDefaultConcurrentLinks@{GetDefaultConcurrentLinks}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{GetDefaultConcurrentLinks()}{GetDefaultConcurrentLinks()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Get\+Default\+Concurrent\+Links (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns a best-guess for a number of concurrent links.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a1c773881136a9c4b56d8bb7d3ad7f813}\label{namespacegyp_1_1generator_1_1ninja_a1c773881136a9c4b56d8bb7d3ad7f813}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!OpenOutput@{OpenOutput}}
+\index{OpenOutput@{OpenOutput}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{OpenOutput()}{OpenOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Open\+Output (\begin{DoxyParamCaption}\item[{}]{path,  }\item[{}]{mode = {\ttfamily \char`\"{}w\char`\"{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Open |path| for writing, creating directories if necessary.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a431a5818cf39d8f1c18cc3796bbdc3d6}\label{namespacegyp_1_1generator_1_1ninja_a431a5818cf39d8f1c18cc3796bbdc3d6}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!PerformBuild@{PerformBuild}}
+\index{PerformBuild@{PerformBuild}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{PerformBuild()}{PerformBuild()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Perform\+Build (\begin{DoxyParamCaption}\item[{}]{data,  }\item[{}]{configurations,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_ad40ce79b9af02c262f14a31da6b75346}\label{namespacegyp_1_1generator_1_1ninja_ad40ce79b9af02c262f14a31da6b75346}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!QuoteShellArgument@{QuoteShellArgument}}
+\index{QuoteShellArgument@{QuoteShellArgument}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{QuoteShellArgument()}{QuoteShellArgument()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Quote\+Shell\+Argument (\begin{DoxyParamCaption}\item[{}]{arg,  }\item[{}]{flavor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Quote a string such that it will be interpreted as a single argument
+by the shell.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_aabee68ebb89d8aac6a02693a3f263cc7}\label{namespacegyp_1_1generator_1_1ninja_aabee68ebb89d8aac6a02693a3f263cc7}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!StripPrefix@{StripPrefix}}
+\index{StripPrefix@{StripPrefix}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{StripPrefix()}{StripPrefix()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Strip\+Prefix (\begin{DoxyParamCaption}\item[{}]{arg,  }\item[{}]{prefix }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_ad5a340bfdf0f07eebc2435505a57b26d}\label{namespacegyp_1_1generator_1_1ninja_ad5a340bfdf0f07eebc2435505a57b26d}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}}
+\index{generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_non\_configuration\_keys}{generator\_additional\_non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+generator.\+ninja.\+generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a1962853adab3f54633a27f7fde2ec473}\label{namespacegyp_1_1generator_1_1ninja_a1962853adab3f54633a27f7fde2ec473}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_additional\_path\_sections@{generator\_additional\_path\_sections}}
+\index{generator\_additional\_path\_sections@{generator\_additional\_path\_sections}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_path\_sections}{generator\_additional\_path\_sections}}
+{\footnotesize\ttfamily list gyp.\+generator.\+ninja.\+generator\+\_\+additional\+\_\+path\+\_\+sections = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a0a53a8b737ed55af6d8a08d4f1f9a88c}\label{namespacegyp_1_1generator_1_1ninja_a0a53a8b737ed55af6d8a08d4f1f9a88c}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+ninja.\+generator\+\_\+default\+\_\+variables}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}EXECUTABLE\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}EXECUTABLE\_SUFFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}STATIC\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}STATIC\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.a"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}SHARED\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{7     \textcolor{comment}{\# Gyp expects the following variables to be expandable by the build}}
+\DoxyCodeLine{8     \textcolor{comment}{\# system to the appropriate locations.  Ninja prefers paths to be}}
+\DoxyCodeLine{9     \textcolor{comment}{\# known at gyp time.  To resolve this, introduce special}}
+\DoxyCodeLine{10     \textcolor{comment}{\# variables starting with \$! and \$| (which begin with a \$ so gyp knows it}}
+\DoxyCodeLine{11     \textcolor{comment}{\# should be treated specially, but is otherwise an invalid}}
+\DoxyCodeLine{12     \textcolor{comment}{\# ninja/shell variable) that are passed to gyp here but expanded}}
+\DoxyCodeLine{13     \textcolor{comment}{\# before writing out into the target .ninja files; see}}
+\DoxyCodeLine{14     \textcolor{comment}{\# ExpandSpecial.}}
+\DoxyCodeLine{15     \textcolor{comment}{\# \$! is used for variables that represent a path and that can only appear at}}
+\DoxyCodeLine{16     \textcolor{comment}{\# the start of a string, while \$| is used for variables that can appear}}
+\DoxyCodeLine{17     \textcolor{comment}{\# anywhere in a string.}}
+\DoxyCodeLine{18     \textcolor{stringliteral}{"{}INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$!INTERMEDIATE\_DIR"{}},}
+\DoxyCodeLine{19     \textcolor{stringliteral}{"{}SHARED\_INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$!PRODUCT\_DIR/gen"{}},}
+\DoxyCodeLine{20     \textcolor{stringliteral}{"{}PRODUCT\_DIR"{}}: \textcolor{stringliteral}{"{}\$!PRODUCT\_DIR"{}},}
+\DoxyCodeLine{21     \textcolor{stringliteral}{"{}CONFIGURATION\_NAME"{}}: \textcolor{stringliteral}{"{}\$|CONFIGURATION\_NAME"{}},}
+\DoxyCodeLine{22     \textcolor{comment}{\# Special variables that may be used by gyp 'rule' targets.}}
+\DoxyCodeLine{23     \textcolor{comment}{\# We generate definitions for these variables on the fly when processing a}}
+\DoxyCodeLine{24     \textcolor{comment}{\# rule.}}
+\DoxyCodeLine{25     \textcolor{stringliteral}{"{}RULE\_INPUT\_ROOT"{}}: \textcolor{stringliteral}{"{}\$\{root\}"{}},}
+\DoxyCodeLine{26     \textcolor{stringliteral}{"{}RULE\_INPUT\_DIRNAME"{}}: \textcolor{stringliteral}{"{}\$\{dirname\}"{}},}
+\DoxyCodeLine{27     \textcolor{stringliteral}{"{}RULE\_INPUT\_PATH"{}}: \textcolor{stringliteral}{"{}\$\{source\}"{}},}
+\DoxyCodeLine{28     \textcolor{stringliteral}{"{}RULE\_INPUT\_EXT"{}}: \textcolor{stringliteral}{"{}\$\{ext\}"{}},}
+\DoxyCodeLine{29     \textcolor{stringliteral}{"{}RULE\_INPUT\_NAME"{}}: \textcolor{stringliteral}{"{}\$\{name\}"{}},}
+\DoxyCodeLine{30 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_aed8fbce493c0603bb28adcdd2c9f7083}\label{namespacegyp_1_1generator_1_1ninja_aed8fbce493c0603bb28adcdd2c9f7083}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}}
+\index{generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_extra\_sources\_for\_rules}{generator\_extra\_sources\_for\_rules}}
+{\footnotesize\ttfamily list gyp.\+generator.\+ninja.\+generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_a2c88ab0fbc0add758cb7930b2bcf71bf}\label{namespacegyp_1_1generator_1_1ninja_a2c88ab0fbc0add758cb7930b2bcf71bf}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_filelist\_paths@{generator\_filelist\_paths}}
+\index{generator\_filelist\_paths@{generator\_filelist\_paths}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_filelist\_paths}{generator\_filelist\_paths}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+generator\+\_\+filelist\+\_\+paths = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1ninja_aa2a4612ae51e9a4092252a6168603cb5}\label{namespacegyp_1_1generator_1_1ninja_aa2a4612ae51e9a4092252a6168603cb5}} 
+\index{gyp.generator.ninja@{gyp.generator.ninja}!generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}}
+\index{generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}!gyp.generator.ninja@{gyp.generator.ninja}}
+\doxysubsubsection{\texorpdfstring{generator\_supports\_multiple\_toolsets}{generator\_supports\_multiple\_toolsets}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+generator\+\_\+supports\+\_\+multiple\+\_\+toolsets = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()}
+

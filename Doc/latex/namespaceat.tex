@@ -1,0 +1,695 @@
+\hypertarget{namespaceat}{}\doxysection{at Namespace Reference}
+\label{namespaceat}\index{at@{at}}
+
+
+\doxysubsection{Detailed Description}
+rules;
+\begin{DoxyItemize}
+\item the \href{https://jakubpawlowicz.github.io/clean-css}{\texttt{ web interface}} gets an improved settings panel with \char`\"{}reset to defaults\char`\"{}, instant option changes, and settings being persisted across sessions.
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23661}{}\doxysubsubsection{What\textquotesingle{}s new in version 4.\+2}\label{namespaceat_autotoc_md23661}
+clean-\/css 4.\+2 introduces the following changes / features\+:
+
+
+\begin{DoxyItemize}
+\item Adds {\ttfamily process} method for compatibility with optimize-\/css-\/assets-\/webpack-\/plugin;
+\item new {\ttfamily transition} property optimizer;
+\item preserves any CSS content between {\ttfamily /$\ast$ clean-\/css ignore\+:start $\ast$/} and {\ttfamily /$\ast$ clean-\/css ignore\+:end $\ast$/} comments;
+\item allows filtering based on selector in {\ttfamily transform} callback, see \href{\#how-to-apply-arbitrary-transformations-to-css-properties}{\texttt{ example}};
+\item adds configurable line breaks via `format\+: \{ break\+With\+: \textquotesingle{}lf' \}\`{} option.
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23662}{}\doxysubsubsection{Constructor options}\label{namespaceat_autotoc_md23662}
+clean-\/css constructor accepts a hash as a parameter with the following options available\+:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily compatibility} -\/ controls compatibility mode used; defaults to {\ttfamily ie10+}; see \href{\#compatibility-modes}{\texttt{ compatibility modes}} for examples;
+\item {\ttfamily fetch} -\/ controls a function for handling remote requests; see \href{\#fetch-option}{\texttt{ fetch option}} for examples (since 4.\+1.\+0);
+\item {\ttfamily format} -\/ controls output CSS formatting; defaults to {\ttfamily false}; see \href{\#formatting-options}{\texttt{ formatting options}} for examples;
+\item {\ttfamily inline} -\/ controls {\ttfamily @import} inlining rules; defaults to `\textquotesingle{}local'{\ttfamily ; see \mbox{[}inlining options\mbox{]}(\#inlining-\/options) for examples; $\ast$}inline\+Request{\ttfamily -\/ controls extra options for inlining remote}@import{\ttfamily rules, can be any of \mbox{[}HTTP(\+S) request options\mbox{]}(\href{https://nodejs.org/api/http.html}{\texttt{ https\+://nodejs.\+org/api/http.\+html}}\#http\+\_\+http\+\_\+request\+\_\+options\+\_\+callback); $\ast$}inline\+Timeout{\ttfamily -\/ controls number of milliseconds after which inlining a remote}@import{\ttfamily fails; defaults to 5000; $\ast$}level{\ttfamily -\/ controls optimization level used; defaults to}1{\ttfamily ; see \mbox{[}optimization levels\mbox{]}(\#optimization-\/levels) for examples; $\ast$}rebase{\ttfamily -\/ controls URL rebasing; defaults to}true{\ttfamily ; $\ast$}rebase\+To{\ttfamily -\/ controls a directory to which all URLs are rebased, most likely the directory under which the output file will live; defaults to the current directory; $\ast$}return\+Promise{\ttfamily -\/ controls whether}minify{\ttfamily method returns a Promise object or not; defaults to}false{\ttfamily ; see \mbox{[}promise interface\mbox{]}(\#promise-\/interface) for examples; $\ast$}source\+Map{\ttfamily -\/ controls whether an output source map is built; defaults to}false{\ttfamily ; $\ast$}source\+Map\+Inline\+Sources{\ttfamily -\/ controls embedding sources inside a source map\textquotesingle{}s}sources\+Content\`{} field; defaults to false.
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23663}{}\doxysubsubsection{Compatibility modes}\label{namespaceat_autotoc_md23663}
+There is a certain number of compatibility mode shortcuts, namely\+:
+
+
+\begin{DoxyItemize}
+\item `new Clean\+CSS(\{ compatibility\+: '$\ast$\textquotesingle{} \}){\ttfamily (default) -\/ Internet Explorer 10+ compatibility mode $\ast$}new Clean\+CSS(\{ compatibility\+: \textquotesingle{}ie9\textquotesingle{} \}){\ttfamily -\/ Internet Explorer 9+ compatibility mode $\ast$}new Clean\+CSS(\{ compatibility\+: \textquotesingle{}ie8\textquotesingle{} \}){\ttfamily -\/ Internet Explorer 8+ compatibility mode $\ast$}new Clean\+CSS(\{ compatibility\+: \textquotesingle{}ie7\textquotesingle{} \})\`{} -\/ Internet Explorer 7+ compatibility mode
+\end{DoxyItemize}
+
+Each of these modes is an alias to a \href{https://github.com/jakubpawlowicz/clean-css/blob/master/lib/options/compatibility.js}{\texttt{ fine grained configuration}}, with the following options available\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  compatibility: \{}
+\DoxyCodeLine{    colors: \{}
+\DoxyCodeLine{      opacity: true // controls `rgba()` / `hsla()` color support}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    properties: \{}
+\DoxyCodeLine{      backgroundClipMerging: true, // controls background-\/clip merging into shorthand}
+\DoxyCodeLine{      backgroundOriginMerging: true, // controls background-\/origin merging into shorthand}
+\DoxyCodeLine{      backgroundSizeMerging: true, // controls background-\/size merging into shorthand}
+\DoxyCodeLine{      colors: true, // controls color optimizations}
+\DoxyCodeLine{      ieBangHack: false, // controls keeping IE bang hack}
+\DoxyCodeLine{      ieFilters: false, // controls keeping IE `filter` / `-\/ms-\/filter`}
+\DoxyCodeLine{      iePrefixHack: false, // controls keeping IE prefix hack}
+\DoxyCodeLine{      ieSuffixHack: false, // controls keeping IE suffix hack}
+\DoxyCodeLine{      merging: true, // controls property merging based on understandability}
+\DoxyCodeLine{      shorterLengthUnits: false, // controls shortening pixel units into `pc`, `pt`, or `in` units}
+\DoxyCodeLine{      spaceAfterClosingBrace: true, // controls keeping space after closing brace -\/ `url() no-\/repeat` into `url()no-\/repeat`}
+\DoxyCodeLine{      urlQuotes: false, // controls keeping quoting inside `url()`}
+\DoxyCodeLine{      zeroUnits: true // controls removal of units `0` value}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    selectors: \{}
+\DoxyCodeLine{      adjacentSpace: false, // controls extra space before `nav` element}
+\DoxyCodeLine{      ie7Hack: true, // controls removal of IE7 selector hacks, e.g. `*+html...`}
+\DoxyCodeLine{      mergeablePseudoClasses: [':active', ...], // controls a whitelist of mergeable pseudo classes}
+\DoxyCodeLine{      mergeablePseudoElements: ['::after', ...], // controls a whitelist of mergeable pseudo elements}
+\DoxyCodeLine{      mergeLimit: 8191, // controls maximum number of selectors in a single rule (since 4.1.0)}
+\DoxyCodeLine{      multiplePseudoMerging: true // controls merging of rules with multiple pseudo classes / elements (since 4.1.0)}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    units: \{}
+\DoxyCodeLine{      ch: true, // controls treating `ch` as a supported unit}
+\DoxyCodeLine{      in: true, // controls treating `in` as a supported unit}
+\DoxyCodeLine{      pc: true, // controls treating `pc` as a supported unit}
+\DoxyCodeLine{      pt: true, // controls treating `pt` as a supported unit}
+\DoxyCodeLine{      rem: true, // controls treating `rem` as a supported unit}
+\DoxyCodeLine{      vh: true, // controls treating `vh` as a supported unit}
+\DoxyCodeLine{      vm: true, // controls treating `vm` as a supported unit}
+\DoxyCodeLine{      vmax: true, // controls treating `vmax` as a supported unit}
+\DoxyCodeLine{      vmin: true // controls treating `vmin` as a supported unit}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+You can also use a string when setting a compatibility mode, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  compatibility: 'ie9,-\/properties.merging' // sets compatibility to IE9 mode with disabled property merging}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23664}{}\doxysubsubsection{Fetch option}\label{namespaceat_autotoc_md23664}
+The {\ttfamily fetch} option accepts a function which handles remote resource fetching, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var request = require('request');}
+\DoxyCodeLine{var source = '@import url(http://example.com/path/to/stylesheet.css);';}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  fetch: function (uri, inlineRequest, inlineTimeout, callback) \{}
+\DoxyCodeLine{    request(uri, function (error, response, body) \{}
+\DoxyCodeLine{      if (error) \{}
+\DoxyCodeLine{        callback(error, null);}
+\DoxyCodeLine{      \} else if (response \&\& response.statusCode != 200) \{}
+\DoxyCodeLine{        callback(response.statusCode, null);}
+\DoxyCodeLine{      \} else \{}
+\DoxyCodeLine{        callback(null, body);}
+\DoxyCodeLine{      \}}
+\DoxyCodeLine{    \});}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\}).minify(source);}
+
+\end{DoxyCode}
+
+
+This option provides a convenient way of overriding the default fetching logic if it doesn\textquotesingle{}t support a particular feature, say CONNECT proxies.
+
+Unless given, the default \href{https://github.com/jakubpawlowicz/clean-css/blob/master/lib/reader/load-remote-resource.js}{\texttt{ load\+Remote\+Resource}} logic is used.\hypertarget{namespaceat_autotoc_md23665}{}\doxysubsubsection{Formatting options}\label{namespaceat_autotoc_md23665}
+By default output CSS is formatted without any whitespace unless a {\ttfamily format} option is given. First of all there are two shorthands\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  format: 'beautify' // formats output in a really nice way}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+and
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  format: 'keep-\/breaks' // formats output the default way but adds line breaks for improved readability}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+however {\ttfamily format} option also accept a fine-\/grained set of options\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  format: \{}
+\DoxyCodeLine{    breaks: \{ // controls where to insert breaks}
+\DoxyCodeLine{      afterAtRule: false, // controls if a line break comes after an at-\/rule; e.g. `@charset`; defaults to `false`}
+\DoxyCodeLine{      afterBlockBegins: false, // controls if a line break comes after a block begins; e.g. `@media`; defaults to `false`}
+\DoxyCodeLine{      afterBlockEnds: false, // controls if a line break comes after a block ends, defaults to `false`}
+\DoxyCodeLine{      afterComment: false, // controls if a line break comes after a comment; defaults to `false`}
+\DoxyCodeLine{      afterProperty: false, // controls if a line break comes after a property; defaults to `false`}
+\DoxyCodeLine{      afterRuleBegins: false, // controls if a line break comes after a rule begins; defaults to `false`}
+\DoxyCodeLine{      afterRuleEnds: false, // controls if a line break comes after a rule ends; defaults to `false`}
+\DoxyCodeLine{      beforeBlockEnds: false, // controls if a line break comes before a block ends; defaults to `false`}
+\DoxyCodeLine{      betweenSelectors: false // controls if a line break comes between selectors; defaults to `false`}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    breakWith: '\(\backslash\)n', // controls the new line character, can be `'\(\backslash\)r\(\backslash\)n'` or `'\(\backslash\)n'` (aliased as `'windows'` and `'unix'` or `'crlf'` and `'lf'`); defaults to system one, so former on Windows and latter on Unix}
+\DoxyCodeLine{    indentBy: 0, // controls number of characters to indent with; defaults to `0`}
+\DoxyCodeLine{    indentWith: 'space', // controls a character to indent with, can be `'space'` or `'tab'`; defaults to `'space'`}
+\DoxyCodeLine{    spaces: \{ // controls where to insert spaces}
+\DoxyCodeLine{      aroundSelectorRelation: false, // controls if spaces come around selector relations; e.g. `div > a`; defaults to `false`}
+\DoxyCodeLine{      beforeBlockBegins: false, // controls if a space comes before a block begins; e.g. `.block \{`; defaults to `false`}
+\DoxyCodeLine{      beforeValue: false // controls if a space comes before a value; e.g. `width: 1rem`; defaults to `false`}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    wrapAt: false // controls maximum line length; defaults to `false`}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23666}{}\doxysubsubsection{Inlining options}\label{namespaceat_autotoc_md23666}
+{\ttfamily inline} option whitelists which {\ttfamily @import} rules will be processed, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: ['local'] // default; enables local inlining only}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: ['none'] // disables all inlining}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{// introduced in clean-\/css 4.1.0}
+\DoxyCodeLine{}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: false // disables all inlining (alias to `['none']`)}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: ['all'] // enables all inlining, same as ['local', 'remote']}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: ['local', 'mydomain.example.com'] // enables local inlining plus given remote source}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  inline: ['local', 'remote', '!fonts.googleapis.com'] // enables all inlining but from given remote source}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23667}{}\doxysubsubsection{Optimization levels}\label{namespaceat_autotoc_md23667}
+The {\ttfamily level} option can be either {\ttfamily 0}, {\ttfamily 1} (default), or {\ttfamily 2}, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: 2}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+or a fine-\/grained configuration given via a hash.
+
+Please note that level 1 optimization options are generally safe while level 2 optimizations should be safe for most users.\hypertarget{namespaceat_autotoc_md23668}{}\doxyparagraph{Level 0 optimizations}\label{namespaceat_autotoc_md23668}
+Level 0 optimizations simply means \char`\"{}no optimizations\char`\"{}. Use it when you\textquotesingle{}d like to inline imports and / or rebase URLs but skip everything else.\hypertarget{namespaceat_autotoc_md23669}{}\doxyparagraph{Level 1 optimizations}\label{namespaceat_autotoc_md23669}
+Level 1 optimizations (default) operate on single properties only, e.\+g. can remove units when not required, turn rgb colors to a shorter hex representation, remove comments, etc
+
+Here is a full list of available options\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    1: \{}
+\DoxyCodeLine{      cleanupCharsets: true, // controls `@charset` moving to the front of a stylesheet; defaults to `true`}
+\DoxyCodeLine{      normalizeUrls: true, // controls URL normalization; defaults to `true`}
+\DoxyCodeLine{      optimizeBackground: true, // controls `background` property optimizations; defaults to `true`}
+\DoxyCodeLine{      optimizeBorderRadius: true, // controls `border-\/radius` property optimizations; defaults to `true`}
+\DoxyCodeLine{      optimizeFilter: true, // controls `filter` property optimizations; defaults to `true`}
+\DoxyCodeLine{      optimizeFont: true, // controls `font` property optimizations; defaults to `true`}
+\DoxyCodeLine{      optimizeFontWeight: true, // controls `font-\/weight` property optimizations; defaults to `true`}
+\DoxyCodeLine{      optimizeOutline: true, // controls `outline` property optimizations; defaults to `true`}
+\DoxyCodeLine{      removeEmpty: true, // controls removing empty rules and nested blocks; defaults to `true`}
+\DoxyCodeLine{      removeNegativePaddings: true, // controls removing negative paddings; defaults to `true`}
+\DoxyCodeLine{      removeQuotes: true, // controls removing quotes when unnecessary; defaults to `true`}
+\DoxyCodeLine{      removeWhitespace: true, // controls removing unused whitespace; defaults to `true`}
+\DoxyCodeLine{      replaceMultipleZeros: true, // contols removing redundant zeros; defaults to `true`}
+\DoxyCodeLine{      replaceTimeUnits: true, // controls replacing time units with shorter values; defaults to `true`}
+\DoxyCodeLine{      replaceZeroUnits: true, // controls replacing zero values with units; defaults to `true`}
+\DoxyCodeLine{      roundingPrecision: false, // rounds pixel values to `N` decimal places; `false` disables rounding; defaults to `false`}
+\DoxyCodeLine{      selectorsSortingMethod: 'standard', // denotes selector sorting method; can be `'natural'` or `'standard'`, `'none'`, or false (the last two since 4.1.0); defaults to `'standard'`}
+\DoxyCodeLine{      specialComments: 'all', // denotes a number of /*! ... */ comments preserved; defaults to `all`}
+\DoxyCodeLine{      tidyAtRules: true, // controls at-\/rules (e.g. `@charset`, `@import`) optimizing; defaults to `true`}
+\DoxyCodeLine{      tidyBlockScopes: true, // controls block scopes (e.g. `@media`) optimizing; defaults to `true`}
+\DoxyCodeLine{      tidySelectors: true, // controls selectors optimizing; defaults to `true`,}
+\DoxyCodeLine{      semicolonAfterLastProperty: false, // controls removing trailing semicolons in rule; defaults to `false` -\/ means remove}
+\DoxyCodeLine{      transform: function () \{\} // defines a callback for fine-\/grained property optimization; defaults to no-\/op}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+There is an {\ttfamily all} shortcut for toggling all options at the same time, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    1: \{}
+\DoxyCodeLine{      all: false, // set all values to `false`}
+\DoxyCodeLine{      tidySelectors: true // turns on optimizing selectors}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23670}{}\doxyparagraph{Level 2 optimizations}\label{namespaceat_autotoc_md23670}
+Level 2 optimizations operate at rules or multiple properties level, e.\+g. can remove duplicate rules, remove properties redefined further down a stylesheet, or restructure rules by moving them around.
+
+Please note that if level 2 optimizations are turned on then, unless explicitely disabled, level 1 optimizations are applied as well.
+
+Here is a full list of available options\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    2: \{}
+\DoxyCodeLine{      mergeAdjacentRules: true, // controls adjacent rules merging; defaults to true}
+\DoxyCodeLine{      mergeIntoShorthands: true, // controls merging properties into shorthands; defaults to true}
+\DoxyCodeLine{      mergeMedia: true, // controls `@media` merging; defaults to true}
+\DoxyCodeLine{      mergeNonAdjacentRules: true, // controls non-\/adjacent rule merging; defaults to true}
+\DoxyCodeLine{      mergeSemantically: false, // controls semantic merging; defaults to false}
+\DoxyCodeLine{      overrideProperties: true, // controls property overriding based on understandability; defaults to true}
+\DoxyCodeLine{      removeEmpty: true, // controls removing empty rules and nested blocks; defaults to `true`}
+\DoxyCodeLine{      reduceNonAdjacentRules: true, // controls non-\/adjacent rule reducing; defaults to true}
+\DoxyCodeLine{      removeDuplicateFontRules: true, // controls duplicate `@font-\/face` removing; defaults to true}
+\DoxyCodeLine{      removeDuplicateMediaBlocks: true, // controls duplicate `@media` removing; defaults to true}
+\DoxyCodeLine{      removeDuplicateRules: true, // controls duplicate rules removing; defaults to true}
+\DoxyCodeLine{      removeUnusedAtRules: false, // controls unused at rule removing; defaults to false (available since 4.1.0)}
+\DoxyCodeLine{      restructureRules: false, // controls rule restructuring; defaults to false}
+\DoxyCodeLine{      skipProperties: [] // controls which properties won't be optimized, defaults to `[]` which means all will be optimized (since 4.1.0)}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+There is an {\ttfamily all} shortcut for toggling all options at the same time, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    2: \{}
+\DoxyCodeLine{      all: false, // sets all values to `false`}
+\DoxyCodeLine{      removeDuplicateRules: true // turns on removing duplicate rules}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23671}{}\doxysubsubsection{Minify method}\label{namespaceat_autotoc_md23671}
+Once configured clean-\/css provides a {\ttfamily minify} method to optimize a given CSS, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var output = new CleanCSS(options).minify(source);}
+
+\end{DoxyCode}
+
+
+The output of the {\ttfamily minify} method is a hash with following fields\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{console.log(output.styles); // optimized output CSS as a string}
+\DoxyCodeLine{console.log(output.sourceMap); // output source map if requested with `sourceMap` option}
+\DoxyCodeLine{console.log(output.errors); // a list of errors raised}
+\DoxyCodeLine{console.log(output.warnings); // a list of warnings raised}
+\DoxyCodeLine{console.log(output.stats.originalSize); // original content size after import inlining}
+\DoxyCodeLine{console.log(output.stats.minifiedSize); // optimized content size}
+\DoxyCodeLine{console.log(output.stats.timeSpent); // time spent on optimizations in milliseconds}
+\DoxyCodeLine{console.log(output.stats.efficiency); // `(originalSize -\/ minifiedSize) / originalSize`, e.g. 0.25 if size is reduced from 100 bytes to 75 bytes}
+
+\end{DoxyCode}
+
+
+The {\ttfamily minify} method also accepts an input source map, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var output = new CleanCSS(options).minify(source, inputSourceMap);}
+
+\end{DoxyCode}
+
+
+or a callback invoked when optimizations are finished, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(options).minify(source, function (error, output) \{}
+\DoxyCodeLine{  // `output` is the same as in the synchronous call above}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23672}{}\doxysubsubsection{Promise interface}\label{namespaceat_autotoc_md23672}
+If you prefer clean-\/css to return a Promise object then you need to explicitely ask for it, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{ returnPromise: true \})}
+\DoxyCodeLine{  .minify(source)}
+\DoxyCodeLine{  .then(function (output) \{ console.log(output.styles); \})}
+\DoxyCodeLine{  .catch(function (error) \{ // deal with errors \});}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23673}{}\doxysubsubsection{CLI utility}\label{namespaceat_autotoc_md23673}
+Clean-\/css has an associated command line utility that can be installed separately using {\ttfamily npm install clean-\/css-\/cli}. For more detailed information, please visit \href{https://github.com/jakubpawlowicz/clean-css-cli}{\texttt{ https\+://github.\+com/jakubpawlowicz/clean-\/css-\/cli}}.\hypertarget{namespaceat_autotoc_md23674}{}\doxysubsection{FAQ}\label{namespaceat_autotoc_md23674}
+\hypertarget{namespaceat_autotoc_md23675}{}\doxysubsubsection{How to optimize multiple files?}\label{namespaceat_autotoc_md23675}
+It can be done either by passing an array of paths, or, when sources are already available, a hash or an array of hashes\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS().minify(['path/to/file/one', 'path/to/file/two']);}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS().minify(\{}
+\DoxyCodeLine{  'path/to/file/one': \{}
+\DoxyCodeLine{    styles: 'contents of file one'}
+\DoxyCodeLine{  \},}
+\DoxyCodeLine{  'path/to/file/two': \{}
+\DoxyCodeLine{    styles: 'contents of file two'}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS().minify([}
+\DoxyCodeLine{  \{'path/to/file/one': \{styles: 'contents of file one'\}\},}
+\DoxyCodeLine{  \{'path/to/file/two': \{styles: 'contents of file two'\}\}}
+\DoxyCodeLine{]);}
+
+\end{DoxyCode}
+
+
+Passing an array of hashes allows you to explicitly specify the order in which the input files are concatenated. Whereas when you use a single hash the order is determined by the \href{http://2ality.com/2015/10/property-traversal-order-es6.html}{\texttt{ traversal order of object properties}} -\/ available since 4.\+1.\+0.
+
+Important note -\/ any {\ttfamily @import} rules already present in the hash will be resolved in memory.\hypertarget{namespaceat_autotoc_md23676}{}\doxysubsubsection{How to process remote $<$tt$>$@import$<$/tt$>$s correctly?}\label{namespaceat_autotoc_md23676}
+In order to inline remote {\ttfamily @import} statements you need to provide a callback to minify method as fetching remote assets is an asynchronous operation, e.\+g.\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var source = '@import url(http://example.com/path/to/remote/styles);';}
+\DoxyCodeLine{new CleanCSS(\{ inline: ['remote'] \}).minify(source, function (error, output) \{}
+\DoxyCodeLine{  // output.styles}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+If you don\textquotesingle{}t provide a callback, then remote {\ttfamily @import}s will be left as is.\hypertarget{namespaceat_autotoc_md23677}{}\doxysubsubsection{How to apply arbitrary transformations to CSS properties?}\label{namespaceat_autotoc_md23677}
+If clean-\/css doesn\textquotesingle{}t perform a particular property optimization, you can use {\ttfamily transform} callback to apply it\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var source = '.block\{background-\/image:url(/path/to/image.png)\}';}
+\DoxyCodeLine{var output = new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    1: \{}
+\DoxyCodeLine{      transform: function (propertyName, propertyValue, selector /* `selector` available since 4.2.0-\/pre */) \{}
+\DoxyCodeLine{        if (propertyName == 'background-\/image' \&\& propertyValue.indexOf('/path/to') > -\/1) \{}
+\DoxyCodeLine{          return propertyValue.replace('/path/to', '../valid/path/to');}
+\DoxyCodeLine{        \}}
+\DoxyCodeLine{      \}}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\}).minify(source);}
+\DoxyCodeLine{}
+\DoxyCodeLine{console.log(output.styles); \# => .block\{background-\/image:url(../valid/path/to/image.png)\}}
+
+\end{DoxyCode}
+
+
+Note\+: returning {\ttfamily false} from {\ttfamily transform} callback will drop a property.\hypertarget{namespaceat_autotoc_md23678}{}\doxysubsubsection{How to specify a custom rounding precision?}\label{namespaceat_autotoc_md23678}
+The level 1 {\ttfamily rounding\+Precision} optimization option accept a string with per-\/unit rounding precision settings, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    1: \{}
+\DoxyCodeLine{      roundingPrecision: 'all=3,px=5'}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\}).minify(source)}
+
+\end{DoxyCode}
+
+
+which sets all units rounding precision to 3 digits except {\ttfamily px} unit precision of 5 digits.\hypertarget{namespaceat_autotoc_md23679}{}\doxysubsubsection{How to keep a CSS fragment intact?}\label{namespaceat_autotoc_md23679}
+Note\+: available in the current master, to be released in 4.\+2.\+0.
+
+Wrap the CSS fragment in special comments which instruct clean-\/css to preserve it, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{.block-\/1 \{}
+\DoxyCodeLine{  color: red}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{/* clean-\/css ignore:start */}
+\DoxyCodeLine{.block-\/special \{}
+\DoxyCodeLine{  color: transparent}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{/* clean-\/css ignore:end */}
+\DoxyCodeLine{.block-\/2 \{}
+\DoxyCodeLine{  margin: 0}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Optimizing this CSS will result in the following output\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{.block-\/1\{color:red\}}
+\DoxyCodeLine{.block-\/special \{}
+\DoxyCodeLine{  color: transparent}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{.block-\/2\{margin:0\}}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23680}{}\doxysubsubsection{How to preserve a comment block?}\label{namespaceat_autotoc_md23680}
+Use the {\ttfamily /$\ast$!} notation instead of the standard one {\ttfamily /$\ast$}\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{/*!}
+\DoxyCodeLine{  Important comments included in optimized output.}
+\DoxyCodeLine{*/}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23681}{}\doxysubsubsection{How to rebase relative image URLs?}\label{namespaceat_autotoc_md23681}
+clean-\/css will handle it automatically for you in the following cases\+:
+
+
+\begin{DoxyItemize}
+\item when full paths to input files are passed in as options;
+\item when correct paths are passed in via a hash;
+\item when {\ttfamily rebase\+To} is used with any of above two.
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23682}{}\doxysubsubsection{How to work with source maps?}\label{namespaceat_autotoc_md23682}
+To generate a source map, use {\ttfamily source\+Map\+: true} option, e.\+g.\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{ sourceMap: true, rebaseTo: pathToOutputDirectory \})}
+\DoxyCodeLine{  .minify(source, function (error, output) \{}
+\DoxyCodeLine{    // access output.sourceMap for SourceMapGenerator object}
+\DoxyCodeLine{    // see https://github.com/mozilla/source-\/map/\#sourcemapgenerator for more details}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+You can also pass an input source map directly as a 2nd argument to {\ttfamily minify} method\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{ sourceMap: true, rebaseTo: pathToOutputDirectory \})}
+\DoxyCodeLine{  .minify(source, inputSourceMap, function (error, output) \{}
+\DoxyCodeLine{    // access output.sourceMap to access SourceMapGenerator object}
+\DoxyCodeLine{    // see https://github.com/mozilla/source-\/map/\#sourcemapgenerator for more details}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+
+
+or even multiple input source maps at once\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{ sourceMap: true, rebaseTo: pathToOutputDirectory \}).minify(\{}
+\DoxyCodeLine{  'path/to/source/1': \{}
+\DoxyCodeLine{    styles: '...styles...',}
+\DoxyCodeLine{    sourceMap: '...source-\/map...'}
+\DoxyCodeLine{  \},}
+\DoxyCodeLine{  'path/to/source/2': \{}
+\DoxyCodeLine{    styles: '...styles...',}
+\DoxyCodeLine{    sourceMap: '...source-\/map...'}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\}, function (error, output) \{}
+\DoxyCodeLine{  // access output.sourceMap as above}
+\DoxyCodeLine{\});}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23683}{}\doxysubsubsection{How to apply level 1 \& 2 optimizations at the same time?}\label{namespaceat_autotoc_md23683}
+Using the hash configuration specifying both optimization levels, e.\+g.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{new CleanCSS(\{}
+\DoxyCodeLine{  level: \{}
+\DoxyCodeLine{    1: \{}
+\DoxyCodeLine{      all: true,}
+\DoxyCodeLine{      normalizeUrls: false}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    2: \{}
+\DoxyCodeLine{      restructureRules: true}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{  \}}
+\DoxyCodeLine{\})}
+
+\end{DoxyCode}
+
+
+will apply level 1 optimizations, except url normalization, and default level 2 optimizations with rule restructuring.\hypertarget{namespaceat_autotoc_md23684}{}\doxysubsubsection{What level 2 optimizations do?}\label{namespaceat_autotoc_md23684}
+All level 2 optimizations are dispatched \href{https://github.com/jakubpawlowicz/clean-css/blob/master/lib/optimizer/level-2/optimize.js\#L67}{\texttt{ here}}, and this is what they do\+:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily recursively\+Optimize\+Blocks} -\/ does all the following operations on a nested block, like {\ttfamily @media} or {\ttfamily @keyframe};
+\item {\ttfamily recursively\+Optimize\+Properties} -\/ optimizes properties in rulesets and flat at-\/rules, like @font-\/face, by splitting them into components (e.\+g. {\ttfamily margin} into {\ttfamily margin-\/(bottom$\vert$left$\vert$right$\vert$top)}), optimizing, and restoring them back. You may want to use {\ttfamily merge\+Into\+Shorthands} option to control whether you want to turn multiple components into shorthands;
+\item {\ttfamily remove\+Duplicates} -\/ gets rid of duplicate rulesets with exactly the same set of properties, e.\+g. when including a Sass / Less partial twice for no good reason;
+\item {\ttfamily merge\+Adjacent} -\/ merges adjacent rulesets with the same selector or rules;
+\item {\ttfamily reduce\+Non\+Adjacent} -\/ identifies which properties are overridden in same-\/selector non-\/adjacent rulesets, and removes them;
+\item {\ttfamily merge\+Non\+Adjacent\+By\+Selector} -\/ identifies same-\/selector non-\/adjacent rulesets which can be moved (!) to be merged, requires all intermediate rulesets to not redefine the moved properties, or if redefined to have the same value;
+\item {\ttfamily merge\+Non\+Adjacent\+By\+Body} -\/ same as the one above but for same-\/selector non-\/adjacent rulesets;
+\item {\ttfamily restructure} -\/ tries to reorganize different-\/selector different-\/rules rulesets so they take less space, e.\+g. {\ttfamily .one\{padding\+:0\}.two\{margin\+:0\}.one\{margin-\/bottom\+:3px\}} into {\ttfamily .two\{margin\+:0\}.one\{padding\+:0;margin-\/bottom\+:3px\}};
+\item {\ttfamily remove\+Duplicate\+Font\+At\+Rules} -\/ removes duplicated {\ttfamily @font-\/face} rules;
+\item {\ttfamily remove\+Duplicate\+Media\+Queries} -\/ removes duplicated {\ttfamily @media} nested blocks;
+\item {\ttfamily merge\+Media\+Queries} -\/ merges non-\/adjacent {\ttfamily @media} at-\/rules by the same rules as {\ttfamily merge\+Non\+Adjacent\+By$\ast$} above;
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23685}{}\doxysubsubsection{How to use clean-\/css with build tools?}\label{namespaceat_autotoc_md23685}
+There is a number of 3rd party plugins to popular build tools\+:
+
+
+\begin{DoxyItemize}
+\item \href{https://github.com/broccolijs/broccoli\#broccoli}{\texttt{ Broccoli}}\+: \href{https://github.com/shinnn/broccoli-clean-css}{\texttt{ broccoli-\/clean-\/css}}
+\item \href{http://brunch.io/}{\texttt{ Brunch}}\+: \href{https://github.com/brunch/clean-css-brunch}{\texttt{ clean-\/css-\/brunch}}
+\item \href{http://gruntjs.com}{\texttt{ Grunt}}\+: \href{https://github.com/gruntjs/grunt-contrib-cssmin}{\texttt{ grunt-\/contrib-\/cssmin}}
+\item \href{http://gulpjs.com/}{\texttt{ Gulp}}\+: \href{https://github.com/scniro/gulp-clean-css}{\texttt{ gulp-\/clean-\/css}}
+\item \href{http://gulpjs.com/}{\texttt{ Gulp}}\+: \href{https://github.com/jakubpawlowicz/clean-css/issues/342}{\texttt{ using vinyl-\/map as a wrapper -\/ courtesy of @sogko}}
+\item \href{https://github.com/component/builder2.js}{\texttt{ component-\/builder2}}\+: \href{https://github.com/poying/builder-clean-css}{\texttt{ builder-\/clean-\/css}}
+\item \href{http://metalsmith.io}{\texttt{ Metalsmith}}\+: \href{https://github.com/aymericbeaumet/metalsmith-clean-css}{\texttt{ metalsmith-\/clean-\/css}}
+\item \href{https://github.com/lasso-js/lasso}{\texttt{ Lasso}}\+: \href{https://github.com/yomed/lasso-clean-css}{\texttt{ lasso-\/clean-\/css}}
+\item \href{https://github.com/start-runner/start}{\texttt{ Start}}\+: \href{https://github.com/start-runner/clean-css}{\texttt{ start-\/clean-\/css}}
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23686}{}\doxysubsubsection{How to use clean-\/css from web browser?}\label{namespaceat_autotoc_md23686}
+
+\begin{DoxyItemize}
+\item \href{https://jakubpawlowicz.github.io/clean-css/}{\texttt{ https\+://jakubpawlowicz.\+github.\+io/clean-\/css/}} (official web interface)
+\item \href{http://refresh-sf.com/}{\texttt{ http\+://refresh-\/sf.\+com/}}
+\item \href{http://adamburgess.github.io/clean-css-online/}{\texttt{ http\+://adamburgess.\+github.\+io/clean-\/css-\/online/}}
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23687}{}\doxysubsection{Contributing}\label{namespaceat_autotoc_md23687}
+See \href{https://github.com/jakubpawlowicz/clean-css/blob/master/CONTRIBUTING.md}{\texttt{ CONTRIBUTING.\+md}}.\hypertarget{namespaceat_autotoc_md23688}{}\doxysubsubsection{How to get started?}\label{namespaceat_autotoc_md23688}
+First clone the sources\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git clone git@github.com:jakubpawlowicz/clean-\/css.git}
+
+\end{DoxyCode}
+
+
+then install dependencies\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd clean-\/css}
+\DoxyCodeLine{npm install}
+
+\end{DoxyCode}
+
+
+then use any of the following commands to verify your copy\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{npm run bench \# for clean-\/css benchmarks (see [test/bench.js](https://github.com/jakubpawlowicz/clean-\/css/blob/master/test/bench.js) for details)}
+\DoxyCodeLine{npm run browserify \# to create the browser-\/ready clean-\/css version}
+\DoxyCodeLine{npm run check \# to lint JS sources with [JSHint](https://github.com/jshint/jshint/)}
+\DoxyCodeLine{npm test \# to run all tests}
+
+\end{DoxyCode}
+\hypertarget{namespaceat_autotoc_md23689}{}\doxysubsection{Acknowledgments}\label{namespaceat_autotoc_md23689}
+Sorted alphabetically by Git\+Hub handle\+:
+
+
+\begin{DoxyItemize}
+\item \href{https://github.com/abarre}{\texttt{ @abarre}} (Anthony Barre) for improvements to {\ttfamily @import} processing;
+\item \href{https://github.com/alexlamsl}{\texttt{ @alexlamsl}} (Alex Lam S.\+L.) for testing early clean-\/css 4 versions, reporting bugs, and suggesting numerous improvements.
+\item \href{https://github.com/altschuler}{\texttt{ @altschuler}} (Simon Altschuler) for fixing {\ttfamily @import} processing inside comments;
+\item \href{https://github.com/ben-eb}{\texttt{ @ben-\/eb}} (Ben Briggs) for sharing ideas about CSS optimizations;
+\item \href{https://github.com/davisjam}{\texttt{ @davisjam}} (Jamie Davis) for disclosing Re\+DOS vulnerabilities;
+\item \href{https://github.com/facelessuser}{\texttt{ @facelessuser}} (Isaac) for pointing out a flaw in clean-\/css\textquotesingle{} stateless mode;
+\item \href{https://github.com/grandrath}{\texttt{ @grandrath}} (Martin Grandrath) for improving {\ttfamily minify} method source traversal in ES6;
+\item \href{https://github.com/jmalonzo}{\texttt{ @jmalonzo}} (Jan Michael Alonzo) for a patch removing node.\+js\textquotesingle{} old {\ttfamily sys} package;
+\item \href{https://github.com/lukeapage}{\texttt{ @lukeapage}} (Luke \mbox{\hyperlink{classPage}{Page}}) for suggestions and testing the source maps feature; Plus everyone else involved in \href{https://github.com/jakubpawlowicz/clean-css/issues/125}{\texttt{ \#125}} for pushing it forward;
+\item \href{https://github.com/madwizard-thomas}{\texttt{ @madwizard-\/thomas}} for sharing ideas about {\ttfamily @import} inlining and URL rebasing.
+\item \href{https://github.com/ngyikp}{\texttt{ @ngyikp}} (Ng Yik Phang) for testing early clean-\/css 4 versions, reporting bugs, and suggesting numerous improvements.
+\item \href{https://github.com/wagenet}{\texttt{ @wagenet}} (Peter Wagenet) for suggesting improvements to {\ttfamily @import} inlining behavior;
+\item \href{https://github.com/venemo}{\texttt{ @venemo}} (Timur Kristóf) for an outstanding contribution of advanced property optimizer for 2.\+2 release;
+\item \href{https://github.com/vvo}{\texttt{ @vvo}} (Vincent Voyer) for a patch with better empty element regex and for inspiring us to do many performance improvements in 0.\+4 release;
+\item \href{https://github.com/xhmikosr}{\texttt{ @xhmikosr}} for suggesting new features, like option to remove special comments and strip out URLs quotation, and pointing out numerous improvements like JSHint, media queries, etc.
+\end{DoxyItemize}\hypertarget{namespaceat_autotoc_md23690}{}\doxysubsection{License}\label{namespaceat_autotoc_md23690}
+clean-\/css is released under the \href{https://github.com/jakubpawlowicz/clean-css/blob/master/LICENSE}{\texttt{ MIT License}}. 

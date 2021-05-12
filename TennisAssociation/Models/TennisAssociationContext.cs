@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// Class proper usage of Entity framework for application needs.
+    /// </summary>
     public partial class TennisAssociationContext : DbContext
     {
         public TennisAssociationContext()

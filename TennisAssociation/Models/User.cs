@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// General user info.
+    /// </summary>
     public class User
     {
         [Required]

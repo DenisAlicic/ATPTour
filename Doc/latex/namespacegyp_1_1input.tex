@@ -1,0 +1,849 @@
+\hypertarget{namespacegyp_1_1input}{}\doxysection{gyp.\+input Namespace Reference}
+\label{namespacegyp_1_1input}\index{gyp.input@{gyp.input}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1input_1_1DependencyGraphNode}{Dependency\+Graph\+Node}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1input_1_1ParallelProcessingError}{Parallel\+Processing\+Error}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1input_1_1ParallelState}{Parallel\+State}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a0e7a491424208b309dbf22bbd5665845}{Is\+Path\+Section}} (section)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ab7cb3a46185bcbf97f62c51aa28231d3}{Get\+Included\+Build\+Files}} (build\+\_\+file\+\_\+path, aux\+\_\+data, included=None)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aabbb0aaee36e1759609da68cdbd4b42e}{Checked\+Eval}} (file\+\_\+contents)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a26a1963eb9928ec009b7fa79892e5eb5}{Check\+Node}} (node, keypath)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ace258dad9c94b294c8a8c14b562417a9}{Load\+One\+Build\+File}} (build\+\_\+file\+\_\+path, data, aux\+\_\+data, includes, is\+\_\+target, check)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aa778374eb3d37797a9d979dadbb4993b}{Load\+Build\+File\+Includes\+Into\+Dict}} (subdict, subdict\+\_\+path, data, aux\+\_\+data, includes, check)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ae007a736d4accc6326bd954e585808d4}{Load\+Build\+File\+Includes\+Into\+List}} (sublist, sublist\+\_\+path, data, aux\+\_\+data, check)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a2243c5eb68dcfa0add9bf8b171ea3087}{Process\+Toolsets\+In\+Dict}} (data)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aeaad23b1b533f41e56e4e2b720ca4898}{Load\+Target\+Build\+File}} (build\+\_\+file\+\_\+path, data, aux\+\_\+data, variables, includes, depth, check, load\+\_\+dependencies)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aa39e3144be3e856863297cdedc4c0d30}{Call\+Load\+Target\+Build\+File}} (global\+\_\+flags, build\+\_\+file\+\_\+path, variables, includes, depth, check, generator\+\_\+input\+\_\+info)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a0407bea131fc7d6d4e5b1b04accdecd7}{Load\+Target\+Build\+Files\+Parallel}} (build\+\_\+files, data, variables, includes, depth, check, generator\+\_\+input\+\_\+info)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a48b1659fa37a91e81a104b052eba5a32}{Find\+Enclosing\+Bracket\+Group}} (input\+\_\+str)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a161dea14a762a1ebb3c6ef680a0925e1}{Is\+Str\+Canonical\+Int}} (string)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a6c438560f27e3318245abe09fe3e633c}{Fixup\+Platform\+Command}} (cmd)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ae4d9d477f120b0e6f3a1babc9ebd22e2}{Expand\+Variables}} (input, phase, variables, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aae879b207094e1ba959e317b5a483fad}{Eval\+Condition}} (condition, conditions\+\_\+key, phase, variables, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ade1c76d946f7482b63aecb59a31b6b6d}{Eval\+Single\+Condition}} (cond\+\_\+expr, true\+\_\+dict, false\+\_\+dict, phase, variables, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a042a26b475b7b69cf02c19acaea4936b}{Process\+Conditions\+In\+Dict}} (the\+\_\+dict, phase, variables, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a23b4a2986364fa22f561e6c3d0c2b357}{Load\+Automatic\+Variables\+From\+Dict}} (variables, the\+\_\+dict)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a5c61cb5e9cbc478ed1934dba6e18fd63}{Load\+Variables\+From\+Variables\+Dict}} (variables, the\+\_\+dict, the\+\_\+dict\+\_\+key)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aabff67358b0dcd1ca542a920765094a7}{Process\+Variables\+And\+Conditions\+In\+Dict}} (the\+\_\+dict, phase, variables\+\_\+in, build\+\_\+file, the\+\_\+dict\+\_\+key=None)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a5b8df7fb3fd954cf10f900e2e6211f35}{Process\+Variables\+And\+Conditions\+In\+List}} (the\+\_\+list, phase, variables, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ac08f2569d0f9fc6015f43f9121d4689b}{Build\+Targets\+Dict}} (data)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aa777b95af3ebabbe32e79806421fb5f4}{Qualify\+Dependencies}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a236d6d1580a1e4ab8f9bf2bdea8d10df}{Expand\+Wildcard\+Dependencies}} (targets, data)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a170b08fa3a3d1c4c4a29ce48c1771f58}{Unify}} (items)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a4152c8d31028760618231bee089bc0f9}{Remove\+Duplicate\+Dependencies}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a8693149208f5e451a8060d58e973ad76}{Filter}} (items, item)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a0c7779ee1fd0748966b43057f1dd3fcf}{Remove\+Self\+Dependencies}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a4bb58e591a7cf6bc6aadcbad91411565}{Remove\+Link\+Dependencies\+From\+None\+Targets}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a6929251241dc17dde0b15e9c2c3f7dc3}{Build\+Dependency\+List}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_acd3bdebce271a169ac735a51d0471537}{Verify\+No\+GYPFile\+Circular\+Dependencies}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a6d86b68ef508734e484bf293b63db72e}{Do\+Dependent\+Settings}} (key, flat\+\_\+list, targets, dependency\+\_\+nodes)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ad26741eabc7c13037505e9cf4b0295df}{Adjust\+Static\+Library\+Dependencies}} (flat\+\_\+list, targets, dependency\+\_\+nodes, sort\+\_\+dependencies)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a90aefb9baaddfc01b935d5cb3f10c65e}{Make\+Path\+Relative}} (to\+\_\+file, fro\+\_\+file, item)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a986ea08275f18bf183727fdecc7083ca}{Merge\+Lists}} (to, fro, to\+\_\+file, fro\+\_\+file, is\+\_\+paths=False, append=True)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a9abaa7659b2d3a7fd00869832ca23058}{Merge\+Dicts}} (to, fro, to\+\_\+file, fro\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ac4355b88267547d72fb39b9375c98cf4}{Merge\+Config\+With\+Inheritance}} (new\+\_\+configuration\+\_\+dict, build\+\_\+file, target\+\_\+dict, configuration, visited)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_af92a1ed926e7c507f12c0406f34f20cf}{Set\+Up\+Configurations}} (target, target\+\_\+dict)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a841dca648c787d7a484f326c82af1c07}{Process\+List\+Filters\+In\+Dict}} (name, the\+\_\+dict)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_ae1284333f8c43b331473e410054180e9}{Process\+List\+Filters\+In\+List}} (name, the\+\_\+list)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aab3167dbe023cc648d7931df87186958}{Validate\+Target\+Type}} (target, target\+\_\+dict)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a6c123962719e1beba02d9a91c990c3d2}{Validate\+Rules\+In\+Target}} (target, target\+\_\+dict, extra\+\_\+sources\+\_\+for\+\_\+rules)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a3f91c675d2a40f44a272eda91455d905}{Validate\+Run\+As\+In\+Target}} (target, target\+\_\+dict, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_aa579d207bdafe053c6acd79d2ab45882}{Validate\+Actions\+In\+Target}} (target, target\+\_\+dict, build\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a582ba299aa2ef2b979bf0d819975eb42}{Turn\+Int\+Into\+Str\+In\+Dict}} (the\+\_\+dict)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a15f23663435b259fbf3a11e679f80efb}{Turn\+Int\+Into\+Str\+In\+List}} (the\+\_\+list)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_acdde11a89c9bee3d3ed3187fdc01fc1a}{Prune\+Unwanted\+Targets}} (targets, flat\+\_\+list, dependency\+\_\+nodes, root\+\_\+targets, data)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a456f57340ff1515ca1626f22c61c8c0e}{Verify\+No\+Colliding\+Targets}} (targets)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a60c03cbb4586bfc9e9d25a371693ecbd}{Set\+Generator\+Globals}} (generator\+\_\+input\+\_\+info)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1input_a897e1a8bfff3cd7b67e78d89e5723838}{Load}} (build\+\_\+files, variables, includes, depth, generator\+\_\+input\+\_\+info, check, circular\+\_\+check, parallel, root\+\_\+targets)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_aadf8c636dc1eae1649470bd3229f480b}{PY3}} = str
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_a625b606efe21f88181225260957e3a7c}{linkable\+\_\+types}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_a527da0feb3cdedbc64d7625d84ed060c}{dependency\+\_\+sections}} = \mbox{[}\char`\"{}dependencies\char`\"{}, \char`\"{}export\+\_\+dependent\+\_\+settings\char`\"{}\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_ab58825142a67f0d3023c332ba7a8fb2a}{base\+\_\+path\+\_\+sections}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_a500fb64195b1eb61ba3dafc8a9469268}{path\+\_\+sections}} = set()
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1input_ad5754494096d02b0413f4d94db26b2b7}{per\+\_\+process\+\_\+data}} = \{\}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1input_a12bf1877a8f9a8cf312d7a8d6b638dc4}{per\+\_\+process\+\_\+aux\+\_\+data}} = \{\}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_ac573e3ba6ea8bd7003af76aea5755b07}{base\+\_\+non\+\_\+configuration\+\_\+keys}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_ad2607b81c81cfca548054dadcb2612eb}{non\+\_\+configuration\+\_\+keys}} = \mbox{[}$\,$\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1input_ad9a8f6ca573d144fdabe06047fec729a}{invalid\+\_\+configuration\+\_\+keys}}
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1input_aa720f0d43d0f385ec4d20f16dd652ead}{multiple\+\_\+toolsets}} = False
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_aded464d118e91f8b89e750184ad1d03c}{generator\+\_\+filelist\+\_\+paths}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_aeb64e1139d2c6acd73b9ff035a2c4273}{LBRACKETS}} = set(\char`\"{}\{\mbox{[}(\char`\"{})
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1input_a09eda1a04231572902e6f9144de1908d}{BRACKETS}} = \{\char`\"{}\}\char`\"{}\+: \char`\"{}\{\char`\"{}, \char`\"{}\mbox{]}\char`\"{}\+: \char`\"{}\mbox{[}\char`\"{}, \char`\"{})\char`\"{}\+: \char`\"{}(\char`\"{}\}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_a32704b6edd749ad8ac884b0ac19e10fc}{early\+\_\+variable\+\_\+re}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_a0694ba8e45c0831e3341426df3f94e75}{late\+\_\+variable\+\_\+re}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_a01bdf26140487fe6d3c4b4da30460d97}{latelate\+\_\+variable\+\_\+re}}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1input_a75a6d6c0eff0622ca1f7f4073f40b8f4}{cached\+\_\+command\+\_\+results}} = \{\}
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1input_ae9be6bc2709b4c4f77657a281ba4aff1}{PHASE\+\_\+\+EARLY}} = 0
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1input_ad84f73ba31577bbc0bc5cd9dcb5e0938}{PHASE\+\_\+\+LATE}} = 1
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1input_a0464f6ba0f94e3ee36f22cc80f9d16e4}{PHASE\+\_\+\+LATELATE}} = 2
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1input_ab0638161cffad70fad8959e8a020e7dc}{cached\+\_\+conditions\+\_\+asts}} = \{\}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1input_ad0ef3f978a0338e718b2ae15e4ba6d5c}{exception\+\_\+re}} = re.\+compile()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1input_ad26741eabc7c13037505e9cf4b0295df}\label{namespacegyp_1_1input_ad26741eabc7c13037505e9cf4b0295df}} 
+\index{gyp.input@{gyp.input}!AdjustStaticLibraryDependencies@{AdjustStaticLibraryDependencies}}
+\index{AdjustStaticLibraryDependencies@{AdjustStaticLibraryDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{AdjustStaticLibraryDependencies()}{AdjustStaticLibraryDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Adjust\+Static\+Library\+Dependencies (\begin{DoxyParamCaption}\item[{}]{flat\+\_\+list,  }\item[{}]{targets,  }\item[{}]{dependency\+\_\+nodes,  }\item[{}]{sort\+\_\+dependencies }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a6929251241dc17dde0b15e9c2c3f7dc3}\label{namespacegyp_1_1input_a6929251241dc17dde0b15e9c2c3f7dc3}} 
+\index{gyp.input@{gyp.input}!BuildDependencyList@{BuildDependencyList}}
+\index{BuildDependencyList@{BuildDependencyList}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{BuildDependencyList()}{BuildDependencyList()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Build\+Dependency\+List (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ac08f2569d0f9fc6015f43f9121d4689b}\label{namespacegyp_1_1input_ac08f2569d0f9fc6015f43f9121d4689b}} 
+\index{gyp.input@{gyp.input}!BuildTargetsDict@{BuildTargetsDict}}
+\index{BuildTargetsDict@{BuildTargetsDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{BuildTargetsDict()}{BuildTargetsDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Build\+Targets\+Dict (\begin{DoxyParamCaption}\item[{}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Builds a dict mapping fully-qualified target names to their target dicts.
+
+|data| is a dict mapping loaded build files by pathname relative to the
+current directory.  Values in |data| are build file contents.  For each
+|data| value with a "targets" key, the value of the "targets" key is taken
+as a list containing target dicts.  Each target's fully-qualified name is
+constructed from the pathname of the build file (|data| key) and its
+"target_name" property.  These fully-qualified names are used as the keys
+in the returned dict.  These keys provide access to the target dicts,
+the dicts in the "targets" lists.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_aa39e3144be3e856863297cdedc4c0d30}\label{namespacegyp_1_1input_aa39e3144be3e856863297cdedc4c0d30}} 
+\index{gyp.input@{gyp.input}!CallLoadTargetBuildFile@{CallLoadTargetBuildFile}}
+\index{CallLoadTargetBuildFile@{CallLoadTargetBuildFile}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{CallLoadTargetBuildFile()}{CallLoadTargetBuildFile()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Call\+Load\+Target\+Build\+File (\begin{DoxyParamCaption}\item[{}]{global\+\_\+flags,  }\item[{}]{build\+\_\+file\+\_\+path,  }\item[{}]{variables,  }\item[{}]{includes,  }\item[{}]{depth,  }\item[{}]{check,  }\item[{}]{generator\+\_\+input\+\_\+info }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Wrapper around LoadTargetBuildFile for parallel processing.
+
+ This wrapper is used when LoadTargetBuildFile is executed in
+ a worker process.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_aabbb0aaee36e1759609da68cdbd4b42e}\label{namespacegyp_1_1input_aabbb0aaee36e1759609da68cdbd4b42e}} 
+\index{gyp.input@{gyp.input}!CheckedEval@{CheckedEval}}
+\index{CheckedEval@{CheckedEval}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{CheckedEval()}{CheckedEval()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Checked\+Eval (\begin{DoxyParamCaption}\item[{}]{file\+\_\+contents }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the eval of a gyp file.
+The gyp file is restricted to dictionaries and lists only, and
+repeated keys are not allowed.
+Note that this is slower than eval() is.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a26a1963eb9928ec009b7fa79892e5eb5}\label{namespacegyp_1_1input_a26a1963eb9928ec009b7fa79892e5eb5}} 
+\index{gyp.input@{gyp.input}!CheckNode@{CheckNode}}
+\index{CheckNode@{CheckNode}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{CheckNode()}{CheckNode()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Check\+Node (\begin{DoxyParamCaption}\item[{}]{node,  }\item[{}]{keypath }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a6d86b68ef508734e484bf293b63db72e}\label{namespacegyp_1_1input_a6d86b68ef508734e484bf293b63db72e}} 
+\index{gyp.input@{gyp.input}!DoDependentSettings@{DoDependentSettings}}
+\index{DoDependentSettings@{DoDependentSettings}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{DoDependentSettings()}{DoDependentSettings()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Do\+Dependent\+Settings (\begin{DoxyParamCaption}\item[{}]{key,  }\item[{}]{flat\+\_\+list,  }\item[{}]{targets,  }\item[{}]{dependency\+\_\+nodes }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aae879b207094e1ba959e317b5a483fad}\label{namespacegyp_1_1input_aae879b207094e1ba959e317b5a483fad}} 
+\index{gyp.input@{gyp.input}!EvalCondition@{EvalCondition}}
+\index{EvalCondition@{EvalCondition}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{EvalCondition()}{EvalCondition()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Eval\+Condition (\begin{DoxyParamCaption}\item[{}]{condition,  }\item[{}]{conditions\+\_\+key,  }\item[{}]{phase,  }\item[{}]{variables,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the dict that should be used or None if the result was
+that nothing should be used.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_ade1c76d946f7482b63aecb59a31b6b6d}\label{namespacegyp_1_1input_ade1c76d946f7482b63aecb59a31b6b6d}} 
+\index{gyp.input@{gyp.input}!EvalSingleCondition@{EvalSingleCondition}}
+\index{EvalSingleCondition@{EvalSingleCondition}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{EvalSingleCondition()}{EvalSingleCondition()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Eval\+Single\+Condition (\begin{DoxyParamCaption}\item[{}]{cond\+\_\+expr,  }\item[{}]{true\+\_\+dict,  }\item[{}]{false\+\_\+dict,  }\item[{}]{phase,  }\item[{}]{variables,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns true_dict if cond_expr evaluates to true, and false_dict
+otherwise.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_ae4d9d477f120b0e6f3a1babc9ebd22e2}\label{namespacegyp_1_1input_ae4d9d477f120b0e6f3a1babc9ebd22e2}} 
+\index{gyp.input@{gyp.input}!ExpandVariables@{ExpandVariables}}
+\index{ExpandVariables@{ExpandVariables}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ExpandVariables()}{ExpandVariables()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Expand\+Variables (\begin{DoxyParamCaption}\item[{}]{input,  }\item[{}]{phase,  }\item[{}]{variables,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a236d6d1580a1e4ab8f9bf2bdea8d10df}\label{namespacegyp_1_1input_a236d6d1580a1e4ab8f9bf2bdea8d10df}} 
+\index{gyp.input@{gyp.input}!ExpandWildcardDependencies@{ExpandWildcardDependencies}}
+\index{ExpandWildcardDependencies@{ExpandWildcardDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ExpandWildcardDependencies()}{ExpandWildcardDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Expand\+Wildcard\+Dependencies (\begin{DoxyParamCaption}\item[{}]{targets,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Expands dependencies specified as build_file:*.
+
+For each target in |targets|, examines sections containing links to other
+targets.  If any such section contains a link of the form build_file:*, it
+is taken as a wildcard link, and is expanded to list each target in
+build_file.  The |data| dict provides access to build file dicts.
+
+Any target that does not wish to be included by wildcard can provide an
+optional "suppress_wildcard" key in its target dict.  When present and
+true, a wildcard dependency link will not include such targets.
+
+All dependency names, including the keys to |targets| and the values in each
+dependency list, must be qualified when this function is called.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a8693149208f5e451a8060d58e973ad76}\label{namespacegyp_1_1input_a8693149208f5e451a8060d58e973ad76}} 
+\index{gyp.input@{gyp.input}!Filter@{Filter}}
+\index{Filter@{Filter}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{Filter()}{Filter()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Filter (\begin{DoxyParamCaption}\item[{}]{items,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Removes item from items.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a48b1659fa37a91e81a104b052eba5a32}\label{namespacegyp_1_1input_a48b1659fa37a91e81a104b052eba5a32}} 
+\index{gyp.input@{gyp.input}!FindEnclosingBracketGroup@{FindEnclosingBracketGroup}}
+\index{FindEnclosingBracketGroup@{FindEnclosingBracketGroup}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{FindEnclosingBracketGroup()}{FindEnclosingBracketGroup()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Find\+Enclosing\+Bracket\+Group (\begin{DoxyParamCaption}\item[{}]{input\+\_\+str }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a6c438560f27e3318245abe09fe3e633c}\label{namespacegyp_1_1input_a6c438560f27e3318245abe09fe3e633c}} 
+\index{gyp.input@{gyp.input}!FixupPlatformCommand@{FixupPlatformCommand}}
+\index{FixupPlatformCommand@{FixupPlatformCommand}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{FixupPlatformCommand()}{FixupPlatformCommand()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Fixup\+Platform\+Command (\begin{DoxyParamCaption}\item[{}]{cmd }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ab7cb3a46185bcbf97f62c51aa28231d3}\label{namespacegyp_1_1input_ab7cb3a46185bcbf97f62c51aa28231d3}} 
+\index{gyp.input@{gyp.input}!GetIncludedBuildFiles@{GetIncludedBuildFiles}}
+\index{GetIncludedBuildFiles@{GetIncludedBuildFiles}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{GetIncludedBuildFiles()}{GetIncludedBuildFiles()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Get\+Included\+Build\+Files (\begin{DoxyParamCaption}\item[{}]{build\+\_\+file\+\_\+path,  }\item[{}]{aux\+\_\+data,  }\item[{}]{included = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return a list of all build files included into build_file_path.
+
+The returned list will contain build_file_path as well as all other files
+that it included, either directly or indirectly.  Note that the list may
+contain files that were included into a conditional section that evaluated
+to false and was not merged into build_file_path's dict.
+
+aux_data is a dict containing a key for each build file or included build
+file.  Those keys provide access to dicts whose "included" keys contain
+lists of all other files included by the build file.
+
+included should be left at its default None value by external callers.  It
+is used for recursion.
+
+The returned list will not contain any duplicate entries.  Each build file
+in the list will be relative to the current directory.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a0e7a491424208b309dbf22bbd5665845}\label{namespacegyp_1_1input_a0e7a491424208b309dbf22bbd5665845}} 
+\index{gyp.input@{gyp.input}!IsPathSection@{IsPathSection}}
+\index{IsPathSection@{IsPathSection}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{IsPathSection()}{IsPathSection()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Is\+Path\+Section (\begin{DoxyParamCaption}\item[{}]{section }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a161dea14a762a1ebb3c6ef680a0925e1}\label{namespacegyp_1_1input_a161dea14a762a1ebb3c6ef680a0925e1}} 
+\index{gyp.input@{gyp.input}!IsStrCanonicalInt@{IsStrCanonicalInt}}
+\index{IsStrCanonicalInt@{IsStrCanonicalInt}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{IsStrCanonicalInt()}{IsStrCanonicalInt()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Is\+Str\+Canonical\+Int (\begin{DoxyParamCaption}\item[{}]{string }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns True if |string| is in its canonical integer form.
+
+The canonical form is such that str(int(string)) == string.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a897e1a8bfff3cd7b67e78d89e5723838}\label{namespacegyp_1_1input_a897e1a8bfff3cd7b67e78d89e5723838}} 
+\index{gyp.input@{gyp.input}!Load@{Load}}
+\index{Load@{Load}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load (\begin{DoxyParamCaption}\item[{}]{build\+\_\+files,  }\item[{}]{variables,  }\item[{}]{includes,  }\item[{}]{depth,  }\item[{}]{generator\+\_\+input\+\_\+info,  }\item[{}]{check,  }\item[{}]{circular\+\_\+check,  }\item[{}]{parallel,  }\item[{}]{root\+\_\+targets }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a23b4a2986364fa22f561e6c3d0c2b357}\label{namespacegyp_1_1input_a23b4a2986364fa22f561e6c3d0c2b357}} 
+\index{gyp.input@{gyp.input}!LoadAutomaticVariablesFromDict@{LoadAutomaticVariablesFromDict}}
+\index{LoadAutomaticVariablesFromDict@{LoadAutomaticVariablesFromDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadAutomaticVariablesFromDict()}{LoadAutomaticVariablesFromDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Automatic\+Variables\+From\+Dict (\begin{DoxyParamCaption}\item[{}]{variables,  }\item[{}]{the\+\_\+dict }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aa778374eb3d37797a9d979dadbb4993b}\label{namespacegyp_1_1input_aa778374eb3d37797a9d979dadbb4993b}} 
+\index{gyp.input@{gyp.input}!LoadBuildFileIncludesIntoDict@{LoadBuildFileIncludesIntoDict}}
+\index{LoadBuildFileIncludesIntoDict@{LoadBuildFileIncludesIntoDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadBuildFileIncludesIntoDict()}{LoadBuildFileIncludesIntoDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Build\+File\+Includes\+Into\+Dict (\begin{DoxyParamCaption}\item[{}]{subdict,  }\item[{}]{subdict\+\_\+path,  }\item[{}]{data,  }\item[{}]{aux\+\_\+data,  }\item[{}]{includes,  }\item[{}]{check }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ae007a736d4accc6326bd954e585808d4}\label{namespacegyp_1_1input_ae007a736d4accc6326bd954e585808d4}} 
+\index{gyp.input@{gyp.input}!LoadBuildFileIncludesIntoList@{LoadBuildFileIncludesIntoList}}
+\index{LoadBuildFileIncludesIntoList@{LoadBuildFileIncludesIntoList}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadBuildFileIncludesIntoList()}{LoadBuildFileIncludesIntoList()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Build\+File\+Includes\+Into\+List (\begin{DoxyParamCaption}\item[{}]{sublist,  }\item[{}]{sublist\+\_\+path,  }\item[{}]{data,  }\item[{}]{aux\+\_\+data,  }\item[{}]{check }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ace258dad9c94b294c8a8c14b562417a9}\label{namespacegyp_1_1input_ace258dad9c94b294c8a8c14b562417a9}} 
+\index{gyp.input@{gyp.input}!LoadOneBuildFile@{LoadOneBuildFile}}
+\index{LoadOneBuildFile@{LoadOneBuildFile}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadOneBuildFile()}{LoadOneBuildFile()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+One\+Build\+File (\begin{DoxyParamCaption}\item[{}]{build\+\_\+file\+\_\+path,  }\item[{}]{data,  }\item[{}]{aux\+\_\+data,  }\item[{}]{includes,  }\item[{}]{is\+\_\+target,  }\item[{}]{check }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aeaad23b1b533f41e56e4e2b720ca4898}\label{namespacegyp_1_1input_aeaad23b1b533f41e56e4e2b720ca4898}} 
+\index{gyp.input@{gyp.input}!LoadTargetBuildFile@{LoadTargetBuildFile}}
+\index{LoadTargetBuildFile@{LoadTargetBuildFile}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadTargetBuildFile()}{LoadTargetBuildFile()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Target\+Build\+File (\begin{DoxyParamCaption}\item[{}]{build\+\_\+file\+\_\+path,  }\item[{}]{data,  }\item[{}]{aux\+\_\+data,  }\item[{}]{variables,  }\item[{}]{includes,  }\item[{}]{depth,  }\item[{}]{check,  }\item[{}]{load\+\_\+dependencies }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a0407bea131fc7d6d4e5b1b04accdecd7}\label{namespacegyp_1_1input_a0407bea131fc7d6d4e5b1b04accdecd7}} 
+\index{gyp.input@{gyp.input}!LoadTargetBuildFilesParallel@{LoadTargetBuildFilesParallel}}
+\index{LoadTargetBuildFilesParallel@{LoadTargetBuildFilesParallel}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadTargetBuildFilesParallel()}{LoadTargetBuildFilesParallel()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Target\+Build\+Files\+Parallel (\begin{DoxyParamCaption}\item[{}]{build\+\_\+files,  }\item[{}]{data,  }\item[{}]{variables,  }\item[{}]{includes,  }\item[{}]{depth,  }\item[{}]{check,  }\item[{}]{generator\+\_\+input\+\_\+info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a5c61cb5e9cbc478ed1934dba6e18fd63}\label{namespacegyp_1_1input_a5c61cb5e9cbc478ed1934dba6e18fd63}} 
+\index{gyp.input@{gyp.input}!LoadVariablesFromVariablesDict@{LoadVariablesFromVariablesDict}}
+\index{LoadVariablesFromVariablesDict@{LoadVariablesFromVariablesDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LoadVariablesFromVariablesDict()}{LoadVariablesFromVariablesDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Load\+Variables\+From\+Variables\+Dict (\begin{DoxyParamCaption}\item[{}]{variables,  }\item[{}]{the\+\_\+dict,  }\item[{}]{the\+\_\+dict\+\_\+key }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a90aefb9baaddfc01b935d5cb3f10c65e}\label{namespacegyp_1_1input_a90aefb9baaddfc01b935d5cb3f10c65e}} 
+\index{gyp.input@{gyp.input}!MakePathRelative@{MakePathRelative}}
+\index{MakePathRelative@{MakePathRelative}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{MakePathRelative()}{MakePathRelative()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Make\+Path\+Relative (\begin{DoxyParamCaption}\item[{}]{to\+\_\+file,  }\item[{}]{fro\+\_\+file,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ac4355b88267547d72fb39b9375c98cf4}\label{namespacegyp_1_1input_ac4355b88267547d72fb39b9375c98cf4}} 
+\index{gyp.input@{gyp.input}!MergeConfigWithInheritance@{MergeConfigWithInheritance}}
+\index{MergeConfigWithInheritance@{MergeConfigWithInheritance}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{MergeConfigWithInheritance()}{MergeConfigWithInheritance()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Merge\+Config\+With\+Inheritance (\begin{DoxyParamCaption}\item[{}]{new\+\_\+configuration\+\_\+dict,  }\item[{}]{build\+\_\+file,  }\item[{}]{target\+\_\+dict,  }\item[{}]{configuration,  }\item[{}]{visited }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a9abaa7659b2d3a7fd00869832ca23058}\label{namespacegyp_1_1input_a9abaa7659b2d3a7fd00869832ca23058}} 
+\index{gyp.input@{gyp.input}!MergeDicts@{MergeDicts}}
+\index{MergeDicts@{MergeDicts}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{MergeDicts()}{MergeDicts()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Merge\+Dicts (\begin{DoxyParamCaption}\item[{}]{to,  }\item[{}]{fro,  }\item[{}]{to\+\_\+file,  }\item[{}]{fro\+\_\+file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a986ea08275f18bf183727fdecc7083ca}\label{namespacegyp_1_1input_a986ea08275f18bf183727fdecc7083ca}} 
+\index{gyp.input@{gyp.input}!MergeLists@{MergeLists}}
+\index{MergeLists@{MergeLists}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{MergeLists()}{MergeLists()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Merge\+Lists (\begin{DoxyParamCaption}\item[{}]{to,  }\item[{}]{fro,  }\item[{}]{to\+\_\+file,  }\item[{}]{fro\+\_\+file,  }\item[{}]{is\+\_\+paths = {\ttfamily False},  }\item[{}]{append = {\ttfamily True} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a042a26b475b7b69cf02c19acaea4936b}\label{namespacegyp_1_1input_a042a26b475b7b69cf02c19acaea4936b}} 
+\index{gyp.input@{gyp.input}!ProcessConditionsInDict@{ProcessConditionsInDict}}
+\index{ProcessConditionsInDict@{ProcessConditionsInDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessConditionsInDict()}{ProcessConditionsInDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+Conditions\+In\+Dict (\begin{DoxyParamCaption}\item[{}]{the\+\_\+dict,  }\item[{}]{phase,  }\item[{}]{variables,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a841dca648c787d7a484f326c82af1c07}\label{namespacegyp_1_1input_a841dca648c787d7a484f326c82af1c07}} 
+\index{gyp.input@{gyp.input}!ProcessListFiltersInDict@{ProcessListFiltersInDict}}
+\index{ProcessListFiltersInDict@{ProcessListFiltersInDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessListFiltersInDict()}{ProcessListFiltersInDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+List\+Filters\+In\+Dict (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{the\+\_\+dict }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Process regular expression and exclusion-based filters on lists.
+
+An exclusion list is in a dict key named with a trailing "!", like
+"sources!".  Every item in such a list is removed from the associated
+main list, which in this example, would be "sources".  Removed items are
+placed into a "sources_excluded" list in the dict.
+
+Regular expression (regex) filters are contained in dict keys named with a
+trailing "/", such as "sources/" to operate on the "sources" list.  Regex
+filters in a dict take the form:
+'sources/': [ ['exclude', '_(linux|mac|win)\\.cc$'],
+              ['include', '_mac\\.cc$'] ],
+The first filter says to exclude all files ending in _linux.cc, _mac.cc, and
+_win.cc.  The second filter then includes all files ending in _mac.cc that
+are now or were once in the "sources" list.  Items matching an "exclude"
+filter are subject to the same processing as would occur if they were listed
+by name in an exclusion list (ending in "!").  Items matching an "include"
+filter are brought back into the main list if previously excluded by an
+exclusion list or exclusion regex filter.  Subsequent matching "exclude"
+patterns can still cause items to be excluded after matching an "include".
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_ae1284333f8c43b331473e410054180e9}\label{namespacegyp_1_1input_ae1284333f8c43b331473e410054180e9}} 
+\index{gyp.input@{gyp.input}!ProcessListFiltersInList@{ProcessListFiltersInList}}
+\index{ProcessListFiltersInList@{ProcessListFiltersInList}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessListFiltersInList()}{ProcessListFiltersInList()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+List\+Filters\+In\+List (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{the\+\_\+list }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a2243c5eb68dcfa0add9bf8b171ea3087}\label{namespacegyp_1_1input_a2243c5eb68dcfa0add9bf8b171ea3087}} 
+\index{gyp.input@{gyp.input}!ProcessToolsetsInDict@{ProcessToolsetsInDict}}
+\index{ProcessToolsetsInDict@{ProcessToolsetsInDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessToolsetsInDict()}{ProcessToolsetsInDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+Toolsets\+In\+Dict (\begin{DoxyParamCaption}\item[{}]{data }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aabff67358b0dcd1ca542a920765094a7}\label{namespacegyp_1_1input_aabff67358b0dcd1ca542a920765094a7}} 
+\index{gyp.input@{gyp.input}!ProcessVariablesAndConditionsInDict@{ProcessVariablesAndConditionsInDict}}
+\index{ProcessVariablesAndConditionsInDict@{ProcessVariablesAndConditionsInDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessVariablesAndConditionsInDict()}{ProcessVariablesAndConditionsInDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+Variables\+And\+Conditions\+In\+Dict (\begin{DoxyParamCaption}\item[{}]{the\+\_\+dict,  }\item[{}]{phase,  }\item[{}]{variables\+\_\+in,  }\item[{}]{build\+\_\+file,  }\item[{}]{the\+\_\+dict\+\_\+key = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Handle all variable and command expansion and conditional evaluation.
+
+This function is the public entry point for all variable expansions and
+conditional evaluations.  The variables_in dictionary will not be modified
+by this function.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a5b8df7fb3fd954cf10f900e2e6211f35}\label{namespacegyp_1_1input_a5b8df7fb3fd954cf10f900e2e6211f35}} 
+\index{gyp.input@{gyp.input}!ProcessVariablesAndConditionsInList@{ProcessVariablesAndConditionsInList}}
+\index{ProcessVariablesAndConditionsInList@{ProcessVariablesAndConditionsInList}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ProcessVariablesAndConditionsInList()}{ProcessVariablesAndConditionsInList()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Process\+Variables\+And\+Conditions\+In\+List (\begin{DoxyParamCaption}\item[{}]{the\+\_\+list,  }\item[{}]{phase,  }\item[{}]{variables,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_acdde11a89c9bee3d3ed3187fdc01fc1a}\label{namespacegyp_1_1input_acdde11a89c9bee3d3ed3187fdc01fc1a}} 
+\index{gyp.input@{gyp.input}!PruneUnwantedTargets@{PruneUnwantedTargets}}
+\index{PruneUnwantedTargets@{PruneUnwantedTargets}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{PruneUnwantedTargets()}{PruneUnwantedTargets()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Prune\+Unwanted\+Targets (\begin{DoxyParamCaption}\item[{}]{targets,  }\item[{}]{flat\+\_\+list,  }\item[{}]{dependency\+\_\+nodes,  }\item[{}]{root\+\_\+targets,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return only the targets that are deep dependencies of |root_targets|.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_aa777b95af3ebabbe32e79806421fb5f4}\label{namespacegyp_1_1input_aa777b95af3ebabbe32e79806421fb5f4}} 
+\index{gyp.input@{gyp.input}!QualifyDependencies@{QualifyDependencies}}
+\index{QualifyDependencies@{QualifyDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{QualifyDependencies()}{QualifyDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Qualify\+Dependencies (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Make dependency links fully-qualified relative to the current directory.
+
+|targets| is a dict mapping fully-qualified target names to their target
+dicts.  For each target in this dict, keys known to contain dependency
+links are examined, and any dependencies referenced will be rewritten
+so that they are fully-qualified and relative to the current directory.
+All rewritten dependencies are suitable for use as keys to |targets| or a
+similar dict.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a4152c8d31028760618231bee089bc0f9}\label{namespacegyp_1_1input_a4152c8d31028760618231bee089bc0f9}} 
+\index{gyp.input@{gyp.input}!RemoveDuplicateDependencies@{RemoveDuplicateDependencies}}
+\index{RemoveDuplicateDependencies@{RemoveDuplicateDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{RemoveDuplicateDependencies()}{RemoveDuplicateDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Remove\+Duplicate\+Dependencies (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Makes sure every dependency appears only once in all targets's dependency
+lists.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a4bb58e591a7cf6bc6aadcbad91411565}\label{namespacegyp_1_1input_a4bb58e591a7cf6bc6aadcbad91411565}} 
+\index{gyp.input@{gyp.input}!RemoveLinkDependenciesFromNoneTargets@{RemoveLinkDependenciesFromNoneTargets}}
+\index{RemoveLinkDependenciesFromNoneTargets@{RemoveLinkDependenciesFromNoneTargets}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{RemoveLinkDependenciesFromNoneTargets()}{RemoveLinkDependenciesFromNoneTargets()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Remove\+Link\+Dependencies\+From\+None\+Targets (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Remove dependencies having the 'link_dependency' attribute from the 'none'
+targets.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a0c7779ee1fd0748966b43057f1dd3fcf}\label{namespacegyp_1_1input_a0c7779ee1fd0748966b43057f1dd3fcf}} 
+\index{gyp.input@{gyp.input}!RemoveSelfDependencies@{RemoveSelfDependencies}}
+\index{RemoveSelfDependencies@{RemoveSelfDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{RemoveSelfDependencies()}{RemoveSelfDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Remove\+Self\+Dependencies (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Remove self dependencies from targets that have the prune_self_dependency
+variable set.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a60c03cbb4586bfc9e9d25a371693ecbd}\label{namespacegyp_1_1input_a60c03cbb4586bfc9e9d25a371693ecbd}} 
+\index{gyp.input@{gyp.input}!SetGeneratorGlobals@{SetGeneratorGlobals}}
+\index{SetGeneratorGlobals@{SetGeneratorGlobals}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{SetGeneratorGlobals()}{SetGeneratorGlobals()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Set\+Generator\+Globals (\begin{DoxyParamCaption}\item[{}]{generator\+\_\+input\+\_\+info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_af92a1ed926e7c507f12c0406f34f20cf}\label{namespacegyp_1_1input_af92a1ed926e7c507f12c0406f34f20cf}} 
+\index{gyp.input@{gyp.input}!SetUpConfigurations@{SetUpConfigurations}}
+\index{SetUpConfigurations@{SetUpConfigurations}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{SetUpConfigurations()}{SetUpConfigurations()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Set\+Up\+Configurations (\begin{DoxyParamCaption}\item[{}]{target,  }\item[{}]{target\+\_\+dict }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a582ba299aa2ef2b979bf0d819975eb42}\label{namespacegyp_1_1input_a582ba299aa2ef2b979bf0d819975eb42}} 
+\index{gyp.input@{gyp.input}!TurnIntIntoStrInDict@{TurnIntIntoStrInDict}}
+\index{TurnIntIntoStrInDict@{TurnIntIntoStrInDict}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{TurnIntIntoStrInDict()}{TurnIntIntoStrInDict()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Turn\+Int\+Into\+Str\+In\+Dict (\begin{DoxyParamCaption}\item[{}]{the\+\_\+dict }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Given dict the_dict, recursively converts all integers into strings.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a15f23663435b259fbf3a11e679f80efb}\label{namespacegyp_1_1input_a15f23663435b259fbf3a11e679f80efb}} 
+\index{gyp.input@{gyp.input}!TurnIntIntoStrInList@{TurnIntIntoStrInList}}
+\index{TurnIntIntoStrInList@{TurnIntIntoStrInList}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{TurnIntIntoStrInList()}{TurnIntIntoStrInList()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Turn\+Int\+Into\+Str\+In\+List (\begin{DoxyParamCaption}\item[{}]{the\+\_\+list }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Given list the_list, recursively converts all integers into strings.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a170b08fa3a3d1c4c4a29ce48c1771f58}\label{namespacegyp_1_1input_a170b08fa3a3d1c4c4a29ce48c1771f58}} 
+\index{gyp.input@{gyp.input}!Unify@{Unify}}
+\index{Unify@{Unify}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{Unify()}{Unify()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Unify (\begin{DoxyParamCaption}\item[{}]{items }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Removes duplicate elements from items, keeping the first element.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_aa579d207bdafe053c6acd79d2ab45882}\label{namespacegyp_1_1input_aa579d207bdafe053c6acd79d2ab45882}} 
+\index{gyp.input@{gyp.input}!ValidateActionsInTarget@{ValidateActionsInTarget}}
+\index{ValidateActionsInTarget@{ValidateActionsInTarget}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ValidateActionsInTarget()}{ValidateActionsInTarget()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Validate\+Actions\+In\+Target (\begin{DoxyParamCaption}\item[{}]{target,  }\item[{}]{target\+\_\+dict,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Validates the inputs to the actions in a target.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a6c123962719e1beba02d9a91c990c3d2}\label{namespacegyp_1_1input_a6c123962719e1beba02d9a91c990c3d2}} 
+\index{gyp.input@{gyp.input}!ValidateRulesInTarget@{ValidateRulesInTarget}}
+\index{ValidateRulesInTarget@{ValidateRulesInTarget}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ValidateRulesInTarget()}{ValidateRulesInTarget()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Validate\+Rules\+In\+Target (\begin{DoxyParamCaption}\item[{}]{target,  }\item[{}]{target\+\_\+dict,  }\item[{}]{extra\+\_\+sources\+\_\+for\+\_\+rules }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Ensures that the rules sections in target_dict are valid and consistent,
+and determines which sources they apply to.
+
+Arguments:
+target: string, name of target.
+target_dict: dict, target spec containing "rules" and "sources" lists.
+extra_sources_for_rules: a list of keys to scan for rule matches in
+    addition to 'sources'.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a3f91c675d2a40f44a272eda91455d905}\label{namespacegyp_1_1input_a3f91c675d2a40f44a272eda91455d905}} 
+\index{gyp.input@{gyp.input}!ValidateRunAsInTarget@{ValidateRunAsInTarget}}
+\index{ValidateRunAsInTarget@{ValidateRunAsInTarget}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ValidateRunAsInTarget()}{ValidateRunAsInTarget()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Validate\+Run\+As\+In\+Target (\begin{DoxyParamCaption}\item[{}]{target,  }\item[{}]{target\+\_\+dict,  }\item[{}]{build\+\_\+file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aab3167dbe023cc648d7931df87186958}\label{namespacegyp_1_1input_aab3167dbe023cc648d7931df87186958}} 
+\index{gyp.input@{gyp.input}!ValidateTargetType@{ValidateTargetType}}
+\index{ValidateTargetType@{ValidateTargetType}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{ValidateTargetType()}{ValidateTargetType()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Validate\+Target\+Type (\begin{DoxyParamCaption}\item[{}]{target,  }\item[{}]{target\+\_\+dict }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Ensures the 'type' field on the target is one of the known types.
+
+Arguments:
+target: string, name of target.
+target_dict: dict, target spec.
+
+Raises an exception on error.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_a456f57340ff1515ca1626f22c61c8c0e}\label{namespacegyp_1_1input_a456f57340ff1515ca1626f22c61c8c0e}} 
+\index{gyp.input@{gyp.input}!VerifyNoCollidingTargets@{VerifyNoCollidingTargets}}
+\index{VerifyNoCollidingTargets@{VerifyNoCollidingTargets}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{VerifyNoCollidingTargets()}{VerifyNoCollidingTargets()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Verify\+No\+Colliding\+Targets (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Verify that no two targets in the same directory share the same name.
+
+Arguments:
+targets: A list of targets in the form 'path/to/file.gyp:target_name'.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1input_acd3bdebce271a169ac735a51d0471537}\label{namespacegyp_1_1input_acd3bdebce271a169ac735a51d0471537}} 
+\index{gyp.input@{gyp.input}!VerifyNoGYPFileCircularDependencies@{VerifyNoGYPFileCircularDependencies}}
+\index{VerifyNoGYPFileCircularDependencies@{VerifyNoGYPFileCircularDependencies}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{VerifyNoGYPFileCircularDependencies()}{VerifyNoGYPFileCircularDependencies()}}
+{\footnotesize\ttfamily def gyp.\+input.\+Verify\+No\+GYPFile\+Circular\+Dependencies (\begin{DoxyParamCaption}\item[{}]{targets }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1input_ac573e3ba6ea8bd7003af76aea5755b07}\label{namespacegyp_1_1input_ac573e3ba6ea8bd7003af76aea5755b07}} 
+\index{gyp.input@{gyp.input}!base\_non\_configuration\_keys@{base\_non\_configuration\_keys}}
+\index{base\_non\_configuration\_keys@{base\_non\_configuration\_keys}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{base\_non\_configuration\_keys}{base\_non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+input.\+base\+\_\+non\+\_\+configuration\+\_\+keys}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{comment}{\# Sections that must exist inside targets and not configurations.}}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}actions"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}configurations"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}copies"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}default\_configuration"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}dependencies"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}dependencies\_original"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}libraries"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}postbuilds"{}},}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}product\_dir"{}},}
+\DoxyCodeLine{12     \textcolor{stringliteral}{"{}product\_extension"{}},}
+\DoxyCodeLine{13     \textcolor{stringliteral}{"{}product\_name"{}},}
+\DoxyCodeLine{14     \textcolor{stringliteral}{"{}product\_prefix"{}},}
+\DoxyCodeLine{15     \textcolor{stringliteral}{"{}rules"{}},}
+\DoxyCodeLine{16     \textcolor{stringliteral}{"{}run\_as"{}},}
+\DoxyCodeLine{17     \textcolor{stringliteral}{"{}sources"{}},}
+\DoxyCodeLine{18     \textcolor{stringliteral}{"{}standalone\_static\_library"{}},}
+\DoxyCodeLine{19     \textcolor{stringliteral}{"{}suppress\_wildcard"{}},}
+\DoxyCodeLine{20     \textcolor{stringliteral}{"{}target\_name"{}},}
+\DoxyCodeLine{21     \textcolor{stringliteral}{"{}toolset"{}},}
+\DoxyCodeLine{22     \textcolor{stringliteral}{"{}toolsets"{}},}
+\DoxyCodeLine{23     \textcolor{stringliteral}{"{}type"{}},}
+\DoxyCodeLine{24     \textcolor{comment}{\# Sections that can be found inside targets or configurations, but that}}
+\DoxyCodeLine{25     \textcolor{comment}{\# should not be propagated from targets into their configurations.}}
+\DoxyCodeLine{26     \textcolor{stringliteral}{"{}variables"{}},}
+\DoxyCodeLine{27 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_ab58825142a67f0d3023c332ba7a8fb2a}\label{namespacegyp_1_1input_ab58825142a67f0d3023c332ba7a8fb2a}} 
+\index{gyp.input@{gyp.input}!base\_path\_sections@{base\_path\_sections}}
+\index{base\_path\_sections@{base\_path\_sections}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{base\_path\_sections}{base\_path\_sections}}
+{\footnotesize\ttfamily list gyp.\+input.\+base\+\_\+path\+\_\+sections}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}destination"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}files"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}include\_dirs"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}inputs"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}libraries"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}outputs"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}sources"{}},}
+\DoxyCodeLine{9 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_a09eda1a04231572902e6f9144de1908d}\label{namespacegyp_1_1input_a09eda1a04231572902e6f9144de1908d}} 
+\index{gyp.input@{gyp.input}!BRACKETS@{BRACKETS}}
+\index{BRACKETS@{BRACKETS}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{BRACKETS}{BRACKETS}}
+{\footnotesize\ttfamily dictionary gyp.\+input.\+BRACKETS = \{\char`\"{}\}\char`\"{}\+: \char`\"{}\{\char`\"{}, \char`\"{}\mbox{]}\char`\"{}\+: \char`\"{}\mbox{[}\char`\"{}, \char`\"{})\char`\"{}\+: \char`\"{}(\char`\"{}\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a75a6d6c0eff0622ca1f7f4073f40b8f4}\label{namespacegyp_1_1input_a75a6d6c0eff0622ca1f7f4073f40b8f4}} 
+\index{gyp.input@{gyp.input}!cached\_command\_results@{cached\_command\_results}}
+\index{cached\_command\_results@{cached\_command\_results}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{cached\_command\_results}{cached\_command\_results}}
+{\footnotesize\ttfamily dictionary gyp.\+input.\+cached\+\_\+command\+\_\+results = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ab0638161cffad70fad8959e8a020e7dc}\label{namespacegyp_1_1input_ab0638161cffad70fad8959e8a020e7dc}} 
+\index{gyp.input@{gyp.input}!cached\_conditions\_asts@{cached\_conditions\_asts}}
+\index{cached\_conditions\_asts@{cached\_conditions\_asts}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{cached\_conditions\_asts}{cached\_conditions\_asts}}
+{\footnotesize\ttfamily dictionary gyp.\+input.\+cached\+\_\+conditions\+\_\+asts = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a527da0feb3cdedbc64d7625d84ed060c}\label{namespacegyp_1_1input_a527da0feb3cdedbc64d7625d84ed060c}} 
+\index{gyp.input@{gyp.input}!dependency\_sections@{dependency\_sections}}
+\index{dependency\_sections@{dependency\_sections}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{dependency\_sections}{dependency\_sections}}
+{\footnotesize\ttfamily list gyp.\+input.\+dependency\+\_\+sections = \mbox{[}\char`\"{}dependencies\char`\"{}, \char`\"{}export\+\_\+dependent\+\_\+settings\char`\"{}\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a32704b6edd749ad8ac884b0ac19e10fc}\label{namespacegyp_1_1input_a32704b6edd749ad8ac884b0ac19e10fc}} 
+\index{gyp.input@{gyp.input}!early\_variable\_re@{early\_variable\_re}}
+\index{early\_variable\_re@{early\_variable\_re}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{early\_variable\_re}{early\_variable\_re}}
+{\footnotesize\ttfamily gyp.\+input.\+early\+\_\+variable\+\_\+re}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  re.compile(}
+\DoxyCodeLine{2     \textcolor{stringliteral}{r"{}(?P<replace>(?P<type><(?:(?:!?@?)|\(\backslash\)|)?)"{}}}
+\DoxyCodeLine{3     \textcolor{stringliteral}{r"{}(?P<command\_string>[-\/a-\/zA-\/Z0-\/9\_.]+)?"{}}}
+\DoxyCodeLine{4     \textcolor{stringliteral}{r"{}\(\backslash\)((?P<is\_array>\(\backslash\)s*\(\backslash\)[?)"{}}}
+\DoxyCodeLine{5     \textcolor{stringliteral}{r"{}(?P<content>.*?)(\(\backslash\)]?)\(\backslash\)))"{}}}
+\DoxyCodeLine{6 )}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_ad0ef3f978a0338e718b2ae15e4ba6d5c}\label{namespacegyp_1_1input_ad0ef3f978a0338e718b2ae15e4ba6d5c}} 
+\index{gyp.input@{gyp.input}!exception\_re@{exception\_re}}
+\index{exception\_re@{exception\_re}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{exception\_re}{exception\_re}}
+{\footnotesize\ttfamily gyp.\+input.\+exception\+\_\+re = re.\+compile()}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aded464d118e91f8b89e750184ad1d03c}\label{namespacegyp_1_1input_aded464d118e91f8b89e750184ad1d03c}} 
+\index{gyp.input@{gyp.input}!generator\_filelist\_paths@{generator\_filelist\_paths}}
+\index{generator\_filelist\_paths@{generator\_filelist\_paths}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{generator\_filelist\_paths}{generator\_filelist\_paths}}
+{\footnotesize\ttfamily gyp.\+input.\+generator\+\_\+filelist\+\_\+paths = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ad9a8f6ca573d144fdabe06047fec729a}\label{namespacegyp_1_1input_ad9a8f6ca573d144fdabe06047fec729a}} 
+\index{gyp.input@{gyp.input}!invalid\_configuration\_keys@{invalid\_configuration\_keys}}
+\index{invalid\_configuration\_keys@{invalid\_configuration\_keys}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{invalid\_configuration\_keys}{invalid\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+input.\+invalid\+\_\+configuration\+\_\+keys}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}actions"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}all\_dependent\_settings"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}configurations"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}dependencies"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}direct\_dependent\_settings"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}libraries"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}link\_settings"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}sources"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}standalone\_static\_library"{}},}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}target\_name"{}},}
+\DoxyCodeLine{12     \textcolor{stringliteral}{"{}type"{}},}
+\DoxyCodeLine{13 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_a0694ba8e45c0831e3341426df3f94e75}\label{namespacegyp_1_1input_a0694ba8e45c0831e3341426df3f94e75}} 
+\index{gyp.input@{gyp.input}!late\_variable\_re@{late\_variable\_re}}
+\index{late\_variable\_re@{late\_variable\_re}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{late\_variable\_re}{late\_variable\_re}}
+{\footnotesize\ttfamily gyp.\+input.\+late\+\_\+variable\+\_\+re}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  re.compile(}
+\DoxyCodeLine{2     \textcolor{stringliteral}{r"{}(?P<replace>(?P<type>>(?:(?:!?@?)|\(\backslash\)|)?)"{}}}
+\DoxyCodeLine{3     \textcolor{stringliteral}{r"{}(?P<command\_string>[-\/a-\/zA-\/Z0-\/9\_.]+)?"{}}}
+\DoxyCodeLine{4     \textcolor{stringliteral}{r"{}\(\backslash\)((?P<is\_array>\(\backslash\)s*\(\backslash\)[?)"{}}}
+\DoxyCodeLine{5     \textcolor{stringliteral}{r"{}(?P<content>.*?)(\(\backslash\)]?)\(\backslash\)))"{}}}
+\DoxyCodeLine{6 )}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_a01bdf26140487fe6d3c4b4da30460d97}\label{namespacegyp_1_1input_a01bdf26140487fe6d3c4b4da30460d97}} 
+\index{gyp.input@{gyp.input}!latelate\_variable\_re@{latelate\_variable\_re}}
+\index{latelate\_variable\_re@{latelate\_variable\_re}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{latelate\_variable\_re}{latelate\_variable\_re}}
+{\footnotesize\ttfamily gyp.\+input.\+latelate\+\_\+variable\+\_\+re}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  re.compile(}
+\DoxyCodeLine{2     \textcolor{stringliteral}{r"{}(?P<replace>(?P<type>[\(\backslash\)\string^](?:(?:!?@?)|\(\backslash\)|)?)"{}}}
+\DoxyCodeLine{3     \textcolor{stringliteral}{r"{}(?P<command\_string>[-\/a-\/zA-\/Z0-\/9\_.]+)?"{}}}
+\DoxyCodeLine{4     \textcolor{stringliteral}{r"{}\(\backslash\)((?P<is\_array>\(\backslash\)s*\(\backslash\)[?)"{}}}
+\DoxyCodeLine{5     \textcolor{stringliteral}{r"{}(?P<content>.*?)(\(\backslash\)]?)\(\backslash\)))"{}}}
+\DoxyCodeLine{6 )}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_aeb64e1139d2c6acd73b9ff035a2c4273}\label{namespacegyp_1_1input_aeb64e1139d2c6acd73b9ff035a2c4273}} 
+\index{gyp.input@{gyp.input}!LBRACKETS@{LBRACKETS}}
+\index{LBRACKETS@{LBRACKETS}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{LBRACKETS}{LBRACKETS}}
+{\footnotesize\ttfamily gyp.\+input.\+LBRACKETS = set(\char`\"{}\{\mbox{[}(\char`\"{})}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a625b606efe21f88181225260957e3a7c}\label{namespacegyp_1_1input_a625b606efe21f88181225260957e3a7c}} 
+\index{gyp.input@{gyp.input}!linkable\_types@{linkable\_types}}
+\index{linkable\_types@{linkable\_types}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{linkable\_types}{linkable\_types}}
+{\footnotesize\ttfamily list gyp.\+input.\+linkable\+\_\+types}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}executable"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}shared\_library"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}loadable\_module"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}mac\_kernel\_extension"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}windows\_driver"{}},}
+\DoxyCodeLine{7 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1input_aa720f0d43d0f385ec4d20f16dd652ead}\label{namespacegyp_1_1input_aa720f0d43d0f385ec4d20f16dd652ead}} 
+\index{gyp.input@{gyp.input}!multiple\_toolsets@{multiple\_toolsets}}
+\index{multiple\_toolsets@{multiple\_toolsets}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{multiple\_toolsets}{multiple\_toolsets}}
+{\footnotesize\ttfamily bool gyp.\+input.\+multiple\+\_\+toolsets = False}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ad2607b81c81cfca548054dadcb2612eb}\label{namespacegyp_1_1input_ad2607b81c81cfca548054dadcb2612eb}} 
+\index{gyp.input@{gyp.input}!non\_configuration\_keys@{non\_configuration\_keys}}
+\index{non\_configuration\_keys@{non\_configuration\_keys}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{non\_configuration\_keys}{non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+input.\+non\+\_\+configuration\+\_\+keys = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a500fb64195b1eb61ba3dafc8a9469268}\label{namespacegyp_1_1input_a500fb64195b1eb61ba3dafc8a9469268}} 
+\index{gyp.input@{gyp.input}!path\_sections@{path\_sections}}
+\index{path\_sections@{path\_sections}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{path\_sections}{path\_sections}}
+{\footnotesize\ttfamily gyp.\+input.\+path\+\_\+sections = set()}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a12bf1877a8f9a8cf312d7a8d6b638dc4}\label{namespacegyp_1_1input_a12bf1877a8f9a8cf312d7a8d6b638dc4}} 
+\index{gyp.input@{gyp.input}!per\_process\_aux\_data@{per\_process\_aux\_data}}
+\index{per\_process\_aux\_data@{per\_process\_aux\_data}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{per\_process\_aux\_data}{per\_process\_aux\_data}}
+{\footnotesize\ttfamily dictionary gyp.\+input.\+per\+\_\+process\+\_\+aux\+\_\+data = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ad5754494096d02b0413f4d94db26b2b7}\label{namespacegyp_1_1input_ad5754494096d02b0413f4d94db26b2b7}} 
+\index{gyp.input@{gyp.input}!per\_process\_data@{per\_process\_data}}
+\index{per\_process\_data@{per\_process\_data}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{per\_process\_data}{per\_process\_data}}
+{\footnotesize\ttfamily dictionary gyp.\+input.\+per\+\_\+process\+\_\+data = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ae9be6bc2709b4c4f77657a281ba4aff1}\label{namespacegyp_1_1input_ae9be6bc2709b4c4f77657a281ba4aff1}} 
+\index{gyp.input@{gyp.input}!PHASE\_EARLY@{PHASE\_EARLY}}
+\index{PHASE\_EARLY@{PHASE\_EARLY}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{PHASE\_EARLY}{PHASE\_EARLY}}
+{\footnotesize\ttfamily int gyp.\+input.\+PHASE\+\_\+\+EARLY = 0}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_ad84f73ba31577bbc0bc5cd9dcb5e0938}\label{namespacegyp_1_1input_ad84f73ba31577bbc0bc5cd9dcb5e0938}} 
+\index{gyp.input@{gyp.input}!PHASE\_LATE@{PHASE\_LATE}}
+\index{PHASE\_LATE@{PHASE\_LATE}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{PHASE\_LATE}{PHASE\_LATE}}
+{\footnotesize\ttfamily int gyp.\+input.\+PHASE\+\_\+\+LATE = 1}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_a0464f6ba0f94e3ee36f22cc80f9d16e4}\label{namespacegyp_1_1input_a0464f6ba0f94e3ee36f22cc80f9d16e4}} 
+\index{gyp.input@{gyp.input}!PHASE\_LATELATE@{PHASE\_LATELATE}}
+\index{PHASE\_LATELATE@{PHASE\_LATELATE}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{PHASE\_LATELATE}{PHASE\_LATELATE}}
+{\footnotesize\ttfamily int gyp.\+input.\+PHASE\+\_\+\+LATELATE = 2}
+
+\mbox{\Hypertarget{namespacegyp_1_1input_aadf8c636dc1eae1649470bd3229f480b}\label{namespacegyp_1_1input_aadf8c636dc1eae1649470bd3229f480b}} 
+\index{gyp.input@{gyp.input}!PY3@{PY3}}
+\index{PY3@{PY3}!gyp.input@{gyp.input}}
+\doxysubsubsection{\texorpdfstring{PY3}{PY3}}
+{\footnotesize\ttfamily gyp.\+input.\+PY3 = str}
+

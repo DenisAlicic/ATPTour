@@ -12,6 +12,9 @@ using TennisAssociation.Models;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Basic controller.
+    /// </summary>
     public class HomeController : Controller
     {
         //private readonly ILogger<HomeController> _logger;

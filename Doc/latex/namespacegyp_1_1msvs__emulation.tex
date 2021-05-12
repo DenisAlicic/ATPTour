@@ -1,0 +1,146 @@
+\hypertarget{namespacegyp_1_1msvs__emulation}{}\doxysection{gyp.\+msvs\+\_\+emulation Namespace Reference}
+\label{namespacegyp_1_1msvs__emulation}\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1MsvsSettings}{Msvs\+Settings}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader}{Precompiled\+Header}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_ace86b7bf7e705f1554eb26d9da92d4d2}{Quote\+For\+Rsp\+File}} (arg)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a779a519dc7bb25803a267c1f331568b5}{Encode\+Rsp\+File\+List}} (args)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a0903138f3ba624a2ec1963b9d7fb2378}{Get\+Global\+VSMacro\+Env}} (\mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a7590e8f4ab0da5229b75949b4100fb14}{vs\+\_\+version}})
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a8ce1800396bdfe921881fd3a8d860839}{Extract\+Shared\+MSVSSystem\+Includes}} (configs, generator\+\_\+flags)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_ab5a1217687a770fc3b8823104c9e1165}{Get\+VSVersion}} (generator\+\_\+flags)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_ac05e75eb381669b81052584b740ed24a}{Expand\+Macros}} (string, expansions)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a7a301ba5345f615b0e642a7d4ad9a3c9}{Generate\+Environment\+Files}} (toplevel\+\_\+build\+\_\+dir, generator\+\_\+flags, system\+\_\+includes, open\+\_\+out)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a2d5b1f4b495c8fb574f5d161b469b1e3}{Verify\+Missing\+Sources}} (sources, build\+\_\+dir, generator\+\_\+flags, gyp\+\_\+to\+\_\+ninja)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1msvs__emulation_ab62205e6eaf613b369b8aa70d6385206}{Calculate\+Common\+Variables}} (default\+\_\+variables, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a6a4a651b56162127f115e7790c4b0a0b}{PY3}} = str
+\item 
+\mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a38544626f697ab6ff59e40c6afccb39b}{windows\+\_\+quoter\+\_\+regex}} = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}$\ast$)\char`\"{}\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacegyp_1_1msvs__emulation_a7590e8f4ab0da5229b75949b4100fb14}{vs\+\_\+version}} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_ab62205e6eaf613b369b8aa70d6385206}\label{namespacegyp_1_1msvs__emulation_ab62205e6eaf613b369b8aa70d6385206}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!CalculateCommonVariables@{CalculateCommonVariables}}
+\index{CalculateCommonVariables@{CalculateCommonVariables}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{CalculateCommonVariables()}{CalculateCommonVariables()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Calculate\+Common\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a779a519dc7bb25803a267c1f331568b5}\label{namespacegyp_1_1msvs__emulation_a779a519dc7bb25803a267c1f331568b5}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!EncodeRspFileList@{EncodeRspFileList}}
+\index{EncodeRspFileList@{EncodeRspFileList}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{EncodeRspFileList()}{EncodeRspFileList()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Encode\+Rsp\+File\+List (\begin{DoxyParamCaption}\item[{}]{args }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Process a list of arguments using QuoteCmdExeArgument.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_ac05e75eb381669b81052584b740ed24a}\label{namespacegyp_1_1msvs__emulation_ac05e75eb381669b81052584b740ed24a}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!ExpandMacros@{ExpandMacros}}
+\index{ExpandMacros@{ExpandMacros}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{ExpandMacros()}{ExpandMacros()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Expand\+Macros (\begin{DoxyParamCaption}\item[{}]{string,  }\item[{}]{expansions }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Expand $(Variable) per expansions dict. See MsvsSettings.GetVSMacroEnv
+for the canonical way to retrieve a suitable dict.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a8ce1800396bdfe921881fd3a8d860839}\label{namespacegyp_1_1msvs__emulation_a8ce1800396bdfe921881fd3a8d860839}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!ExtractSharedMSVSSystemIncludes@{ExtractSharedMSVSSystemIncludes}}
+\index{ExtractSharedMSVSSystemIncludes@{ExtractSharedMSVSSystemIncludes}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{ExtractSharedMSVSSystemIncludes()}{ExtractSharedMSVSSystemIncludes()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Extract\+Shared\+MSVSSystem\+Includes (\begin{DoxyParamCaption}\item[{}]{configs,  }\item[{}]{generator\+\_\+flags }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Finds msvs_system_include_dirs that are common to all targets, removes
+them from all targets, and returns an OrderedSet containing them.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a7a301ba5345f615b0e642a7d4ad9a3c9}\label{namespacegyp_1_1msvs__emulation_a7a301ba5345f615b0e642a7d4ad9a3c9}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!GenerateEnvironmentFiles@{GenerateEnvironmentFiles}}
+\index{GenerateEnvironmentFiles@{GenerateEnvironmentFiles}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{GenerateEnvironmentFiles()}{GenerateEnvironmentFiles()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Generate\+Environment\+Files (\begin{DoxyParamCaption}\item[{}]{toplevel\+\_\+build\+\_\+dir,  }\item[{}]{generator\+\_\+flags,  }\item[{}]{system\+\_\+includes,  }\item[{}]{open\+\_\+out }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It's not sufficient to have the absolute path to the compiler, linker,
+etc. on Windows, as those tools rely on .dlls being in the PATH. We also
+need to support both x86 and x64 compilers within the same build (to support
+msvs_target_platform hackery). Different architectures require a different
+compiler binary, and different supporting environment variables (INCLUDE,
+LIB, LIBPATH). So, we extract the environment here, wrap all invocations
+of compiler tools (cl, link, lib, rc, midl, etc.) via win_tool.py which
+sets up the environment, and then we do not prefix the compiler with
+an absolute path, instead preferring something like "cl.exe" in the rule
+which will then run whichever the environment setup has put in the path.
+When the following procedure to generate environment files does not
+meet your requirement (e.g. for custom toolchains), you can pass
+"-G ninja_use_custom_environment_files" to the gyp to suppress file
+generation and use custom environment files prepared by yourself.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a0903138f3ba624a2ec1963b9d7fb2378}\label{namespacegyp_1_1msvs__emulation_a0903138f3ba624a2ec1963b9d7fb2378}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!GetGlobalVSMacroEnv@{GetGlobalVSMacroEnv}}
+\index{GetGlobalVSMacroEnv@{GetGlobalVSMacroEnv}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{GetGlobalVSMacroEnv()}{GetGlobalVSMacroEnv()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Get\+Global\+VSMacro\+Env (\begin{DoxyParamCaption}\item[{}]{vs\+\_\+version }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get a dict of variables mapping internal VS macro names to their gyp
+equivalents. Returns all variables that are independent of the target.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_ab5a1217687a770fc3b8823104c9e1165}\label{namespacegyp_1_1msvs__emulation_ab5a1217687a770fc3b8823104c9e1165}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!GetVSVersion@{GetVSVersion}}
+\index{GetVSVersion@{GetVSVersion}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{GetVSVersion()}{GetVSVersion()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Get\+VSVersion (\begin{DoxyParamCaption}\item[{}]{generator\+\_\+flags }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_ace86b7bf7e705f1554eb26d9da92d4d2}\label{namespacegyp_1_1msvs__emulation_ace86b7bf7e705f1554eb26d9da92d4d2}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!QuoteForRspFile@{QuoteForRspFile}}
+\index{QuoteForRspFile@{QuoteForRspFile}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{QuoteForRspFile()}{QuoteForRspFile()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Quote\+For\+Rsp\+File (\begin{DoxyParamCaption}\item[{}]{arg }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Quote a command line argument so that it appears as one argument when
+processed via cmd.exe and parsed by CommandLineToArgvW (as is typical for
+Windows programs).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a2d5b1f4b495c8fb574f5d161b469b1e3}\label{namespacegyp_1_1msvs__emulation_a2d5b1f4b495c8fb574f5d161b469b1e3}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!VerifyMissingSources@{VerifyMissingSources}}
+\index{VerifyMissingSources@{VerifyMissingSources}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{VerifyMissingSources()}{VerifyMissingSources()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Verify\+Missing\+Sources (\begin{DoxyParamCaption}\item[{}]{sources,  }\item[{}]{build\+\_\+dir,  }\item[{}]{generator\+\_\+flags,  }\item[{}]{gyp\+\_\+to\+\_\+ninja }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Emulate behavior of msvs_error_on_missing_sources present in the msvs
+generator: Check that all regular source files, i.e. not created at run time,
+exist on disk. Missing files cause needless recompilation when building via
+VS, and we want this check to match for people/bots that build using ninja,
+so they're not surprised when the VS build fails.\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a6a4a651b56162127f115e7790c4b0a0b}\label{namespacegyp_1_1msvs__emulation_a6a4a651b56162127f115e7790c4b0a0b}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!PY3@{PY3}}
+\index{PY3@{PY3}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{PY3}{PY3}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+PY3 = str}
+
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a7590e8f4ab0da5229b75949b4100fb14}\label{namespacegyp_1_1msvs__emulation_a7590e8f4ab0da5229b75949b4100fb14}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!vs\_version@{vs\_version}}
+\index{vs\_version@{vs\_version}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{vs\_version}{vs\_version}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+vs\+\_\+version = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1msvs__emulation_a38544626f697ab6ff59e40c6afccb39b}\label{namespacegyp_1_1msvs__emulation_a38544626f697ab6ff59e40c6afccb39b}} 
+\index{gyp.msvs\_emulation@{gyp.msvs\_emulation}!windows\_quoter\_regex@{windows\_quoter\_regex}}
+\index{windows\_quoter\_regex@{windows\_quoter\_regex}!gyp.msvs\_emulation@{gyp.msvs\_emulation}}
+\doxysubsubsection{\texorpdfstring{windows\_quoter\_regex}{windows\_quoter\_regex}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+windows\+\_\+quoter\+\_\+regex = re.\+compile(r\textquotesingle{}(\textbackslash{}\textbackslash{}$\ast$)\char`\"{}\textquotesingle{})}
+

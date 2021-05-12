@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// Model according database table.
+    /// </summary>
     public partial class Player
     {
         public Guid Id { get; set; }

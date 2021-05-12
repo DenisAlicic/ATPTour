@@ -1,0 +1,171 @@
+\hypertarget{namespacegyp_1_1generator_1_1eclipse}{}\doxysection{gyp.\+generator.\+eclipse Namespace Reference}
+\label{namespacegyp_1_1generator_1_1eclipse}\index{gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a03779fcc22aaee4e520af941f40c9fc3}{Calculate\+Variables}} (default\+\_\+variables, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_ad0f23f191be54f511c6dfd3118c80a2b}{Calculate\+Generator\+Input\+Info}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_aa54eec50c70cb5cf83c9f3f147a145e6}{Get\+All\+Include\+Directories}} (target\+\_\+list, target\+\_\+dicts, shared\+\_\+intermediate\+\_\+dirs, config\+\_\+name, params, compiler\+\_\+path)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a17c697f6054b3f91cdb0cf799138fe92}{Get\+Compiler\+Path}} (target\+\_\+list, data, options)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a16db49a6e4ca07bdd9cbc81f5e4797ad}{Get\+All\+Defines}} (target\+\_\+list, target\+\_\+dicts, data, config\+\_\+name, params, compiler\+\_\+path)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_ab70617ec86e6f3f90e0a69e509515959}{Write\+Include\+Paths}} (out, eclipse\+\_\+langs, include\+\_\+dirs)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_affc6b80dd1d6d3aac38de75576fb7b53}{Write\+Macros}} (out, eclipse\+\_\+langs, defines)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_ac8275b8848a0a40de0df76781c191d41}{Generate\+Output\+For\+Config}} (target\+\_\+list, target\+\_\+dicts, data, params, config\+\_\+name)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_adceadad3957e4cb9930b43f1a95bf30f}{Generate\+Cdt\+Settings\+File}} (target\+\_\+list, target\+\_\+dicts, data, params, config\+\_\+name, out\+\_\+name, options, shared\+\_\+intermediate\+\_\+dirs)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a6e11a2b139a6b85fd4948303917fb78e}{Generate\+Classpath\+File}} (target\+\_\+list, target\+\_\+dicts, toplevel\+\_\+dir, toplevel\+\_\+build, out\+\_\+name)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a39d890ac6ae6a9ae5bc6b951cb0cf6f4}{Get\+Java\+Jars}} (target\+\_\+list, target\+\_\+dicts, toplevel\+\_\+dir)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_adfe483b548b1401ce5e9495e2021a2d3}{Get\+Java\+Source\+Dirs}} (target\+\_\+list, target\+\_\+dicts, toplevel\+\_\+dir)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a39334c6ea9f08eb374084e5eba0dfe67}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_ad4c5998e5069041f8038a088d38151a7}{PY3}} = str
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a63972f3bcd19ac640ab2c876f8bd2a80}{generator\+\_\+wants\+\_\+static\+\_\+library\+\_\+dependencies\+\_\+adjusted}} = False
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1eclipse_a128ad581f03b711d63413383ca393a8a}{generator\+\_\+default\+\_\+variables}} = \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_ad0f23f191be54f511c6dfd3118c80a2b}\label{namespacegyp_1_1generator_1_1eclipse_ad0f23f191be54f511c6dfd3118c80a2b}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}}
+\index{CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{CalculateGeneratorInputInfo()}{CalculateGeneratorInputInfo()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Calculate\+Generator\+Input\+Info (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate the generator specific info that gets fed to input (called by
+gyp).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a03779fcc22aaee4e520af941f40c9fc3}\label{namespacegyp_1_1generator_1_1eclipse_a03779fcc22aaee4e520af941f40c9fc3}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!CalculateVariables@{CalculateVariables}}
+\index{CalculateVariables@{CalculateVariables}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{CalculateVariables()}{CalculateVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Calculate\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_adceadad3957e4cb9930b43f1a95bf30f}\label{namespacegyp_1_1generator_1_1eclipse_adceadad3957e4cb9930b43f1a95bf30f}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GenerateCdtSettingsFile@{GenerateCdtSettingsFile}}
+\index{GenerateCdtSettingsFile@{GenerateCdtSettingsFile}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GenerateCdtSettingsFile()}{GenerateCdtSettingsFile()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Generate\+Cdt\+Settings\+File (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params,  }\item[{}]{config\+\_\+name,  }\item[{}]{out\+\_\+name,  }\item[{}]{options,  }\item[{}]{shared\+\_\+intermediate\+\_\+dirs }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a6e11a2b139a6b85fd4948303917fb78e}\label{namespacegyp_1_1generator_1_1eclipse_a6e11a2b139a6b85fd4948303917fb78e}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GenerateClasspathFile@{GenerateClasspathFile}}
+\index{GenerateClasspathFile@{GenerateClasspathFile}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GenerateClasspathFile()}{GenerateClasspathFile()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Generate\+Classpath\+File (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{toplevel\+\_\+dir,  }\item[{}]{toplevel\+\_\+build,  }\item[{}]{out\+\_\+name }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generates a classpath file suitable for symbol navigation and code
+completion of Java code (such as in Android projects) by finding all
+.java and .jar files used as action inputs.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a39334c6ea9f08eb374084e5eba0dfe67}\label{namespacegyp_1_1generator_1_1eclipse_a39334c6ea9f08eb374084e5eba0dfe67}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generate an XML settings file that can be imported into a CDT project.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_ac8275b8848a0a40de0df76781c191d41}\label{namespacegyp_1_1generator_1_1eclipse_ac8275b8848a0a40de0df76781c191d41}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GenerateOutputForConfig@{GenerateOutputForConfig}}
+\index{GenerateOutputForConfig@{GenerateOutputForConfig}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GenerateOutputForConfig()}{GenerateOutputForConfig()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Generate\+Output\+For\+Config (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params,  }\item[{}]{config\+\_\+name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a16db49a6e4ca07bdd9cbc81f5e4797ad}\label{namespacegyp_1_1generator_1_1eclipse_a16db49a6e4ca07bdd9cbc81f5e4797ad}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GetAllDefines@{GetAllDefines}}
+\index{GetAllDefines@{GetAllDefines}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GetAllDefines()}{GetAllDefines()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Get\+All\+Defines (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{config\+\_\+name,  }\item[{}]{params,  }\item[{}]{compiler\+\_\+path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate the defines for a project.
+
+Returns:
+A dict that includes explicit defines declared in gyp files along with all
+of the default defines that the compiler uses.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_aa54eec50c70cb5cf83c9f3f147a145e6}\label{namespacegyp_1_1generator_1_1eclipse_aa54eec50c70cb5cf83c9f3f147a145e6}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GetAllIncludeDirectories@{GetAllIncludeDirectories}}
+\index{GetAllIncludeDirectories@{GetAllIncludeDirectories}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GetAllIncludeDirectories()}{GetAllIncludeDirectories()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Get\+All\+Include\+Directories (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{shared\+\_\+intermediate\+\_\+dirs,  }\item[{}]{config\+\_\+name,  }\item[{}]{params,  }\item[{}]{compiler\+\_\+path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate the set of include directories to be used.
+
+Returns:
+A list including all the include_dir's specified for every target followed
+by any include directories that were added as cflag compiler options.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a17c697f6054b3f91cdb0cf799138fe92}\label{namespacegyp_1_1generator_1_1eclipse_a17c697f6054b3f91cdb0cf799138fe92}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GetCompilerPath@{GetCompilerPath}}
+\index{GetCompilerPath@{GetCompilerPath}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GetCompilerPath()}{GetCompilerPath()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Get\+Compiler\+Path (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{data,  }\item[{}]{options }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Determine a command that can be used to invoke the compiler.
+
+Returns:
+If this is a gyp project that has explicit make settings, try to determine
+the compiler from that.  Otherwise, see if a compiler was specified via the
+CC_target environment variable.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a39d890ac6ae6a9ae5bc6b951cb0cf6f4}\label{namespacegyp_1_1generator_1_1eclipse_a39d890ac6ae6a9ae5bc6b951cb0cf6f4}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GetJavaJars@{GetJavaJars}}
+\index{GetJavaJars@{GetJavaJars}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GetJavaJars()}{GetJavaJars()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Get\+Java\+Jars (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{toplevel\+\_\+dir }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generates a sequence of all .jars used as inputs.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_adfe483b548b1401ce5e9495e2021a2d3}\label{namespacegyp_1_1generator_1_1eclipse_adfe483b548b1401ce5e9495e2021a2d3}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!GetJavaSourceDirs@{GetJavaSourceDirs}}
+\index{GetJavaSourceDirs@{GetJavaSourceDirs}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{GetJavaSourceDirs()}{GetJavaSourceDirs()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Get\+Java\+Source\+Dirs (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{toplevel\+\_\+dir }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generates a sequence of all likely java package root directories.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_ab70617ec86e6f3f90e0a69e509515959}\label{namespacegyp_1_1generator_1_1eclipse_ab70617ec86e6f3f90e0a69e509515959}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!WriteIncludePaths@{WriteIncludePaths}}
+\index{WriteIncludePaths@{WriteIncludePaths}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{WriteIncludePaths()}{WriteIncludePaths()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Write\+Include\+Paths (\begin{DoxyParamCaption}\item[{}]{out,  }\item[{}]{eclipse\+\_\+langs,  }\item[{}]{include\+\_\+dirs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write the includes section of a CDT settings export file.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_affc6b80dd1d6d3aac38de75576fb7b53}\label{namespacegyp_1_1generator_1_1eclipse_affc6b80dd1d6d3aac38de75576fb7b53}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!WriteMacros@{WriteMacros}}
+\index{WriteMacros@{WriteMacros}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{WriteMacros()}{WriteMacros()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+eclipse.\+Write\+Macros (\begin{DoxyParamCaption}\item[{}]{out,  }\item[{}]{eclipse\+\_\+langs,  }\item[{}]{defines }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write the macros section of a CDT settings export file.\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a128ad581f03b711d63413383ca393a8a}\label{namespacegyp_1_1generator_1_1eclipse_a128ad581f03b711d63413383ca393a8a}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+eclipse.\+generator\+\_\+default\+\_\+variables = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_a63972f3bcd19ac640ab2c876f8bd2a80}\label{namespacegyp_1_1generator_1_1eclipse_a63972f3bcd19ac640ab2c876f8bd2a80}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!generator\_wants\_static\_library\_dependencies\_adjusted@{generator\_wants\_static\_library\_dependencies\_adjusted}}
+\index{generator\_wants\_static\_library\_dependencies\_adjusted@{generator\_wants\_static\_library\_dependencies\_adjusted}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{generator\_wants\_static\_library\_dependencies\_adjusted}{generator\_wants\_static\_library\_dependencies\_adjusted}}
+{\footnotesize\ttfamily bool gyp.\+generator.\+eclipse.\+generator\+\_\+wants\+\_\+static\+\_\+library\+\_\+dependencies\+\_\+adjusted = False}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1eclipse_ad4c5998e5069041f8038a088d38151a7}\label{namespacegyp_1_1generator_1_1eclipse_ad4c5998e5069041f8038a088d38151a7}} 
+\index{gyp.generator.eclipse@{gyp.generator.eclipse}!PY3@{PY3}}
+\index{PY3@{PY3}!gyp.generator.eclipse@{gyp.generator.eclipse}}
+\doxysubsubsection{\texorpdfstring{PY3}{PY3}}
+{\footnotesize\ttfamily gyp.\+generator.\+eclipse.\+PY3 = str}
+

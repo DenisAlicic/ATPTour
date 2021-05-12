@@ -1,0 +1,89 @@
+\hypertarget{classTennisAssociation_1_1Controllers_1_1UpdateDataController}{}\doxysection{Tennis\+Association.\+Controllers.\+Update\+Data\+Controller Class Reference}
+\label{classTennisAssociation_1_1Controllers_1_1UpdateDataController}\index{TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}}
+
+
+Controller for admin to update each table in database.  
+
+
+Inheritance diagram for Tennis\+Association.\+Controllers.\+Update\+Data\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTennisAssociation_1_1Controllers_1_1UpdateDataController}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac095bbc9158502a9829e880bba77fa7a}{Update\+Data\+Controller}} (\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}} context, User\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$ user\+Manager)
+\item 
+bool \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac3abba2a5943d96cc7030438b8243c17}{Update\+Tournaments}} ()
+\begin{DoxyCompactList}\small\item\em Update database table of tournaments. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1UpdateDataController_afe4cdc355821b6489a60a7071d35698b}{Update\+Players}} ()
+\begin{DoxyCompactList}\small\item\em Update database table of players. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1UpdateDataController_a4025b28f19d8047b50ee0de19656d6fb}{Update\+Matches}} ()
+\begin{DoxyCompactList}\small\item\em Update database table of matches. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller for admin to update each table in database. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac095bbc9158502a9829e880bba77fa7a}\label{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac095bbc9158502a9829e880bba77fa7a}} 
+\index{TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}!UpdateDataController@{UpdateDataController}}
+\index{UpdateDataController@{UpdateDataController}!TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}}
+\doxysubsubsection{\texorpdfstring{UpdateDataController()}{UpdateDataController()}}
+{\footnotesize\ttfamily Tennis\+Association.\+Controllers.\+Update\+Data\+Controller.\+Update\+Data\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}}}]{context,  }\item[{User\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$}]{user\+Manager }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1UpdateDataController_a4025b28f19d8047b50ee0de19656d6fb}\label{classTennisAssociation_1_1Controllers_1_1UpdateDataController_a4025b28f19d8047b50ee0de19656d6fb}} 
+\index{TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}!UpdateMatches@{UpdateMatches}}
+\index{UpdateMatches@{UpdateMatches}!TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}}
+\doxysubsubsection{\texorpdfstring{UpdateMatches()}{UpdateMatches()}}
+{\footnotesize\ttfamily bool Tennis\+Association.\+Controllers.\+Update\+Data\+Controller.\+Update\+Matches (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update database table of matches. 
+
+GET api/update\+Data/matches
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1UpdateDataController_afe4cdc355821b6489a60a7071d35698b}\label{classTennisAssociation_1_1Controllers_1_1UpdateDataController_afe4cdc355821b6489a60a7071d35698b}} 
+\index{TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}!UpdatePlayers@{UpdatePlayers}}
+\index{UpdatePlayers@{UpdatePlayers}!TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}}
+\doxysubsubsection{\texorpdfstring{UpdatePlayers()}{UpdatePlayers()}}
+{\footnotesize\ttfamily bool Tennis\+Association.\+Controllers.\+Update\+Data\+Controller.\+Update\+Players (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update database table of players. 
+
+GET api/update\+Data/players
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac3abba2a5943d96cc7030438b8243c17}\label{classTennisAssociation_1_1Controllers_1_1UpdateDataController_ac3abba2a5943d96cc7030438b8243c17}} 
+\index{TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}!UpdateTournaments@{UpdateTournaments}}
+\index{UpdateTournaments@{UpdateTournaments}!TennisAssociation.Controllers.UpdateDataController@{TennisAssociation.Controllers.UpdateDataController}}
+\doxysubsubsection{\texorpdfstring{UpdateTournaments()}{UpdateTournaments()}}
+{\footnotesize\ttfamily bool Tennis\+Association.\+Controllers.\+Update\+Data\+Controller.\+Update\+Tournaments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update database table of tournaments. 
+
+GET api/update\+Data/tournaments
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Controllers/\mbox{\hyperlink{UpdateDataController_8cs}{Update\+Data\+Controller.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,97 @@
+\hypertarget{classTennisAssociation_1_1Controllers_1_1TournamentsController}{}\doxysection{Tennis\+Association.\+Controllers.\+Tournaments\+Controller Class Reference}
+\label{classTennisAssociation_1_1Controllers_1_1TournamentsController}\index{TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}}
+
+
+Controller for tournaments handling.  
+
+
+Inheritance diagram for Tennis\+Association.\+Controllers.\+Tournaments\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTennisAssociation_1_1Controllers_1_1TournamentsController}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1TournamentsController_a3d02c748d9eacc6828ca686a18af85bb}{Tournaments\+Controller}} (\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}} context)
+\item 
+IAction\+Result \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1TournamentsController_ad0eee83a3db403203e39f68b0cd8c757}{Get}} ()
+\begin{DoxyCompactList}\small\item\em Return all tournaments from database. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1TournamentsController_a4bb61e6c1be885548e5a1273b14e43ab}{Get}} (string name)
+\begin{DoxyCompactList}\small\item\em Return tournament with a given name. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1TournamentsController_a8833d0898fc655ac152a3f63d62af81a}{Get}} (int points)
+\begin{DoxyCompactList}\small\item\em Return tournaments with a given points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller for tournaments handling. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1TournamentsController_a3d02c748d9eacc6828ca686a18af85bb}\label{classTennisAssociation_1_1Controllers_1_1TournamentsController_a3d02c748d9eacc6828ca686a18af85bb}} 
+\index{TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}!TournamentsController@{TournamentsController}}
+\index{TournamentsController@{TournamentsController}!TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}}
+\doxysubsubsection{\texorpdfstring{TournamentsController()}{TournamentsController()}}
+{\footnotesize\ttfamily Tennis\+Association.\+Controllers.\+Tournaments\+Controller.\+Tournaments\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1TennisAssociationContext}{Tennis\+Association\+Context}}}]{context }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1TournamentsController_ad0eee83a3db403203e39f68b0cd8c757}\label{classTennisAssociation_1_1Controllers_1_1TournamentsController_ad0eee83a3db403203e39f68b0cd8c757}} 
+\index{TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}!Get@{Get}}
+\index{Get@{Get}!TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily IAction\+Result Tennis\+Association.\+Controllers.\+Tournaments\+Controller.\+Get (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Return all tournaments from database. 
+
+\begin{DoxyReturn}{Returns}
+json containing information about tournaments
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1TournamentsController_a8833d0898fc655ac152a3f63d62af81a}\label{classTennisAssociation_1_1Controllers_1_1TournamentsController_a8833d0898fc655ac152a3f63d62af81a}} 
+\index{TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}!Get@{Get}}
+\index{Get@{Get}!TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily IAction\+Result Tennis\+Association.\+Controllers.\+Tournaments\+Controller.\+Get (\begin{DoxyParamCaption}\item[{int}]{points }\end{DoxyParamCaption})}
+
+
+
+Return tournaments with a given points. 
+
+GET api/tournaments/points/$<$points$>$
+
+
+\begin{DoxyParams}{Parameters}
+{\em points} & Tournament\textquotesingle{}s points.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+json of tournaments
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1TournamentsController_a4bb61e6c1be885548e5a1273b14e43ab}\label{classTennisAssociation_1_1Controllers_1_1TournamentsController_a4bb61e6c1be885548e5a1273b14e43ab}} 
+\index{TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}!Get@{Get}}
+\index{Get@{Get}!TennisAssociation.Controllers.TournamentsController@{TennisAssociation.Controllers.TournamentsController}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily IAction\+Result Tennis\+Association.\+Controllers.\+Tournaments\+Controller.\+Get (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Return tournament with a given name. 
+
+GET api/tournaments/$<$name$>$
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Name} & Tournament\textquotesingle{}s name.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+json of tournament
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Controllers/\mbox{\hyperlink{TournamentsController_8cs}{Tournaments\+Controller.\+cs}}\end{DoxyCompactItemize}

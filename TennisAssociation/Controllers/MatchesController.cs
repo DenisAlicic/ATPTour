@@ -7,6 +7,9 @@ using TennisAssociation.Models;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Controller for getting matches.
+    /// </summary>
     [Route("api/matches")]
     [ApiController]
     public class MatchesController : Controller

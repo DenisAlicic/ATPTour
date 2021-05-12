@@ -1,0 +1,581 @@
+\hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter}{}\doxysection{gyp.\+generator.\+ninja.\+Ninja\+Writer Class Reference}
+\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter}\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+Inheritance diagram for gyp.\+generator.\+ninja.\+Ninja\+Writer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgyp_1_1generator_1_1ninja_1_1NinjaWriter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a96f6f33d730821dc2472a4eb22d0f283}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a99a64639d304afc7e1d9933361fec98b}{hash\+\_\+for\+\_\+rules}}, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a798f3521b0a85bb5c1e01a287819fab3}{target\+\_\+outputs}}, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa9d79640be771a43aa06fd5fff1a6205}{base\+\_\+dir}}, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2a2eb9eebee332b4c31051f665722b1f}{build\+\_\+dir}}, output\+\_\+file, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a04af4ed57095bd15bfa7925dd620c834}{toplevel\+\_\+build}}, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a32bd2faaa88e0227dd4322dae53b3ab0}{output\+\_\+file\+\_\+name}}, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6b89bdffce81f058f3a73d5ff7e9c5b}{flavor}}, toplevel\+\_\+dir=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae17c1284940fdea62fdc98dd3fcf0bed}{Expand\+Special}} (self, path, product\+\_\+dir=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6adba945a2b373a41f549d2cf2efce2}{Expand\+Rule\+Variables}} (self, path, root, dirname, source, ext, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}{name}})
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7ed2f69e340256c104ae43b1947734ed}{Gyp\+Path\+To\+Ninja}} (self, path, env=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1366e93fe5bc3b4c2339e6656148aee2}{Gyp\+Path\+To\+Unique\+Output}} (self, path, qualified=True)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8ccef0530b628341f06879c8d8d69fad}{Write\+Collapsed\+Dependencies}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}{name}}, targets, order\+\_\+only=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa608305c657cc50e2e2445ceff447ff5}{Write\+Spec}} (self, spec, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, generator\+\_\+flags)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a15a152d3ec8b4fa2a3fa53837f62a86c}{Write\+Win\+Idl\+Files}} (self, spec, prebuild)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6236bed19c879e1eefa46613dfbfce71}{Write\+Actions\+Rules\+Copies}} (self, spec, extra\+\_\+sources, prebuild, mac\+\_\+bundle\+\_\+depends)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_abd9081a400bb7faa821d360efae450e0}{Generate\+Description}} (self, verb, message, fallback)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa8b68c4218b45f1aec2f70b4e5636a80}{Write\+Actions}} (self, actions, extra\+\_\+sources, prebuild, extra\+\_\+mac\+\_\+bundle\+\_\+resources)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a082d36c155de1db28df80cb4cf6c4abd}{Write\+Rules}} (self, rules, extra\+\_\+sources, prebuild, mac\+\_\+bundle\+\_\+resources, extra\+\_\+mac\+\_\+bundle\+\_\+resources)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4dc6ad9b7fb8c8a18f7c45511277d309}{Write\+Copies}} (self, copies, prebuild, mac\+\_\+bundle\+\_\+depends)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a16541753423fe0377f9ed7e52e269d62}{Writei\+OSFramework\+Headers}} (self, spec, outputs, prebuild)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae1cb7cfe8d7c9975c9c4621072cc8179}{Write\+Mac\+Bundle\+Resources}} (self, resources, bundle\+\_\+depends)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ada1cac725f2d7a84d7a15c0c7537390f}{Write\+Mac\+XCassets}} (self, xcassets, bundle\+\_\+depends)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab45e4e0b29309140c7ccb552fee8c05c}{Write\+Mac\+Info\+Plist}} (self, partial\+\_\+info\+\_\+plist, bundle\+\_\+depends)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7e31a203ce1001cbef21d8c83f8bbea8}{Write\+Sources}} (self, ninja\+\_\+file, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, config, sources, predepends, precompiled\+\_\+header, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af39eb6099e003d9e5ce8563b3f03fc5e}{Write\+Sources\+For\+Arch}} (self, ninja\+\_\+file, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, config, sources, predepends, precompiled\+\_\+header, spec, arch=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a516ae23d4741ee790f91e143db074243}{Write\+Pch\+Targets}} (self, ninja\+\_\+file, pch\+\_\+commands)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab63c3b82db69a2d4407f18f8fde3fd8d}{Write\+Link}} (self, spec, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, config, link\+\_\+deps, compile\+\_\+deps)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a9b061428d744b7b5c3bdffed10a3563d}{Write\+Link\+For\+Arch}} (self, ninja\+\_\+file, spec, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, config, link\+\_\+deps, compile\+\_\+deps, arch=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a71a857fcecee99e57ebb68d3557fe0ee}{Write\+Target}} (self, spec, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}, config, link\+\_\+deps, compile\+\_\+deps)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab6966bda4c3f0a368d28e45a8dcc2f59}{Write\+Mac\+Bundle}} (self, spec, mac\+\_\+bundle\+\_\+depends, is\+\_\+empty)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_acdfc62f63b459ad539eff5e03c0dcf83}{Get\+Toolchain\+Env}} (self, additional\+\_\+settings=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a86505590b994499b13878efe781462a6}{Get\+Msvs\+Toolchain\+Env}} (self, additional\+\_\+settings=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a327a66ba2914d359631dc4b9ce5ccae6}{Get\+Sorted\+Xcode\+Env}} (self, additional\+\_\+settings=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a74f5738fa3bfcd169dc0762f01451763}{Get\+Sorted\+Xcode\+Postbuild\+Env}} (self)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a20e3c8a384e4c73d43177e495aa30f87}{Append\+Postbuild\+Variable}} (self, variables, spec, output, binary, is\+\_\+command\+\_\+start=False)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6655e298d7314892701653a4748ae213}{Get\+Postbuild\+Command}} (self, spec, output, output\+\_\+binary, is\+\_\+command\+\_\+start)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af504b95036b5b928dfa71571ff666877}{Compute\+Export\+Env\+String}} (self, env)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2d4df715006af39de7a1a500c051a92b}{Compute\+Mac\+Bundle\+Output}} (self)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a03bb4419675787c0550f3d77fea7537b}{Compute\+Output\+File\+Name}} (self, spec, type=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae21c1a8acc0dda3aa4cd4da00ba60e7d}{Compute\+Output}} (self, spec, arch=None)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0ac4b71375afa04b422edecc5c7eae30}{Write\+Variable\+List}} (self, ninja\+\_\+file, var, values)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a426cc65a46971aec6f93fe13f55934d1}{Write\+New\+Ninja\+Rule}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}{name}}, args, description, is\+\_\+cygwin, env, pool, depfile=None)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a99a64639d304afc7e1d9933361fec98b}{hash\+\_\+for\+\_\+rules}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a798f3521b0a85bb5c1e01a287819fab3}{target\+\_\+outputs}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa9d79640be771a43aa06fd5fff1a6205}{base\+\_\+dir}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2a2eb9eebee332b4c31051f665722b1f}{build\+\_\+dir}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4b4fdb2da103d61ae0bad19ed845b261}{ninja}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a04af4ed57095bd15bfa7925dd620c834}{toplevel\+\_\+build}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a32bd2faaa88e0227dd4322dae53b3ab0}{output\+\_\+file\+\_\+name}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6b89bdffce81f058f3a73d5ff7e9c5b}{flavor}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a097c72ae1e4de66e21b988f295909899}{abs\+\_\+build\+\_\+dir}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1eb16a9ac9a89fe60edb2c9fcda6567d}{obj\+\_\+ext}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a19304177a9d37e9e1ed609372ffda39a}{win\+\_\+env}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a080d901a83f9498670fdd0b112c13bdc}{build\+\_\+to\+\_\+base}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8e399c14d837265d3f7808a98592bdfa}{base\+\_\+to\+\_\+build}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}{config\+\_\+name}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}{name}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad0d8935bf7363231e6103b691e20c044}{toolset}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ac67b4d943f16ef772352927a26411833}{target}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0b13b3e5055e61008cfa94218f7cfd46}{is\+\_\+standalone\+\_\+static\+\_\+library}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a88f56ca5243ff8db757bfb57eca096dd}{target\+\_\+rpath}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a645fbdd1e6fc808c4cc1b9850884457f}{is\+\_\+mac\+\_\+bundle}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a888f40054ed563f7739ed8111386c660}{xcode\+\_\+settings}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a372b3f76aa23aa3d38cfd0667194d3c5}{msvs\+\_\+settings}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a238c010c6acbc8a2a535dcab1efa0982}{archs}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad11b3378d4170d27a84e08c0846428b4}{arch\+\_\+subninjas}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a96f6f33d730821dc2472a4eb22d0f283}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a96f6f33d730821dc2472a4eb22d0f283}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{hash\+\_\+for\+\_\+rules,  }\item[{}]{target\+\_\+outputs,  }\item[{}]{base\+\_\+dir,  }\item[{}]{build\+\_\+dir,  }\item[{}]{output\+\_\+file,  }\item[{}]{toplevel\+\_\+build,  }\item[{}]{output\+\_\+file\+\_\+name,  }\item[{}]{flavor,  }\item[{}]{toplevel\+\_\+dir = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}base_dir: path from source root to directory containing this gyp file,
+      by gyp semantics, all input paths are relative to this
+build_dir: path from source root to build output
+toplevel_dir: path to the toplevel directory
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a20e3c8a384e4c73d43177e495aa30f87}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a20e3c8a384e4c73d43177e495aa30f87}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!AppendPostbuildVariable@{AppendPostbuildVariable}}
+\index{AppendPostbuildVariable@{AppendPostbuildVariable}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{AppendPostbuildVariable()}{AppendPostbuildVariable()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Append\+Postbuild\+Variable (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{variables,  }\item[{}]{spec,  }\item[{}]{output,  }\item[{}]{binary,  }\item[{}]{is\+\_\+command\+\_\+start = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Adds a 'postbuild' variable if there is a postbuild for |output|.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af504b95036b5b928dfa71571ff666877}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af504b95036b5b928dfa71571ff666877}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ComputeExportEnvString@{ComputeExportEnvString}}
+\index{ComputeExportEnvString@{ComputeExportEnvString}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeExportEnvString()}{ComputeExportEnvString()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Compute\+Export\+Env\+String (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{env }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Given an environment, returns a string looking like
+'export FOO=foo; export BAR="${FOO} bar;'
+that exports |env| to the shell.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2d4df715006af39de7a1a500c051a92b}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2d4df715006af39de7a1a500c051a92b}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ComputeMacBundleOutput@{ComputeMacBundleOutput}}
+\index{ComputeMacBundleOutput@{ComputeMacBundleOutput}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeMacBundleOutput()}{ComputeMacBundleOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Compute\+Mac\+Bundle\+Output (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the 'output' (full output path) to a bundle output directory.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae21c1a8acc0dda3aa4cd4da00ba60e7d}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae21c1a8acc0dda3aa4cd4da00ba60e7d}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ComputeOutput@{ComputeOutput}}
+\index{ComputeOutput@{ComputeOutput}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeOutput()}{ComputeOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Compute\+Output (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{arch = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the path for the final output of the spec.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a03bb4419675787c0550f3d77fea7537b}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a03bb4419675787c0550f3d77fea7537b}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ComputeOutputFileName@{ComputeOutputFileName}}
+\index{ComputeOutputFileName@{ComputeOutputFileName}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeOutputFileName()}{ComputeOutputFileName()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Compute\+Output\+File\+Name (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{type = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the filename of the final output for the current target.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6adba945a2b373a41f549d2cf2efce2}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6adba945a2b373a41f549d2cf2efce2}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ExpandRuleVariables@{ExpandRuleVariables}}
+\index{ExpandRuleVariables@{ExpandRuleVariables}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ExpandRuleVariables()}{ExpandRuleVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Expand\+Rule\+Variables (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path,  }\item[{}]{root,  }\item[{}]{dirname,  }\item[{}]{source,  }\item[{}]{ext,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae17c1284940fdea62fdc98dd3fcf0bed}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae17c1284940fdea62fdc98dd3fcf0bed}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ExpandSpecial@{ExpandSpecial}}
+\index{ExpandSpecial@{ExpandSpecial}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ExpandSpecial()}{ExpandSpecial()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Expand\+Special (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path,  }\item[{}]{product\+\_\+dir = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Expand specials like $!PRODUCT_DIR in |path|.
+
+If |product_dir| is None, assumes the cwd is already the product
+dir.  Otherwise, |product_dir| is the relative path to the product
+dir.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_abd9081a400bb7faa821d360efae450e0}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_abd9081a400bb7faa821d360efae450e0}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GenerateDescription@{GenerateDescription}}
+\index{GenerateDescription@{GenerateDescription}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GenerateDescription()}{GenerateDescription()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Generate\+Description (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{verb,  }\item[{}]{message,  }\item[{}]{fallback }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generate and return a description of a build step.
+
+|verb| is the short summary, e.g. ACTION or RULE.
+|message| is a hand-written description, or None if not available.
+|fallback| is the gyp-level name of the step, usable as a fallback.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a86505590b994499b13878efe781462a6}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a86505590b994499b13878efe781462a6}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GetMsvsToolchainEnv@{GetMsvsToolchainEnv}}
+\index{GetMsvsToolchainEnv@{GetMsvsToolchainEnv}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GetMsvsToolchainEnv()}{GetMsvsToolchainEnv()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Get\+Msvs\+Toolchain\+Env (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{additional\+\_\+settings = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the variables Visual Studio would set for build steps.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6655e298d7314892701653a4748ae213}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6655e298d7314892701653a4748ae213}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GetPostbuildCommand@{GetPostbuildCommand}}
+\index{GetPostbuildCommand@{GetPostbuildCommand}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GetPostbuildCommand()}{GetPostbuildCommand()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Get\+Postbuild\+Command (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{output,  }\item[{}]{output\+\_\+binary,  }\item[{}]{is\+\_\+command\+\_\+start }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns a shell command that runs all the postbuilds, and removes
+|output| if any of them fails. If |is_command_start| is False, then the
+returned string will start with ' && '.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a327a66ba2914d359631dc4b9ce5ccae6}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a327a66ba2914d359631dc4b9ce5ccae6}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GetSortedXcodeEnv@{GetSortedXcodeEnv}}
+\index{GetSortedXcodeEnv@{GetSortedXcodeEnv}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GetSortedXcodeEnv()}{GetSortedXcodeEnv()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Get\+Sorted\+Xcode\+Env (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{additional\+\_\+settings = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the variables Xcode would set for build steps.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a74f5738fa3bfcd169dc0762f01451763}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a74f5738fa3bfcd169dc0762f01451763}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GetSortedXcodePostbuildEnv@{GetSortedXcodePostbuildEnv}}
+\index{GetSortedXcodePostbuildEnv@{GetSortedXcodePostbuildEnv}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GetSortedXcodePostbuildEnv()}{GetSortedXcodePostbuildEnv()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Get\+Sorted\+Xcode\+Postbuild\+Env (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the variables Xcode would set for postbuild steps.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_acdfc62f63b459ad539eff5e03c0dcf83}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_acdfc62f63b459ad539eff5e03c0dcf83}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GetToolchainEnv@{GetToolchainEnv}}
+\index{GetToolchainEnv@{GetToolchainEnv}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GetToolchainEnv()}{GetToolchainEnv()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Get\+Toolchain\+Env (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{additional\+\_\+settings = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns the variables toolchain would set for build steps.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7ed2f69e340256c104ae43b1947734ed}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7ed2f69e340256c104ae43b1947734ed}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GypPathToNinja@{GypPathToNinja}}
+\index{GypPathToNinja@{GypPathToNinja}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GypPathToNinja()}{GypPathToNinja()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Gyp\+Path\+To\+Ninja (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path,  }\item[{}]{env = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Translate a gyp path to a ninja path, optionally expanding environment
+variable references in |path| with |env|.
+
+See the above discourse on path conversions.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1366e93fe5bc3b4c2339e6656148aee2}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1366e93fe5bc3b4c2339e6656148aee2}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!GypPathToUniqueOutput@{GypPathToUniqueOutput}}
+\index{GypPathToUniqueOutput@{GypPathToUniqueOutput}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{GypPathToUniqueOutput()}{GypPathToUniqueOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Gyp\+Path\+To\+Unique\+Output (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path,  }\item[{}]{qualified = {\ttfamily True} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Translate a gyp path to a ninja path for writing output.
+
+If qualified is True, qualify the resulting filename with the name
+of the target.  This is necessary when e.g. compiling the same
+path twice for two separate output targets.
+
+See the above discourse on path conversions.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa8b68c4218b45f1aec2f70b4e5636a80}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa8b68c4218b45f1aec2f70b4e5636a80}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteActions@{WriteActions}}
+\index{WriteActions@{WriteActions}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteActions()}{WriteActions()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Actions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{actions,  }\item[{}]{extra\+\_\+sources,  }\item[{}]{prebuild,  }\item[{}]{extra\+\_\+mac\+\_\+bundle\+\_\+resources }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6236bed19c879e1eefa46613dfbfce71}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a6236bed19c879e1eefa46613dfbfce71}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteActionsRulesCopies@{WriteActionsRulesCopies}}
+\index{WriteActionsRulesCopies@{WriteActionsRulesCopies}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteActionsRulesCopies()}{WriteActionsRulesCopies()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Actions\+Rules\+Copies (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{extra\+\_\+sources,  }\item[{}]{prebuild,  }\item[{}]{mac\+\_\+bundle\+\_\+depends }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write out the Actions, Rules, and Copies steps.  Return a path
+representing the outputs of these steps.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8ccef0530b628341f06879c8d8d69fad}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8ccef0530b628341f06879c8d8d69fad}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteCollapsedDependencies@{WriteCollapsedDependencies}}
+\index{WriteCollapsedDependencies@{WriteCollapsedDependencies}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteCollapsedDependencies()}{WriteCollapsedDependencies()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Collapsed\+Dependencies (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name,  }\item[{}]{targets,  }\item[{}]{order\+\_\+only = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Given a list of targets, return a path for a single file
+representing the result of building all the targets or None.
+
+Uses a stamp file if necessary.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4dc6ad9b7fb8c8a18f7c45511277d309}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4dc6ad9b7fb8c8a18f7c45511277d309}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteCopies@{WriteCopies}}
+\index{WriteCopies@{WriteCopies}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteCopies()}{WriteCopies()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Copies (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{copies,  }\item[{}]{prebuild,  }\item[{}]{mac\+\_\+bundle\+\_\+depends }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a16541753423fe0377f9ed7e52e269d62}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a16541753423fe0377f9ed7e52e269d62}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteiOSFrameworkHeaders@{WriteiOSFrameworkHeaders}}
+\index{WriteiOSFrameworkHeaders@{WriteiOSFrameworkHeaders}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteiOSFrameworkHeaders()}{WriteiOSFrameworkHeaders()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Writei\+OSFramework\+Headers (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{outputs,  }\item[{}]{prebuild }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Prebuild steps to generate hmap files and copy headers to destination.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab63c3b82db69a2d4407f18f8fde3fd8d}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab63c3b82db69a2d4407f18f8fde3fd8d}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteLink@{WriteLink}}
+\index{WriteLink@{WriteLink}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteLink()}{WriteLink()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Link (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{config\+\_\+name,  }\item[{}]{config,  }\item[{}]{link\+\_\+deps,  }\item[{}]{compile\+\_\+deps }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write out a link step. Fills out target.binary. \end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a9b061428d744b7b5c3bdffed10a3563d}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a9b061428d744b7b5c3bdffed10a3563d}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteLinkForArch@{WriteLinkForArch}}
+\index{WriteLinkForArch@{WriteLinkForArch}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteLinkForArch()}{WriteLinkForArch()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Link\+For\+Arch (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ninja\+\_\+file,  }\item[{}]{spec,  }\item[{}]{config\+\_\+name,  }\item[{}]{config,  }\item[{}]{link\+\_\+deps,  }\item[{}]{compile\+\_\+deps,  }\item[{}]{arch = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write out a link step. Fills out target.binary. \end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab6966bda4c3f0a368d28e45a8dcc2f59}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab6966bda4c3f0a368d28e45a8dcc2f59}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteMacBundle@{WriteMacBundle}}
+\index{WriteMacBundle@{WriteMacBundle}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteMacBundle()}{WriteMacBundle()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Mac\+Bundle (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{mac\+\_\+bundle\+\_\+depends,  }\item[{}]{is\+\_\+empty }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae1cb7cfe8d7c9975c9c4621072cc8179}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae1cb7cfe8d7c9975c9c4621072cc8179}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteMacBundleResources@{WriteMacBundleResources}}
+\index{WriteMacBundleResources@{WriteMacBundleResources}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteMacBundleResources()}{WriteMacBundleResources()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Mac\+Bundle\+Resources (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{resources,  }\item[{}]{bundle\+\_\+depends }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Writes ninja edges for 'mac_bundle_resources'.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab45e4e0b29309140c7ccb552fee8c05c}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ab45e4e0b29309140c7ccb552fee8c05c}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteMacInfoPlist@{WriteMacInfoPlist}}
+\index{WriteMacInfoPlist@{WriteMacInfoPlist}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteMacInfoPlist()}{WriteMacInfoPlist()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Mac\+Info\+Plist (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{partial\+\_\+info\+\_\+plist,  }\item[{}]{bundle\+\_\+depends }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write build rules for bundle Info.plist files.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ada1cac725f2d7a84d7a15c0c7537390f}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ada1cac725f2d7a84d7a15c0c7537390f}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteMacXCassets@{WriteMacXCassets}}
+\index{WriteMacXCassets@{WriteMacXCassets}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteMacXCassets()}{WriteMacXCassets()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Mac\+XCassets (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{xcassets,  }\item[{}]{bundle\+\_\+depends }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Writes ninja edges for 'mac_bundle_resources' .xcassets files.
+
+This add an invocation of 'actool' via the 'mac_tool.py' helper script.
+It assumes that the assets catalogs define at least one imageset and
+thus an Assets.car file will be generated in the application resources
+directory. If this is not the case, then the build will probably be done
+at each invocation of ninja.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a426cc65a46971aec6f93fe13f55934d1}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a426cc65a46971aec6f93fe13f55934d1}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteNewNinjaRule@{WriteNewNinjaRule}}
+\index{WriteNewNinjaRule@{WriteNewNinjaRule}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteNewNinjaRule()}{WriteNewNinjaRule()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+New\+Ninja\+Rule (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name,  }\item[{}]{args,  }\item[{}]{description,  }\item[{}]{is\+\_\+cygwin,  }\item[{}]{env,  }\item[{}]{pool,  }\item[{}]{depfile = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write out a new ninja "rule" statement for a given command.
+
+Returns the name of the new rule, and a copy of |args| with variables
+expanded.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a516ae23d4741ee790f91e143db074243}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a516ae23d4741ee790f91e143db074243}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WritePchTargets@{WritePchTargets}}
+\index{WritePchTargets@{WritePchTargets}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WritePchTargets()}{WritePchTargets()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Pch\+Targets (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ninja\+\_\+file,  }\item[{}]{pch\+\_\+commands }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Writes ninja rules to compile prefix headers.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a082d36c155de1db28df80cb4cf6c4abd}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a082d36c155de1db28df80cb4cf6c4abd}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteRules@{WriteRules}}
+\index{WriteRules@{WriteRules}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteRules()}{WriteRules()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Rules (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{rules,  }\item[{}]{extra\+\_\+sources,  }\item[{}]{prebuild,  }\item[{}]{mac\+\_\+bundle\+\_\+resources,  }\item[{}]{extra\+\_\+mac\+\_\+bundle\+\_\+resources }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7e31a203ce1001cbef21d8c83f8bbea8}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a7e31a203ce1001cbef21d8c83f8bbea8}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteSources@{WriteSources}}
+\index{WriteSources@{WriteSources}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteSources()}{WriteSources()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Sources (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ninja\+\_\+file,  }\item[{}]{config\+\_\+name,  }\item[{}]{config,  }\item[{}]{sources,  }\item[{}]{predepends,  }\item[{}]{precompiled\+\_\+header,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write build rules to compile all of |sources|.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af39eb6099e003d9e5ce8563b3f03fc5e}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_af39eb6099e003d9e5ce8563b3f03fc5e}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteSourcesForArch@{WriteSourcesForArch}}
+\index{WriteSourcesForArch@{WriteSourcesForArch}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteSourcesForArch()}{WriteSourcesForArch()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Sources\+For\+Arch (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ninja\+\_\+file,  }\item[{}]{config\+\_\+name,  }\item[{}]{config,  }\item[{}]{sources,  }\item[{}]{predepends,  }\item[{}]{precompiled\+\_\+header,  }\item[{}]{spec,  }\item[{}]{arch = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write build rules to compile all of |sources|.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa608305c657cc50e2e2445ceff447ff5}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa608305c657cc50e2e2445ceff447ff5}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteSpec@{WriteSpec}}
+\index{WriteSpec@{WriteSpec}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteSpec()}{WriteSpec()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Spec (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{config\+\_\+name,  }\item[{}]{generator\+\_\+flags }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}The main entry point for NinjaWriter: write the build rules for a spec.
+
+Returns a Target object, which represents the output paths for this spec.
+Returns None if there are no outputs (e.g. a settings-only 'none' type
+target).\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a71a857fcecee99e57ebb68d3557fe0ee}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a71a857fcecee99e57ebb68d3557fe0ee}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteTarget@{WriteTarget}}
+\index{WriteTarget@{WriteTarget}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteTarget()}{WriteTarget()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Target (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{config\+\_\+name,  }\item[{}]{config,  }\item[{}]{link\+\_\+deps,  }\item[{}]{compile\+\_\+deps }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0ac4b71375afa04b422edecc5c7eae30}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0ac4b71375afa04b422edecc5c7eae30}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteVariableList@{WriteVariableList}}
+\index{WriteVariableList@{WriteVariableList}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteVariableList()}{WriteVariableList()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Variable\+List (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ninja\+\_\+file,  }\item[{}]{var,  }\item[{}]{values }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a15a152d3ec8b4fa2a3fa53837f62a86c}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a15a152d3ec8b4fa2a3fa53837f62a86c}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!WriteWinIdlFiles@{WriteWinIdlFiles}}
+\index{WriteWinIdlFiles@{WriteWinIdlFiles}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{WriteWinIdlFiles()}{WriteWinIdlFiles()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+ninja.\+Ninja\+Writer.\+Write\+Win\+Idl\+Files (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{prebuild }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Writes rules to match MSVS's implicit idl handling.\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a097c72ae1e4de66e21b988f295909899}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a097c72ae1e4de66e21b988f295909899}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!abs\_build\_dir@{abs\_build\_dir}}
+\index{abs\_build\_dir@{abs\_build\_dir}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{abs\_build\_dir}{abs\_build\_dir}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+abs\+\_\+build\+\_\+dir}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad11b3378d4170d27a84e08c0846428b4}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad11b3378d4170d27a84e08c0846428b4}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!arch\_subninjas@{arch\_subninjas}}
+\index{arch\_subninjas@{arch\_subninjas}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{arch\_subninjas}{arch\_subninjas}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+arch\+\_\+subninjas}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a238c010c6acbc8a2a535dcab1efa0982}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a238c010c6acbc8a2a535dcab1efa0982}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!archs@{archs}}
+\index{archs@{archs}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{archs}{archs}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+archs}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa9d79640be771a43aa06fd5fff1a6205}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aa9d79640be771a43aa06fd5fff1a6205}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!base\_dir@{base\_dir}}
+\index{base\_dir@{base\_dir}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{base\_dir}{base\_dir}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+base\+\_\+dir}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8e399c14d837265d3f7808a98592bdfa}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8e399c14d837265d3f7808a98592bdfa}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!base\_to\_build@{base\_to\_build}}
+\index{base\_to\_build@{base\_to\_build}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{base\_to\_build}{base\_to\_build}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+base\+\_\+to\+\_\+build}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2a2eb9eebee332b4c31051f665722b1f}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a2a2eb9eebee332b4c31051f665722b1f}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!build\_dir@{build\_dir}}
+\index{build\_dir@{build\_dir}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{build\_dir}{build\_dir}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+build\+\_\+dir}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a080d901a83f9498670fdd0b112c13bdc}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a080d901a83f9498670fdd0b112c13bdc}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!build\_to\_base@{build\_to\_base}}
+\index{build\_to\_base@{build\_to\_base}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{build\_to\_base}{build\_to\_base}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+build\+\_\+to\+\_\+base}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_aecdd40ef50893754b614da293b38908d}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!config\_name@{config\_name}}
+\index{config\_name@{config\_name}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{config\_name}{config\_name}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+config\+\_\+name}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6b89bdffce81f058f3a73d5ff7e9c5b}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ae6b89bdffce81f058f3a73d5ff7e9c5b}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!flavor@{flavor}}
+\index{flavor@{flavor}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{flavor}{flavor}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+flavor}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a99a64639d304afc7e1d9933361fec98b}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a99a64639d304afc7e1d9933361fec98b}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!hash\_for\_rules@{hash\_for\_rules}}
+\index{hash\_for\_rules@{hash\_for\_rules}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{hash\_for\_rules}{hash\_for\_rules}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+hash\+\_\+for\+\_\+rules}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a645fbdd1e6fc808c4cc1b9850884457f}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a645fbdd1e6fc808c4cc1b9850884457f}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!is\_mac\_bundle@{is\_mac\_bundle}}
+\index{is\_mac\_bundle@{is\_mac\_bundle}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{is\_mac\_bundle}{is\_mac\_bundle}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+is\+\_\+mac\+\_\+bundle}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0b13b3e5055e61008cfa94218f7cfd46}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a0b13b3e5055e61008cfa94218f7cfd46}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!is\_standalone\_static\_library@{is\_standalone\_static\_library}}
+\index{is\_standalone\_static\_library@{is\_standalone\_static\_library}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{is\_standalone\_static\_library}{is\_standalone\_static\_library}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+is\+\_\+standalone\+\_\+static\+\_\+library}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a372b3f76aa23aa3d38cfd0667194d3c5}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a372b3f76aa23aa3d38cfd0667194d3c5}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!msvs\_settings@{msvs\_settings}}
+\index{msvs\_settings@{msvs\_settings}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{msvs\_settings}{msvs\_settings}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+msvs\+\_\+settings}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a8b9d58b137bb5c399559358e1542cdbd}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!name@{name}}
+\index{name@{name}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+name}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4b4fdb2da103d61ae0bad19ed845b261}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a4b4fdb2da103d61ae0bad19ed845b261}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!ninja@{ninja}}
+\index{ninja@{ninja}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{ninja}{ninja}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+ninja}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1eb16a9ac9a89fe60edb2c9fcda6567d}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a1eb16a9ac9a89fe60edb2c9fcda6567d}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!obj\_ext@{obj\_ext}}
+\index{obj\_ext@{obj\_ext}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{obj\_ext}{obj\_ext}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+obj\+\_\+ext}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a32bd2faaa88e0227dd4322dae53b3ab0}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a32bd2faaa88e0227dd4322dae53b3ab0}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!output\_file\_name@{output\_file\_name}}
+\index{output\_file\_name@{output\_file\_name}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{output\_file\_name}{output\_file\_name}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+output\+\_\+file\+\_\+name}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ac67b4d943f16ef772352927a26411833}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ac67b4d943f16ef772352927a26411833}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!target@{target}}
+\index{target@{target}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+target}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a798f3521b0a85bb5c1e01a287819fab3}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a798f3521b0a85bb5c1e01a287819fab3}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!target\_outputs@{target\_outputs}}
+\index{target\_outputs@{target\_outputs}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{target\_outputs}{target\_outputs}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+target\+\_\+outputs}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a88f56ca5243ff8db757bfb57eca096dd}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a88f56ca5243ff8db757bfb57eca096dd}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!target\_rpath@{target\_rpath}}
+\index{target\_rpath@{target\_rpath}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{target\_rpath}{target\_rpath}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+target\+\_\+rpath}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad0d8935bf7363231e6103b691e20c044}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_ad0d8935bf7363231e6103b691e20c044}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!toolset@{toolset}}
+\index{toolset@{toolset}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{toolset}{toolset}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+toolset}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a04af4ed57095bd15bfa7925dd620c834}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a04af4ed57095bd15bfa7925dd620c834}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!toplevel\_build@{toplevel\_build}}
+\index{toplevel\_build@{toplevel\_build}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{toplevel\_build}{toplevel\_build}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+toplevel\+\_\+build}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a19304177a9d37e9e1ed609372ffda39a}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a19304177a9d37e9e1ed609372ffda39a}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!win\_env@{win\_env}}
+\index{win\_env@{win\_env}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{win\_env}{win\_env}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+win\+\_\+env}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a888f40054ed563f7739ed8111386c660}\label{classgyp_1_1generator_1_1ninja_1_1NinjaWriter_a888f40054ed563f7739ed8111386c660}} 
+\index{gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}!xcode\_settings@{xcode\_settings}}
+\index{xcode\_settings@{xcode\_settings}!gyp.generator.ninja.NinjaWriter@{gyp.generator.ninja.NinjaWriter}}
+\doxysubsubsection{\texorpdfstring{xcode\_settings}{xcode\_settings}}
+{\footnotesize\ttfamily gyp.\+generator.\+ninja.\+Ninja\+Writer.\+xcode\+\_\+settings}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Client/node\+\_\+modules/npm/node\+\_\+modules/node-\/gyp/gyp/pylib/gyp/generator/\mbox{\hyperlink{ninja_8py}{ninja.\+py}}\end{DoxyCompactItemize}

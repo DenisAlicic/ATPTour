@@ -7,6 +7,9 @@ using TennisAssociation.Models;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Controller for viewing players.
+    /// </summary>
     [Route("api/players")]
     [ApiController]
     public class PlayersController : Controller

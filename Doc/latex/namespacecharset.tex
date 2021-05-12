@@ -1,0 +1,297 @@
+\hypertarget{namespacecharset}{}\doxysection{charset Namespace Reference}
+\label{namespacecharset}\index{charset@{charset}}
+
+
+\doxysubsection{Detailed Description}
+
+\begin{DoxyItemize}
+\item Support property merging with +\+\_\+ when spaces are needed and keep + for comma separated
+\item Imports now always import once consistently -\/ a race condition meant previously certain configurations would lead to a different ordering of files
+\item Fix support for {\ttfamily .mixin(@args...)} when called with no args (e.\+g. {\ttfamily .mixin();})
+\item Do unit conversions with min and max functions. Don\textquotesingle{}t pass through if not understood, throw an error
+\item Allow \% to be passed on its own to the unit function e.\+g. {\ttfamily unit(10, \%)}
+\item Fix a bug when comparing a unit value to a non-\/unit value if the unit-\/value was the multiple of another unit (e.\+g. cm, mm, deg etc.)
+\item Fix mixins with media queries in import reference files not being put into the output (they now output, they used to incorrectly not)
+\item Fix lint mode -\/ now reports all errors
+\item Fixed a small scope issue with \& \{\} selector rulesets incorrectly making mixins visible -\/ regression from 1.\+6.\+2
+\item Browser -\/ added log level \char`\"{}debug\char`\"{} at 3 to get less logging, The default has changed so unless you set the value to the default you won\textquotesingle{}t see a difference
+\item Browser -\/ log\+Level takes effect regardless of the environment (production/dev)
+\item Browser -\/ added post\+Processor option, a function called to post-\/process the css before adding to the page
+\item Browser -\/ use the right request for file access in IE
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27830}{}\doxysubsection{1.\+6.\+3}\label{namespacecharset_autotoc_md27830}
+2014-\/02-\/08
+
+
+\begin{DoxyItemize}
+\item Fix issue with calling to\+CSS twice not working in some situations (like with bootstrap 2)
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27831}{}\doxysubsection{1.\+6.\+2}\label{namespacecharset_autotoc_md27831}
+2014-\/02-\/02
+
+
+\begin{DoxyItemize}
+\item The Rhino release is fixed!
+\item ability to use uppercase colours
+\item Fix a nasty bug causing syntax errors when selector interpolation is preceded by a long comment (and some other cases)
+\item Fix a major bug with the variable scope in guards on selectors (e.\+g. not mixins)
+\item Fold in {\ttfamily \& when () \{} to the current selector rather than duplicating it
+\item fix another issue with array prototypes
+\item add a url-\/args option which adds a value to all urls (for cache busting)
+\item Round numbers to 8 decimal places -\/ thereby stopping javascript precision errors
+\item some improvements to the default() function in more complex scenarios
+\item improved missing \textquotesingle{}\{\textquotesingle{} and \textquotesingle{}(\textquotesingle{} detection
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27832}{}\doxysubsection{1.\+6.\+1}\label{namespacecharset_autotoc_md27832}
+2014-\/01-\/12
+
+
+\begin{DoxyItemize}
+\item support $^\wedge$ and $^\wedge$$^\wedge$ shadow dom selectors
+\item fix sourcemap selector (used to report end of the element or selector) and directive position (previously not supported)
+\item fix parsing empty less files
+\item error on (currently) ambiguous guards on multiple css selectors
+\item older environments -\/ protect against typeof regex returning function
+\item Do not use default keyword
+\item use inner\+HTML in tests, not inner\+Text
+\item protect for-\/in in case Array and Object prototypes have custom fields
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27833}{}\doxysubsection{1.\+6.\+0}\label{namespacecharset_autotoc_md27833}
+2014-\/01-\/01
+
+
+\begin{DoxyItemize}
+\item Properties can be interpolated, e.\+g.\+prefix\}-\/property\+: value;
+\item a default function has been added only valid in mixin definitions to determine if no other mixins have been matched
+\item Added a plugins option that allows specifying an array of visitors run on the less AST
+\item Performance improvements that may result in approx 20-\/40\% speed up
+\item Javascript evaluations returning numbers can now be used in calculations/functions
+\item fixed issue when adding colours, taking the alpha over 1 and breaking when used in colour functions
+\item when adding together 2 colours with non zero alpha, the alpha will now be combined rather than added
+\item the advanced colour functions no longer ignore transparency, they blend that too
+\item Added --clean-\/option and cleancss\+Options to allow passing in clean css options
+\item rgba declarations are now always clamped e.\+g. rgba(-\/1,258,258, -\/1) becomes rgba(0, 255, 255, 0)
+\item Fix possible issue with import reference not bringing in styles (may not be a bugfix, just a code tidy)
+\item Fix some issues with urls() being prefixed twice and unquoted urls in mixins being processed each time they are called
+\item Fixed error messages for undefined variables in javascript evaluation
+\item Fixed line/column numbers from math errors
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27834}{}\doxysubsection{1.\+5.\+1}\label{namespacecharset_autotoc_md27834}
+2013-\/11-\/17
+
+
+\begin{DoxyItemize}
+\item Added source-\/map-\/\+URL option
+\item Fixed a bug which meant the minimised 1.\+5.\+0 browser version was not wrapped, meaning it interfered with require js
+\item Fixed a bug where the browser version assume port was specified
+\item Added the ability to specify variables on the command line
+\item Upgraded clean-\/css and fixed it from trying to import
+\item correct a bug meaning imports weren\textquotesingle{}t synchronous (sync\+Import option available for full synchronous behaviour)
+\item better mixin matching behaviour with calling multiple classes e.\+g. .a.\+b.\+c;
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27835}{}\doxysubsection{1.\+5.\+0}\label{namespacecharset_autotoc_md27835}
+2013-\/10-\/21
+
+
+\begin{DoxyItemize}
+\item sourcemap support
+\item support for import inline option to include css that you do NOT want less to parse e.\+g. {\ttfamily @import (inline) \char`\"{}file.\+css\char`\"{};}
+\item better support for modify\+Vars (refresh styles with new variables, using a file cache), is now more resiliant
+\item support for import reference option to reference external css, but not output it. Any mixin calls or extend\textquotesingle{}s will be output.
+\item support for guards on selectors (currently only if you have a single selector)
+\item allow property merging through the +\+: syntax
+\item Added min/max functions
+\item Added length function and improved extract to work with comma separated values
+\item when using import multiple, sub imports are imported multiple times into final output
+\item fix bad spaces between namespace operators
+\item do not compress comment if it begins with an exclamation mark
+\item Fix the saturate function to pass through when using the CSS syntax
+\item Added svg-\/gradient function
+\item Added no-\/js option to lessc (in browser, use javascript\+Enabled\+: false) which disallows Java\+Script in less files
+\item switched from the little supported and buggy cssmin (previously ycssmin) to clean-\/css
+\item support transparent as a color, but not convert between rgba(0, 0, 0, 0) and transparent
+\item remove sys.\+puts calls to stop deprecation warnings in future node.\+js releases
+\item Browser\+: added log\+Level option to control logging (2 = everything, 1 = errors only, 0 = no logging)
+\item Browser\+: added error\+Reporting option which can be \char`\"{}html\char`\"{} (default) or \char`\"{}console\char`\"{} or a function
+\item Now uses grunt for building and testing
+\item A few bug fixes for media queries, extends, scoping, compression and import once.
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27836}{}\doxysubsection{1.\+4.\+2}\label{namespacecharset_autotoc_md27836}
+2013-\/07-\/20
+
+
+\begin{DoxyItemize}
+\item if you don\textquotesingle{}t pass a strict maths option, font size/line height options are output correctly again
+\item npmignore now include .gitattributes
+\item property names may include capital letters
+\item various windows path fixes (capital letters, multiple // in a path)
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27837}{}\doxysubsection{1.\+4.\+1}\label{namespacecharset_autotoc_md27837}
+2013-\/07-\/05
+
+
+\begin{DoxyItemize}
+\item fix sync\+Imports and yui-\/compress option, as they were being ignored
+\item fixed several global variable leaks
+\item handle getting null or undefined passed as the options object
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27838}{}\doxysubsection{1.\+4.\+0}\label{namespacecharset_autotoc_md27838}
+2013-\/06-\/05
+
+
+\begin{DoxyItemize}
+\item fix passing of strict maths option
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27839}{}\doxysubsection{1.\+4.\+0 Beta 4}\label{namespacecharset_autotoc_md27839}
+2013-\/05-\/04
+
+
+\begin{DoxyItemize}
+\item change strict\+Maths to strict\+Math. Enable this with --strict-\/math=on in lessc and strict\+Math\+:true in Java\+Script.
+\item change lessc option for strict units to --strict-\/units=off
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27840}{}\doxysubsection{1.\+4.\+0 Beta 3}\label{namespacecharset_autotoc_md27840}
+2013-\/04-\/30
+
+
+\begin{DoxyItemize}
+\item strict\+Units now defaults to false and the true case now gives more useful but less correct results, e.\+g. 2px/1px = 2px
+\item Process ./ when having relative paths
+\item add isunit function for mixin guards and non basic units
+\item extends recognise attributes
+\item exception errors extend the Java\+Script Error
+\item remove es-\/5-\/shim as standard from the browser
+\item Fix path issues with windows/linux local paths
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27841}{}\doxysubsection{1.\+4.\+0 Beta 1 \& 2}\label{namespacecharset_autotoc_md27841}
+2013-\/03-\/07
+
+
+\begin{DoxyItemize}
+\item support for {\ttfamily \+:extend()} in selectors (e.\+g. {\ttfamily input\+:extend(.button) \{\}}) and {\ttfamily \&\+:extend();} in ruleset (e.\+g. {\ttfamily input \{ \&\+:extend(.button all); \}})
+\item maths is now only done inside brackets. This means font\+: statements, media queries and the calc function can use a simpler format without being escaped. Disable this with --strict-\/maths-\/off in lessc and strict\+Maths\+:false in Java\+Script.
+\item units are calculated, e.\+g. 200cm+1m = 3m, 3px/1px = 3. If you use units inconsistently you will get an error. Suppress this error with --strict-\/units-\/off in lessc or strict\+Units\+:false in Java\+Script
+\item {\ttfamily ($\sim$\char`\"{}@var\char`\"{})} selector interpolation is removed. Usevar\} in selectors to have variable selectors
+\item default behaviour of import is to import each file once. {\ttfamily @import-\/once} has been removed.
+\item You can specify options on imports to force it to behave as css or less {\ttfamily @import (less) \char`\"{}file.\+css\char`\"{}} will process the file as less
+\item variables in mixins no longer \textquotesingle{}leak\textquotesingle{} into their calling scope
+\item added data-\/uri function which will inline an image into the output css. If ie\+Compat option is true and file is too large, it will fallback to a \mbox{\hyperlink{namespacesetup_afc13124aa5c0124e84e1d965e3f4b0fb}{url()}}
+\item significant bug fixes to our debug options
+\item other parameters can be used as defaults in mixins e.\+g. .a({\itshape }, {\bfseries{}}\+:{\itshape })
+\item an error is shown if properties are used outside of a ruleset
+\item added extract function which picks a value out of a list, e.\+g. extract(12 13 14, 3) =$>$ 14
+\item added luma, hsvhue, hsvsaturation, hsvvalue functions
+\item added pow, pi, mod, tan, sin, cos, atan, asin, acos and sqrt math functions
+\item added convert function, e.\+g. convert(1rad, deg) =$>$ value in degrees
+\item lessc makes output directories if they don\textquotesingle{}t exist
+\item lessc {\ttfamily @import} supports https and 301\textquotesingle{}s
+\item lessc \char`\"{}-\/depends\char`\"{} option for lessc writes out the list of import files used in makefile format
+\item lessc \char`\"{}-\/lint\char`\"{} option just reports errors
+\item support for namespaces in attributes and selector interpolation in attributes
+\item other bug fixes
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27842}{}\doxysubsection{1.\+3.\+3}\label{namespacecharset_autotoc_md27842}
+2012-\/12-\/30
+
+
+\begin{DoxyItemize}
+\item Fix critical bug with mixin call if using multiple brackets
+\item when using the filter contrast function, the function is passed through if the first argument is not a color
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27843}{}\doxysubsection{1.\+3.\+2}\label{namespacecharset_autotoc_md27843}
+2012-\/12-\/28
+
+
+\begin{DoxyItemize}
+\item browser and server url re-\/writing is now aligned to not re-\/write (previous lessc behaviour)
+\item url-\/rewriting can be made to re-\/write to be relative to the entry file using the relative-\/urls option (less.\+relative\+Urls option)
+\item rootpath option can be used to add a base path to every url
+\item Support mixin argument separator of \textquotesingle{};\textquotesingle{} so you can pass comma separated values. e.\+g. {\ttfamily .mixin(23px, 12px;);}
+\item Fix lots of problems with named arguments in corner cases, not behaving as expected
+\item hsv, hsva, unit functions
+\item fixed lots more bad error messages
+\item fix {\ttfamily @import-\/once} to use the full path, not the relative one for determining if an import has been imported already
+\item support {\ttfamily \+:not(\+:nth-\/child(3))}
+\item mixin guards take units into account
+\item support unicode descriptors ({\ttfamily U+00\+A1-\/00\+A9})
+\item support calling mixins with a stack when using {\ttfamily \&} (broken in 1.\+3.\+1)
+\item support {\ttfamily @namespace} and namespace combinators
+\item when using \% with colour functions, take into account a colour is out of 256
+\item when doing maths with a \% do not divide by 100 and keep the unit
+\item allow url to contain \% (e.\+g. \%20 for a space)
+\item if a mixin guard stops execution a default mixin is not required
+\item units are output in strings (use the unit function if you need to get the value without unit)
+\item do not infinite recurse when mixins call mixins of the same name
+\item fix issue on important on mixin calls
+\item fix issue with multiple comments being confused
+\item tolerate multiple semi-\/colons on rules
+\item ignore subsequant {\ttfamily @charset}
+\item sync\+Import option for node.\+js to read files syncronously
+\item write the output directory if it is missing
+\item change dependency on cssmin to ycssmin
+\item lessc can load files over http
+\item allow calling less.\+watch() in non dev mode
+\item don\textquotesingle{}t cache in dev mode
+\item less files cope with query parameters better
+\item sass debug statements are now chrome compatible
+\item modify\+Vars function added to re-\/render with different root variables
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27844}{}\doxysubsection{1.\+3.\+1}\label{namespacecharset_autotoc_md27844}
+2012-\/10-\/18
+
+
+\begin{DoxyItemize}
+\item Support for comment and @media debugging statements
+\item bug fix for async access in chrome extensions
+\item new functions tint, shade, multiply, screen, overlay, hardlight, difference, exclusion, average, negation, softlight, red, green, blue, contrast
+\item allow escaped characters in attributes
+\item in selectors supporta\} directly, e.\+g. .a.\+a\} \{ color\+: black; \}
+\item add fraction parameter to round function
+\item much better support for \& selector
+\item preserve order of link statements client side
+\item lessc has better help
+\item rhino version fixed
+\item fix bugs in clientside error handling
+\item support dpi, vmin, vm, dppx, dpcm units
+\item Fix ratios in media statements
+\item in mixin guards allow comparing colors and strings
+\item support for -\/$\ast$-\/keyframes (for -\/khtml but now supports any)
+\item in mix function, default weight to 50\%
+\item support @import-\/once
+\item remove duplicate rules in output
+\item implement named parameters when calling mixins
+\item many numerous bug fixes
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27845}{}\doxysubsection{1.\+3.\+0}\label{namespacecharset_autotoc_md27845}
+2012-\/03-\/10
+
+
+\begin{DoxyItemize}
+\item @media bubbling
+\item Support arbitrary entities as selectors
+\item \href{https://gist.github.com/1933613}{\texttt{ Variadic argument support}}
+\item Behaviour of zero-\/arity mixins has \href{https://gist.github.com/1933613}{\texttt{ changed}}
+\item Allow {\ttfamily @import} directives in any selector
+\item Media-\/query features can now be a variable
+\item Automatic merging of media-\/query conditions
+\item Fix global variable leaks
+\item Fix error message on wrong-\/arity call
+\item Fix an {\ttfamily @arguments} behaviour bug
+\item Fix {\ttfamily \+::} selector output
+\item Fix a bug when using @media with mixins
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27846}{}\doxysubsection{1.\+2.\+1}\label{namespacecharset_autotoc_md27846}
+2012-\/01-\/15
+
+
+\begin{DoxyItemize}
+\item Fix imports in browser
+\item Improve error reporting in browser
+\item Fix Runtime error reports from imported files
+\item Fix {\ttfamily File not found} import error reporting
+\end{DoxyItemize}\hypertarget{namespacecharset_autotoc_md27847}{}\doxysubsection{1.\+2.\+0}\label{namespacecharset_autotoc_md27847}
+2012-\/01-\/07
+
+
+\begin{DoxyItemize}
+\item Mixin guards
+\item New function {\ttfamily percentage}
+\item New {\ttfamily color} function to parse hex color strings
+\item New type-\/checking stylesheet functions
+\item Fix Rhino support
+\item Fix bug in string arguments to mixin call
+\item Fix error reporting when index is 0
+\item Fix browser support in Web\+Kit and IE
+\item Fix string interpolation bug when var is empty
+\item Support {\ttfamily !important} after mixin calls
+\item Support vanilla @keyframes directive
+\item Support variables in certain css selectors, like {\ttfamily nth-\/child}
+\item Support @media and @import features properly
+\item Improve @import support with media features
+\item Improve error reports from imported files
+\item Improve function call error reporting
+\item Improve error-\/reporting 
+\end{DoxyItemize}

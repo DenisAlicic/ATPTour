@@ -1,0 +1,568 @@
+\hypertarget{namespacegyp_1_1generator_1_1make}{}\doxysection{gyp.\+generator.\+make Namespace Reference}
+\label{namespacegyp_1_1generator_1_1make}\index{gyp.generator.make@{gyp.generator.make}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1make_1_1MakefileWriter}{Makefile\+Writer}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a82b473a455faa4aa709dd2ac69e236b1}{Calculate\+Variables}} (default\+\_\+variables, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a5585ddf46c84795a46b053948cd0ae7b}{Calculate\+Generator\+Input\+Info}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a13cefab12d685c24294ea69740fb29f1}{Write\+Root\+Header\+Suffix\+Rules}} (writer)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_addf8e8768cc1abae2682d311de33ab4c}{Compilable}} (filename)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a12ec8afeb1938955136986ea411f0f9e}{Linkable}} (filename)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a8e24de3231b5d2c846dc191c1103fc25}{Target}} (filename)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a5482e44bf22cf6d2ac24371f046db3d4}{Escape\+Shell\+Argument}} (s)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a5843c0c6df4ee7a5cf9d492d571fbab5}{Escape\+Make\+Variable\+Expansion}} (s)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ad70146340fd2c837ee3dd055e012474d}{Escape\+Cpp\+Define}} (s)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a672f6ae46f25bab33722a6b158d792c9}{Quote\+If\+Necessary}} (string)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a390d117a8c1f36e276c012741d4341b2}{String\+To\+Makefile\+Variable}} (string)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ab68d21d534f1b8afcff56ae2f51d08ca}{Sourceify}} (path)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ae2a021d1bce2ec36d23c9a32715f71cd}{Quote\+Spaces}} (s, quote=r\char`\"{}\textbackslash{} \char`\"{})
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a014a3c06555c7e82240e1e61ea706a18}{Sourceify\+And\+Quote\+Spaces}} (path)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a881826c858f82ad197453d651ce49732}{Write\+Auto\+Regeneration\+Rule}} (params, root\+\_\+makefile, makefile\+\_\+name, build\+\_\+files)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_af927fc75fb939534c30a1d383b661193}{Perform\+Build}} (data, configurations, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_aac339b2683f7c9879610213763370cb1}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a3cc6de40f1a2a50c0616093c1412bc37}{generator\+\_\+default\+\_\+variables}}
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a6507f46ca76ec1235fcaa4da26a92889}{generator\+\_\+supports\+\_\+multiple\+\_\+toolsets}} = True
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ae4323ae858131b4238f360b23bd032ed}{generator\+\_\+wants\+\_\+sorted\+\_\+dependencies}} = False
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_abb9323bc4232a7394ce14ed7a050fa79}{generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}} = \mbox{[}$\,$\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a72cd6353dea46d172f7e49c6c971100d}{generator\+\_\+additional\+\_\+path\+\_\+sections}} = \mbox{[}$\,$\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ae6c5e505cb246ff2804f9cdad9fea980}{generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ae36a21d8fd2e57d2ad69fe967c76ea48}{generator\+\_\+filelist\+\_\+paths}} = None
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_aff8c9742d590151eb3ff44195980c31e}{SPACE\+\_\+\+REPLACEMENT}} = \char`\"{}?\char`\"{}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a7536738b6038a3f3fcfd26b2d5df8f97}{LINK\+\_\+\+COMMANDS\+\_\+\+LINUX}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a6f4edf13ee06c5f030a298b88637fd42}{LINK\+\_\+\+COMMANDS\+\_\+\+MAC}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a050a51050efc55274b290a56a44c24a3}{LINK\+\_\+\+COMMANDS\+\_\+\+ANDROID}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a1df1208e9c3dc1459598801838746ab3}{LINK\+\_\+\+COMMANDS\+\_\+\+AIX}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a1050c861046043ddf7ee676c42eb19bb}{LINK\+\_\+\+COMMANDS\+\_\+\+OS390}}
+\item 
+tuple \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_af0a4b276737b0c50867678921fa57fe9}{SHARED\+\_\+\+HEADER}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_ade0041bcf01f7efe3556fca0919ab388}{SHARED\+\_\+\+HEADER\+\_\+\+MAC\+\_\+\+COMMANDS}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a843d918d5f6d0159e3f2daf7615bc294}{SHARED\+\_\+\+HEADER\+\_\+\+SUFFIX\+\_\+\+RULES\+\_\+\+COMMENT1}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_af734bf952a79968962453c8c920e1325}{SHARED\+\_\+\+HEADER\+\_\+\+SUFFIX\+\_\+\+RULES\+\_\+\+COMMENT2}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_abc30187040c2d18ce95342d2f7bb5690}{SHARED\+\_\+\+FOOTER}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a7db5760efefe88210db90b317a2f12ad}{header}}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_af6dba01af669b699483abe34395164b8}{COMPILABLE\+\_\+\+EXTENSIONS}}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a81462dc46c5837c3de72baba94c0b16c}{srcdir\+\_\+prefix}} = \char`\"{}\char`\"{}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a37723cfd34a181f79edc8bcce2620cff}{target\+\_\+outputs}} = \{\}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a790ca660f83e7c92f4e7f63e4e4cf4b7}{target\+\_\+link\+\_\+deps}} = \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a5585ddf46c84795a46b053948cd0ae7b}\label{namespacegyp_1_1generator_1_1make_a5585ddf46c84795a46b053948cd0ae7b}} 
+\index{gyp.generator.make@{gyp.generator.make}!CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}}
+\index{CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{CalculateGeneratorInputInfo()}{CalculateGeneratorInputInfo()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Calculate\+Generator\+Input\+Info (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate the generator specific info that gets fed to input (called by
+gyp).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a82b473a455faa4aa709dd2ac69e236b1}\label{namespacegyp_1_1generator_1_1make_a82b473a455faa4aa709dd2ac69e236b1}} 
+\index{gyp.generator.make@{gyp.generator.make}!CalculateVariables@{CalculateVariables}}
+\index{CalculateVariables@{CalculateVariables}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{CalculateVariables()}{CalculateVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Calculate\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate additional variables for use in the build (called by gyp).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_addf8e8768cc1abae2682d311de33ab4c}\label{namespacegyp_1_1generator_1_1make_addf8e8768cc1abae2682d311de33ab4c}} 
+\index{gyp.generator.make@{gyp.generator.make}!Compilable@{Compilable}}
+\index{Compilable@{Compilable}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{Compilable()}{Compilable()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Compilable (\begin{DoxyParamCaption}\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return true if the file is compilable (should be in OBJS).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ad70146340fd2c837ee3dd055e012474d}\label{namespacegyp_1_1generator_1_1make_ad70146340fd2c837ee3dd055e012474d}} 
+\index{gyp.generator.make@{gyp.generator.make}!EscapeCppDefine@{EscapeCppDefine}}
+\index{EscapeCppDefine@{EscapeCppDefine}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{EscapeCppDefine()}{EscapeCppDefine()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Escape\+Cpp\+Define (\begin{DoxyParamCaption}\item[{}]{s }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Escapes a CPP define so that it will reach the compiler unaltered.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a5843c0c6df4ee7a5cf9d492d571fbab5}\label{namespacegyp_1_1generator_1_1make_a5843c0c6df4ee7a5cf9d492d571fbab5}} 
+\index{gyp.generator.make@{gyp.generator.make}!EscapeMakeVariableExpansion@{EscapeMakeVariableExpansion}}
+\index{EscapeMakeVariableExpansion@{EscapeMakeVariableExpansion}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{EscapeMakeVariableExpansion()}{EscapeMakeVariableExpansion()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Escape\+Make\+Variable\+Expansion (\begin{DoxyParamCaption}\item[{}]{s }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Make has its own variable expansion syntax using $. We must escape it for
+ string to be interpreted literally.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a5482e44bf22cf6d2ac24371f046db3d4}\label{namespacegyp_1_1generator_1_1make_a5482e44bf22cf6d2ac24371f046db3d4}} 
+\index{gyp.generator.make@{gyp.generator.make}!EscapeShellArgument@{EscapeShellArgument}}
+\index{EscapeShellArgument@{EscapeShellArgument}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{EscapeShellArgument()}{EscapeShellArgument()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Escape\+Shell\+Argument (\begin{DoxyParamCaption}\item[{}]{s }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Quotes an argument so that it will be interpreted literally by a POSIX
+ shell. Taken from
+ http://stackoverflow.com/questions/35817/whats-the-best-way-to-escape-ossystem-calls-in-python\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_aac339b2683f7c9879610213763370cb1}\label{namespacegyp_1_1generator_1_1make_aac339b2683f7c9879610213763370cb1}} 
+\index{gyp.generator.make@{gyp.generator.make}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a12ec8afeb1938955136986ea411f0f9e}\label{namespacegyp_1_1generator_1_1make_a12ec8afeb1938955136986ea411f0f9e}} 
+\index{gyp.generator.make@{gyp.generator.make}!Linkable@{Linkable}}
+\index{Linkable@{Linkable}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{Linkable()}{Linkable()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Linkable (\begin{DoxyParamCaption}\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return true if the file is linkable (should be on the link line).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_af927fc75fb939534c30a1d383b661193}\label{namespacegyp_1_1generator_1_1make_af927fc75fb939534c30a1d383b661193}} 
+\index{gyp.generator.make@{gyp.generator.make}!PerformBuild@{PerformBuild}}
+\index{PerformBuild@{PerformBuild}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{PerformBuild()}{PerformBuild()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Perform\+Build (\begin{DoxyParamCaption}\item[{}]{data,  }\item[{}]{configurations,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a672f6ae46f25bab33722a6b158d792c9}\label{namespacegyp_1_1generator_1_1make_a672f6ae46f25bab33722a6b158d792c9}} 
+\index{gyp.generator.make@{gyp.generator.make}!QuoteIfNecessary@{QuoteIfNecessary}}
+\index{QuoteIfNecessary@{QuoteIfNecessary}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{QuoteIfNecessary()}{QuoteIfNecessary()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Quote\+If\+Necessary (\begin{DoxyParamCaption}\item[{}]{string }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}TODO: Should this ideally be replaced with one or more of the above
+ functions?\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ae2a021d1bce2ec36d23c9a32715f71cd}\label{namespacegyp_1_1generator_1_1make_ae2a021d1bce2ec36d23c9a32715f71cd}} 
+\index{gyp.generator.make@{gyp.generator.make}!QuoteSpaces@{QuoteSpaces}}
+\index{QuoteSpaces@{QuoteSpaces}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{QuoteSpaces()}{QuoteSpaces()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Quote\+Spaces (\begin{DoxyParamCaption}\item[{}]{s,  }\item[{}]{quote = {\ttfamily r\char`\"{}\textbackslash{}~\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ab68d21d534f1b8afcff56ae2f51d08ca}\label{namespacegyp_1_1generator_1_1make_ab68d21d534f1b8afcff56ae2f51d08ca}} 
+\index{gyp.generator.make@{gyp.generator.make}!Sourceify@{Sourceify}}
+\index{Sourceify@{Sourceify}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{Sourceify()}{Sourceify()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Sourceify (\begin{DoxyParamCaption}\item[{}]{path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert a path to its source directory form.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a014a3c06555c7e82240e1e61ea706a18}\label{namespacegyp_1_1generator_1_1make_a014a3c06555c7e82240e1e61ea706a18}} 
+\index{gyp.generator.make@{gyp.generator.make}!SourceifyAndQuoteSpaces@{SourceifyAndQuoteSpaces}}
+\index{SourceifyAndQuoteSpaces@{SourceifyAndQuoteSpaces}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SourceifyAndQuoteSpaces()}{SourceifyAndQuoteSpaces()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Sourceify\+And\+Quote\+Spaces (\begin{DoxyParamCaption}\item[{}]{path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert a path to its source directory form and quote spaces.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a390d117a8c1f36e276c012741d4341b2}\label{namespacegyp_1_1generator_1_1make_a390d117a8c1f36e276c012741d4341b2}} 
+\index{gyp.generator.make@{gyp.generator.make}!StringToMakefileVariable@{StringToMakefileVariable}}
+\index{StringToMakefileVariable@{StringToMakefileVariable}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{StringToMakefileVariable()}{StringToMakefileVariable()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+String\+To\+Makefile\+Variable (\begin{DoxyParamCaption}\item[{}]{string }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert a string to a value that is acceptable as a make variable name.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a8e24de3231b5d2c846dc191c1103fc25}\label{namespacegyp_1_1generator_1_1make_a8e24de3231b5d2c846dc191c1103fc25}} 
+\index{gyp.generator.make@{gyp.generator.make}!Target@{Target}}
+\index{Target@{Target}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{Target()}{Target()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Target (\begin{DoxyParamCaption}\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Translate a compilable filename to its .o target.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a881826c858f82ad197453d651ce49732}\label{namespacegyp_1_1generator_1_1make_a881826c858f82ad197453d651ce49732}} 
+\index{gyp.generator.make@{gyp.generator.make}!WriteAutoRegenerationRule@{WriteAutoRegenerationRule}}
+\index{WriteAutoRegenerationRule@{WriteAutoRegenerationRule}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{WriteAutoRegenerationRule()}{WriteAutoRegenerationRule()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Write\+Auto\+Regeneration\+Rule (\begin{DoxyParamCaption}\item[{}]{params,  }\item[{}]{root\+\_\+makefile,  }\item[{}]{makefile\+\_\+name,  }\item[{}]{build\+\_\+files }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write the target to regenerate the Makefile.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a13cefab12d685c24294ea69740fb29f1}\label{namespacegyp_1_1generator_1_1make_a13cefab12d685c24294ea69740fb29f1}} 
+\index{gyp.generator.make@{gyp.generator.make}!WriteRootHeaderSuffixRules@{WriteRootHeaderSuffixRules}}
+\index{WriteRootHeaderSuffixRules@{WriteRootHeaderSuffixRules}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{WriteRootHeaderSuffixRules()}{WriteRootHeaderSuffixRules()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+make.\+Write\+Root\+Header\+Suffix\+Rules (\begin{DoxyParamCaption}\item[{}]{writer }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_af6dba01af669b699483abe34395164b8}\label{namespacegyp_1_1generator_1_1make_af6dba01af669b699483abe34395164b8}} 
+\index{gyp.generator.make@{gyp.generator.make}!COMPILABLE\_EXTENSIONS@{COMPILABLE\_EXTENSIONS}}
+\index{COMPILABLE\_EXTENSIONS@{COMPILABLE\_EXTENSIONS}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{COMPILABLE\_EXTENSIONS}{COMPILABLE\_EXTENSIONS}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+make.\+COMPILABLE\+\_\+\+EXTENSIONS}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}.c"{}}: \textcolor{stringliteral}{"{}cc"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}.cc"{}}: \textcolor{stringliteral}{"{}cxx"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}.cpp"{}}: \textcolor{stringliteral}{"{}cxx"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}.cxx"{}}: \textcolor{stringliteral}{"{}cxx"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}.s"{}}: \textcolor{stringliteral}{"{}cc"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}.S"{}}: \textcolor{stringliteral}{"{}cc"{}},}
+\DoxyCodeLine{8 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_abb9323bc4232a7394ce14ed7a050fa79}\label{namespacegyp_1_1generator_1_1make_abb9323bc4232a7394ce14ed7a050fa79}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}}
+\index{generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_non\_configuration\_keys}{generator\_additional\_non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+generator.\+make.\+generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a72cd6353dea46d172f7e49c6c971100d}\label{namespacegyp_1_1generator_1_1make_a72cd6353dea46d172f7e49c6c971100d}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_additional\_path\_sections@{generator\_additional\_path\_sections}}
+\index{generator\_additional\_path\_sections@{generator\_additional\_path\_sections}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_path\_sections}{generator\_additional\_path\_sections}}
+{\footnotesize\ttfamily list gyp.\+generator.\+make.\+generator\+\_\+additional\+\_\+path\+\_\+sections = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a3cc6de40f1a2a50c0616093c1412bc37}\label{namespacegyp_1_1generator_1_1make_a3cc6de40f1a2a50c0616093c1412bc37}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+make.\+generator\+\_\+default\+\_\+variables}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}EXECUTABLE\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}EXECUTABLE\_SUFFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}STATIC\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}SHARED\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}STATIC\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.a"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(obj).\$(TOOLSET)/\$(TARGET)/geni"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}SHARED\_INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(obj)/gen"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}PRODUCT\_DIR"{}}: \textcolor{stringliteral}{"{}\$(builddir)"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}RULE\_INPUT\_ROOT"{}}: \textcolor{stringliteral}{"{}\%(INPUT\_ROOT)s"{}},  \textcolor{comment}{\# This gets expanded by Python.}}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}RULE\_INPUT\_DIRNAME"{}}: \textcolor{stringliteral}{"{}\%(INPUT\_DIRNAME)s"{}},  \textcolor{comment}{\# This gets expanded by Python.}}
+\DoxyCodeLine{12     \textcolor{stringliteral}{"{}RULE\_INPUT\_PATH"{}}: \textcolor{stringliteral}{"{}\$(abspath \$<)"{}},}
+\DoxyCodeLine{13     \textcolor{stringliteral}{"{}RULE\_INPUT\_EXT"{}}: \textcolor{stringliteral}{"{}\$(suffix \$<)"{}},}
+\DoxyCodeLine{14     \textcolor{stringliteral}{"{}RULE\_INPUT\_NAME"{}}: \textcolor{stringliteral}{"{}\$(notdir \$<)"{}},}
+\DoxyCodeLine{15     \textcolor{stringliteral}{"{}CONFIGURATION\_NAME"{}}: \textcolor{stringliteral}{"{}\$(BUILDTYPE)"{}},}
+\DoxyCodeLine{16 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ae6c5e505cb246ff2804f9cdad9fea980}\label{namespacegyp_1_1generator_1_1make_ae6c5e505cb246ff2804f9cdad9fea980}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}}
+\index{generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_extra\_sources\_for\_rules}{generator\_extra\_sources\_for\_rules}}
+{\footnotesize\ttfamily list gyp.\+generator.\+make.\+generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ae36a21d8fd2e57d2ad69fe967c76ea48}\label{namespacegyp_1_1generator_1_1make_ae36a21d8fd2e57d2ad69fe967c76ea48}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_filelist\_paths@{generator\_filelist\_paths}}
+\index{generator\_filelist\_paths@{generator\_filelist\_paths}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_filelist\_paths}{generator\_filelist\_paths}}
+{\footnotesize\ttfamily gyp.\+generator.\+make.\+generator\+\_\+filelist\+\_\+paths = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a6507f46ca76ec1235fcaa4da26a92889}\label{namespacegyp_1_1generator_1_1make_a6507f46ca76ec1235fcaa4da26a92889}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}}
+\index{generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_supports\_multiple\_toolsets}{generator\_supports\_multiple\_toolsets}}
+{\footnotesize\ttfamily bool gyp.\+generator.\+make.\+generator\+\_\+supports\+\_\+multiple\+\_\+toolsets = True}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ae4323ae858131b4238f360b23bd032ed}\label{namespacegyp_1_1generator_1_1make_ae4323ae858131b4238f360b23bd032ed}} 
+\index{gyp.generator.make@{gyp.generator.make}!generator\_wants\_sorted\_dependencies@{generator\_wants\_sorted\_dependencies}}
+\index{generator\_wants\_sorted\_dependencies@{generator\_wants\_sorted\_dependencies}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{generator\_wants\_sorted\_dependencies}{generator\_wants\_sorted\_dependencies}}
+{\footnotesize\ttfamily bool gyp.\+generator.\+make.\+generator\+\_\+wants\+\_\+sorted\+\_\+dependencies = False}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a7db5760efefe88210db90b317a2f12ad}\label{namespacegyp_1_1generator_1_1make_a7db5760efefe88210db90b317a2f12ad}} 
+\index{gyp.generator.make@{gyp.generator.make}!header@{header}}
+\index{header@{header}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{header}{header}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+header}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{\# This file is generated by gyp; do not edit.}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a1df1208e9c3dc1459598801838746ab3}\label{namespacegyp_1_1generator_1_1make_a1df1208e9c3dc1459598801838746ab3}} 
+\index{gyp.generator.make@{gyp.generator.make}!LINK\_COMMANDS\_AIX@{LINK\_COMMANDS\_AIX}}
+\index{LINK\_COMMANDS\_AIX@{LINK\_COMMANDS\_AIX}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{LINK\_COMMANDS\_AIX}{LINK\_COMMANDS\_AIX}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+LINK\+\_\+\+COMMANDS\+\_\+\+AIX}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{quiet\_cmd\_alink = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{cmd\_alink = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) -\/X32\_64 crs \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{quiet\_cmd\_alink\_thin = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{cmd\_alink\_thin = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) -\/X32\_64 crs \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{quiet\_cmd\_link = LINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{cmd\_link = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(LD\_INPUTS) \$(LIBS)}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{quiet\_cmd\_solink = SOLINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{cmd\_solink = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(LD\_INPUTS) \$(LIBS)}}
+\DoxyCodeLine{13 \textcolor{stringliteral}{}}
+\DoxyCodeLine{14 \textcolor{stringliteral}{quiet\_cmd\_solink\_module = SOLINK\_MODULE(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{15 \textcolor{stringliteral}{cmd\_solink\_module = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(filter-\/out FORCE\_DO\_CMD, \$\string^) \$(LIBS)}}
+\DoxyCodeLine{16 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a050a51050efc55274b290a56a44c24a3}\label{namespacegyp_1_1generator_1_1make_a050a51050efc55274b290a56a44c24a3}} 
+\index{gyp.generator.make@{gyp.generator.make}!LINK\_COMMANDS\_ANDROID@{LINK\_COMMANDS\_ANDROID}}
+\index{LINK\_COMMANDS\_ANDROID@{LINK\_COMMANDS\_ANDROID}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{LINK\_COMMANDS\_ANDROID}{LINK\_COMMANDS\_ANDROID}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+LINK\+\_\+\+COMMANDS\+\_\+\+ANDROID}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{quiet\_cmd\_alink = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{cmd\_alink = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) crs \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{quiet\_cmd\_alink\_thin = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{cmd\_alink\_thin = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) crsT \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{\# Due to circular dependencies between libraries :(, we wrap the}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{\# special "{}figure out circular dependencies"{} flags around the entire}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{\# input list during linking.}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{quiet\_cmd\_link = LINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{quiet\_cmd\_link\_host = LINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{13 \textcolor{stringliteral}{cmd\_link = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ -\/Wl,-\/-\/start-\/group \$(LD\_INPUTS) -\/Wl,-\/-\/end-\/group \$(LIBS)}}
+\DoxyCodeLine{14 \textcolor{stringliteral}{cmd\_link\_host = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ -\/Wl,-\/-\/start-\/group \$(LD\_INPUTS) -\/Wl,-\/-\/end-\/group \$(LIBS)}}
+\DoxyCodeLine{15 \textcolor{stringliteral}{}}
+\DoxyCodeLine{16 \textcolor{stringliteral}{\# Other shared-\/object link notes:}}
+\DoxyCodeLine{17 \textcolor{stringliteral}{\# -\/ Set SONAME to the library filename so our binaries don't reference}}
+\DoxyCodeLine{18 \textcolor{stringliteral}{\# the local, absolute paths used on the link command-\/line.}}
+\DoxyCodeLine{19 \textcolor{stringliteral}{quiet\_cmd\_solink = SOLINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{20 \textcolor{stringliteral}{cmd\_solink = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/Wl,-\/soname=\$(@F) -\/o \$@ -\/Wl,-\/-\/whole-\/archive \$(LD\_INPUTS) -\/Wl,-\/-\/no-\/whole-\/archive \$(LIBS)}}
+\DoxyCodeLine{21 \textcolor{stringliteral}{}}
+\DoxyCodeLine{22 \textcolor{stringliteral}{quiet\_cmd\_solink\_module = SOLINK\_MODULE(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{23 \textcolor{stringliteral}{cmd\_solink\_module = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/Wl,-\/soname=\$(@F) -\/o \$@ -\/Wl,-\/-\/start-\/group \$(filter-\/out FORCE\_DO\_CMD, \$\string^) -\/Wl,-\/-\/end-\/group \$(LIBS)}}
+\DoxyCodeLine{24 \textcolor{stringliteral}{quiet\_cmd\_solink\_module\_host = SOLINK\_MODULE(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{25 \textcolor{stringliteral}{cmd\_solink\_module\_host = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/Wl,-\/soname=\$(@F) -\/o \$@ \$(filter-\/out FORCE\_DO\_CMD, \$\string^) \$(LIBS)}}
+\DoxyCodeLine{26 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a7536738b6038a3f3fcfd26b2d5df8f97}\label{namespacegyp_1_1generator_1_1make_a7536738b6038a3f3fcfd26b2d5df8f97}} 
+\index{gyp.generator.make@{gyp.generator.make}!LINK\_COMMANDS\_LINUX@{LINK\_COMMANDS\_LINUX}}
+\index{LINK\_COMMANDS\_LINUX@{LINK\_COMMANDS\_LINUX}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{LINK\_COMMANDS\_LINUX}{LINK\_COMMANDS\_LINUX}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+LINK\+\_\+\+COMMANDS\+\_\+\+LINUX}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a6f4edf13ee06c5f030a298b88637fd42}\label{namespacegyp_1_1generator_1_1make_a6f4edf13ee06c5f030a298b88637fd42}} 
+\index{gyp.generator.make@{gyp.generator.make}!LINK\_COMMANDS\_MAC@{LINK\_COMMANDS\_MAC}}
+\index{LINK\_COMMANDS\_MAC@{LINK\_COMMANDS\_MAC}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{LINK\_COMMANDS\_MAC}{LINK\_COMMANDS\_MAC}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+LINK\+\_\+\+COMMANDS\+\_\+\+MAC}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{quiet\_cmd\_alink = LIBTOOL-\/STATIC \$@}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{cmd\_alink = rm -\/f \$@ \&\& ./gyp-\/mac-\/tool filter-\/libtool libtool \$(GYP\_LIBTOOLFLAGS) -\/static -\/o \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{quiet\_cmd\_link = LINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{cmd\_link = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o "{}\$@"{} \$(LD\_INPUTS) \$(LIBS)}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{quiet\_cmd\_solink = SOLINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{cmd\_solink = \$(LINK.\$(TOOLSET)) -\/shared \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o "{}\$@"{} \$(LD\_INPUTS) \$(LIBS)}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{quiet\_cmd\_solink\_module = SOLINK\_MODULE(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{cmd\_solink\_module = \$(LINK.\$(TOOLSET)) -\/bundle \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(filter-\/out FORCE\_DO\_CMD, \$\string^) \$(LIBS)}}
+\DoxyCodeLine{13 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a1050c861046043ddf7ee676c42eb19bb}\label{namespacegyp_1_1generator_1_1make_a1050c861046043ddf7ee676c42eb19bb}} 
+\index{gyp.generator.make@{gyp.generator.make}!LINK\_COMMANDS\_OS390@{LINK\_COMMANDS\_OS390}}
+\index{LINK\_COMMANDS\_OS390@{LINK\_COMMANDS\_OS390}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{LINK\_COMMANDS\_OS390}{LINK\_COMMANDS\_OS390}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+LINK\+\_\+\+COMMANDS\+\_\+\+OS390}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{quiet\_cmd\_alink = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{cmd\_alink = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) crs \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{quiet\_cmd\_alink\_thin = AR(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{cmd\_alink\_thin = rm -\/f \$@ \&\& \$(AR.\$(TOOLSET)) crsT \$@ \$(filter \%.o,\$\string^)}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{quiet\_cmd\_link = LINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{cmd\_link = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(LD\_INPUTS) \$(LIBS)}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{quiet\_cmd\_solink = SOLINK(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{cmd\_solink = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(LD\_INPUTS) \$(LIBS) -\/Wl,DLL}}
+\DoxyCodeLine{13 \textcolor{stringliteral}{}}
+\DoxyCodeLine{14 \textcolor{stringliteral}{quiet\_cmd\_solink\_module = SOLINK\_MODULE(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{15 \textcolor{stringliteral}{cmd\_solink\_module = \$(LINK.\$(TOOLSET)) \$(GYP\_LDFLAGS) \$(LDFLAGS.\$(TOOLSET)) -\/o \$@ \$(filter-\/out FORCE\_DO\_CMD, \$\string^) \$(LIBS) -\/Wl,DLL}}
+\DoxyCodeLine{16 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_abc30187040c2d18ce95342d2f7bb5690}\label{namespacegyp_1_1generator_1_1make_abc30187040c2d18ce95342d2f7bb5690}} 
+\index{gyp.generator.make@{gyp.generator.make}!SHARED\_FOOTER@{SHARED\_FOOTER}}
+\index{SHARED\_FOOTER@{SHARED\_FOOTER}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SHARED\_FOOTER}{SHARED\_FOOTER}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+SHARED\+\_\+\+FOOTER}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{\# "{}all"{} is a concatenation of the "{}all"{} targets from all the included}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{\# sub-\/makefiles. This is just here to clarify.}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{all:}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{\# Add in dependency-\/tracking rules.  \$(all\_deps) is the list of every single}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{\# target in our tree. Only consider the ones with .d (dependency) info:}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{d\_files := \$(wildcard \$(foreach f,\$(all\_deps),\$(depsdir)/\$(f).d))}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{ifneq (\$(d\_files),)}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{  include \$(d\_files)}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{endif}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_af0a4b276737b0c50867678921fa57fe9}\label{namespacegyp_1_1generator_1_1make_af0a4b276737b0c50867678921fa57fe9}} 
+\index{gyp.generator.make@{gyp.generator.make}!SHARED\_HEADER@{SHARED\_HEADER}}
+\index{SHARED\_HEADER@{SHARED\_HEADER}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SHARED\_HEADER}{SHARED\_HEADER}}
+{\footnotesize\ttfamily tuple gyp.\+generator.\+make.\+SHARED\+\_\+\+HEADER}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  (}
+\DoxyCodeLine{2     }
+\DoxyCodeLine{3     + SPACE\_REPLACEMENT}
+\DoxyCodeLine{4     + }
+\DoxyCodeLine{5     + SPACE\_REPLACEMENT}
+\DoxyCodeLine{6     + }
+\DoxyCodeLine{7     }
+\DoxyCodeLine{8       \textcolor{comment}{\# noqa: E501}}
+\DoxyCodeLine{9     }
+\DoxyCodeLine{10     }
+\DoxyCodeLine{11     + SPACE\_REPLACEMENT}
+\DoxyCodeLine{12     + }
+\DoxyCodeLine{13     + SPACE\_REPLACEMENT}
+\DoxyCodeLine{14     + }
+\DoxyCodeLine{15     + SPACE\_REPLACEMENT}
+\DoxyCodeLine{16     +   \textcolor{comment}{\# noqa: E501}}
+\DoxyCodeLine{17 )}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_ade0041bcf01f7efe3556fca0919ab388}\label{namespacegyp_1_1generator_1_1make_ade0041bcf01f7efe3556fca0919ab388}} 
+\index{gyp.generator.make@{gyp.generator.make}!SHARED\_HEADER\_MAC\_COMMANDS@{SHARED\_HEADER\_MAC\_COMMANDS}}
+\index{SHARED\_HEADER\_MAC\_COMMANDS@{SHARED\_HEADER\_MAC\_COMMANDS}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SHARED\_HEADER\_MAC\_COMMANDS}{SHARED\_HEADER\_MAC\_COMMANDS}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+SHARED\+\_\+\+HEADER\+\_\+\+MAC\+\_\+\+COMMANDS}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{quiet\_cmd\_objc = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{cmd\_objc = \$(CC.\$(TOOLSET)) \$(GYP\_OBJCFLAGS) \$(DEPFLAGS) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{4 \textcolor{stringliteral}{}}
+\DoxyCodeLine{5 \textcolor{stringliteral}{quiet\_cmd\_objcxx = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{6 \textcolor{stringliteral}{cmd\_objcxx = \$(CXX.\$(TOOLSET)) \$(GYP\_OBJCXXFLAGS) \$(DEPFLAGS) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{7 \textcolor{stringliteral}{}}
+\DoxyCodeLine{8 \textcolor{stringliteral}{\# Commands for precompiled header files.}}
+\DoxyCodeLine{9 \textcolor{stringliteral}{quiet\_cmd\_pch\_c = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{10 \textcolor{stringliteral}{cmd\_pch\_c = \$(CC.\$(TOOLSET)) \$(GYP\_PCH\_CFLAGS) \$(DEPFLAGS) \$(CXXFLAGS.\$(TOOLSET)) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{11 \textcolor{stringliteral}{quiet\_cmd\_pch\_cc = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{12 \textcolor{stringliteral}{cmd\_pch\_cc = \$(CC.\$(TOOLSET)) \$(GYP\_PCH\_CXXFLAGS) \$(DEPFLAGS) \$(CXXFLAGS.\$(TOOLSET)) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{13 \textcolor{stringliteral}{quiet\_cmd\_pch\_m = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{14 \textcolor{stringliteral}{cmd\_pch\_m = \$(CC.\$(TOOLSET)) \$(GYP\_PCH\_OBJCFLAGS) \$(DEPFLAGS) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{15 \textcolor{stringliteral}{quiet\_cmd\_pch\_mm = CXX(\$(TOOLSET)) \$@}}
+\DoxyCodeLine{16 \textcolor{stringliteral}{cmd\_pch\_mm = \$(CC.\$(TOOLSET)) \$(GYP\_PCH\_OBJCXXFLAGS) \$(DEPFLAGS) -\/c -\/o \$@ \$<}}
+\DoxyCodeLine{17 \textcolor{stringliteral}{}}
+\DoxyCodeLine{18 \textcolor{stringliteral}{\# gyp-\/mac-\/tool is written next to the root Makefile by gyp.}}
+\DoxyCodeLine{19 \textcolor{stringliteral}{\# Use \$(4) for the command, since \$(2) and \$(3) are used as flag by do\_cmd}}
+\DoxyCodeLine{20 \textcolor{stringliteral}{\# already.}}
+\DoxyCodeLine{21 \textcolor{stringliteral}{quiet\_cmd\_mac\_tool = MACTOOL \$(4) \$<}}
+\DoxyCodeLine{22 \textcolor{stringliteral}{cmd\_mac\_tool = ./gyp-\/mac-\/tool \$(4) \$< "{}\$@"{}}}
+\DoxyCodeLine{23 \textcolor{stringliteral}{}}
+\DoxyCodeLine{24 \textcolor{stringliteral}{quiet\_cmd\_mac\_package\_framework = PACKAGE FRAMEWORK \$@}}
+\DoxyCodeLine{25 \textcolor{stringliteral}{cmd\_mac\_package\_framework = ./gyp-\/mac-\/tool package-\/framework "{}\$@"{} \$(4)}}
+\DoxyCodeLine{26 \textcolor{stringliteral}{}}
+\DoxyCodeLine{27 \textcolor{stringliteral}{quiet\_cmd\_infoplist = INFOPLIST \$@}}
+\DoxyCodeLine{28 \textcolor{stringliteral}{cmd\_infoplist = \$(CC.\$(TOOLSET)) -\/E -\/P -\/Wno-\/trigraphs -\/x c \$(INFOPLIST\_DEFINES) "{}\$<"{} -\/o "{}\$@"{}}}
+\DoxyCodeLine{29 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a843d918d5f6d0159e3f2daf7615bc294}\label{namespacegyp_1_1generator_1_1make_a843d918d5f6d0159e3f2daf7615bc294}} 
+\index{gyp.generator.make@{gyp.generator.make}!SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1@{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1}}
+\index{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1@{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1}{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT1}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+SHARED\+\_\+\+HEADER\+\_\+\+SUFFIX\+\_\+\+RULES\+\_\+\+COMMENT1}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{\# Suffix rules, putting all outputs into \$(obj).}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_af734bf952a79968962453c8c920e1325}\label{namespacegyp_1_1generator_1_1make_af734bf952a79968962453c8c920e1325}} 
+\index{gyp.generator.make@{gyp.generator.make}!SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2@{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2}}
+\index{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2@{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2}{SHARED\_HEADER\_SUFFIX\_RULES\_COMMENT2}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+SHARED\+\_\+\+HEADER\+\_\+\+SUFFIX\+\_\+\+RULES\+\_\+\+COMMENT2}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \textcolor{stringliteral}{"{}"{}"{}\(\backslash\)}}
+\DoxyCodeLine{2 \textcolor{stringliteral}{\# Try building from generated source, too.}}
+\DoxyCodeLine{3 \textcolor{stringliteral}{"{}"{}"{}}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_aff8c9742d590151eb3ff44195980c31e}\label{namespacegyp_1_1generator_1_1make_aff8c9742d590151eb3ff44195980c31e}} 
+\index{gyp.generator.make@{gyp.generator.make}!SPACE\_REPLACEMENT@{SPACE\_REPLACEMENT}}
+\index{SPACE\_REPLACEMENT@{SPACE\_REPLACEMENT}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{SPACE\_REPLACEMENT}{SPACE\_REPLACEMENT}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+SPACE\+\_\+\+REPLACEMENT = \char`\"{}?\char`\"{}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a81462dc46c5837c3de72baba94c0b16c}\label{namespacegyp_1_1generator_1_1make_a81462dc46c5837c3de72baba94c0b16c}} 
+\index{gyp.generator.make@{gyp.generator.make}!srcdir\_prefix@{srcdir\_prefix}}
+\index{srcdir\_prefix@{srcdir\_prefix}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{srcdir\_prefix}{srcdir\_prefix}}
+{\footnotesize\ttfamily string gyp.\+generator.\+make.\+srcdir\+\_\+prefix = \char`\"{}\char`\"{}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a790ca660f83e7c92f4e7f63e4e4cf4b7}\label{namespacegyp_1_1generator_1_1make_a790ca660f83e7c92f4e7f63e4e4cf4b7}} 
+\index{gyp.generator.make@{gyp.generator.make}!target\_link\_deps@{target\_link\_deps}}
+\index{target\_link\_deps@{target\_link\_deps}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{target\_link\_deps}{target\_link\_deps}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+make.\+target\+\_\+link\+\_\+deps = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1make_a37723cfd34a181f79edc8bcce2620cff}\label{namespacegyp_1_1generator_1_1make_a37723cfd34a181f79edc8bcce2620cff}} 
+\index{gyp.generator.make@{gyp.generator.make}!target\_outputs@{target\_outputs}}
+\index{target\_outputs@{target\_outputs}!gyp.generator.make@{gyp.generator.make}}
+\doxysubsubsection{\texorpdfstring{target\_outputs}{target\_outputs}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+make.\+target\+\_\+outputs = \{\}}
+

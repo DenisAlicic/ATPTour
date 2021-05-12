@@ -1,0 +1,221 @@
+\hypertarget{namespacegyp_1_1generator_1_1xcode}{}\doxysection{gyp.\+generator.\+xcode Namespace Reference}
+\label{namespacegyp_1_1generator_1_1xcode}\index{gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1xcode_1_1XcodeProject}{Xcode\+Project}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a01695cb830c0d4bb82abf6a5e78843b6}{Create\+XCConfiguration\+List}} (configuration\+\_\+names)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a61051e0a6010a9058cb0886992f88237}{Add\+Source\+To\+Target}} (source, type, pbxp, xct)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_aafba658ca6f6ef1fec6288df38a85ae8}{Add\+Resource\+To\+Target}} (resource, pbxp, xct)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a58dbcb66ba59b664b32bc76453cb778f}{Add\+Header\+To\+Target}} (header, pbxp, xct, is\+\_\+public)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_aa7f6ca7e6e21815e2b9d4916d77734c5}{Expand\+Xcode\+Variables}} (string, expansions)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a17e5e0d5cce63e825c633b7ce9694dd8}{Escape\+Xcode\+Define}} (s)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_ab8b7fcb52f0242657eaa11a5d4a14427}{Perform\+Build}} (data, configurations, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_ad780f5d0ef43e246238b7a9c742b26e8}{Calculate\+Generator\+Input\+Info}} (params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_ab61e6f8bf5688557a04e53a05c31cb54}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a8a74c0f49de5af17119b9e9bee7bfac3}{generator\+\_\+default\+\_\+variables}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a4086809be14ce374dbe838e69ca0ae8d}{generator\+\_\+additional\+\_\+path\+\_\+sections}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a78191af4f60293285180b8439169db7d}{generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}}
+\item 
+list \mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_ad11086711b6aadf7eb8ceb49022b5d6a}{generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules}}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a3ce2c81ec2f9d5b9b684b114cb6f6a7d}{generator\+\_\+filelist\+\_\+paths}} = None
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1xcode_a0b42225201d8ed6295176a31c34d06b4}{xcode\+\_\+standard\+\_\+library\+\_\+dirs}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a58dbcb66ba59b664b32bc76453cb778f}\label{namespacegyp_1_1generator_1_1xcode_a58dbcb66ba59b664b32bc76453cb778f}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!AddHeaderToTarget@{AddHeaderToTarget}}
+\index{AddHeaderToTarget@{AddHeaderToTarget}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{AddHeaderToTarget()}{AddHeaderToTarget()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Add\+Header\+To\+Target (\begin{DoxyParamCaption}\item[{}]{header,  }\item[{}]{pbxp,  }\item[{}]{xct,  }\item[{}]{is\+\_\+public }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_aafba658ca6f6ef1fec6288df38a85ae8}\label{namespacegyp_1_1generator_1_1xcode_aafba658ca6f6ef1fec6288df38a85ae8}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!AddResourceToTarget@{AddResourceToTarget}}
+\index{AddResourceToTarget@{AddResourceToTarget}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{AddResourceToTarget()}{AddResourceToTarget()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Add\+Resource\+To\+Target (\begin{DoxyParamCaption}\item[{}]{resource,  }\item[{}]{pbxp,  }\item[{}]{xct }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a61051e0a6010a9058cb0886992f88237}\label{namespacegyp_1_1generator_1_1xcode_a61051e0a6010a9058cb0886992f88237}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!AddSourceToTarget@{AddSourceToTarget}}
+\index{AddSourceToTarget@{AddSourceToTarget}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{AddSourceToTarget()}{AddSourceToTarget()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Add\+Source\+To\+Target (\begin{DoxyParamCaption}\item[{}]{source,  }\item[{}]{type,  }\item[{}]{pbxp,  }\item[{}]{xct }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_ad780f5d0ef43e246238b7a9c742b26e8}\label{namespacegyp_1_1generator_1_1xcode_ad780f5d0ef43e246238b7a9c742b26e8}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}}
+\index{CalculateGeneratorInputInfo@{CalculateGeneratorInputInfo}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{CalculateGeneratorInputInfo()}{CalculateGeneratorInputInfo()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Calculate\+Generator\+Input\+Info (\begin{DoxyParamCaption}\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a01695cb830c0d4bb82abf6a5e78843b6}\label{namespacegyp_1_1generator_1_1xcode_a01695cb830c0d4bb82abf6a5e78843b6}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!CreateXCConfigurationList@{CreateXCConfigurationList}}
+\index{CreateXCConfigurationList@{CreateXCConfigurationList}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{CreateXCConfigurationList()}{CreateXCConfigurationList()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Create\+XCConfiguration\+List (\begin{DoxyParamCaption}\item[{}]{configuration\+\_\+names }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a17e5e0d5cce63e825c633b7ce9694dd8}\label{namespacegyp_1_1generator_1_1xcode_a17e5e0d5cce63e825c633b7ce9694dd8}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!EscapeXcodeDefine@{EscapeXcodeDefine}}
+\index{EscapeXcodeDefine@{EscapeXcodeDefine}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{EscapeXcodeDefine()}{EscapeXcodeDefine()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Escape\+Xcode\+Define (\begin{DoxyParamCaption}\item[{}]{s }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}We must escape the defines that we give to XCode so that it knows not to
+ split on spaces and to respect backslash and quote literals. However, we
+ must not quote the define, or Xcode will incorrectly interpret variables
+ especially $(inherited).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_aa7f6ca7e6e21815e2b9d4916d77734c5}\label{namespacegyp_1_1generator_1_1xcode_aa7f6ca7e6e21815e2b9d4916d77734c5}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!ExpandXcodeVariables@{ExpandXcodeVariables}}
+\index{ExpandXcodeVariables@{ExpandXcodeVariables}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{ExpandXcodeVariables()}{ExpandXcodeVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Expand\+Xcode\+Variables (\begin{DoxyParamCaption}\item[{}]{string,  }\item[{}]{expansions }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Expands Xcode-style $(VARIABLES) in string per the expansions dict.
+
+In some rare cases, it is appropriate to expand Xcode variables when a
+project file is generated.  For any substring $(VAR) in string, if VAR is a
+key in the expansions dict, $(VAR) will be replaced with expansions[VAR].
+Any $(VAR) substring in string for which VAR is not a key in the expansions
+dict will remain in the returned string.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_ab61e6f8bf5688557a04e53a05c31cb54}\label{namespacegyp_1_1generator_1_1xcode_ab61e6f8bf5688557a04e53a05c31cb54}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_ab8b7fcb52f0242657eaa11a5d4a14427}\label{namespacegyp_1_1generator_1_1xcode_ab8b7fcb52f0242657eaa11a5d4a14427}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!PerformBuild@{PerformBuild}}
+\index{PerformBuild@{PerformBuild}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{PerformBuild()}{PerformBuild()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+xcode.\+Perform\+Build (\begin{DoxyParamCaption}\item[{}]{data,  }\item[{}]{configurations,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a78191af4f60293285180b8439169db7d}\label{namespacegyp_1_1generator_1_1xcode_a78191af4f60293285180b8439169db7d}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}}
+\index{generator\_additional\_non\_configuration\_keys@{generator\_additional\_non\_configuration\_keys}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_non\_configuration\_keys}{generator\_additional\_non\_configuration\_keys}}
+{\footnotesize\ttfamily list gyp.\+generator.\+xcode.\+generator\+\_\+additional\+\_\+non\+\_\+configuration\+\_\+keys}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}ios\_app\_extension"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}ios\_watch\_app"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}ios\_watchkit\_extension"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}mac\_bundle"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}mac\_bundle\_resources"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}mac\_framework\_headers"{}},}
+\DoxyCodeLine{8     \textcolor{stringliteral}{"{}mac\_framework\_private\_headers"{}},}
+\DoxyCodeLine{9     \textcolor{stringliteral}{"{}mac\_xctest\_bundle"{}},}
+\DoxyCodeLine{10     \textcolor{stringliteral}{"{}mac\_xcuitest\_bundle"{}},}
+\DoxyCodeLine{11     \textcolor{stringliteral}{"{}xcode\_create\_dependents\_test\_runner"{}},}
+\DoxyCodeLine{12 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a4086809be14ce374dbe838e69ca0ae8d}\label{namespacegyp_1_1generator_1_1xcode_a4086809be14ce374dbe838e69ca0ae8d}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!generator\_additional\_path\_sections@{generator\_additional\_path\_sections}}
+\index{generator\_additional\_path\_sections@{generator\_additional\_path\_sections}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{generator\_additional\_path\_sections}{generator\_additional\_path\_sections}}
+{\footnotesize\ttfamily list gyp.\+generator.\+xcode.\+generator\+\_\+additional\+\_\+path\+\_\+sections}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}mac\_bundle\_resources"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}mac\_framework\_headers"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}mac\_framework\_private\_headers"{}},}
+\DoxyCodeLine{5     \textcolor{comment}{\# 'mac\_framework\_dirs', input already handles \_dirs endings.}}
+\DoxyCodeLine{6 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a8a74c0f49de5af17119b9e9bee7bfac3}\label{namespacegyp_1_1generator_1_1xcode_a8a74c0f49de5af17119b9e9bee7bfac3}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+xcode.\+generator\+\_\+default\+\_\+variables}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}EXECUTABLE\_PREFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}EXECUTABLE\_SUFFIX"{}}: \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}STATIC\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"{}SHARED\_LIB\_PREFIX"{}}: \textcolor{stringliteral}{"{}lib"{}},}
+\DoxyCodeLine{6     \textcolor{stringliteral}{"{}STATIC\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.a"{}},}
+\DoxyCodeLine{7     \textcolor{stringliteral}{"{}SHARED\_LIB\_SUFFIX"{}}: \textcolor{stringliteral}{"{}.dylib"{}},}
+\DoxyCodeLine{8     \textcolor{comment}{\# INTERMEDIATE\_DIR is a place for targets to build up intermediate products.}}
+\DoxyCodeLine{9     \textcolor{comment}{\# It is specific to each build environment.  It is only guaranteed to exist}}
+\DoxyCodeLine{10     \textcolor{comment}{\# and be constant within the context of a project, corresponding to a single}}
+\DoxyCodeLine{11     \textcolor{comment}{\# input file.  Some build environments may allow their intermediate directory}}
+\DoxyCodeLine{12     \textcolor{comment}{\# to be shared on a wider scale, but this is not guaranteed.}}
+\DoxyCodeLine{13     \textcolor{stringliteral}{"{}INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(\%s)"{}} \% \_intermediate\_var,}
+\DoxyCodeLine{14     \textcolor{stringliteral}{"{}OS"{}}: \textcolor{stringliteral}{"{}mac"{}},}
+\DoxyCodeLine{15     \textcolor{stringliteral}{"{}PRODUCT\_DIR"{}}: \textcolor{stringliteral}{"{}\$(BUILT\_PRODUCTS\_DIR)"{}},}
+\DoxyCodeLine{16     \textcolor{stringliteral}{"{}LIB\_DIR"{}}: \textcolor{stringliteral}{"{}\$(BUILT\_PRODUCTS\_DIR)"{}},}
+\DoxyCodeLine{17     \textcolor{stringliteral}{"{}RULE\_INPUT\_ROOT"{}}: \textcolor{stringliteral}{"{}\$(INPUT\_FILE\_BASE)"{}},}
+\DoxyCodeLine{18     \textcolor{stringliteral}{"{}RULE\_INPUT\_EXT"{}}: \textcolor{stringliteral}{"{}\$(INPUT\_FILE\_SUFFIX)"{}},}
+\DoxyCodeLine{19     \textcolor{stringliteral}{"{}RULE\_INPUT\_NAME"{}}: \textcolor{stringliteral}{"{}\$(INPUT\_FILE\_NAME)"{}},}
+\DoxyCodeLine{20     \textcolor{stringliteral}{"{}RULE\_INPUT\_PATH"{}}: \textcolor{stringliteral}{"{}\$(INPUT\_FILE\_PATH)"{}},}
+\DoxyCodeLine{21     \textcolor{stringliteral}{"{}RULE\_INPUT\_DIRNAME"{}}: \textcolor{stringliteral}{"{}\$(INPUT\_FILE\_DIRNAME)"{}},}
+\DoxyCodeLine{22     \textcolor{stringliteral}{"{}SHARED\_INTERMEDIATE\_DIR"{}}: \textcolor{stringliteral}{"{}\$(\%s)"{}} \% \_shared\_intermediate\_var,}
+\DoxyCodeLine{23     \textcolor{stringliteral}{"{}CONFIGURATION\_NAME"{}}: \textcolor{stringliteral}{"{}\$(CONFIGURATION)"{}},}
+\DoxyCodeLine{24 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_ad11086711b6aadf7eb8ceb49022b5d6a}\label{namespacegyp_1_1generator_1_1xcode_ad11086711b6aadf7eb8ceb49022b5d6a}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}}
+\index{generator\_extra\_sources\_for\_rules@{generator\_extra\_sources\_for\_rules}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{generator\_extra\_sources\_for\_rules}{generator\_extra\_sources\_for\_rules}}
+{\footnotesize\ttfamily list gyp.\+generator.\+xcode.\+generator\+\_\+extra\+\_\+sources\+\_\+for\+\_\+rules}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"{}mac\_bundle\_resources"{}},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"{}mac\_framework\_headers"{}},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"{}mac\_framework\_private\_headers"{}},}
+\DoxyCodeLine{5 ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a3ce2c81ec2f9d5b9b684b114cb6f6a7d}\label{namespacegyp_1_1generator_1_1xcode_a3ce2c81ec2f9d5b9b684b114cb6f6a7d}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!generator\_filelist\_paths@{generator\_filelist\_paths}}
+\index{generator\_filelist\_paths@{generator\_filelist\_paths}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{generator\_filelist\_paths}{generator\_filelist\_paths}}
+{\footnotesize\ttfamily gyp.\+generator.\+xcode.\+generator\+\_\+filelist\+\_\+paths = None}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1xcode_a0b42225201d8ed6295176a31c34d06b4}\label{namespacegyp_1_1generator_1_1xcode_a0b42225201d8ed6295176a31c34d06b4}} 
+\index{gyp.generator.xcode@{gyp.generator.xcode}!xcode\_standard\_library\_dirs@{xcode\_standard\_library\_dirs}}
+\index{xcode\_standard\_library\_dirs@{xcode\_standard\_library\_dirs}!gyp.generator.xcode@{gyp.generator.xcode}}
+\doxysubsubsection{\texorpdfstring{xcode\_standard\_library\_dirs}{xcode\_standard\_library\_dirs}}
+{\footnotesize\ttfamily gyp.\+generator.\+xcode.\+xcode\+\_\+standard\+\_\+library\+\_\+dirs}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  frozenset(}
+\DoxyCodeLine{2     [\textcolor{stringliteral}{"{}\$(SDKROOT)/usr/lib"{}}, \textcolor{stringliteral}{"{}\$(SDKROOT)/usr/local/lib"{}}]}
+\DoxyCodeLine{3 )}
+
+\end{DoxyCode}

@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// Data for log in.
+    /// </summary>
     public class LogInInfo
     {
         [Required]
