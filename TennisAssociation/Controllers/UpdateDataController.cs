@@ -5,6 +5,8 @@ using TennisAssociation.Models;
 using TennisAssociation.Interfaces;
 using TennisAssociation.Services;
 using System.Globalization;
+using Microsoft.AspNetCore.Identity;
+using TennisAssociation.Utils;
 
 namespace TennisAssociation.Controllers
 {
@@ -20,17 +22,22 @@ namespace TennisAssociation.Controllers
         private const string MatchesScript = "matches.py";
         private const string TournamentScript ="tournaments.py"; 
         private readonly TennisAssociationContext db;
+        private EmailSender _emailSenderSevice;
+        private UserManager<MyUser> userManager;
 
-        public UpdateDataController(TennisAssociationContext context)
+        public UpdateDataController(TennisAssociationContext context, UserManager<MyUser> userManager)
         {
             db = context;
+            this.userManager = userManager;
+            _emailSenderSevice = new EmailSender();
         }
 
         [HttpGet("tournaments")]
         // GET
         public bool UpdateTournaments()
         {
-            IDatabaseUpdater<Tournament> service = new DatabaseUpdaterService<Tournament>(ScriptDirectory, TournamentScript, TournamentsFile, db,
+            IDatabaseUpdater<Tournament> service = new DatabaseUpdaterService<Tournament>(ScriptDirectory,
+                TournamentScript, TournamentsFile, db,
                 (row, columnNumbers) => new Tournament
                 {
                     Tournament1 = row[columnNumbers["tournament"]],
@@ -83,8 +90,24 @@ namespace TennisAssociation.Controllers
                         ? (int?) int.Parse(row[columnNumbers["winner prize"]])
                         : null
                 });
-            
-            return service.PrepareData() && service.UpdateData(db.Tournaments, "Tournaments");
+
+            if (service.PrepareData() && service.UpdateData(db.Tournaments, "Tournaments"))
+            {
+                var users = userManager.Users;
+                var mail = new Email
+                {
+                    Body = "Tournaments data in TennisAssocation app are changed!\n \nYour admin team!",
+                    Subject = "Data changed"
+                };
+                foreach (var user in users)
+                {
+                    _emailSenderSevice.Send(user.Email, mail);
+                }
+
+                return true;
+            }
+
+            return false;
         }
         
         [HttpGet("players")]
@@ -124,7 +147,24 @@ namespace TennisAssociation.Controllers
                     };
                     return player;
                 });
-            return service.PrepareData() && service.UpdateData(db.Players, "Players");
+            
+            if (service.PrepareData() && service.UpdateData(db.Players, "Players"))
+            {
+                var users = userManager.Users;
+                var mail = new Email
+                {
+                    Body = "Players data in TennisAssocation app are changed!\n \nYour admin team!",
+                    Subject = "Data changed"
+                };
+                foreach (var user in users)
+                {
+                    _emailSenderSevice.Send(user.Email, mail);
+                }
+
+                return true;
+            }
+
+            return false;
         }
 
         [HttpGet("matches")]
@@ -150,7 +190,24 @@ namespace TennisAssociation.Controllers
                         : null,
                     Date = DateTime.ParseExact(row[columnNames["date"]], "MM/dd/yyyy", CultureInfo.InvariantCulture)
                 });
-            return service.PrepareData() && service.UpdateData(db.Matches, "Matches");
+            
+            if (service.PrepareData() && service.UpdateData(db.Matches, "Matches"))
+            {
+                var users = userManager.Users;
+                var mail = new Email
+                {
+                    Body = "Matches data in TennisAssocation app are changed!\n \nYour admin team!",
+                    Subject = "Data changed"
+                };
+                foreach (var user in users)
+                {
+                    _emailSenderSevice.Send(user.Email, mail);
+                }
+
+                return true;
+            }
+            
+            return false;
         }
     }
 }
