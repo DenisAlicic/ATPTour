@@ -4,6 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// Class for role manipulating for Identity framework.
+    /// </summary>
     public static class IdentitySeedData
     {
         public static async void AddDefaultRole(IApplicationBuilder app)

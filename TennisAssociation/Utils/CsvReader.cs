@@ -7,6 +7,9 @@ using TennisAssociation.Interfaces;
 
 namespace TennisAssociation.Utils
 {
+    /// <summary>
+    /// Implementation of reading CSV files.
+    /// </summary>
     public class CsvReader : ICsvReader
     {
         private Dictionary<string, int> columnNumbers;

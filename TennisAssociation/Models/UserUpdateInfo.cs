@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TennisAssociation.Models
 {
+    /// <summary>
+    /// Data for updating user info.
+    /// </summary>
     public class UserUpdateInfo
     {
         [Required]

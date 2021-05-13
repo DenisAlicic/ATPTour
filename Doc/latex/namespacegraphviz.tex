@@ -1,0 +1,45 @@
+\hypertarget{namespacegraphviz}{}\doxysection{graphviz Namespace Reference}
+\label{namespacegraphviz}\index{graphviz@{graphviz}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegraphviz_a6031cea9a0c6d25a6e66eb60362749e8}{Parse\+Target}} (target)
+\item 
+def \mbox{\hyperlink{namespacegraphviz_a2236daa9a942eee3aa9e41c24e88af02}{Load\+Edges}} (filename, targets)
+\item 
+def \mbox{\hyperlink{namespacegraphviz_a9b4f60e7781c4aa39a175ebb4e854451}{Write\+Graph}} (edges)
+\item 
+def \mbox{\hyperlink{namespacegraphviz_a87f7afeba2c0dd1daf49afecefcf9de0}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegraphviz_a2236daa9a942eee3aa9e41c24e88af02}\label{namespacegraphviz_a2236daa9a942eee3aa9e41c24e88af02}} 
+\index{graphviz@{graphviz}!LoadEdges@{LoadEdges}}
+\index{LoadEdges@{LoadEdges}!graphviz@{graphviz}}
+\doxysubsubsection{\texorpdfstring{LoadEdges()}{LoadEdges()}}
+{\footnotesize\ttfamily def graphviz.\+Load\+Edges (\begin{DoxyParamCaption}\item[{}]{filename,  }\item[{}]{targets }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Load the edges map from the dump file, and filter it to only
+show targets in |targets| and their depedendents.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegraphviz_a87f7afeba2c0dd1daf49afecefcf9de0}\label{namespacegraphviz_a87f7afeba2c0dd1daf49afecefcf9de0}} 
+\index{graphviz@{graphviz}!main@{main}}
+\index{main@{main}!graphviz@{graphviz}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def graphviz.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegraphviz_a6031cea9a0c6d25a6e66eb60362749e8}\label{namespacegraphviz_a6031cea9a0c6d25a6e66eb60362749e8}} 
+\index{graphviz@{graphviz}!ParseTarget@{ParseTarget}}
+\index{ParseTarget@{ParseTarget}!graphviz@{graphviz}}
+\doxysubsubsection{\texorpdfstring{ParseTarget()}{ParseTarget()}}
+{\footnotesize\ttfamily def graphviz.\+Parse\+Target (\begin{DoxyParamCaption}\item[{}]{target }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegraphviz_a9b4f60e7781c4aa39a175ebb4e854451}\label{namespacegraphviz_a9b4f60e7781c4aa39a175ebb4e854451}} 
+\index{graphviz@{graphviz}!WriteGraph@{WriteGraph}}
+\index{WriteGraph@{WriteGraph}!graphviz@{graphviz}}
+\doxysubsubsection{\texorpdfstring{WriteGraph()}{WriteGraph()}}
+{\footnotesize\ttfamily def graphviz.\+Write\+Graph (\begin{DoxyParamCaption}\item[{}]{edges }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Print a graphviz graph to stdout.
+|edges| is a map of target to a list of other targets it depends on.\end{DoxyVerb}
+ 

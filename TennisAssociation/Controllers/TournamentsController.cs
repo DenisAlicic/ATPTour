@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Controller for tournaments handling.
+    /// </summary>
     [Route("api/tournaments")]
     [ApiController]
     public class TournamentsController : Controller

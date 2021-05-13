@@ -21,6 +21,9 @@ using TennisAssociation.Utils;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Controller for registration and sign in/out.
+    /// </summary>
     [Route("api/account")]
     [ApiController]
     public class AccountController : Controller

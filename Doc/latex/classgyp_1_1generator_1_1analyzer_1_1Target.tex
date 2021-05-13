@@ -1,0 +1,142 @@
+\hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target}{}\doxysection{gyp.\+generator.\+analyzer.\+Target Class Reference}
+\label{classgyp_1_1generator_1_1analyzer_1_1Target}\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+Inheritance diagram for gyp.\+generator.\+analyzer.\+Target\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgyp_1_1generator_1_1analyzer_1_1Target}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a10b0cf003b060883df034c6f05f60652}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_ad28fece66b22fe7a652ba9880a0a5c7a}{name}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a4b0e5a126a5fbb62f363ab35cc410fa1}{deps}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a2c3ca555a942fe777e1061e21c5cf962}{match\+\_\+status}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_aee75ba9ef97eb5bd90f3883bd0bde041}{back\+\_\+deps}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_ad28fece66b22fe7a652ba9880a0a5c7a}{name}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a01e3eda32dc6b74ff49086942fe42ae2}{visited}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a6e0f2a19e76fba491ec04491cc3c6036}{requires\+\_\+build}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a7ac25cb042c19dc461d0d9f6defb5e28}{added\+\_\+to\+\_\+compile\+\_\+targets}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_af7b6e00c3d150719163bdc702a20fe7a}{in\+\_\+roots}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_a721804735088a9a287bda28745b31d02}{is\+\_\+executable}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_add56c544318c4d28146b069a3d6e0bdf}{is\+\_\+static\+\_\+library}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target_aee8c95526b6b23f14ea9db2186cb495e}{is\+\_\+or\+\_\+has\+\_\+linked\+\_\+ancestor}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Holds information about a particular target:
+deps: set of Targets this Target depends upon. This is not recursive, only the
+direct dependent Targets.
+match_status: one of the MatchStatus values.
+back_deps: set of Targets that have a dependency on this Target.
+visited: used during iteration to indicate whether we've visited this target.
+This is used for two iterations, once in building the set of Targets and
+again in _GetBuildTargets().
+name: fully qualified name of the target.
+requires_build: True if the target type is such that it needs to be built.
+See _DoesTargetTypeRequireBuild for details.
+added_to_compile_targets: used when determining if the target was added to the
+set of targets that needs to be built.
+in_roots: true if this target is a descendant of one of the root nodes.
+is_executable: true if the type of target is executable.
+is_static_library: true if the type of target is static_library.
+is_or_has_linked_ancestor: true if the target does a link (eg executable), or
+if there is a target in back_deps that does a link.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a10b0cf003b060883df034c6f05f60652}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a10b0cf003b060883df034c6f05f60652}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+analyzer.\+Target.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a7ac25cb042c19dc461d0d9f6defb5e28}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a7ac25cb042c19dc461d0d9f6defb5e28}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!added\_to\_compile\_targets@{added\_to\_compile\_targets}}
+\index{added\_to\_compile\_targets@{added\_to\_compile\_targets}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{added\_to\_compile\_targets}{added\_to\_compile\_targets}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+added\+\_\+to\+\_\+compile\+\_\+targets}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_aee75ba9ef97eb5bd90f3883bd0bde041}\label{classgyp_1_1generator_1_1analyzer_1_1Target_aee75ba9ef97eb5bd90f3883bd0bde041}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!back\_deps@{back\_deps}}
+\index{back\_deps@{back\_deps}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{back\_deps}{back\_deps}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+back\+\_\+deps}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a4b0e5a126a5fbb62f363ab35cc410fa1}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a4b0e5a126a5fbb62f363ab35cc410fa1}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!deps@{deps}}
+\index{deps@{deps}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{deps}{deps}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+deps}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_af7b6e00c3d150719163bdc702a20fe7a}\label{classgyp_1_1generator_1_1analyzer_1_1Target_af7b6e00c3d150719163bdc702a20fe7a}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!in\_roots@{in\_roots}}
+\index{in\_roots@{in\_roots}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{in\_roots}{in\_roots}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+in\+\_\+roots}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a721804735088a9a287bda28745b31d02}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a721804735088a9a287bda28745b31d02}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!is\_executable@{is\_executable}}
+\index{is\_executable@{is\_executable}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{is\_executable}{is\_executable}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+is\+\_\+executable}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_aee8c95526b6b23f14ea9db2186cb495e}\label{classgyp_1_1generator_1_1analyzer_1_1Target_aee8c95526b6b23f14ea9db2186cb495e}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!is\_or\_has\_linked\_ancestor@{is\_or\_has\_linked\_ancestor}}
+\index{is\_or\_has\_linked\_ancestor@{is\_or\_has\_linked\_ancestor}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{is\_or\_has\_linked\_ancestor}{is\_or\_has\_linked\_ancestor}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+is\+\_\+or\+\_\+has\+\_\+linked\+\_\+ancestor}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_add56c544318c4d28146b069a3d6e0bdf}\label{classgyp_1_1generator_1_1analyzer_1_1Target_add56c544318c4d28146b069a3d6e0bdf}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!is\_static\_library@{is\_static\_library}}
+\index{is\_static\_library@{is\_static\_library}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{is\_static\_library}{is\_static\_library}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+is\+\_\+static\+\_\+library}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a2c3ca555a942fe777e1061e21c5cf962}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a2c3ca555a942fe777e1061e21c5cf962}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!match\_status@{match\_status}}
+\index{match\_status@{match\_status}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{match\_status}{match\_status}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+match\+\_\+status}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_ad28fece66b22fe7a652ba9880a0a5c7a}\label{classgyp_1_1generator_1_1analyzer_1_1Target_ad28fece66b22fe7a652ba9880a0a5c7a}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!name@{name}}
+\index{name@{name}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+name}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a6e0f2a19e76fba491ec04491cc3c6036}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a6e0f2a19e76fba491ec04491cc3c6036}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!requires\_build@{requires\_build}}
+\index{requires\_build@{requires\_build}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{requires\_build}{requires\_build}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+requires\+\_\+build}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1analyzer_1_1Target_a01e3eda32dc6b74ff49086942fe42ae2}\label{classgyp_1_1generator_1_1analyzer_1_1Target_a01e3eda32dc6b74ff49086942fe42ae2}} 
+\index{gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}!visited@{visited}}
+\index{visited@{visited}!gyp.generator.analyzer.Target@{gyp.generator.analyzer.Target}}
+\doxysubsubsection{\texorpdfstring{visited}{visited}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+Target.\+visited}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Client/node\+\_\+modules/npm/node\+\_\+modules/node-\/gyp/gyp/pylib/gyp/generator/\mbox{\hyperlink{analyzer_8py}{analyzer.\+py}}\end{DoxyCompactItemize}

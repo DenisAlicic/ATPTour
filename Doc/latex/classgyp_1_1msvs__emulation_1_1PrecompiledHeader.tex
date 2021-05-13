@@ -1,0 +1,106 @@
+\hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader}{}\doxysection{gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header Class Reference}
+\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader}\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+Inheritance diagram for gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgyp_1_1msvs__emulation_1_1PrecompiledHeader}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aca958dbbd6f695045e7ae5d06cf7504a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a166bc96da4ec953547fc7a34bc7f253c}{settings}}, \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aba427d6af557dfde4f1f8c7aa7702c7a}{config}}, gyp\+\_\+to\+\_\+build\+\_\+path, gyp\+\_\+to\+\_\+unique\+\_\+output, obj\+\_\+ext)
+\item 
+def \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a1b71edf14a58ddcdd4e71a860adf0822}{Get\+Obj\+Dependencies}} (self, sources, objs, arch)
+\item 
+def \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_ab325f40109cd6302d7637c45f3ebd9c6}{Get\+Pch\+Build\+Commands}} (self, arch)
+\item 
+def \mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_adebeb6862361e1ffa3caa385182ced61}{Get\+Flags\+Modifications}} (self, input, output, implicit, command, cflags\+\_\+c, cflags\+\_\+cc, expand\+\_\+special)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a166bc96da4ec953547fc7a34bc7f253c}{settings}}
+\item 
+\mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aba427d6af557dfde4f1f8c7aa7702c7a}{config}}
+\item 
+\mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a410be102e56f9f7d486605f01d5128d9}{pch\+\_\+source}}
+\item 
+\mbox{\hyperlink{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a685bbcf00bddea56d26b32bbfd14a55c}{output\+\_\+obj}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Helper to generate dependencies and build rules to handle generation of
+precompiled headers. Interface matches the GCH handler in xcode_emulation.py.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aca958dbbd6f695045e7ae5d06cf7504a}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aca958dbbd6f695045e7ae5d06cf7504a}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{settings,  }\item[{}]{config,  }\item[{}]{gyp\+\_\+to\+\_\+build\+\_\+path,  }\item[{}]{gyp\+\_\+to\+\_\+unique\+\_\+output,  }\item[{}]{obj\+\_\+ext }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_adebeb6862361e1ffa3caa385182ced61}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_adebeb6862361e1ffa3caa385182ced61}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!GetFlagsModifications@{GetFlagsModifications}}
+\index{GetFlagsModifications@{GetFlagsModifications}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{GetFlagsModifications()}{GetFlagsModifications()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+Get\+Flags\+Modifications (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{input,  }\item[{}]{output,  }\item[{}]{implicit,  }\item[{}]{command,  }\item[{}]{cflags\+\_\+c,  }\item[{}]{cflags\+\_\+cc,  }\item[{}]{expand\+\_\+special }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the modified cflags and implicit dependencies that should be used
+for the pch compilation step.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a1b71edf14a58ddcdd4e71a860adf0822}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a1b71edf14a58ddcdd4e71a860adf0822}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!GetObjDependencies@{GetObjDependencies}}
+\index{GetObjDependencies@{GetObjDependencies}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{GetObjDependencies()}{GetObjDependencies()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+Get\+Obj\+Dependencies (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{sources,  }\item[{}]{objs,  }\item[{}]{arch }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Given a list of sources files and the corresponding object files,
+returns a list of the pch files that should be depended upon. The
+additional wrapping in the return value is for interface compatibility
+with make.py on Mac, and xcode_emulation.py.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_ab325f40109cd6302d7637c45f3ebd9c6}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_ab325f40109cd6302d7637c45f3ebd9c6}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!GetPchBuildCommands@{GetPchBuildCommands}}
+\index{GetPchBuildCommands@{GetPchBuildCommands}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{GetPchBuildCommands()}{GetPchBuildCommands()}}
+{\footnotesize\ttfamily def gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+Get\+Pch\+Build\+Commands (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{arch }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Not used on Windows as there are no additional build steps required
+(instead, existing steps are modified in GetFlagsModifications below).\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aba427d6af557dfde4f1f8c7aa7702c7a}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_aba427d6af557dfde4f1f8c7aa7702c7a}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!config@{config}}
+\index{config@{config}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{config}{config}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+config}
+
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a685bbcf00bddea56d26b32bbfd14a55c}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a685bbcf00bddea56d26b32bbfd14a55c}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!output\_obj@{output\_obj}}
+\index{output\_obj@{output\_obj}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{output\_obj}{output\_obj}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+output\+\_\+obj}
+
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a410be102e56f9f7d486605f01d5128d9}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a410be102e56f9f7d486605f01d5128d9}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!pch\_source@{pch\_source}}
+\index{pch\_source@{pch\_source}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{pch\_source}{pch\_source}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+pch\+\_\+source}
+
+\mbox{\Hypertarget{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a166bc96da4ec953547fc7a34bc7f253c}\label{classgyp_1_1msvs__emulation_1_1PrecompiledHeader_a166bc96da4ec953547fc7a34bc7f253c}} 
+\index{gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}!settings@{settings}}
+\index{settings@{settings}!gyp.msvs\_emulation.PrecompiledHeader@{gyp.msvs\_emulation.PrecompiledHeader}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily gyp.\+msvs\+\_\+emulation.\+Precompiled\+Header.\+settings}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Client/node\+\_\+modules/npm/node\+\_\+modules/node-\/gyp/gyp/pylib/gyp/\mbox{\hyperlink{msvs__emulation_8py}{msvs\+\_\+emulation.\+py}}\end{DoxyCompactItemize}

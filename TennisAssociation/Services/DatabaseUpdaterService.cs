@@ -11,6 +11,11 @@ using TennisAssociation.Utils;
 
 namespace TennisAssociation.Services
 {
+    /// <summary>
+    /// Generic service for updating databases
+    /// using .csv files.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class DatabaseUpdaterService<T> : IDatabaseUpdater<T> where T : class
     {
         private readonly string _scriptName;
@@ -32,6 +37,10 @@ namespace TennisAssociation.Services
             _itemsForAdding = new List<T>();
         }
         
+        /// <summary>
+        /// Function which makes list of objects from .csv files
+        /// </summary>
+        /// <returns>bool</returns>
         public bool PrepareData()
         {
             Dictionary<string, int> columnNumbers = _reader.GetColumns();
@@ -51,6 +60,13 @@ namespace TennisAssociation.Services
             return true;
         }
 
+        /// <summary>
+        /// Function which delete table given as second parameter and population with new data provided
+        /// as first parameter.
+        /// </summary>
+        /// <param name="changingSet"></param>
+        /// <param name="tableName"></param>
+        /// <returns>bool</returns>
         public bool UpdateData(DbSet<T> changingSet, string tableName)
         {
             _db.Database.ExecuteSqlRaw("TRUNCATE TABLE " + tableName);    

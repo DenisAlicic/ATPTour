@@ -1,0 +1,426 @@
+\hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter}{}\doxysection{gyp.\+generator.\+android.\+Android\+Mk\+Writer Class Reference}
+\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter}\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+Inheritance diagram for gyp.\+generator.\+android.\+Android\+Mk\+Writer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgyp_1_1generator_1_1android_1_1AndroidMkWriter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a78e246a6a0d1af52de0fa30bd1949ba7}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8931c4ee94ed3001fd856ffe00353a2e}{android\+\_\+top\+\_\+dir}})
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a4aa90c254aaecc6adca0b1842059e2a3}{Write}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3ef804cd75882ac9e61219863fad76e2}{qualified\+\_\+target}}, \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a433fbe25872fab1a7ef1f7c9824d189e}{relative\+\_\+target}}, base\+\_\+path, output\+\_\+filename, spec, configs, part\+\_\+of\+\_\+all, write\+\_\+alias\+\_\+target, sdk\+\_\+version)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aeb0bfcfae681b45776b9f8c3e1e3471a}{Write\+Actions}} (self, actions, extra\+\_\+sources, extra\+\_\+outputs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_adcc12931c33ba19f2ed95136a0729962}{Write\+Rules}} (self, rules, extra\+\_\+sources, extra\+\_\+outputs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a31f8de7275f1b5c194f9e104bc7b28ec}{Write\+Copies}} (self, copies, extra\+\_\+outputs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6bc87d96354966fecd3768c6d70d71bb}{Write\+Source\+Flags}} (self, spec, configs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a9b1484163d3df3c3af4ddf92c40ea716}{Write\+Sources}} (self, spec, configs, extra\+\_\+sources)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ab5c5fd8b30f82f9944dfcb1dc0e4d679}{Compute\+Android\+Module}} (self, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6459fc5cb723f0550742ab8141175e6e}{Compute\+Output\+Parts}} (self, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa5dea6bb4f9f5a116f0cb818d210f680}{Compute\+Output\+Basename}} (self, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a49822bf078eb1e82d9512874d0aeb067}{Compute\+Output}} (self, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a780cff5cf10deed0cf92142c5d6528eb}{Normalize\+Include\+Paths}} (self, include\+\_\+paths)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a994f3a03cedcfe3a338e239b49887497}{Extract\+Includes\+From\+CFlags}} (self, cflags)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a94fdc7443656ba552d0ff51d09892506}{Filter\+Libraries}} (self, libraries)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5069e9200370c56da90b0d698fd64496}{Compute\+Deps}} (self, spec)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5913aee7a7bc4015cd89e4aa15c1d6d4}{Write\+Target\+Flags}} (self, spec, configs, link\+\_\+deps)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0e3ee288fb5770924a70ba271b879ed5}{Write\+Target}} (self, spec, configs, deps, link\+\_\+deps, part\+\_\+of\+\_\+all, write\+\_\+alias\+\_\+target)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ac716c33c66c0a987d56612e9ef901329}{Write\+List}} (self, value\+\_\+list, variable=None, prefix=\char`\"{}\char`\"{}, quoter=\mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a672f6ae46f25bab33722a6b158d792c9}{make.\+Quote\+If\+Necessary}}, local\+\_\+pathify=False)
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0df805d316dfdfb11bdcc3477d127301}{Write\+Ln}} (self, text=\char`\"{}\char`\"{})
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8e54fe84c8347a6eb046e9e151e80b9f}{Local\+Pathify}} (self, \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa40cc309d9d8adc770d83510757dc0cb}{path}})
+\item 
+def \mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a919a67738665d836cb7c7eb660260e6a}{Expand\+Input\+Root}} (self, template, expansion, dirname)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8931c4ee94ed3001fd856ffe00353a2e}{android\+\_\+top\+\_\+dir}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a797b61134908691a06ff70c9899e9a6e}{fp}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3ef804cd75882ac9e61219863fad76e2}{qualified\+\_\+target}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a433fbe25872fab1a7ef1f7c9824d189e}{relative\+\_\+target}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa40cc309d9d8adc770d83510757dc0cb}{path}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5e68bf68b8950fe2ac3038c730477682}{target}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6d061a84eb6f6ab0d1dfeabd0ea61f04}{type}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aac067c5ee71afa848000a1f5e0138be1}{toolset}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a56c63ff5c3056b84cee4565e01b7b74f}{android\+\_\+class}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_abfa6ab16aba8a08680d3397d4f55761f}{android\+\_\+module}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a432b8283c80e414eaeb0cb63107effe3}{output}}
+\item 
+\mbox{\hyperlink{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3e73ffe9727f6ea495314295967ed5e3}{output\+\_\+binary}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}AndroidMkWriter packages up the writing of one target-specific Android.mk.
+
+Its only real entry point is Write(), and is mostly used for namespacing.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a78e246a6a0d1af52de0fa30bd1949ba7}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a78e246a6a0d1af52de0fa30bd1949ba7}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{android\+\_\+top\+\_\+dir }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ab5c5fd8b30f82f9944dfcb1dc0e4d679}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ab5c5fd8b30f82f9944dfcb1dc0e4d679}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ComputeAndroidModule@{ComputeAndroidModule}}
+\index{ComputeAndroidModule@{ComputeAndroidModule}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeAndroidModule()}{ComputeAndroidModule()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Compute\+Android\+Module (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the Android module name used for a gyp spec.
+
+We use the complete qualified target name to avoid collisions between
+duplicate targets in different directories. We also add a suffix to
+distinguish gyp-generated module names.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5069e9200370c56da90b0d698fd64496}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5069e9200370c56da90b0d698fd64496}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ComputeDeps@{ComputeDeps}}
+\index{ComputeDeps@{ComputeDeps}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeDeps()}{ComputeDeps()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Compute\+Deps (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compute the dependencies of a gyp spec.
+
+Returns a tuple (deps, link_deps), where each is a list of
+filenames that will need to be put in front of make for either
+building (deps) or linking (link_deps).
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a49822bf078eb1e82d9512874d0aeb067}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a49822bf078eb1e82d9512874d0aeb067}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ComputeOutput@{ComputeOutput}}
+\index{ComputeOutput@{ComputeOutput}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeOutput()}{ComputeOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Compute\+Output (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the 'output' (full output path) of a gyp spec.
+
+E.g., the loadable module 'foobar' in directory 'baz' will produce
+'$(obj)/baz/libfoobar.so'
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa5dea6bb4f9f5a116f0cb818d210f680}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa5dea6bb4f9f5a116f0cb818d210f680}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ComputeOutputBasename@{ComputeOutputBasename}}
+\index{ComputeOutputBasename@{ComputeOutputBasename}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeOutputBasename()}{ComputeOutputBasename()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Compute\+Output\+Basename (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the 'output basename' of a gyp spec.
+
+E.g., the loadable module 'foobar' in directory 'baz' will produce
+'libfoobar.so'
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6459fc5cb723f0550742ab8141175e6e}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6459fc5cb723f0550742ab8141175e6e}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ComputeOutputParts@{ComputeOutputParts}}
+\index{ComputeOutputParts@{ComputeOutputParts}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ComputeOutputParts()}{ComputeOutputParts()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Compute\+Output\+Parts (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the 'output basename' of a gyp spec, split into filename + ext.
+
+Android libraries must be named the same thing as their module name,
+otherwise the linker can't find them, so product_name and so on must be
+ignored if we are building a library, and the "lib" prepending is
+not done for Android.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a919a67738665d836cb7c7eb660260e6a}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a919a67738665d836cb7c7eb660260e6a}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ExpandInputRoot@{ExpandInputRoot}}
+\index{ExpandInputRoot@{ExpandInputRoot}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ExpandInputRoot()}{ExpandInputRoot()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Expand\+Input\+Root (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{template,  }\item[{}]{expansion,  }\item[{}]{dirname }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a994f3a03cedcfe3a338e239b49887497}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a994f3a03cedcfe3a338e239b49887497}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!ExtractIncludesFromCFlags@{ExtractIncludesFromCFlags}}
+\index{ExtractIncludesFromCFlags@{ExtractIncludesFromCFlags}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{ExtractIncludesFromCFlags()}{ExtractIncludesFromCFlags()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Extract\+Includes\+From\+CFlags (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{cflags }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Extract includes "-I..." out from cflags
+
+Args:
+cflags: A list of compiler flags, which may be mixed with "-I.."
+Returns:
+A tuple of lists: (clean_clfags, include_paths). "-I.." is trimmed.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a94fdc7443656ba552d0ff51d09892506}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a94fdc7443656ba552d0ff51d09892506}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!FilterLibraries@{FilterLibraries}}
+\index{FilterLibraries@{FilterLibraries}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{FilterLibraries()}{FilterLibraries()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Filter\+Libraries (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{libraries }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Filter the 'libraries' key to separate things that shouldn't be ldflags.
+
+Library entries that look like filenames should be converted to android
+module names instead of being passed to the linker as flags.
+
+Args:
+libraries: the value of spec.get('libraries')
+Returns:
+A tuple (static_lib_modules, dynamic_lib_modules, ldflags)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8e54fe84c8347a6eb046e9e151e80b9f}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8e54fe84c8347a6eb046e9e151e80b9f}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!LocalPathify@{LocalPathify}}
+\index{LocalPathify@{LocalPathify}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{LocalPathify()}{LocalPathify()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Local\+Pathify (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert a subdirectory-relative path into a normalized path which starts
+with the make variable $(LOCAL_PATH) (i.e. the top of the project tree).
+Absolute paths, or paths that contain variables, are just normalized.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a780cff5cf10deed0cf92142c5d6528eb}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a780cff5cf10deed0cf92142c5d6528eb}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!NormalizeIncludePaths@{NormalizeIncludePaths}}
+\index{NormalizeIncludePaths@{NormalizeIncludePaths}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{NormalizeIncludePaths()}{NormalizeIncludePaths()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Normalize\+Include\+Paths (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{include\+\_\+paths }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Normalize include_paths.
+Convert absolute paths to relative to the Android top directory.
+
+Args:
+include_paths: A list of unprocessed include paths.
+Returns:
+A list of normalized include paths.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a4aa90c254aaecc6adca0b1842059e2a3}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a4aa90c254aaecc6adca0b1842059e2a3}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!Write@{Write}}
+\index{Write@{Write}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{Write()}{Write()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{qualified\+\_\+target,  }\item[{}]{relative\+\_\+target,  }\item[{}]{base\+\_\+path,  }\item[{}]{output\+\_\+filename,  }\item[{}]{spec,  }\item[{}]{configs,  }\item[{}]{part\+\_\+of\+\_\+all,  }\item[{}]{write\+\_\+alias\+\_\+target,  }\item[{}]{sdk\+\_\+version }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}The main entry point: writes a .mk file for a single target.
+
+Arguments:
+qualified_target: target we're generating
+relative_target: qualified target name relative to the root
+base_path: path relative to source root we're building in, used to resolve
+         target-relative paths
+output_filename: output .mk file name to write
+spec, configs: gyp info
+part_of_all: flag indicating this target is part of 'all'
+write_alias_target: flag indicating whether to create short aliases for
+                  this target
+sdk_version: what to emit for LOCAL_SDK_VERSION in output
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aeb0bfcfae681b45776b9f8c3e1e3471a}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aeb0bfcfae681b45776b9f8c3e1e3471a}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteActions@{WriteActions}}
+\index{WriteActions@{WriteActions}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteActions()}{WriteActions()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Actions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{actions,  }\item[{}]{extra\+\_\+sources,  }\item[{}]{extra\+\_\+outputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code for any 'actions' from the gyp input.
+
+extra_sources: a list that will be filled in with newly generated source
+           files, if any
+extra_outputs: a list that will be filled in with any outputs of these
+           actions (used to make other pieces dependent on these
+           actions)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a31f8de7275f1b5c194f9e104bc7b28ec}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a31f8de7275f1b5c194f9e104bc7b28ec}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteCopies@{WriteCopies}}
+\index{WriteCopies@{WriteCopies}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteCopies()}{WriteCopies()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Copies (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{copies,  }\item[{}]{extra\+\_\+outputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code for any 'copies' from the gyp input.
+
+extra_outputs: a list that will be filled in with any outputs of this action
+           (used to make other pieces dependent on this action)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ac716c33c66c0a987d56612e9ef901329}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_ac716c33c66c0a987d56612e9ef901329}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteList@{WriteList}}
+\index{WriteList@{WriteList}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteList()}{WriteList()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+List (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{value\+\_\+list,  }\item[{}]{variable = {\ttfamily None},  }\item[{}]{prefix = {\ttfamily \char`\"{}\char`\"{}},  }\item[{}]{quoter = {\ttfamily \mbox{\hyperlink{namespacegyp_1_1generator_1_1make_a672f6ae46f25bab33722a6b158d792c9}{make.\+Quote\+If\+Necessary}}},  }\item[{}]{local\+\_\+pathify = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write a variable definition that is a list of values.
+
+E.g. WriteList(['a','b'], 'foo', prefix='blah') writes out
+ foo = blaha blahb
+but in a pretty-printed style.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0df805d316dfdfb11bdcc3477d127301}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0df805d316dfdfb11bdcc3477d127301}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteLn@{WriteLn}}
+\index{WriteLn@{WriteLn}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteLn()}{WriteLn()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Ln (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{text = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_adcc12931c33ba19f2ed95136a0729962}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_adcc12931c33ba19f2ed95136a0729962}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteRules@{WriteRules}}
+\index{WriteRules@{WriteRules}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteRules()}{WriteRules()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Rules (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{rules,  }\item[{}]{extra\+\_\+sources,  }\item[{}]{extra\+\_\+outputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code for any 'rules' from the gyp input.
+
+extra_sources: a list that will be filled in with newly generated source
+           files, if any
+extra_outputs: a list that will be filled in with any outputs of these
+           rules (used to make other pieces dependent on these rules)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6bc87d96354966fecd3768c6d70d71bb}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6bc87d96354966fecd3768c6d70d71bb}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteSourceFlags@{WriteSourceFlags}}
+\index{WriteSourceFlags@{WriteSourceFlags}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteSourceFlags()}{WriteSourceFlags()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Source\+Flags (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{configs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write out the flags and include paths used to compile source files for
+the current target.
+
+Args:
+spec, configs: input from gyp.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a9b1484163d3df3c3af4ddf92c40ea716}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a9b1484163d3df3c3af4ddf92c40ea716}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteSources@{WriteSources}}
+\index{WriteSources@{WriteSources}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteSources()}{WriteSources()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Sources (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{configs,  }\item[{}]{extra\+\_\+sources }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code for any 'sources' from the gyp input.
+These are source files necessary to build the current target.
+We need to handle shared_intermediate directory source files as
+a special case by copying them to the intermediate directory and
+treating them as a generated sources. Otherwise the Android build
+rules won't pick them up.
+
+Args:
+spec, configs: input from gyp.
+extra_sources: Sources generated from Actions or Rules.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0e3ee288fb5770924a70ba271b879ed5}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a0e3ee288fb5770924a70ba271b879ed5}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteTarget@{WriteTarget}}
+\index{WriteTarget@{WriteTarget}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteTarget()}{WriteTarget()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Target (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{configs,  }\item[{}]{deps,  }\item[{}]{link\+\_\+deps,  }\item[{}]{part\+\_\+of\+\_\+all,  }\item[{}]{write\+\_\+alias\+\_\+target }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code to produce the final target of the gyp spec.
+
+spec, configs: input from gyp.
+deps, link_deps: dependency lists; see ComputeDeps()
+part_of_all: flag indicating this target is part of 'all'
+write_alias_target: flag indicating whether to create short aliases for this
+                target
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5913aee7a7bc4015cd89e4aa15c1d6d4}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5913aee7a7bc4015cd89e4aa15c1d6d4}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!WriteTargetFlags@{WriteTargetFlags}}
+\index{WriteTargetFlags@{WriteTargetFlags}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{WriteTargetFlags()}{WriteTargetFlags()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+Write\+Target\+Flags (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{spec,  }\item[{}]{configs,  }\item[{}]{link\+\_\+deps }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Write Makefile code to specify the link flags and library dependencies.
+
+spec, configs: input from gyp.
+link_deps: link dependency list; see ComputeDeps()
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a56c63ff5c3056b84cee4565e01b7b74f}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a56c63ff5c3056b84cee4565e01b7b74f}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!android\_class@{android\_class}}
+\index{android\_class@{android\_class}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{android\_class}{android\_class}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+android\+\_\+class}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_abfa6ab16aba8a08680d3397d4f55761f}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_abfa6ab16aba8a08680d3397d4f55761f}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!android\_module@{android\_module}}
+\index{android\_module@{android\_module}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{android\_module}{android\_module}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+android\+\_\+module}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8931c4ee94ed3001fd856ffe00353a2e}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a8931c4ee94ed3001fd856ffe00353a2e}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!android\_top\_dir@{android\_top\_dir}}
+\index{android\_top\_dir@{android\_top\_dir}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{android\_top\_dir}{android\_top\_dir}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+android\+\_\+top\+\_\+dir}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a797b61134908691a06ff70c9899e9a6e}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a797b61134908691a06ff70c9899e9a6e}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!fp@{fp}}
+\index{fp@{fp}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{fp}{fp}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+fp}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a432b8283c80e414eaeb0cb63107effe3}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a432b8283c80e414eaeb0cb63107effe3}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!output@{output}}
+\index{output@{output}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+output}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3e73ffe9727f6ea495314295967ed5e3}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3e73ffe9727f6ea495314295967ed5e3}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!output\_binary@{output\_binary}}
+\index{output\_binary@{output\_binary}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{output\_binary}{output\_binary}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+output\+\_\+binary}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa40cc309d9d8adc770d83510757dc0cb}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aa40cc309d9d8adc770d83510757dc0cb}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!path@{path}}
+\index{path@{path}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+path}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3ef804cd75882ac9e61219863fad76e2}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a3ef804cd75882ac9e61219863fad76e2}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!qualified\_target@{qualified\_target}}
+\index{qualified\_target@{qualified\_target}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{qualified\_target}{qualified\_target}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+qualified\+\_\+target}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a433fbe25872fab1a7ef1f7c9824d189e}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a433fbe25872fab1a7ef1f7c9824d189e}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!relative\_target@{relative\_target}}
+\index{relative\_target@{relative\_target}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{relative\_target}{relative\_target}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+relative\+\_\+target}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5e68bf68b8950fe2ac3038c730477682}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a5e68bf68b8950fe2ac3038c730477682}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!target@{target}}
+\index{target@{target}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+target}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aac067c5ee71afa848000a1f5e0138be1}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_aac067c5ee71afa848000a1f5e0138be1}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!toolset@{toolset}}
+\index{toolset@{toolset}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{toolset}{toolset}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+toolset}
+
+\mbox{\Hypertarget{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6d061a84eb6f6ab0d1dfeabd0ea61f04}\label{classgyp_1_1generator_1_1android_1_1AndroidMkWriter_a6d061a84eb6f6ab0d1dfeabd0ea61f04}} 
+\index{gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}!type@{type}}
+\index{type@{type}!gyp.generator.android.AndroidMkWriter@{gyp.generator.android.AndroidMkWriter}}
+\doxysubsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily gyp.\+generator.\+android.\+Android\+Mk\+Writer.\+type}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Client/node\+\_\+modules/npm/node\+\_\+modules/node-\/gyp/gyp/pylib/gyp/generator/\mbox{\hyperlink{android_8py}{android.\+py}}\end{DoxyCompactItemize}

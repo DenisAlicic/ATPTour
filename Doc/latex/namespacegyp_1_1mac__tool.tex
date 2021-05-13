@@ -1,0 +1,62 @@
+\hypertarget{namespacegyp_1_1mac__tool}{}\doxysection{gyp.\+mac\+\_\+tool Namespace Reference}
+\label{namespacegyp_1_1mac__tool}\index{gyp.mac\_tool@{gyp.mac\_tool}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool}{Mac\+Tool}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1mac__tool_a595932e879282ab6e12c3c1e0c9c5cbd}{main}} (args)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1mac__tool_a9368f5f4dd374d1180ebafcd069ee2c3}{Next\+Greater\+Power\+Of2}} (x)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1mac__tool_a0085af5f190b2ddf98dae7f826d82402}{Write\+Hmap}} (output\+\_\+name, filelist)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegyp_1_1mac__tool_abda173f51f1c83e11c16a79c2437a06c}{PY3}} = str
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1mac__tool_a595932e879282ab6e12c3c1e0c9c5cbd}\label{namespacegyp_1_1mac__tool_a595932e879282ab6e12c3c1e0c9c5cbd}} 
+\index{gyp.mac\_tool@{gyp.mac\_tool}!main@{main}}
+\index{main@{main}!gyp.mac\_tool@{gyp.mac\_tool}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+main (\begin{DoxyParamCaption}\item[{}]{args }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1mac__tool_a9368f5f4dd374d1180ebafcd069ee2c3}\label{namespacegyp_1_1mac__tool_a9368f5f4dd374d1180ebafcd069ee2c3}} 
+\index{gyp.mac\_tool@{gyp.mac\_tool}!NextGreaterPowerOf2@{NextGreaterPowerOf2}}
+\index{NextGreaterPowerOf2@{NextGreaterPowerOf2}!gyp.mac\_tool@{gyp.mac\_tool}}
+\doxysubsubsection{\texorpdfstring{NextGreaterPowerOf2()}{NextGreaterPowerOf2()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Next\+Greater\+Power\+Of2 (\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacegyp_1_1mac__tool_a0085af5f190b2ddf98dae7f826d82402}\label{namespacegyp_1_1mac__tool_a0085af5f190b2ddf98dae7f826d82402}} 
+\index{gyp.mac\_tool@{gyp.mac\_tool}!WriteHmap@{WriteHmap}}
+\index{WriteHmap@{WriteHmap}!gyp.mac\_tool@{gyp.mac\_tool}}
+\doxysubsubsection{\texorpdfstring{WriteHmap()}{WriteHmap()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Write\+Hmap (\begin{DoxyParamCaption}\item[{}]{output\+\_\+name,  }\item[{}]{filelist }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Generates a header map based on |filelist|.
+
+Per Mark Mentovai:
+A header map is structured essentially as a hash table, keyed by names used
+in #includes, and providing pathnames to the actual files.
+
+The implementation below and the comment above comes from inspecting:
+http://www.opensource.apple.com/source/distcc/distcc-2503/distcc_dist/include_server/headermap.py?txt
+while also looking at the implementation in clang in:
+https://llvm.org/svn/llvm-project/cfe/trunk/lib/Lex/HeaderMap.cpp
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1mac__tool_abda173f51f1c83e11c16a79c2437a06c}\label{namespacegyp_1_1mac__tool_abda173f51f1c83e11c16a79c2437a06c}} 
+\index{gyp.mac\_tool@{gyp.mac\_tool}!PY3@{PY3}}
+\index{PY3@{PY3}!gyp.mac\_tool@{gyp.mac\_tool}}
+\doxysubsubsection{\texorpdfstring{PY3}{PY3}}
+{\footnotesize\ttfamily gyp.\+mac\+\_\+tool.\+PY3 = str}
+

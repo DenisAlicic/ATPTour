@@ -1,0 +1,154 @@
+\hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController}{}\doxysection{Tennis\+Association.\+Controllers.\+Account\+Controller Class Reference}
+\label{classTennisAssociation_1_1Controllers_1_1AccountController}\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+
+
+Controller for registration and sign in/out.  
+
+
+Inheritance diagram for Tennis\+Association.\+Controllers.\+Account\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTennisAssociation_1_1Controllers_1_1AccountController}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_aa56d9622f061927d7eb0d2f564cdee6f}{Account\+Controller}} (User\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$ user\+Manager, Sign\+In\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$ sign\+In\+Manager)
+\item 
+IAction\+Result \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_a814d2d4054209bebbcbc0fe5390364b8}{Get}} ()
+\begin{DoxyCompactList}\small\item\em Return all users. \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_a2d5587a8392fffcc208744287e8808d5}{Register\+User}} (\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1User}{User}} user)
+\begin{DoxyCompactList}\small\item\em Register new users. \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_a878045429e901ece7ebdf159d7670704}{Log\+In}} (\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1LogInInfo}{Log\+In\+Info}} log\+In\+Info)
+\begin{DoxyCompactList}\small\item\em Log in a user. \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_abce01222971237ab4c9c1e5cd080b746}{Change\+Pass}} (\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1UserUpdateInfo}{User\+Update\+Info}} update\+Info)
+\begin{DoxyCompactList}\small\item\em Change password for a user. \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_a344f24b2a949270e5574a2736e2afc5c}{Sign\+Out}} ()
+\begin{DoxyCompactList}\small\item\em Sign out the active users. \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{classTennisAssociation_1_1Controllers_1_1AccountController_aae2b3c849f1d713b9d81391a306158b3}{Remove\+User}} (\mbox{[}From\+Body\mbox{]}string id)
+\begin{DoxyCompactList}\small\item\em Removes the user with a given id. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controller for registration and sign in/out. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_aa56d9622f061927d7eb0d2f564cdee6f}\label{classTennisAssociation_1_1Controllers_1_1AccountController_aa56d9622f061927d7eb0d2f564cdee6f}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!AccountController@{AccountController}}
+\index{AccountController@{AccountController}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{AccountController()}{AccountController()}}
+{\footnotesize\ttfamily Tennis\+Association.\+Controllers.\+Account\+Controller.\+Account\+Controller (\begin{DoxyParamCaption}\item[{User\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$}]{user\+Manager,  }\item[{Sign\+In\+Manager$<$ \mbox{\hyperlink{classTennisAssociation_1_1Models_1_1MyUser}{My\+User}} $>$}]{sign\+In\+Manager }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_abce01222971237ab4c9c1e5cd080b746}\label{classTennisAssociation_1_1Controllers_1_1AccountController_abce01222971237ab4c9c1e5cd080b746}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!ChangePass@{ChangePass}}
+\index{ChangePass@{ChangePass}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{ChangePass()}{ChangePass()}}
+{\footnotesize\ttfamily async Task$<$IAction\+Result$>$ Tennis\+Association.\+Controllers.\+Account\+Controller.\+Change\+Pass (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1UserUpdateInfo}{User\+Update\+Info}}}]{update\+Info }\end{DoxyParamCaption})}
+
+
+
+Change password for a user. 
+
+POST api/account/changepass
+
+
+\begin{DoxyParams}{Parameters}
+{\em log\+In\+Info} & User for which we need to change the password.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if succeeded
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_a814d2d4054209bebbcbc0fe5390364b8}\label{classTennisAssociation_1_1Controllers_1_1AccountController_a814d2d4054209bebbcbc0fe5390364b8}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!Get@{Get}}
+\index{Get@{Get}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily IAction\+Result Tennis\+Association.\+Controllers.\+Account\+Controller.\+Get (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Return all users. 
+
+\begin{DoxyReturn}{Returns}
+json containing information about users
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_a878045429e901ece7ebdf159d7670704}\label{classTennisAssociation_1_1Controllers_1_1AccountController_a878045429e901ece7ebdf159d7670704}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!LogIn@{LogIn}}
+\index{LogIn@{LogIn}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{LogIn()}{LogIn()}}
+{\footnotesize\ttfamily async Task$<$IAction\+Result$>$ Tennis\+Association.\+Controllers.\+Account\+Controller.\+Log\+In (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1LogInInfo}{Log\+In\+Info}}}]{log\+In\+Info }\end{DoxyParamCaption})}
+
+
+
+Log in a user. 
+
+POST api/account/login
+
+
+\begin{DoxyParams}{Parameters}
+{\em log\+In\+Info} & User to be logged in.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if log in succeeded
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_a2d5587a8392fffcc208744287e8808d5}\label{classTennisAssociation_1_1Controllers_1_1AccountController_a2d5587a8392fffcc208744287e8808d5}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!RegisterUser@{RegisterUser}}
+\index{RegisterUser@{RegisterUser}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{RegisterUser()}{RegisterUser()}}
+{\footnotesize\ttfamily async Task$<$IAction\+Result$>$ Tennis\+Association.\+Controllers.\+Account\+Controller.\+Register\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTennisAssociation_1_1Models_1_1User}{User}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Register new users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & User to be registered.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if register succeeded
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_aae2b3c849f1d713b9d81391a306158b3}\label{classTennisAssociation_1_1Controllers_1_1AccountController_aae2b3c849f1d713b9d81391a306158b3}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!RemoveUser@{RemoveUser}}
+\index{RemoveUser@{RemoveUser}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{RemoveUser()}{RemoveUser()}}
+{\footnotesize\ttfamily async Task$<$IAction\+Result$>$ Tennis\+Association.\+Controllers.\+Account\+Controller.\+Remove\+User (\begin{DoxyParamCaption}\item[{\mbox{[}\+From\+Body\mbox{]} string}]{id }\end{DoxyParamCaption})}
+
+
+
+Removes the user with a given id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & User\textquotesingle{}s id to be removed.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true removal succeeded
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTennisAssociation_1_1Controllers_1_1AccountController_a344f24b2a949270e5574a2736e2afc5c}\label{classTennisAssociation_1_1Controllers_1_1AccountController_a344f24b2a949270e5574a2736e2afc5c}} 
+\index{TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}!SignOut@{SignOut}}
+\index{SignOut@{SignOut}!TennisAssociation.Controllers.AccountController@{TennisAssociation.Controllers.AccountController}}
+\doxysubsubsection{\texorpdfstring{SignOut()}{SignOut()}}
+{\footnotesize\ttfamily async Task$<$IAction\+Result$>$ Tennis\+Association.\+Controllers.\+Account\+Controller.\+Sign\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Sign out the active users. 
+
+GET api/account/signout
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Controllers/\mbox{\hyperlink{AccountController_8cs}{Account\+Controller.\+cs}}\end{DoxyCompactItemize}

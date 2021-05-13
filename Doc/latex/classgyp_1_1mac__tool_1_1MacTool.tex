@@ -1,0 +1,149 @@
+\hypertarget{classgyp_1_1mac__tool_1_1MacTool}{}\doxysection{gyp.\+mac\+\_\+tool.\+Mac\+Tool Class Reference}
+\label{classgyp_1_1mac__tool_1_1MacTool}\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+Inheritance diagram for gyp.\+mac\+\_\+tool.\+Mac\+Tool\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgyp_1_1mac__tool_1_1MacTool}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a891a5c55ea95d579c27b930cbb36a20e}{Dispatch}} (self, args)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a069db93a7ae573c09db30a1c8fb61b99}{Exec\+Copy\+Bundle\+Resource}} (self, source, dest, convert\+\_\+to\+\_\+binary)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_ae62d846238e29fa8d65d5a2d9353df84}{Exec\+Copy\+Info\+Plist}} (self, source, dest, convert\+\_\+to\+\_\+binary, $\ast$keys)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a902ccb9396883e15f6448c68fe886307}{Exec\+Flock}} (self, lockfile, $\ast$cmd\+\_\+list)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_ae7a5917fdc639e2e867f758f4771ad79}{Exec\+Filter\+Libtool}} (self, $\ast$cmd\+\_\+list)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a2a35f3fde2662218286a3d54c8e5dec2}{Exec\+Package\+Ios\+Framework}} (self, framework)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a63c5f6b5b859486819a8b69230b1fe1e}{Exec\+Package\+Framework}} (self, framework, version)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_aaba24478b79daea2cd3eab1b9504ab0e}{Exec\+Compile\+Ios\+Framework\+Header\+Map}} (self, out, framework, $\ast$all\+\_\+headers)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a1f4c1f0187114416fc745987e8c7e0a1}{Exec\+Copy\+Ios\+Framework\+Headers}} (self, framework, $\ast$copy\+\_\+headers)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a9e3a32597c0824aaba1fd29fffc71f8e}{Exec\+Compile\+Xcassets}} (self, keys, $\ast$inputs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a15f3ada4e77107d893a384f67196b2e7}{Exec\+Merge\+Info\+Plist}} (self, output, $\ast$inputs)
+\item 
+def \mbox{\hyperlink{classgyp_1_1mac__tool_1_1MacTool_a227a63b5d942d1feb4b69964bf363932}{Exec\+Code\+Sign\+Bundle}} (self, key, entitlements, provisioning, path, preserve)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class performs all the Mac tooling steps. The methods can either be
+executed directly, or dispatched from an argument list.\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a891a5c55ea95d579c27b930cbb36a20e}\label{classgyp_1_1mac__tool_1_1MacTool_a891a5c55ea95d579c27b930cbb36a20e}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!Dispatch@{Dispatch}}
+\index{Dispatch@{Dispatch}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{Dispatch()}{Dispatch()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Dispatch (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{args }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Dispatches a string command to a method.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a227a63b5d942d1feb4b69964bf363932}\label{classgyp_1_1mac__tool_1_1MacTool_a227a63b5d942d1feb4b69964bf363932}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCodeSignBundle@{ExecCodeSignBundle}}
+\index{ExecCodeSignBundle@{ExecCodeSignBundle}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCodeSignBundle()}{ExecCodeSignBundle()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Code\+Sign\+Bundle (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{key,  }\item[{}]{entitlements,  }\item[{}]{provisioning,  }\item[{}]{path,  }\item[{}]{preserve }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Code sign a bundle.
+
+This function tries to code sign an iOS bundle, following the same
+algorithm as Xcode:
+1. pick the provisioning profile that best match the bundle identifier,
+ and copy it into the bundle as embedded.mobileprovision,
+2. copy Entitlements.plist from user or SDK next to the bundle,
+3. code sign the bundle.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_aaba24478b79daea2cd3eab1b9504ab0e}\label{classgyp_1_1mac__tool_1_1MacTool_aaba24478b79daea2cd3eab1b9504ab0e}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCompileIosFrameworkHeaderMap@{ExecCompileIosFrameworkHeaderMap}}
+\index{ExecCompileIosFrameworkHeaderMap@{ExecCompileIosFrameworkHeaderMap}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCompileIosFrameworkHeaderMap()}{ExecCompileIosFrameworkHeaderMap()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Compile\+Ios\+Framework\+Header\+Map (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{out,  }\item[{}]{framework,  }\item[{$\ast$}]{all\+\_\+headers }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a9e3a32597c0824aaba1fd29fffc71f8e}\label{classgyp_1_1mac__tool_1_1MacTool_a9e3a32597c0824aaba1fd29fffc71f8e}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCompileXcassets@{ExecCompileXcassets}}
+\index{ExecCompileXcassets@{ExecCompileXcassets}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCompileXcassets()}{ExecCompileXcassets()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Compile\+Xcassets (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{keys,  }\item[{$\ast$}]{inputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Compiles multiple .xcassets files into a single .car file.
+
+This invokes 'actool' to compile all the inputs .xcassets files. The
+|keys| arguments is a json-encoded dictionary of extra arguments to
+pass to 'actool' when the asset catalogs contains an application icon
+or a launch image.
+
+Note that 'actool' does not create the Assets.car file if the asset
+catalogs does not contains imageset.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a069db93a7ae573c09db30a1c8fb61b99}\label{classgyp_1_1mac__tool_1_1MacTool_a069db93a7ae573c09db30a1c8fb61b99}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCopyBundleResource@{ExecCopyBundleResource}}
+\index{ExecCopyBundleResource@{ExecCopyBundleResource}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCopyBundleResource()}{ExecCopyBundleResource()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Copy\+Bundle\+Resource (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{source,  }\item[{}]{dest,  }\item[{}]{convert\+\_\+to\+\_\+binary }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Copies a resource file to the bundle/Resources directory, performing any
+necessary compilation on each resource.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_ae62d846238e29fa8d65d5a2d9353df84}\label{classgyp_1_1mac__tool_1_1MacTool_ae62d846238e29fa8d65d5a2d9353df84}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCopyInfoPlist@{ExecCopyInfoPlist}}
+\index{ExecCopyInfoPlist@{ExecCopyInfoPlist}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCopyInfoPlist()}{ExecCopyInfoPlist()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Copy\+Info\+Plist (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{source,  }\item[{}]{dest,  }\item[{}]{convert\+\_\+to\+\_\+binary,  }\item[{$\ast$}]{keys }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Copies the |source| Info.plist to the destination directory |dest|.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a1f4c1f0187114416fc745987e8c7e0a1}\label{classgyp_1_1mac__tool_1_1MacTool_a1f4c1f0187114416fc745987e8c7e0a1}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecCopyIosFrameworkHeaders@{ExecCopyIosFrameworkHeaders}}
+\index{ExecCopyIosFrameworkHeaders@{ExecCopyIosFrameworkHeaders}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecCopyIosFrameworkHeaders()}{ExecCopyIosFrameworkHeaders()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Copy\+Ios\+Framework\+Headers (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{framework,  }\item[{$\ast$}]{copy\+\_\+headers }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_ae7a5917fdc639e2e867f758f4771ad79}\label{classgyp_1_1mac__tool_1_1MacTool_ae7a5917fdc639e2e867f758f4771ad79}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecFilterLibtool@{ExecFilterLibtool}}
+\index{ExecFilterLibtool@{ExecFilterLibtool}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecFilterLibtool()}{ExecFilterLibtool()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Filter\+Libtool (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{$\ast$}]{cmd\+\_\+list }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calls libtool and filters out '/path/to/libtool: file: foo.o has no
+symbols'.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a902ccb9396883e15f6448c68fe886307}\label{classgyp_1_1mac__tool_1_1MacTool_a902ccb9396883e15f6448c68fe886307}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecFlock@{ExecFlock}}
+\index{ExecFlock@{ExecFlock}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecFlock()}{ExecFlock()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Flock (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{lockfile,  }\item[{$\ast$}]{cmd\+\_\+list }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Emulates the most basic behavior of Linux's flock(1).\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a15f3ada4e77107d893a384f67196b2e7}\label{classgyp_1_1mac__tool_1_1MacTool_a15f3ada4e77107d893a384f67196b2e7}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecMergeInfoPlist@{ExecMergeInfoPlist}}
+\index{ExecMergeInfoPlist@{ExecMergeInfoPlist}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecMergeInfoPlist()}{ExecMergeInfoPlist()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Merge\+Info\+Plist (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{output,  }\item[{$\ast$}]{inputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Merge multiple .plist files into a single .plist file.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a63c5f6b5b859486819a8b69230b1fe1e}\label{classgyp_1_1mac__tool_1_1MacTool_a63c5f6b5b859486819a8b69230b1fe1e}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecPackageFramework@{ExecPackageFramework}}
+\index{ExecPackageFramework@{ExecPackageFramework}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecPackageFramework()}{ExecPackageFramework()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Package\+Framework (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{framework,  }\item[{}]{version }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes a path to Something.framework and the Current version of that and
+sets up all the symlinks.\end{DoxyVerb}
+ \mbox{\Hypertarget{classgyp_1_1mac__tool_1_1MacTool_a2a35f3fde2662218286a3d54c8e5dec2}\label{classgyp_1_1mac__tool_1_1MacTool_a2a35f3fde2662218286a3d54c8e5dec2}} 
+\index{gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}!ExecPackageIosFramework@{ExecPackageIosFramework}}
+\index{ExecPackageIosFramework@{ExecPackageIosFramework}!gyp.mac\_tool.MacTool@{gyp.mac\_tool.MacTool}}
+\doxysubsubsection{\texorpdfstring{ExecPackageIosFramework()}{ExecPackageIosFramework()}}
+{\footnotesize\ttfamily def gyp.\+mac\+\_\+tool.\+Mac\+Tool.\+Exec\+Package\+Ios\+Framework (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{framework }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/denis/\+Documents/\+Faks\+\_\+master/\+RS2/\+Tennis\+Association/\+Tennis\+Association/\+Client/node\+\_\+modules/npm/node\+\_\+modules/node-\/gyp/gyp/pylib/gyp/\mbox{\hyperlink{mac__tool_8py}{mac\+\_\+tool.\+py}}\end{DoxyCompactItemize}

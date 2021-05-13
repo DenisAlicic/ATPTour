@@ -5,13 +5,18 @@ using TennisAssociation.Models;
 using TennisAssociation.Interfaces;
 using TennisAssociation.Services;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using TennisAssociation.Utils;
 
 namespace TennisAssociation.Controllers
 {
+    /// <summary>
+    /// Controller for admin to update each table in database.
+    /// </summary>
     [Route("api/updateData")]
     [ApiController]
+    [Authorize(Roles="Admin")]
     public class UpdateDataController : Controller
     {
         private const string ScriptDirectory = "UpdatingScripts";
@@ -31,9 +36,12 @@ namespace TennisAssociation.Controllers
             this.userManager = userManager;
             _emailSenderSevice = new EmailSender();
         }
-
+        /// GET api/updateData/tournaments
+        /// <summary>
+        /// Update database table of tournaments.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("tournaments")]
-        // GET
         public bool UpdateTournaments()
         {
             IDatabaseUpdater<Tournament> service = new DatabaseUpdaterService<Tournament>(ScriptDirectory,
@@ -110,6 +118,11 @@ namespace TennisAssociation.Controllers
             return false;
         }
         
+        /// GET api/updateData/players
+        /// <summary>
+        /// Update database table of players.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("players")]
         public bool UpdatePlayers()
         {
@@ -167,6 +180,11 @@ namespace TennisAssociation.Controllers
             return false;
         }
 
+        /// GET api/updateData/matches
+        /// <summary>
+        /// Update database table of matches.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("matches")]
         public bool UpdateMatches()
         {

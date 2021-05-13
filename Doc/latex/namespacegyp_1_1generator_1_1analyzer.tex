@@ -1,0 +1,129 @@
+\hypertarget{namespacegyp_1_1generator_1_1analyzer}{}\doxysection{gyp.\+generator.\+analyzer Namespace Reference}
+\label{namespacegyp_1_1generator_1_1analyzer}\index{gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Config}{Config}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1Target}{Target}}
+\item 
+class \mbox{\hyperlink{classgyp_1_1generator_1_1analyzer_1_1TargetCalculator}{Target\+Calculator}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a973b6ce3e490725406c00254b6395b70}{Calculate\+Variables}} (default\+\_\+variables, params)
+\item 
+def \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a6e9961699d7833004ffdb72be96d62fe}{Generate\+Output}} (target\+\_\+list, target\+\_\+dicts, data, params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_ae9dae30b406e5b3bc7e364447a96a78b}{debug}} = False
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a41917e816992ae1159ade341437ca3a5}{found\+\_\+dependency\+\_\+string}} = \char`\"{}Found dependency\char`\"{}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a65394b333694ad55eae18356c71285c0}{no\+\_\+dependency\+\_\+string}} = \char`\"{}No dependencies\char`\"{}
+\item 
+string \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_aadeeb5907c688462c333af8e4c017fb2}{all\+\_\+changed\+\_\+string}} = \char`\"{}Found dependency (all)\char`\"{}
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a1ec70f6a78d2164a956131dd3e37c692}{MATCH\+\_\+\+STATUS\+\_\+\+MATCHES}} = 1
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_afb3ee729857675326a19be15b77a5012}{MATCH\+\_\+\+STATUS\+\_\+\+MATCHES\+\_\+\+BY\+\_\+\+DEPENDENCY}} = 2
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_ab248be80e1d0f06e6057d3882261770a}{MATCH\+\_\+\+STATUS\+\_\+\+DOESNT\+\_\+\+MATCH}} = 3
+\item 
+int \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_ab95d4d9818c9826ffd715ba4f9781880}{MATCH\+\_\+\+STATUS\+\_\+\+TBD}} = 4
+\item 
+\mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a3e0d29d026c0e306e0f3042f5385f682}{generator\+\_\+supports\+\_\+multiple\+\_\+toolsets}} = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()
+\item 
+bool \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_a83e08e4984e8210506f95b660211da13}{generator\+\_\+wants\+\_\+static\+\_\+library\+\_\+dependencies\+\_\+adjusted}} = False
+\item 
+dictionary \mbox{\hyperlink{namespacegyp_1_1generator_1_1analyzer_ae21926d09c39b00a303f84e0fe44603c}{generator\+\_\+default\+\_\+variables}} = \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a973b6ce3e490725406c00254b6395b70}\label{namespacegyp_1_1generator_1_1analyzer_a973b6ce3e490725406c00254b6395b70}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!CalculateVariables@{CalculateVariables}}
+\index{CalculateVariables@{CalculateVariables}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{CalculateVariables()}{CalculateVariables()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+analyzer.\+Calculate\+Variables (\begin{DoxyParamCaption}\item[{}]{default\+\_\+variables,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate additional variables for use in the build (called by gyp).\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a6e9961699d7833004ffdb72be96d62fe}\label{namespacegyp_1_1generator_1_1analyzer_a6e9961699d7833004ffdb72be96d62fe}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!GenerateOutput@{GenerateOutput}}
+\index{GenerateOutput@{GenerateOutput}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{GenerateOutput()}{GenerateOutput()}}
+{\footnotesize\ttfamily def gyp.\+generator.\+analyzer.\+Generate\+Output (\begin{DoxyParamCaption}\item[{}]{target\+\_\+list,  }\item[{}]{target\+\_\+dicts,  }\item[{}]{data,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Called by gyp as the final stage. Outputs results.\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_aadeeb5907c688462c333af8e4c017fb2}\label{namespacegyp_1_1generator_1_1analyzer_aadeeb5907c688462c333af8e4c017fb2}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!all\_changed\_string@{all\_changed\_string}}
+\index{all\_changed\_string@{all\_changed\_string}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{all\_changed\_string}{all\_changed\_string}}
+{\footnotesize\ttfamily string gyp.\+generator.\+analyzer.\+all\+\_\+changed\+\_\+string = \char`\"{}Found dependency (all)\char`\"{}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_ae9dae30b406e5b3bc7e364447a96a78b}\label{namespacegyp_1_1generator_1_1analyzer_ae9dae30b406e5b3bc7e364447a96a78b}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!debug@{debug}}
+\index{debug@{debug}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{debug}{debug}}
+{\footnotesize\ttfamily bool gyp.\+generator.\+analyzer.\+debug = False}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a41917e816992ae1159ade341437ca3a5}\label{namespacegyp_1_1generator_1_1analyzer_a41917e816992ae1159ade341437ca3a5}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!found\_dependency\_string@{found\_dependency\_string}}
+\index{found\_dependency\_string@{found\_dependency\_string}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{found\_dependency\_string}{found\_dependency\_string}}
+{\footnotesize\ttfamily string gyp.\+generator.\+analyzer.\+found\+\_\+dependency\+\_\+string = \char`\"{}Found dependency\char`\"{}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_ae21926d09c39b00a303f84e0fe44603c}\label{namespacegyp_1_1generator_1_1analyzer_ae21926d09c39b00a303f84e0fe44603c}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!generator\_default\_variables@{generator\_default\_variables}}
+\index{generator\_default\_variables@{generator\_default\_variables}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{generator\_default\_variables}{generator\_default\_variables}}
+{\footnotesize\ttfamily dictionary gyp.\+generator.\+analyzer.\+generator\+\_\+default\+\_\+variables = \{\}}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a3e0d29d026c0e306e0f3042f5385f682}\label{namespacegyp_1_1generator_1_1analyzer_a3e0d29d026c0e306e0f3042f5385f682}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}}
+\index{generator\_supports\_multiple\_toolsets@{generator\_supports\_multiple\_toolsets}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{generator\_supports\_multiple\_toolsets}{generator\_supports\_multiple\_toolsets}}
+{\footnotesize\ttfamily gyp.\+generator.\+analyzer.\+generator\+\_\+supports\+\_\+multiple\+\_\+toolsets = \mbox{\hyperlink{namespacegyp_1_1common_a0d89445af519a3c7f9f3c1d23fdcea92}{gyp.\+common.\+Cross\+Compile\+Requested}}()}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a83e08e4984e8210506f95b660211da13}\label{namespacegyp_1_1generator_1_1analyzer_a83e08e4984e8210506f95b660211da13}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!generator\_wants\_static\_library\_dependencies\_adjusted@{generator\_wants\_static\_library\_dependencies\_adjusted}}
+\index{generator\_wants\_static\_library\_dependencies\_adjusted@{generator\_wants\_static\_library\_dependencies\_adjusted}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{generator\_wants\_static\_library\_dependencies\_adjusted}{generator\_wants\_static\_library\_dependencies\_adjusted}}
+{\footnotesize\ttfamily bool gyp.\+generator.\+analyzer.\+generator\+\_\+wants\+\_\+static\+\_\+library\+\_\+dependencies\+\_\+adjusted = False}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_ab248be80e1d0f06e6057d3882261770a}\label{namespacegyp_1_1generator_1_1analyzer_ab248be80e1d0f06e6057d3882261770a}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!MATCH\_STATUS\_DOESNT\_MATCH@{MATCH\_STATUS\_DOESNT\_MATCH}}
+\index{MATCH\_STATUS\_DOESNT\_MATCH@{MATCH\_STATUS\_DOESNT\_MATCH}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{MATCH\_STATUS\_DOESNT\_MATCH}{MATCH\_STATUS\_DOESNT\_MATCH}}
+{\footnotesize\ttfamily int gyp.\+generator.\+analyzer.\+MATCH\+\_\+\+STATUS\+\_\+\+DOESNT\+\_\+\+MATCH = 3}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a1ec70f6a78d2164a956131dd3e37c692}\label{namespacegyp_1_1generator_1_1analyzer_a1ec70f6a78d2164a956131dd3e37c692}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!MATCH\_STATUS\_MATCHES@{MATCH\_STATUS\_MATCHES}}
+\index{MATCH\_STATUS\_MATCHES@{MATCH\_STATUS\_MATCHES}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{MATCH\_STATUS\_MATCHES}{MATCH\_STATUS\_MATCHES}}
+{\footnotesize\ttfamily int gyp.\+generator.\+analyzer.\+MATCH\+\_\+\+STATUS\+\_\+\+MATCHES = 1}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_afb3ee729857675326a19be15b77a5012}\label{namespacegyp_1_1generator_1_1analyzer_afb3ee729857675326a19be15b77a5012}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY@{MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY}}
+\index{MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY@{MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY}{MATCH\_STATUS\_MATCHES\_BY\_DEPENDENCY}}
+{\footnotesize\ttfamily int gyp.\+generator.\+analyzer.\+MATCH\+\_\+\+STATUS\+\_\+\+MATCHES\+\_\+\+BY\+\_\+\+DEPENDENCY = 2}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_ab95d4d9818c9826ffd715ba4f9781880}\label{namespacegyp_1_1generator_1_1analyzer_ab95d4d9818c9826ffd715ba4f9781880}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!MATCH\_STATUS\_TBD@{MATCH\_STATUS\_TBD}}
+\index{MATCH\_STATUS\_TBD@{MATCH\_STATUS\_TBD}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{MATCH\_STATUS\_TBD}{MATCH\_STATUS\_TBD}}
+{\footnotesize\ttfamily int gyp.\+generator.\+analyzer.\+MATCH\+\_\+\+STATUS\+\_\+\+TBD = 4}
+
+\mbox{\Hypertarget{namespacegyp_1_1generator_1_1analyzer_a65394b333694ad55eae18356c71285c0}\label{namespacegyp_1_1generator_1_1analyzer_a65394b333694ad55eae18356c71285c0}} 
+\index{gyp.generator.analyzer@{gyp.generator.analyzer}!no\_dependency\_string@{no\_dependency\_string}}
+\index{no\_dependency\_string@{no\_dependency\_string}!gyp.generator.analyzer@{gyp.generator.analyzer}}
+\doxysubsubsection{\texorpdfstring{no\_dependency\_string}{no\_dependency\_string}}
+{\footnotesize\ttfamily string gyp.\+generator.\+analyzer.\+no\+\_\+dependency\+\_\+string = \char`\"{}No dependencies\char`\"{}}
+
