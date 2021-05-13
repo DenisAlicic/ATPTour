@@ -1,6 +1,14 @@
 \label{index_md__home_denis_Documents_Faks_master_RS2_TennisAssociation_README}%
 \Hypertarget{index_md__home_denis_Documents_Faks_master_RS2_TennisAssociation_README}%
- \DoxyHorRuler{0}
+ WEB Application intended for tennis fans, concrete for ATP.
+
+User can see current ATP rang list, information about tournaments, matches and some statistics about active players.
+
+Data about users registration (password) are protected using Identity framework.
+
+System has admin role which can using simple UI buttons update informations with fresh data.
+
+\DoxyHorRuler{0}
  \hypertarget{index_autotoc_md1}{}\doxysection{\+:package\+: Installation}\label{index_autotoc_md1}
 \+:exclamation\+: Requirements\+: .NET Core, Angular, SQL Server, Azure Data Studio, Docker
 
@@ -34,15 +42,5 @@
 \`{}\`{}\`{}sh dotnet build dotnet run --urls \char`\"{}http\+://localhost\+:8080\char`\"{} ~\newline
 
 
-\`{}\`{}\`{}
-\end{DoxyEnumerate}\hypertarget{index_autotoc_md3}{}\doxysubsection{Create migrations}\label{index_autotoc_md3}
-\begin{DoxyVerb}```sh
-dotnet tool install --global dotnet-ef
-add ~/.dotnet/tools in path
-
-dotnet ef migrations add Initial --context TennisAssociationIdentityContext  
-dotnet ef database update --context TennisAssociationIdentityContext  
-
-```
-\end{DoxyVerb}
- 
+\`{}\`{}\`{} 
+\end{DoxyEnumerate}
