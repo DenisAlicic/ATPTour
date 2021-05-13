@@ -1,4 +1,12 @@
-# ATPTour
+# TennisAssociation
+
+WEB Application intended for tennis fans, concrete for ATP.
+
+User can see current ATP rang list, information about tournaments, matches and some statistics about active players.
+
+Data about users registration (password) are protected using Identity framework.
+
+System has admin role which can using simple UI buttons update informations with fresh data.
 
 ***
 ## :package: Installation
@@ -53,14 +61,3 @@
 
     ```
 
-### Create migrations
-
-
-    ```sh
-    dotnet tool install --global dotnet-ef
-    add ~/.dotnet/tools in path
-
-    dotnet ef migrations add Initial --context TennisAssociationIdentityContext  
-    dotnet ef database update --context TennisAssociationIdentityContext  
-
-    ```
